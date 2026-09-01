@@ -1,99 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    >
-
-    <title>404: NO WAY OUT</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>404: NO WAY OUT</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<header class="topbar">
+  <div><div class="game-title">404: NO WAY OUT</div><div id="location" class="location">VEYRON CITY</div></div>
+  <div class="money"><span>CASH</span><strong id="cashDisplay">$0</strong></div>
+</header>
 
-    <header class="topbar">
-        <div>
-            <div class="game-title">404: NO WAY OUT</div>
-            <div class="location">VEYRON CITY</div>
-        </div>
+<main class="game-shell">
+  <section class="hud">
+    <div><b id="playerName">Darius Cole</b><small id="playerStatus">Available</small></div>
+    <div class="stats"><span>HP <b id="hp">100</b></span><span>STM <b id="stamina">100</b></span><span>REP <b id="rep">0</b></span></div>
+  </section>
 
-        <div class="player-money">
-            <div>Cash</div>
-            <strong id="cashDisplay">$0</strong>
-        </div>
-    </header>
+  <section id="world" class="world">
+    <canvas id="cityCanvas"></canvas>
+    <div id="interactHint" class="hint hidden"></div>
+    <div id="toast" class="toast hidden"></div>
+    <div id="dialogue" class="dialogue hidden"></div>
+    <div class="controls">
+      <button data-key="w">▲</button>
+      <div><button data-key="a">◀</button><button data-key="s">▼</button><button data-key="d">▶</button></div>
+    </div>
+  </section>
 
+  <section class="quick-menu">
+    <button onclick="openPhone()">PHONE</button>
+    <button onclick="openMap()">MAP</button>
+    <button onclick="openATM()">BANK</button>
+    <button onclick="openNPCs()">PEOPLE</button>
+  </section>
 
-    <main class="game-container">
+  <section id="panel" class="panel hidden"></section>
+</main>
 
-        <section class="player-card">
-            <div class="avatar-placeholder">DC</div>
-
-            <div>
-                <h2>Darius Cole</h2>
-                <p>Age 24</p>
-                <p class="status">Available</p>
-            </div>
-        </section>
-
-
-        <section class="bank-card">
-
-            <div class="bank-header">
-                <div>
-                    <span class="small-label">BANK ACCOUNT</span>
-                    <h2 id="bankBalance">$0</h2>
-                </div>
-
-                <div class="card-chip">▣</div>
-            </div>
-
-            <div class="card-number">
-                4040 •••• •••• 0001
-            </div>
-
-            <div class="card-footer">
-                <span>DARIUS COLE</span>
-                <span>DEBIT</span>
-            </div>
-
-        </section>
-
-
-        <section class="menu">
-
-            <button onclick="openATM()">
-                ATM
-            </button>
-
-            <button onclick="openTransfer()">
-                Transfer Money
-            </button>
-
-            <button onclick="openTransactions()">
-                Transaction History
-            </button>
-
-            <button onclick="resetGame()" class="danger">
-                Reset Test Account
-            </button>
-
-        </section>
-
-
-        <section id="panel" class="panel hidden">
-        </section>
-
-    </main>
-
-
-    <script src="js/storage.js"></script>
-    <script src="js/player.js"></script>
-    <script src="js/banking.js"></script>
-    <script src="js/game.js"></script>
-
+<script src="js/storage.js"></script>
+<script src="js/player.js"></script>
+<script src="js/banking.js"></script>
+<script src="js/game.js"></script>
 </body>
 </html>
