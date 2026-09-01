@@ -1,1 +1,29 @@
-
+{
+  "catalog_id":"VeyronOnline","version":1,"mode":"online","party_size":{"min":1,"max":4},
+  "missions":[
+    {"id":"O01","arc":"First Signal","title":"Cold Start","district":"Veyron Central","difficulty":1,"objectives":["Reach the safehouse","Recover the encrypted phone","Extract"],"cash":5000,"xp":100},
+    {"id":"O02","arc":"First Signal","title":"Dead Drop","district":"East Market","difficulty":1,"objectives":["Locate the drop","Secure the package","Deliver it"],"cash":5500,"xp":110},
+    {"id":"O03","arc":"First Signal","title":"Wrong Address","district":"Veyron Central","difficulty":1,"objectives":["Find the contact","Protect the contact","Escape"],"cash":6000,"xp":120},
+    {"id":"O04","arc":"First Signal","title":"First Signal","district":"Veyron Central","difficulty":2,"objectives":["Trace the signal","Disable the tracker","Extract"],"cash":7000,"xp":140},
+    {"id":"O05","arc":"East Market Pressure","title":"Market Sweep","district":"East Market","difficulty":2,"objectives":["Enter the market","Identify the target","Leave undetected"],"cash":7500,"xp":150},
+    {"id":"O06","arc":"East Market Pressure","title":"Night Shift","district":"East Market","difficulty":2,"objectives":["Steal the ledger","Avoid police escalation","Return to the van"],"cash":8000,"xp":160},
+    {"id":"O07","arc":"East Market Pressure","title":"Broken Deal","district":"East Market","difficulty":2,"objectives":["Intercept the meeting","Recover the cash","Escape"],"cash":9000,"xp":180},
+    {"id":"O08","arc":"East Market Pressure","title":"Pressure Point","district":"East Market","difficulty":3,"objectives":["Plant the device","Hold the position","Detonate remotely"],"cash":10000,"xp":200},
+    {"id":"O09","arc":"Iron District Run","title":"Factory Floor","district":"Iron District","difficulty":2,"objectives":["Enter the factory","Disable production","Extract"],"cash":8500,"xp":170},
+    {"id":"O10","arc":"Iron District Run","title":"Steel Rain","district":"Iron District","difficulty":3,"objectives":["Protect the convoy","Reach the checkpoint","Deliver cargo"],"cash":11000,"xp":220},
+    {"id":"O11","arc":"Iron District Run","title":"The Foreman","district":"Iron District","difficulty":3,"objectives":["Find the foreman","Secure evidence","Evade pursuit"],"cash":12000,"xp":240},
+    {"id":"O12","arc":"Iron District Run","title":"Redline","district":"Iron District","difficulty":4,"objectives":["Steal the prototype","Survive pursuit","Deliver prototype"],"cash":15000,"xp":300},
+    {"id":"O13","arc":"Blackwater Jobs","title":"Island Arrival","district":"Blackwater Island","difficulty":3,"objectives":["Reach the island","Meet the fixer","Secure transport"],"cash":10000,"xp":200},
+    {"id":"O14","arc":"Blackwater Jobs","title":"Quiet Water","district":"Blackwater Island","difficulty":3,"objectives":["Infiltrate the dock","Recover the crate","Leave unseen"],"cash":12000,"xp":240},
+    {"id":"O15","arc":"Blackwater Jobs","title":"Blackwater Lock","district":"Blackwater Island","difficulty":4,"objectives":["Find the access key","Open the lockup","Extract the asset"],"cash":14000,"xp":280},
+    {"id":"O16","arc":"Blackwater Jobs","title":"Island Exit","district":"Blackwater Island","difficulty":4,"objectives":["Reach extraction","Defend the boat","Escape the island"],"cash":16000,"xp":320},
+    {"id":"O17","arc":"Port Authority","title":"Container 404","district":"Veyron Port","difficulty":3,"objectives":["Locate container 404","Search the container","Secure the evidence"],"cash":11000,"xp":220},
+    {"id":"O18","arc":"Port Authority","title":"Dockside","district":"Veyron Port","difficulty":3,"objectives":["Stop the transfer","Disable the getaway vehicle","Extract"],"cash":12500,"xp":250},
+    {"id":"O19","arc":"Port Authority","title":"Harbor Lights","district":"Veyron Port","difficulty":4,"objectives":["Reach the harbor","Cut the power","Recover the shipment"],"cash":15000,"xp":300},
+    {"id":"O20","arc":"Port Authority","title":"Port Authority","district":"Veyron Port","difficulty":4,"objectives":["Hijack the manifest","Defeat security","Escape the port"],"cash":18000,"xp":360},
+    {"id":"O21","arc":"The Veyron Network","title":"Network Map","district":"Veyron Central","difficulty":4,"objectives":["Acquire three access keys","Upload the map","Survive the response"],"cash":16000,"xp":320},
+    {"id":"O22","arc":"The Veyron Network","title":"Ghost Account","district":"Veyron Central","difficulty":4,"objectives":["Find the ghost account","Trace its owner","Secure the credentials"],"cash":18000,"xp":360},
+    {"id":"O23","arc":"The Veyron Network","title":"Citywide Relay","district":"Veyron Central","difficulty":4,"objectives":["Activate relays","Hold each relay","Transmit the packet"],"cash":22000,"xp":440},
+    {"id":"O24","arc":"The Veyron Network","title":"The Network","district":"Veyron Central","difficulty":4,"objectives":["Reach the core","Complete the transfer","Extract the entire crew"],"cash":30000,"xp":600}
+  ]
+}
