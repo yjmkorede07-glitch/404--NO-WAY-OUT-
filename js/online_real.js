@@ -12,6 +12,12 @@ function realOnlineConnect(name="Player",sessionId=null){
     if(m.type==="auth_ok"){ACCOUNT.token=m.payload.token;ACCOUNT.profile=m.payload.profile;localStorage.setItem("404_token",ACCOUNT.token);notice("Account authenticated.");}
     if(m.type==="economy_update"||m.type==="economy_snapshot"){economyApply(m.payload);}
     if(m.type==="vehicle_persisted"){economyApply({vehicles:m.payload.vehicles});}
+    if(m.type==="auth_ok"){applyFullSnapshot(m.payload);}
+    if(m.type==="full_snapshot"){applyFullSnapshot(m.payload);}
+    if(m.type==="story_update"){if(m.payload.story)PERSISTED.story=m.payload.story;if(m.payload.flags)PERSISTED.flags=m.payload.flags;}
+    if(m.type==="relationship_update"){const r=m.payload.relationship;PERSISTED.relationships=PERSISTED.relationships.filter(x=>x.subject_id!==r.subject_id);PERSISTED.relationships.push(r);}
+    if(m.type==="faction_update"){const f=m.payload.faction;PERSISTED.factions=PERSISTED.factions.filter(x=>x.faction_id!==f.faction_id);PERSISTED.factions.push(f);}
+    if(m.type==="evidence_update"){PERSISTED.evidence=m.payload.evidence||PERSISTED.evidence;}
     if(m.type==="welcome"){REAL_ONLINE.status="connected";REAL_ONLINE.sessionId=m.payload.sessionId;REAL_ONLINE.playerId=m.payload.playerId;notice("Connected to Veyron Online.");}
     if(m.type==="player_state")applyRemotePlayer(m.payload);
     if(m.type==="character_switch")applyRemoteCharacter(m.payload);
