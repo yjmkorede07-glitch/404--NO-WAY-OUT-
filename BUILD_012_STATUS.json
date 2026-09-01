@@ -43,5 +43,7 @@
       "direct_continue_on_returning_launch"
     ],
     "production_boundary": "Browser remains 2D; true 3D vertical slice, seamless world streaming and production cinematics require Unreal Engine."
-  }
+  },
+  "phase13": "Living Veyron City",
+  "phase13_status": "implemented_browser_prototype"
 }
