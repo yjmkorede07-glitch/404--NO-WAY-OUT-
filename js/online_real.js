@@ -6,9 +6,10 @@ const REAL_ONLINE={
 function realOnlineConnect(name="Player",sessionId=null){
   if(REAL_ONLINE.ws?.readyState===1)return;
   REAL_ONLINE.ws=new WebSocket(REAL_ONLINE.url);
-  REAL_ONLINE.ws.onopen=()=>{REAL_ONLINE.status="connecting";REAL_ONLINE.ws.send(JSON.stringify({type:"hello",payload:{name,sessionId,character:gameState.active}}));};
+  REAL_ONLINE.ws.onopen=()=>{REAL_ONLINE.status="connecting";REAL_ONLINE.ws.send(JSON.stringify({type:"hello",payload:{name,sessionId,character:gameState.active,token:(typeof ACCOUNT!=="undefined"?ACCOUNT.token:null)}}));};
   REAL_ONLINE.ws.onmessage=e=>{
     const m=JSON.parse(e.data);
+    if(m.type==="auth_ok"){ACCOUNT.token=m.payload.token;ACCOUNT.profile=m.payload.profile;localStorage.setItem("404_token",ACCOUNT.token);notice("Account authenticated.");}
     if(m.type==="welcome"){REAL_ONLINE.status="connected";REAL_ONLINE.sessionId=m.payload.sessionId;REAL_ONLINE.playerId=m.payload.playerId;notice("Connected to Veyron Online.");}
     if(m.type==="player_state")applyRemotePlayer(m.payload);
     if(m.type==="character_switch")applyRemoteCharacter(m.payload);
