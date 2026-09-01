@@ -1,26 +1,20 @@
-404: NO WAY OUT — Build 008
-PHASE 7 + PERSISTENT ONLINE ACCOUNTS + 88 MISSIONS
+404: NO WAY OUT — Build 009
+PHASE 8 + PERSISTENT ONLINE ECONOMY/PROPERTIES
 
-Campaign:
-- 88 main missions
-- Original first 34 missions retained
-- 54 additional missions
-- Explicit win condition for every mission
-- Expanded target: roughly 45–60+ hours for main story depending on play style
+Phase 8 adds server-authoritative cash spending, properties, upgrades, businesses and vehicle storage.
 
-Online:
-- Real WebSocket server
-- Persistent SQLite accounts
-- scrypt password hashing
-- register/login/resume sessions
-- persistent player profile
-- persistent mission progress
-- property persistence foundation
-- authoritative movement/combat/crime/vehicle/mission events
+Persistent online systems now include:
+- accounts and profiles
+- 88 mission progress
+- properties
+- property levels/upgrades
+- businesses and balances
+- stored vehicles
+- economy snapshots on login
 
-Run server:
+Run:
 cd server
 npm install
 npm start
 
-This is still a prototype backend. Production deployment needs TLS/WSS, secure token lifecycle, managed database, scaling, rate limits, backups, monitoring, matchmaking and hardened anti-cheat.
+Production still needs TLS/WSS, token lifecycle hardening, managed database, scaling, backups, matchmaking, rate limits and hardened anti-cheat.

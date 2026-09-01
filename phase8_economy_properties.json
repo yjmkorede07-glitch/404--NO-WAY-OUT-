@@ -1,0 +1,7 @@
+{
+  "phase": 8,
+  "name": "Economy, Properties & Personal Life",
+  "server_authoritative": true,
+  "property_types": ["safehouse","apartment","house","garage","business","warehouse","dock"],
+  "features": ["persistent cash","property purchases","property upgrades","business balances","vehicle storage","mission income","operating expenses"]
+}
