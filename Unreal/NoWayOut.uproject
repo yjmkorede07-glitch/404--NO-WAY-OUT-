@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.6",
+  "Category": "Games",
+  "Description": "404: NO WAY OUT \u2014 Unreal Engine production foundation.",
+  "Modules": [
+    {
+      "Name": "NoWayOut",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "NoWayOutEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "GameplayTags",
+      "Enabled": true
+    }
+  ]
+}
