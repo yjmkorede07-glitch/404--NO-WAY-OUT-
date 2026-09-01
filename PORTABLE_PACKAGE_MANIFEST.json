@@ -1,0 +1,1445 @@
+{
+  "title": "404: NO WAY OUT",
+  "build": "013",
+  "browser_campaign": "M01-M88",
+  "unreal_engine_target": "5.6.x",
+  "foundation": "Phase 20 + Phase 21",
+  "source_of_truth": "campaign_88_missions.json",
+  "included": [
+    {
+      "path": "BUILD_012_CHANGELOG.md",
+      "bytes": 1528,
+      "sha256": "31c8e3cf5740845078c6b8ca792e49f02e5d60316bcc85b9889e8d0e56b848a2"
+    },
+    {
+      "path": "BUILD_012_STATUS.json",
+      "bytes": 1873,
+      "sha256": "1a7e088a63bd290c1c2a42edc638e2a9e50e1f171ef07c11fd7bb447fb692a75"
+    },
+    {
+      "path": "BUILD_013_BATCH05_CHANGELOG.md",
+      "bytes": 609,
+      "sha256": "39a29a7f1808c3c8e3d12343df258af97122c41d22ebe3c2b1b55cf33e83c2c1"
+    },
+    {
+      "path": "BUILD_013_BATCH06_CHANGELOG.md",
+      "bytes": 515,
+      "sha256": "bc3ecfad79264172fe0851508ce57feb03c0383248d8212ef00727bae2860ba8"
+    },
+    {
+      "path": "BUILD_013_BATCH07_CHANGELOG.md",
+      "bytes": 656,
+      "sha256": "196b61aea7ce0fa280692c3e1d7d77d0103e4075aae97aadce2b3d9b65318f06"
+    },
+    {
+      "path": "BUILD_013_BATCH08_CHANGELOG.md",
+      "bytes": 308,
+      "sha256": "aae7adc75bc0963de4688ec7a04e0bfb50d0601e242805190d2769d5da6aa349"
+    },
+    {
+      "path": "BUILD_013_BATCH09_CHANGELOG.md",
+      "bytes": 794,
+      "sha256": "c2e9cb43297b973476abb41857beb1a0369495f9a3341359b73fc5666bc52772"
+    },
+    {
+      "path": "BUILD_013_CHANGELOG.md",
+      "bytes": 3843,
+      "sha256": "cbc26b37493d55067fe6a57a4c5b992c6f0c8237e2bfc183d2dfb03f92bd7e4a"
+    },
+    {
+      "path": "BUILD_013_STATUS.json",
+      "bytes": 6262,
+      "sha256": "035349485900001b1f631eac86f5004c679c7a6399c170c2e7ea266ddaf1df34"
+    },
+    {
+      "path": "FINAL_PRODUCTION_MASTER_PLAN.md",
+      "bytes": 3567,
+      "sha256": "676847bd515351c4e9ef0eb513caa73d48d2d72ea924a249264b41062bd3a037"
+    },
+    {
+      "path": "ONLINE_BACKEND_V2.md",
+      "bytes": 776,
+      "sha256": "63395178b2981704c526279ed6d6e66e79cab092bec182c21cdf73ca11d71e0a"
+    },
+    {
+      "path": "ONLINE_SERVER_SETUP.md",
+      "bytes": 1015,
+      "sha256": "621b6ee28ccab863f5ae96f925cfd98b3ccf5812ea199a1e853445f4d3320d82"
+    },
+    {
+      "path": "PC_UPLOAD_CHECKLIST.md",
+      "bytes": 821,
+      "sha256": "47ee0ab22376e07e555169d005823e1f4a9245ef6796fddf720180f3db9c4b9d"
+    },
+    {
+      "path": "PHASE10.md",
+      "bytes": 1172,
+      "sha256": "365936612fb09a1c807e2eebab7824f4f4bbb2585affe42a3bae9f66f57e9fdc"
+    },
+    {
+      "path": "PHASE11.md",
+      "bytes": 2123,
+      "sha256": "d5b66e8fe111b9c26e1e7d217d806934ab9d5cd0393260bf114eb7ecaeab37b1"
+    },
+    {
+      "path": "PHASE12.md",
+      "bytes": 1309,
+      "sha256": "6e3c86ca5be7502f90a12bc7a823d6bebddb7e580c8047a3b633edba3b6e030c"
+    },
+    {
+      "path": "PHASE13.md",
+      "bytes": 1668,
+      "sha256": "8baaf3f9d6f0ec6acd7f9020c952256c921ca35c66bdb2e784de43af11b1b3cc"
+    },
+    {
+      "path": "PHASE14.md",
+      "bytes": 1433,
+      "sha256": "0fed1576cf71f8647beec64c5d6056e1b216737afc1404d9fc1110c74d91c7cf"
+    },
+    {
+      "path": "PHASE15.md",
+      "bytes": 1382,
+      "sha256": "90be8bb662eedfe22e66ba2677b81f2c1e0826c039abc44d158bf102b4144002"
+    },
+    {
+      "path": "PHASE16.md",
+      "bytes": 1631,
+      "sha256": "c1b9f74740c4646a4755baeb53a4bb4d8a7bb5c89d0d338176c0f919ce7c85f4"
+    },
+    {
+      "path": "PHASE17.md",
+      "bytes": 1762,
+      "sha256": "836d88e7a921781c2f62c0413a3427c23f24893761ff6c8a4b2d23ac673b826e"
+    },
+    {
+      "path": "PHASE18_FINAL_BLUEPRINT.md",
+      "bytes": 13471,
+      "sha256": "820157d80cc0bfc15e87c9e59688c6150e883219677bf82caa2db346fc2644e5"
+    },
+    {
+      "path": "PHASE19.md",
+      "bytes": 5501,
+      "sha256": "1acc88633f4dcea853a27350b19615b5972f81b30663c6b700772e6caa09958d"
+    },
+    {
+      "path": "PHASE19_BATCH01_PRODUCTION_MATRIX.md",
+      "bytes": 2758,
+      "sha256": "db62dda3ecea6111387104a15e9641ab6c0a6dcd7f2f563d1d6c74be0a0aeb9e"
+    },
+    {
+      "path": "PHASE19_BATCH04_PRODUCTION_MATRIX.md",
+      "bytes": 1742,
+      "sha256": "47e142e1ad1772328d515d1bba88211609d226ceb0150867dac88a58d1773739"
+    },
+    {
+      "path": "PHASE19_BATCH05_PRODUCTION_MATRIX.md",
+      "bytes": 2343,
+      "sha256": "e88dc60f05520936177d0205f17cf951b4ae436d48b5fa835ce36d05fb291beb"
+    },
+    {
+      "path": "PHASE19_BATCH06_PRODUCTION_MATRIX.md",
+      "bytes": 3276,
+      "sha256": "774809f2d53da3d92b6134d60d21fa80ea70268fb3367260d49be97f2e3c20d7"
+    },
+    {
+      "path": "PHASE19_BATCH07_PRODUCTION_MATRIX.md",
+      "bytes": 2163,
+      "sha256": "8d3ccc7074411dd51660f885a721655a98a73ccda417bff87aadb912d81cf700"
+    },
+    {
+      "path": "PHASE19_BATCH08_PRODUCTION_MATRIX.md",
+      "bytes": 6262,
+      "sha256": "92ffecb5aa0ef599fdc41f3ccf263963b8b3697db8c363a261dc9813ea14f170"
+    },
+    {
+      "path": "PHASE19_BATCH09_PRODUCTION_MATRIX.md",
+      "bytes": 3319,
+      "sha256": "f61407e448e9229ccec461c5bf4dc3b93c9b36b13b4c8fda2c96b1493e8c33b7"
+    },
+    {
+      "path": "PHASE8_ECONOMY.md",
+      "bytes": 534,
+      "sha256": "63c514423985577e883881a74c8ab18fd72270404aa9f9432c11ee8719f349f4"
+    },
+    {
+      "path": "PHASE9_FULL_PERSISTENCE.md",
+      "bytes": 946,
+      "sha256": "132f839ef00e75ab84ba33096e2c547b5d98d61d66210d993c65b44096fa759f"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2877,
+      "sha256": "87330131b6666a74e78399842d5c4335f11fd8cf2a07facf647d4be87fb6f087"
+    },
+    {
+      "path": "Unreal/ASSET_PRODUCTION_MANIFEST.md",
+      "bytes": 1410,
+      "sha256": "3cf70dc17245d4525f7e37ab498e83b188d005bd9720e936ddb1fabc16655087"
+    },
+    {
+      "path": "Unreal/Config/DefaultEngine.ini",
+      "bytes": 722,
+      "sha256": "74bfca8781b94a9108314f34e86ccd9f6189c62830e82815d3ff667a489e3d32"
+    },
+    {
+      "path": "Unreal/Config/DefaultEngine.ini.tmp",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Unreal/Config/DefaultGame.ini",
+      "bytes": 215,
+      "sha256": "60d95185222b90b467ebd3a5733e7dccba980cc2f364e7beee3a0aaec6fb7801"
+    },
+    {
+      "path": "Unreal/Config/DefaultGameplayTags.ini",
+      "bytes": 1467,
+      "sha256": "65b274be94febfd2c2c1547d8edaa8ddad2e0dad8feb9b0bf6b03c701684fda5"
+    },
+    {
+      "path": "Unreal/Config/DefaultInput.ini",
+      "bytes": 563,
+      "sha256": "b40d5eab08f87c4e6518aec9cd0aa7eaa69d23aa74553813eef6acac89a4d65f"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M01.json",
+      "bytes": 1626,
+      "sha256": "5ef17dd8504944456cf2231be672dd4a9c57e89bba791f2438164c1cf10b3861"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M02.json",
+      "bytes": 1322,
+      "sha256": "ceb0959e8145a620f019707f06ead730439cc408b954b1a4d8f6b80ec90d5d70"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M03.json",
+      "bytes": 1353,
+      "sha256": "1b135dd5f33afb75190779aab87c13730aa95b1990dfa8bd3e7e8b0cfd49f978"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M04.json",
+      "bytes": 1322,
+      "sha256": "206e558a66f72c79e7ef4a76d032467c6c7889e602b7513d0ecc0351f292a762"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M05.json",
+      "bytes": 2312,
+      "sha256": "8b0e30e72fb86353245fc6b8a8ba058ac20b6cb0836049deeeeb12dceab74b64"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M06.json",
+      "bytes": 1349,
+      "sha256": "153f14a62cbd0727639610d5a6cc4cd0ac0a7689956d36f0f640459b24e5f9ab"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M07.json",
+      "bytes": 1329,
+      "sha256": "d0d3f60a7959038d6c94734c9e6557806101832baeb0a12f6340f871dc4d1cb5"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M08.json",
+      "bytes": 1451,
+      "sha256": "4db54930ec43181f8fcc352f62b02def313825cc81b618f29c2de67402c8b504"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M09.json",
+      "bytes": 1382,
+      "sha256": "6e82faf4fc8a35576fecc4a7b8de8db4ffc51f66979fac45d71545bf9068a4db"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M10.json",
+      "bytes": 1354,
+      "sha256": "c8d1c7fddd63f7659d67f453f550b6cc7e20ed4c401e6ca65595d305756c6fe7"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M11.json",
+      "bytes": 1597,
+      "sha256": "c821f91d3f185d645660cb9b31fb6206c56ea91b31ff3140a7e9188e35447efb"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M12.json",
+      "bytes": 1601,
+      "sha256": "8ec894dde70474ef719bf857fdd2ccd184c4d96e6b848dc4dd884e9e72539326"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M13.json",
+      "bytes": 1446,
+      "sha256": "b7aa734df7927a27b40c450ea99cb74e643b2732c54ac64082f9e20346e67e7f"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M14.json",
+      "bytes": 1608,
+      "sha256": "13b39ed2bf72a28418655a0f83212911cdfc85d983a1d5879f53f9e60135a607"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M15.json",
+      "bytes": 1433,
+      "sha256": "88435e39eb8aae1dc181084a60bb16a809c7fa346424d6912888770cff13839e"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M16.json",
+      "bytes": 1550,
+      "sha256": "c7faaeb1845e7c4c1aff70d6d26fb16f13ef6c5a5a54c3d3e6bbba375d7258c9"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M17.json",
+      "bytes": 1603,
+      "sha256": "3598f446a6bf32982a688fd04cbebd34f6bf1babb10e35a50daf5129fe7b7712"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M18.json",
+      "bytes": 1547,
+      "sha256": "921dd5a423d8fbad8f9399a0a795995e2b9165505e18cbbb6fe5ee15abb80585"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M19.json",
+      "bytes": 1544,
+      "sha256": "3bbbe9c513198ea89d5c8a63808d4660dd280dc6f5f46abf42400f2674c90fbf"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M20.json",
+      "bytes": 1609,
+      "sha256": "2546b31aa9671944cd9259c60051c8e8fd0706cefd71303fdddd9a45366e1fbf"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M21.json",
+      "bytes": 1618,
+      "sha256": "e4748c8bda3119c36317ccce1ce9522aa6196dbb784521331108bee5491b471e"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M22.json",
+      "bytes": 1594,
+      "sha256": "8f1bc1317a41f311d2e04e2c1569bff694b4beec5cc99797046cb60d1e791a59"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M23.json",
+      "bytes": 1567,
+      "sha256": "30548f74856de703eb942cfa1ac1b88a5acf283dbb0bb9538234b26c259713c0"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M24.json",
+      "bytes": 1593,
+      "sha256": "2fbba5c525d8932ba73ac71b659d5fb15a32d96eed52a5eee72cc9b4d184e018"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M25.json",
+      "bytes": 1613,
+      "sha256": "6fba2da5e06972e463adfb5a96f5910862852f95f112591e2b23cc1b5973f816"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M26.json",
+      "bytes": 1613,
+      "sha256": "f63165b936c242408ef98df7bcb26c248cb63b2f51600545d25bd0f134ec3a6c"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M27.json",
+      "bytes": 1571,
+      "sha256": "eb3638d52e6cf98fcb8751b826131000ccc7ce4cd2dacd23baf6bcd573f2cda8"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M28.json",
+      "bytes": 1557,
+      "sha256": "191daa7ddc492d34d2ff01485e98d75bdc9b8aa2e00f65133fc4fdadfbd88015"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M29.json",
+      "bytes": 1607,
+      "sha256": "e14be07ce82037a93d1acf1fd51d69fb5f65313ed1850823990d1a5ef7e38786"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M30.json",
+      "bytes": 1583,
+      "sha256": "05da84f0deffc9eba84c1575733b5b0477501a1840bcd2d499c29197831498d1"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M31.json",
+      "bytes": 1609,
+      "sha256": "8fb18922de91b7a903028245330af0f291ef6645d3a1ba52e73fdfeda3ab0839"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M32.json",
+      "bytes": 1601,
+      "sha256": "d56782951b63615387905db18993de35cdb5db179862c7ac5866fdd8b5bb112c"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M33.json",
+      "bytes": 1533,
+      "sha256": "8683c6527d26fe9cb61ca8dc78037e3e85a02eb4cdb21a737697a406eea922d2"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M34.json",
+      "bytes": 1593,
+      "sha256": "93600ac28407fc9a68f78ae8903920757fac5e6eed28221cb59302b4200a945a"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M35.json",
+      "bytes": 1646,
+      "sha256": "a0873429fe25a83fe313e75c29f32f2aba7a0f9c648889b6ac7c98a02b8247ab"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M36.json",
+      "bytes": 1590,
+      "sha256": "d021b4b6b93c498e85460293e87858031ace81390be8433b424c3a3bdc5eb470"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M37.json",
+      "bytes": 1576,
+      "sha256": "7cfe422894bf303efe0caf87b33b0c2a9811a08706ecb49c35189f921c46e248"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M38.json",
+      "bytes": 1616,
+      "sha256": "53d024e7a3eac21c97bb249287b7872e82c8497f1e9db70926a07df2467c412c"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M39.json",
+      "bytes": 1608,
+      "sha256": "389ba8d8d4ece501d6e2d6d48d21ea581e600d71ead9aa99bb9d64cc18b0fec9"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M40.json",
+      "bytes": 1587,
+      "sha256": "bfc67d3f51b2ab062cc7252d5fc8ce83c5cfbd8cfa32083a9082afa970f3a038"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M41.json",
+      "bytes": 1654,
+      "sha256": "4471b36cf771e0861708b523b20803fa4c608b74d62a41d6d1b5d0c9aca1df58"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M42.json",
+      "bytes": 1660,
+      "sha256": "f14a2a2ddc7eb46185bed745672fbd78ee9529b18ca60c16d14aa989fc782d03"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M43.json",
+      "bytes": 1668,
+      "sha256": "7714e2d80c27e500665b0d08a9a503126da257f13c9382e7a5dc238ab158b25e"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M44.json",
+      "bytes": 1646,
+      "sha256": "9fa69a494c76f4dd76c0583da2cfcdd91c56ba9a930d0714855bac5ca2bbe1ed"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M45.json",
+      "bytes": 1621,
+      "sha256": "73d18ce2478c7d77152a1ef20c72633d5e9052c8c750b446b5774bf447c117c1"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M46.json",
+      "bytes": 1636,
+      "sha256": "0ca5ec76451d0f24c45955b68deb04814de04bdd16164434fb86f80c06bf43d0"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M47.json",
+      "bytes": 1644,
+      "sha256": "c935e3845c8468c3d58be8580a7c49a76105b6012a8d6698c8b5f5b34189fd04"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M48.json",
+      "bytes": 1607,
+      "sha256": "441e5ef627d74a089f32ec28ca4e2c9cb6281016adac109e127f6c28c8c77dd4"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M49.json",
+      "bytes": 1645,
+      "sha256": "133f4943cd574e3b204d53a1a2ae6e585c7de751db48ecf0f0a55190ca5d5cf0"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M50.json",
+      "bytes": 1615,
+      "sha256": "81a0ea6dcd9f70a6450830ee9c8c408212d05033f20a0e428599371c8201d1e2"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M51.json",
+      "bytes": 1312,
+      "sha256": "04034204de76a0329f578bdf57083720e34f2c29daa63da3524f44f4d4abfdf9"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M52.json",
+      "bytes": 1280,
+      "sha256": "4687e984253f853caed811bc5906af7861a09a7bb5dde7ebee41b1170b300353"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M53.json",
+      "bytes": 1294,
+      "sha256": "22afca4b92f65fbfe932fdb7ccee66634662b1c7afdd0dd28df973ef0c982c38"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M54.json",
+      "bytes": 1290,
+      "sha256": "6186025824aa36a6495e26a5722d18db4ab45452ea278546f62a7459d1186f68"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M55.json",
+      "bytes": 1323,
+      "sha256": "20a6fce38a87f5f88cc2c54b3aad4266ec94483dfddcc7c3bec385869759bbf0"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M56.json",
+      "bytes": 1314,
+      "sha256": "cb2ec8108746f48125fbbdc7c752accf5a7b949d1d7b8949248d6c648c292d1a"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M57.json",
+      "bytes": 1321,
+      "sha256": "5a3492011ff7fc5e1d966b6ef412b187c0dcffb0dfe8a49fb20461775f495260"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M58.json",
+      "bytes": 1287,
+      "sha256": "4a66d6290963db2236c2a21ce4dd8b0e57de128db6f6cdd16203f1de72a041d3"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M59.json",
+      "bytes": 1346,
+      "sha256": "efb77d4f8aa314b9de634dc1278c639e0f6fdcab8b339b9f3eaa3a8c547ea23b"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M60.json",
+      "bytes": 1321,
+      "sha256": "7b373f8ff12a811865295e7100324cc6e6bec1cf99136c14f77ac8a8909b85b3"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M61.json",
+      "bytes": 1649,
+      "sha256": "0d4a0026642acea9e3c026c84874ce9a3029c92970ce1ae233707abf7780c4b1"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M62.json",
+      "bytes": 1680,
+      "sha256": "176aa43c767bca6d6243a3b9d8478f136a791021a33cb61ceed751bfccbda7ae"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M63.json",
+      "bytes": 1628,
+      "sha256": "daafd955122248cbaf4e518964fb1ecdafaf878d39a8c73579145df14bb07ce4"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M64.json",
+      "bytes": 1619,
+      "sha256": "4f7c0ec51639b449e23776d07f991d048f4da5f5a0b729b90c5ebd5568b67133"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M65.json",
+      "bytes": 1653,
+      "sha256": "fc55f22c0724e1b499cb4164505ef9ca1c5aead04949add024fe15303aa2e1eb"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M66.json",
+      "bytes": 1653,
+      "sha256": "7b441c850e702b5c85f2a0eb79d330e929d0f48375785789cc1ae0695d3fe9cf"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M67.json",
+      "bytes": 1643,
+      "sha256": "cc336038e0d80ea28e01bdf50eb7883248e9b7fc1b7834135917e37ceb5694af"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M68.json",
+      "bytes": 1657,
+      "sha256": "ded862ece3e9e6de34906c8d39c4ad6a9c772f093760953f38d28b4126b26a85"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M69.json",
+      "bytes": 1597,
+      "sha256": "9cd7bd92d361a1475bd0ddb5cb75c5509c93a3e427741173cc8e40aebce5b0cc"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M70.json",
+      "bytes": 1643,
+      "sha256": "a2818056dfac4bd2e9260edaf3346e84d3abf95c8dca513cf8d4e130cc6881e6"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M71.json",
+      "bytes": 1632,
+      "sha256": "1f03f0dff5ed218c6834d6d4546321388d07e79e29e7348271a7b63ce4d23cdb"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M72.json",
+      "bytes": 1640,
+      "sha256": "de7e8017f256b66f52e7ddcee7c4550493388e17367eca4e97307b8649f18584"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M73.json",
+      "bytes": 1620,
+      "sha256": "2353451062e2d4f9afeb44cb5198c75b9ff05910188a3f69e0cb44b0ca19897c"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M74.json",
+      "bytes": 1645,
+      "sha256": "2c47209507ad2acb9aeb0fc2fa917f964e609b47b31acfbb20630c262a848455"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M75.json",
+      "bytes": 1615,
+      "sha256": "de2f2069333a647020dc49a3c0033f81eabba63cbfaf2a620bd162931372a90c"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M76.json",
+      "bytes": 1647,
+      "sha256": "c6e1c349e88a500c18deff92867f3b3ef3570d3902457ba1cec104707ad49bb0"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M77.json",
+      "bytes": 1657,
+      "sha256": "bb7cfa542c0116d64f6a052441726516d45538a036f17246ea2180253babe4f7"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M78.json",
+      "bytes": 1636,
+      "sha256": "b290a94e1a4964e8a0abc54f17150eb331ec299e4040ec1c1b69c530f0e30989"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M79.json",
+      "bytes": 1704,
+      "sha256": "aaaa53a57145630cb279f610b871e5fe4128cc9cde0b7dcbaad1e50b677f668e"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M80.json",
+      "bytes": 1683,
+      "sha256": "13b28a78c235813505d546efff137f5fd34744423b901413e41690ea42319e48"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M81.json",
+      "bytes": 1690,
+      "sha256": "16f7e52a5cb7e27315caff5af7e88982a7193fd40aacb7b471d4be93229062c8"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M82.json",
+      "bytes": 1636,
+      "sha256": "fa9583efb4546ccf56d305f5db944cae02f716a337c0b650454e9e9ff30e931d"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M83.json",
+      "bytes": 1649,
+      "sha256": "84b0c9cdabe0033497eca826547f08317b4f8123da3cb84441cd905d06ce0ee5"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M84.json",
+      "bytes": 1575,
+      "sha256": "50e88a4cbd5694b3491544e0575cba1ba1fe5ffb32817ab7badb558027d79ee2"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M85.json",
+      "bytes": 1642,
+      "sha256": "45aa370ca8b8ebcfaa21799acef7ddc0fd52b146e9547e22d28619f02d9714a1"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M86.json",
+      "bytes": 1624,
+      "sha256": "de809dae859989cc82079086f64c0168a7f909527cb99fc13e80b2d3ca169cc5"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M87.json",
+      "bytes": 1578,
+      "sha256": "c86d49f83ca619c80ead064f1d138173141cf9dda752e9b57ab8b5d1072a4357"
+    },
+    {
+      "path": "Unreal/Content/Data/Missions/M88.json",
+      "bytes": 1704,
+      "sha256": "9c2a2cbf5b2764bd62ed4f622c92c42d18d391ce8ead0a18bd223b489e691432"
+    },
+    {
+      "path": "Unreal/Content/Data/PRODUCTION_SOURCE_MANIFEST.json",
+      "bytes": 786,
+      "sha256": "7ed36592fd1a4c0fe203c218095d6ff45820b0d50a9a98af796664f6546f6c6a"
+    },
+    {
+      "path": "Unreal/Content/Data/campaign_88_missions.json",
+      "bytes": 162988,
+      "sha256": "045bb5b3237bfb5091d22352cb2bd8b8b71d9e16da39c339a28f0eb8281c8671"
+    },
+    {
+      "path": "Unreal/Content/Data/phase18_registry.json",
+      "bytes": 636,
+      "sha256": "0cf74e75c6acc26fcbbb6a9e54f62b32bdda817095a67e548273031f1e004036"
+    },
+    {
+      "path": "Unreal/Content/Data/phase6_combat_police.json",
+      "bytes": 1288,
+      "sha256": "5aff66543bff42f933386278337b07a13346125b86043633c9ce297e6fc027a4"
+    },
+    {
+      "path": "Unreal/Content/Data/phase8_economy_properties.json",
+      "bytes": 344,
+      "sha256": "fb959310f945d521a6fcac5e49b2c38b7f9c2782ef6b1c9592d4ed919eccaca7"
+    },
+    {
+      "path": "Unreal/Content/Data/phase9_story_relationships.json",
+      "bytes": 875,
+      "sha256": "62684e4d76b897e267004d85670d0e0dd2dccc5495b1638fa55bd39ef01e00b9"
+    },
+    {
+      "path": "Unreal/Content/Data/world_phase3.json",
+      "bytes": 3611,
+      "sha256": "bc0ec4efe0178327483bc712d0bfa8d848eeaa7b8f799347efd7b9dc7ab2a48d"
+    },
+    {
+      "path": "Unreal/HANDOFF.md",
+      "bytes": 1023,
+      "sha256": "69dade2a1fea5c08723be173bb78d2c4667abcbe1414f93b890b9cce64e30f3e"
+    },
+    {
+      "path": "Unreal/IMPLEMENTATION_RUNBOOK.md",
+      "bytes": 1278,
+      "sha256": "806bb22e49b1e3c8955945c29be5b2ae608bc5a5864845059dd7b3db1db7a858"
+    },
+    {
+      "path": "Unreal/NoWayOut.uproject",
+      "bytes": 463,
+      "sha256": "e4e7c5e98deb0a9c830889af9f09804f1da0dc204c416b36600ef1c396f77e3a"
+    },
+    {
+      "path": "Unreal/PC_HANDOFF_INSTRUCTIONS.md",
+      "bytes": 554,
+      "sha256": "4ee58a144605012af982693901b64a0627571b1c52cfa538c3f15c3e857dfb0e"
+    },
+    {
+      "path": "Unreal/PHASE20.md",
+      "bytes": 1905,
+      "sha256": "5ac3bc14eb157c8abc0a0807d26b66b006ca5517fc151e09d592251f385e313f"
+    },
+    {
+      "path": "Unreal/PHASE21_THIRD_PERSON_FOUNDATION.md",
+      "bytes": 1667,
+      "sha256": "518cd506ffd7ed388c604575e6fa0e44606f33ead2915b5253671e44279634c2"
+    },
+    {
+      "path": "Unreal/PRODUCTION_COMPLETION_MATRIX.md",
+      "bytes": 2000,
+      "sha256": "a62a3d11cf6f2d65ad91c9424c9441b85d7ddcf7267b90122cbcc32316b8e951"
+    },
+    {
+      "path": "Unreal/README_PHASE20.md",
+      "bytes": 1551,
+      "sha256": "ba217da44e0938358c0f850cc4373e14c5d86c4a0522e206c8ddeaf1ea3f9162"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Characters/NoWayOutCharacter.cpp",
+      "bytes": 3777,
+      "sha256": "39c29b43b0d2c40874fbe59cdbc919ffd4281970a99d47e76f26645be7180e28"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Characters/NoWayOutCharacter.h",
+      "bytes": 1304,
+      "sha256": "1a922949b53309b117272974fd65a65ebbb61e0c5b66d5edfad263080f11d328"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Characters/ProtagonistDataAsset.h",
+      "bytes": 1042,
+      "sha256": "c97a344b003916dd1d03a247dc1864c77022c6539d9f84e57ae66c9865c22fb6"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/EconomySubsystem.cpp",
+      "bytes": 402,
+      "sha256": "137f7e42b432891943bb4bab772bc5412cdd6002826111f5c802beb79c775e3c"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/EconomySubsystem.h",
+      "bytes": 783,
+      "sha256": "7c76ddc004ee25788272c9040a7b53ba3412c0e86930942ce475d187d8c7f7bd"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/MissionDataAsset.h",
+      "bytes": 1879,
+      "sha256": "a9898ebbd5d321db504b7694d3ed5a68d7fc765263c54bcb4c59ce9fcf6c1400"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/MissionSubsystem.cpp",
+      "bytes": 8977,
+      "sha256": "c57d3429aa17f71ea58e612ba768915622a1c6ad0604a41e889d8797d4f325cc"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/MissionSubsystem.h",
+      "bytes": 1660,
+      "sha256": "a28a58bc1305b1f7839d195e16ad8260ff04f5fc67538ac3d5581236291bfa48"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutGameInstance.cpp",
+      "bytes": 34,
+      "sha256": "a3320b267721b2599d7fc9117c9a4f72ab1f1e40d4753d9a2e9c45185ce963d8"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutGameInstance.h",
+      "bytes": 375,
+      "sha256": "3bd85ea401c09297ff0f05c7962867c243d7eff7069bbaffa8907f9d555dfb09"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutGameMode.cpp",
+      "bytes": 735,
+      "sha256": "b6882801d676922c39aa48d5a1b55c5dce18d2ca06d333de45c7b8afaf5424f0"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutGameMode.h",
+      "bytes": 286,
+      "sha256": "50e402170fa1b5465e110e6debda86970213d06c6bf1c58270bb8cc6f97b48c5"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutGameState.cpp",
+      "bytes": 448,
+      "sha256": "90112616c2abc2f0634fb2658d980fb9ec047906c795859df3e371a00d9e6671"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutGameState.h",
+      "bytes": 780,
+      "sha256": "0f8cb71eaf8117e97861f9888784c02445a071c53aafd4701f557ad2fe480481"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutMissionTypes.h",
+      "bytes": 2192,
+      "sha256": "58f30220209dd0d47c6404af5952b22774554929353fd58447e769b098f7a8fd"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutPlayerController.cpp",
+      "bytes": 181,
+      "sha256": "7e33348ad558add3826d1729091f9c4761bb8ac403cfc819890fe02876a9c47a"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutPlayerController.h",
+      "bytes": 285,
+      "sha256": "9c06b3f24aa80befc4b99ff5f8c812556e3942e2b4b3c4373fc9243fc7179257"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutPlayerState.cpp",
+      "bytes": 436,
+      "sha256": "b1cc59c247bdb8681c3c0d6cd4d3b0cc8cc50173986eb10d8b42c2e2c4241533"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/NoWayOutPlayerState.h",
+      "bytes": 567,
+      "sha256": "8db2b526740c0811ca44ef62873b1751dcde19fee0018155034d2e33f2d52b8b"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/PoliceSubsystem.cpp",
+      "bytes": 976,
+      "sha256": "8416ca97f4043e0d61c5cada73d055e0e4f9aa879d3558293462d0605734ff23"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/PoliceSubsystem.h",
+      "bytes": 1037,
+      "sha256": "abb1809bee4136e20d029bc01852680a55b0c08e7b83d301f740edf671a605c0"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/ProtagonistSubsystem.cpp",
+      "bytes": 989,
+      "sha256": "852ec6d6abd14a5aeb16e431b446a902b2d90fb7166e06b76eb6a940dc42c929"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/ProtagonistSubsystem.h",
+      "bytes": 1079,
+      "sha256": "2234f5522a68038bf97f3fe9133c92261aacefd1a356671d40aead332d29050a"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/RelationshipSubsystem.cpp",
+      "bytes": 1393,
+      "sha256": "f6503f6e3e5f222b35644afafa449dc9fc4b75ee9aa87250403010f28c629a2b"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/RelationshipSubsystem.h",
+      "bytes": 1079,
+      "sha256": "9ce810f73887163cd073711151c62914dcadcc31ebfe061e2893e0a2b6f2b242"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/SaveSubsystem.cpp",
+      "bytes": 944,
+      "sha256": "78964fe31958dc8136acf8d3665bac015183e7ef02f8e7516f73f8811381d183"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/SaveSubsystem.h",
+      "bytes": 1197,
+      "sha256": "1fee906b687c13a1b3ec3fee1f9a5d85e283d84b64e610c43151bd6d33b9b2be"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/WorldSimSubsystem.cpp",
+      "bytes": 765,
+      "sha256": "32d07d3078538a258d3392a88a9b2ea9b4e33acd6c13013f9692a3d70be43bdf"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/Core/WorldSimSubsystem.h",
+      "bytes": 1140,
+      "sha256": "d5d661f55aecd9ca68b750371c2bb5b20558843cef5ef2dc7cc4e3d05532a958"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/NoWayOut.Build.cs",
+      "bytes": 526,
+      "sha256": "28fc1806705ea1f2fb17e9c70be821730aaedde818381592b9ad3dc402a3efbd"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/NoWayOut.cpp",
+      "bytes": 112,
+      "sha256": "bbcb2796c8afcdb92bfd14ddc88d378f292bf8062f75947b2eb5506baac0d431"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/World/GreyboxVeyronCentral.cpp",
+      "bytes": 1558,
+      "sha256": "f84ff5973fb829c4275e5b2170c94a6c9c2a64c3e6c170a278a0bd48c3ec1e0d"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut/World/GreyboxVeyronCentral.h",
+      "bytes": 402,
+      "sha256": "7f627893b7ad51134fda2e6837ec18a43968e70109d35abc25dac5da52a01a20"
+    },
+    {
+      "path": "Unreal/Source/NoWayOut.Target.cs",
+      "bytes": 373,
+      "sha256": "e0450e540e73b7a2f57b3fe4e22c69183f6cd45777fbf715dc801771e213ebd4"
+    },
+    {
+      "path": "Unreal/Source/NoWayOutEditor/MissionAssetImportSubsystem.cpp",
+      "bytes": 5510,
+      "sha256": "0d90e12c6690bd13dbac0a6ffb11f074915584b48d3cca0f74238a235b96e0f6"
+    },
+    {
+      "path": "Unreal/Source/NoWayOutEditor/MissionAssetImportSubsystem.h",
+      "bytes": 539,
+      "sha256": "dacd476aba23d3d88358c8ce5dd4be0d6818a4c01cc73dd7e78832c980b8751b"
+    },
+    {
+      "path": "Unreal/Source/NoWayOutEditor/NoWayOutEditor.Build.cs",
+      "bytes": 433,
+      "sha256": "f18a48ac676a397612d98ab60d847812381270363c82c5ea14ce25bf7afc060f"
+    },
+    {
+      "path": "Unreal/Source/NoWayOutEditor/NoWayOutEditor.cpp",
+      "bytes": 89,
+      "sha256": "78b7616f99651e053b1335ca035be30592b8c6b70989f7c3aac468980b1dde96"
+    },
+    {
+      "path": "Unreal/Source/NoWayOutEditor.Target.cs",
+      "bytes": 427,
+      "sha256": "6ff75816cccb88b841a6d60a87c152eebeed38557100e2beec4d751545accbad"
+    },
+    {
+      "path": "Unreal/Tools/__pycache__/validate_phase20_unreal_foundation.cpython-313.pyc",
+      "bytes": 4479,
+      "sha256": "8cbd6c46baaada51ad2c35994e4b21417f21fb3f8420efa68862084d801d001a"
+    },
+    {
+      "path": "Unreal/Tools/validate_phase20_unreal_foundation.py",
+      "bytes": 2347,
+      "sha256": "262fd80a22f012d9ae388b27ab06c9012b860c272491015b77bc66cb75c888c4"
+    },
+    {
+      "path": "campaign_88_missions.json",
+      "bytes": 162988,
+      "sha256": "045bb5b3237bfb5091d22352cb2bd8b8b71d9e16da39c339a28f0eb8281c8671"
+    },
+    {
+      "path": "cast_story_mode.json",
+      "bytes": 2338,
+      "sha256": "86e5559ebd1f3a95426fb0e91b9baec7b596958d264145b56c7429a17d1eb9fe"
+    },
+    {
+      "path": "characters_production.json",
+      "bytes": 3905,
+      "sha256": "a5123b11f7142db8d014d74db5e83979c440cf1665deccfff30beb80189493ec"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4757,
+      "sha256": "5a1e1dc78c13f7ae32b8987acb57c237a942a15c29711ea2c4fe9eefde8d5c6e"
+    },
+    {
+      "path": "js/account.js",
+      "bytes": 731,
+      "sha256": "b5bb52d47e4b99e712434948b9c6b19440c60e3789cc6abf10550b9bc488c14c"
+    },
+    {
+      "path": "js/banking.js",
+      "bytes": 2615,
+      "sha256": "f951875d7e60ee4e942422cd9eb615a3084f516f455857811521f032000affa3"
+    },
+    {
+      "path": "js/campaign88.js",
+      "bytes": 901,
+      "sha256": "b63e7de8cb099a990dd2d99a20ca4b7599538f20b08c6b1579eafe57799c9e4d"
+    },
+    {
+      "path": "js/economy.js",
+      "bytes": 2319,
+      "sha256": "9a7493a0e0a27a7f530f9597fb1382c5fbb10feb4cc5d426ab2f0da0fed4f31c"
+    },
+    {
+      "path": "js/finale.js",
+      "bytes": 930,
+      "sha256": "ac851894e1d057e8995b56bbbb4566c2be35629ba374d6d874cf986738ba8681"
+    },
+    {
+      "path": "js/game.js",
+      "bytes": 10994,
+      "sha256": "6e00a3bcfce819f5ac39f5e36aa15341a8dc3740a41f5a863a77e1ce8763299b"
+    },
+    {
+      "path": "js/mission_score.js",
+      "bytes": 1458,
+      "sha256": "0fe712488e2ee91eaeb44c6db0d6ad618b349f3dfebbbe32d9baf1870da8bcfd"
+    },
+    {
+      "path": "js/missions.js",
+      "bytes": 7360,
+      "sha256": "7c354afd46ddd04619e2ba2be6f8a81e6a759b3e6d062302e4b720fa04148573"
+    },
+    {
+      "path": "js/npc_phase4.js",
+      "bytes": 6133,
+      "sha256": "051b8aac05cf5a31969e02afe73ee39a6b9f45a210edc14797b2f4e4ed8ba4c9"
+    },
+    {
+      "path": "js/online.js",
+      "bytes": 1914,
+      "sha256": "72ec3f1fc3ee1df98185d522b6d28bfd49661ad8b308091e60ddc0acc8cb1eb4"
+    },
+    {
+      "path": "js/online_real.js",
+      "bytes": 3055,
+      "sha256": "b05ef539780413252cff6bf5e2a182aa4d61604b2a27c45f37cc2102c8344abb"
+    },
+    {
+      "path": "js/online_sync.js",
+      "bytes": 3343,
+      "sha256": "77d1da12c91f3126e194134ba23f152a960dba1fa45da9ba646e8809b249f069"
+    },
+    {
+      "path": "js/phase10_upgrade.js",
+      "bytes": 19359,
+      "sha256": "87bea8f7054d810879795c37bc65b067a16d0b807b761bed64bd43065ffda91b"
+    },
+    {
+      "path": "js/phase11.js",
+      "bytes": 13717,
+      "sha256": "39994c2271e37f539b66ff66e11b78ceff1f4ff36346bf65fd739b1e83892fb9"
+    },
+    {
+      "path": "js/phase12.js",
+      "bytes": 3865,
+      "sha256": "3ee3721b86c72ac8b8580e655676be8469b895a3872225e14f70e370d30adc4a"
+    },
+    {
+      "path": "js/phase13.js",
+      "bytes": 13858,
+      "sha256": "fbd33982cad20fc8ce59e75354d7e4cc0ed5a3ecefeac0bb54eb429c26455198"
+    },
+    {
+      "path": "js/phase14.js",
+      "bytes": 8984,
+      "sha256": "b7f7dcde6c1fd41ab3ec1562a8a18c0216615b98103a9d5493eada83d4edbff2"
+    },
+    {
+      "path": "js/phase15.js",
+      "bytes": 12491,
+      "sha256": "7993982dc85d8912546c6c99b5cdeeb181470aee08f20a8d558ee2be253c2117"
+    },
+    {
+      "path": "js/phase16.js",
+      "bytes": 9476,
+      "sha256": "a69139d1c1d499797d3f96c467c1b82567586cf1bfcc4f45e7cab928dee38d85"
+    },
+    {
+      "path": "js/phase17.js",
+      "bytes": 10132,
+      "sha256": "a1a831e3531a2d96eec37f9955a525f9afcead9a007511e4c810345996aed250"
+    },
+    {
+      "path": "js/phase18.js",
+      "bytes": 15079,
+      "sha256": "06d5e290b1b7ac7310e8dfe3b243d2695d1f78eb5023154564f3cc4533173331"
+    },
+    {
+      "path": "js/phase19.js",
+      "bytes": 2563,
+      "sha256": "8296bcbdb50a78f924e81cae612bb3e8f070fdbab110a4ecbe118a795b6e0938"
+    },
+    {
+      "path": "js/phase19_batch02.js",
+      "bytes": 1890,
+      "sha256": "6bdc937d63a11c062221582112571109f9109901090495b0c3fee54629029864"
+    },
+    {
+      "path": "js/phase19_batch02_runtime.js",
+      "bytes": 8834,
+      "sha256": "ce1487f6461cea25802d7f3c067d54306451524c10250681639f5e7506d0b5f9"
+    },
+    {
+      "path": "js/phase19_batch03.js",
+      "bytes": 1890,
+      "sha256": "d00431235586e59e27038496df8f3e0cd60bc7961a383c21e49bda23db426e72"
+    },
+    {
+      "path": "js/phase19_batch03_runtime.js",
+      "bytes": 8198,
+      "sha256": "0c18c32a7e4a0ee6401b64bc06d10ba2be84d454c87aec0f734ca609839279bb"
+    },
+    {
+      "path": "js/phase19_batch04.js",
+      "bytes": 1939,
+      "sha256": "f9a2b9277d60224d637845e4a1b131695ebc6a8e523093f736ef791d3d03b810"
+    },
+    {
+      "path": "js/phase19_batch04_runtime.js",
+      "bytes": 6843,
+      "sha256": "2b3168311a5930744c0ccf16a616db1e8ba384f353ac65a0dd4d89b0cefcef41"
+    },
+    {
+      "path": "js/phase19_batch05.js",
+      "bytes": 1932,
+      "sha256": "9fa44f94adfde5a7f98da05d212408a94316cf1a82fa5eabddb353fb63aacdad"
+    },
+    {
+      "path": "js/phase19_batch05_runtime.js",
+      "bytes": 6224,
+      "sha256": "50df8c5c2f3b38630e50b3c30812de26cadb2a9296f45ed6b12caa678e2b1353"
+    },
+    {
+      "path": "js/phase19_batch06.js",
+      "bytes": 1989,
+      "sha256": "c7cb16e13f2097247c009c1104bff03c43519d49e12d0f011100eca6e00337f2"
+    },
+    {
+      "path": "js/phase19_batch06_runtime.js",
+      "bytes": 6800,
+      "sha256": "29ffabf05e0eb8ccc8862eb16fda90515aa8cd9233a6cadeba177b32fb9193a3"
+    },
+    {
+      "path": "js/phase19_batch07.js",
+      "bytes": 1985,
+      "sha256": "7671e349a02d905bb8ba686613ff291990e058557177cf1fe4aebb2b06072498"
+    },
+    {
+      "path": "js/phase19_batch07_runtime.js",
+      "bytes": 6834,
+      "sha256": "9f7fec7f02ac3874f6365f61234961282aa10acd607c74522651269860895203"
+    },
+    {
+      "path": "js/phase19_batch08.js",
+      "bytes": 1960,
+      "sha256": "265dc1af0ec66276ca88cb5bf1cdb0829c7a730c686c368604c3ffb638ea15a2"
+    },
+    {
+      "path": "js/phase19_batch08_runtime.js",
+      "bytes": 7113,
+      "sha256": "07c77ff48e0566b5e096b2637f9784e2aa3273a4c0fad2e0b07c5347d0f5ae28"
+    },
+    {
+      "path": "js/phase19_batch09.js",
+      "bytes": 2054,
+      "sha256": "2a9d4b28df9801d77472b8309211d9f4a4c5bfa2214767a350dfdea550b36e31"
+    },
+    {
+      "path": "js/phase19_batch09_runtime.js",
+      "bytes": 9383,
+      "sha256": "b7376afe45df87d66111a615d1514cd11028b87358f9f67bc63e72b12b71de12"
+    },
+    {
+      "path": "js/phase19_dialogue.js",
+      "bytes": 3819,
+      "sha256": "f3ddc5e02d042241725a47923a761857e70aec87f8156ade2ce59b4236054d73"
+    },
+    {
+      "path": "js/phase19_dialogue_batch02.js",
+      "bytes": 1741,
+      "sha256": "1595a72d4a8e0a7671020fea591ee03367a49bec5dbd2fb888986ac6d2c27162"
+    },
+    {
+      "path": "js/phase19_dialogue_batch03.js",
+      "bytes": 1574,
+      "sha256": "155fc51b448ec918eaeb01753906ea3670dd6a20bd445f3077bee820fccfbc05"
+    },
+    {
+      "path": "js/phase19_dialogue_batch04.js",
+      "bytes": 1098,
+      "sha256": "cb1d1bfa23a4aa71f55543decdd2f4cfc2d1eef599eaf42f9b7cebfac2bc7720"
+    },
+    {
+      "path": "js/phase19_dialogue_batch05.js",
+      "bytes": 1098,
+      "sha256": "4fab2d504bc1235bf804e99ac6e18d45f6a8f45640fce67a8c3fbabc5be8f84c"
+    },
+    {
+      "path": "js/phase19_dialogue_batch06.js",
+      "bytes": 1098,
+      "sha256": "013ae24bf6d60eb41a492ed07168b55843b18ab27b6cabadacbf4a1748f77fb2"
+    },
+    {
+      "path": "js/phase19_dialogue_batch07.js",
+      "bytes": 1098,
+      "sha256": "ce669c85344a6c2d41aca98ac95b9fce3e05ac5ad659d0fe50065f6dee1e0d65"
+    },
+    {
+      "path": "js/phase19_dialogue_batch08.js",
+      "bytes": 1098,
+      "sha256": "bc5341b5c1e0cbb7f25a47c8314f2f9ad753829c9c444e836c8fb5d503a58e98"
+    },
+    {
+      "path": "js/phase19_dialogue_batch09.js",
+      "bytes": 1098,
+      "sha256": "0b7f47a8e938191f5aeea827345433277e6854fe97338c8d7a3890e741b3bf97"
+    },
+    {
+      "path": "js/phase19_runtime.js",
+      "bytes": 6927,
+      "sha256": "d39336e332a6c9face7ec7e9cb58ab0cf95704b6e040a8692bf3b572401f9657"
+    },
+    {
+      "path": "js/phase6.js",
+      "bytes": 3528,
+      "sha256": "812e0b2f8ece3041a6e4a4b7e0284c5bc4d5563a9624a8975fad44593a87eb94"
+    },
+    {
+      "path": "js/phase9.js",
+      "bytes": 2058,
+      "sha256": "39ac3aeeb02de748c84fbb47f8f6eac81c1b4777fe45f60b5788bd871505da9c"
+    },
+    {
+      "path": "js/playable_phase10.js",
+      "bytes": 26297,
+      "sha256": "145759161274cb1674d6e0276ea47b09d6975841239e9eb150064a3a1a63b946"
+    },
+    {
+      "path": "js/player.js",
+      "bytes": 2545,
+      "sha256": "0883689505f897ce4df06c672b837d4e942194fb77df62c490896e6b9d8da548"
+    },
+    {
+      "path": "js/storage.js",
+      "bytes": 531,
+      "sha256": "0aacc0c66e9ab5dd9bac96be034bef19565adcd7d7ab51c7ec1145a70db5213c"
+    },
+    {
+      "path": "js/systems.js",
+      "bytes": 2250,
+      "sha256": "59fbbb91237035bf853c80c8da3c4fadb3fc4f133d88d8dc57822709d84d65dc"
+    },
+    {
+      "path": "js/vehicles_phase5.js",
+      "bytes": 3572,
+      "sha256": "f6b308e7fbadcc6560cfb9aabd975490ff452fbc7780cb099810c0ef7733fc27"
+    },
+    {
+      "path": "npc_phase4.json",
+      "bytes": 2810,
+      "sha256": "b33464752e9f24a8b19b68f760d6de2bc974cc524c01937633ed748d4dac5153"
+    },
+    {
+      "path": "online_sync_design.json",
+      "bytes": 1184,
+      "sha256": "3227a4055df51ba4f4865a0f5458898e5c988eda39634097a5fb59f660e19f64"
+    },
+    {
+      "path": "phase10_final_chapter.json",
+      "bytes": 1954,
+      "sha256": "1fb7265bd3166930e06627c89ba16f7cf8cc2822e74d74a29de81bc1fe6976a8"
+    },
+    {
+      "path": "phase18_registry.json",
+      "bytes": 636,
+      "sha256": "0cf74e75c6acc26fcbbb6a9e54f62b32bdda817095a67e548273031f1e004036"
+    },
+    {
+      "path": "phase19_batch01.json",
+      "bytes": 18871,
+      "sha256": "ece4b33183df5776b7475ec8203060b42ad7d7b53491ed29a8d5146c2b2befff"
+    },
+    {
+      "path": "phase19_batch02.json",
+      "bytes": 15217,
+      "sha256": "7ee792f514782f2d2a5206231c36554141b5b03a3a9f591e5957dd789e7568d6"
+    },
+    {
+      "path": "phase19_batch02_production_matrix.md",
+      "bytes": 1174,
+      "sha256": "a849e569762e80e16d65640d3a4581c9ea0528a65cc3aea39efcb15b363c4813"
+    },
+    {
+      "path": "phase19_batch03.json",
+      "bytes": 17271,
+      "sha256": "e83b5495dc0fa33142546478075f1e2d4851e382ed67bffb910e677df1388d77"
+    },
+    {
+      "path": "phase19_batch03_production_matrix.md",
+      "bytes": 2180,
+      "sha256": "27b0300691de4acf58d989ecadda6b2ebd8d2ab5749d17fe213d1061323666e1"
+    },
+    {
+      "path": "phase19_batch04.json",
+      "bytes": 17910,
+      "sha256": "871ca11940ad9ae3f13711ceff266a6b2f7820b0d3a514d07aaa702f38677d82"
+    },
+    {
+      "path": "phase19_batch05.json",
+      "bytes": 17986,
+      "sha256": "9b96e3ce8207c224c6cbd8512d251d1d7dead287dd21db5df384fc70e1218996"
+    },
+    {
+      "path": "phase19_batch06.json",
+      "bytes": 19288,
+      "sha256": "269024a1d8b4ffe7b3972d538bb316b436eabab8d0e8782a114959574a606e2c"
+    },
+    {
+      "path": "phase19_batch07.json",
+      "bytes": 19089,
+      "sha256": "db138e15c893f50f5d0ae0c8ef4a574d9eca3f70fd1522e2e87fad8b1ec6cef2"
+    },
+    {
+      "path": "phase19_batch08.json",
+      "bytes": 19475,
+      "sha256": "e62acc2b96fbcedae36f769c088b523e79c28db97f395ddaa8a2e9668849df46"
+    },
+    {
+      "path": "phase19_batch09.json",
+      "bytes": 15288,
+      "sha256": "13401bbe5a76fb15035f916dfa745d3c064aad7afc5af6bceceeaef8c02b0911"
+    },
+    {
+      "path": "phase19_dialogue_batch01.json",
+      "bytes": 6095,
+      "sha256": "43e52922e097b98c7465ce5e58932264e7860111691f60714b78254f777858fc"
+    },
+    {
+      "path": "phase19_dialogue_batch02.json",
+      "bytes": 5220,
+      "sha256": "d89baa507f02453102b7577b31180d33d90cc92df73a91ab74eb0d00d9e76afb"
+    },
+    {
+      "path": "phase19_dialogue_batch03.json",
+      "bytes": 8955,
+      "sha256": "7e6129e3a6399c1e3416c4e3a82ae1c9179ce5e96837f1880f6668fc329fa0c7"
+    },
+    {
+      "path": "phase19_dialogue_batch04.json",
+      "bytes": 8827,
+      "sha256": "affc76fe35e60e8066d65a1cbb6cb97b8ce20a97c35b28e631266b526a913ace"
+    },
+    {
+      "path": "phase19_dialogue_batch05.json",
+      "bytes": 10509,
+      "sha256": "620e749292b0f936235dab5a2f9b1c2d7a4cfa0b9d5a4290b09a0bb96245dde1"
+    },
+    {
+      "path": "phase19_dialogue_batch06.json",
+      "bytes": 10698,
+      "sha256": "07f7fd4d12040594292002320cd2a0cb2d8f6128d68929f15d73300d3b5d2747"
+    },
+    {
+      "path": "phase19_dialogue_batch07.json",
+      "bytes": 10865,
+      "sha256": "7c2ae8397a2658f60671165da7dff8457d48cf9d2383b7dc19ab6c754665c99a"
+    },
+    {
+      "path": "phase19_dialogue_batch08.json",
+      "bytes": 11254,
+      "sha256": "f119a5835c4dfd781e5cc0525280c404eb7de47de5fdf958cffe6b38b6aa25ab"
+    },
+    {
+      "path": "phase19_dialogue_batch09.json",
+      "bytes": 7965,
+      "sha256": "c3ce48d523a3ec4893891e0d35bb1dce7571b4698e9ae37f42bab670a113abe0"
+    },
+    {
+      "path": "phase6_combat_police.json",
+      "bytes": 1288,
+      "sha256": "5aff66543bff42f933386278337b07a13346125b86043633c9ce297e6fc027a4"
+    },
+    {
+      "path": "phase8_economy_properties.json",
+      "bytes": 344,
+      "sha256": "fb959310f945d521a6fcac5e49b2c38b7f9c2782ef6b1c9592d4ed919eccaca7"
+    },
+    {
+      "path": "phase9_story_relationships.json",
+      "bytes": 875,
+      "sha256": "62684e4d76b897e267004d85670d0e0dd2dccc5495b1638fa55bd39ef01e00b9"
+    },
+    {
+      "path": "server/db.js",
+      "bytes": 10418,
+      "sha256": "5e17af630fb7205a35b8c6e2e9cbae618c43aefc2ec513f528db3c9c5e495feb"
+    },
+    {
+      "path": "server/package.json",
+      "bytes": 263,
+      "sha256": "a92b35437ce62736bd4b81f5462c150abe22673dd746fcac9c9735ed7d074abe"
+    },
+    {
+      "path": "server/server.js",
+      "bytes": 9837,
+      "sha256": "8b53b6cc3c5e180f97b36c7cfbb006662a85a84c5287103d4d21d888e129a762"
+    },
+    {
+      "path": "story_bible.json",
+      "bytes": 3370,
+      "sha256": "ef58fefa9aa3efe0868e9b3fe53426ab637feeea2d346421ae465de10728cb47"
+    },
+    {
+      "path": "style.css",
+      "bytes": 14571,
+      "sha256": "51f49801ccbe0ce6988e9c1c19aa62fb74b57a00fddca3aa9746968c67ef9bdd"
+    },
+    {
+      "path": "tools/validate_build013.js",
+      "bytes": 1584,
+      "sha256": "21e70e62e3cc285a880ca16d6721bccbdc29e783a30a720e8621a4014f32dc7a"
+    },
+    {
+      "path": "tools/validate_phase19_batch01.js",
+      "bytes": 1659,
+      "sha256": "2488da2f1cf7ee6bc8d5ba3061ca20185189ed31af1231adb786ccc083e880a0"
+    },
+    {
+      "path": "tools/validate_phase19_batch02.js",
+      "bytes": 2143,
+      "sha256": "7c58d5f378195ad5f3b4a08dba18a5d9ee52ef6ca826aa5e032e33b0d3e23770"
+    },
+    {
+      "path": "tools/validate_phase19_batch03.js",
+      "bytes": 2138,
+      "sha256": "d4f90e4f2e26f1d7ca652081ea1e9a4bcd71705e82b5fc61ed3545b1a5786705"
+    },
+    {
+      "path": "tools/validate_phase19_batch04.js",
+      "bytes": 1714,
+      "sha256": "7cb7f4f2209c474be353cefbfae1855107eb830c872759f676e0f1ac700a41eb"
+    },
+    {
+      "path": "tools/validate_phase19_batch05.js",
+      "bytes": 1978,
+      "sha256": "f33ad49ea014feac633545d48924746b61cb2bce35ebb7dfd04c0cde013b7fa6"
+    },
+    {
+      "path": "tools/validate_phase19_batch06.js",
+      "bytes": 1920,
+      "sha256": "1ec517de738914ddba2899b7d4826251ec3e166e91915cd248aa7cca7fb62db2"
+    },
+    {
+      "path": "tools/validate_phase19_batch07.js",
+      "bytes": 1947,
+      "sha256": "e848756c046259ad128e8345182429c318ddbb004ffb9d8235bd0173f50c1330"
+    },
+    {
+      "path": "tools/validate_phase19_batch08.js",
+      "bytes": 1943,
+      "sha256": "8daf9c1db25a968907be3684b53a40206d053a18b5d5a48194fc620c82955f17"
+    },
+    {
+      "path": "tools/validate_phase19_batch09.js",
+      "bytes": 2177,
+      "sha256": "5061407d71ed800c2b9fd9abe948730fa10ca1ef69c8f34e77f3c669756fe288"
+    },
+    {
+      "path": "tools/validate_phase19_character_dialogue.js",
+      "bytes": 1036,
+      "sha256": "e1e432e18fc97837ab907bc081438166eef4028ac56be51d1142f45dca4a297f"
+    },
+    {
+      "path": "vehicles_phase5.json",
+      "bytes": 1592,
+      "sha256": "9ab5e911f3c4bdde1a2c26017acc2188e2b446fc44f5ead5eac8648dbfda1dba"
+    },
+    {
+      "path": "world_phase3.json",
+      "bytes": 3611,
+      "sha256": "bc0ec4efe0178327483bc712d0bfa8d848eeaa7b8f799347efd7b9dc7ab2a48d"
+    }
+  ]
+}
