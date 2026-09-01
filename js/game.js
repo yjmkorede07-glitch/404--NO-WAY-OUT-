@@ -36,7 +36,7 @@ drawRoads();P3_DISTRICTS.forEach(d=>{ctx.fillStyle=d.id==="central"?"#202a31":d.
 INTERIORS.forEach(i=>{ctx.fillStyle="#34404a";ctx.fillRect(i.x,i.y,i.w,i.h);ctx.strokeStyle="#778391";ctx.strokeRect(i.x,i.y,i.w,i.h);ctx.fillStyle="#e0e6ec";ctx.font="10px Arial";ctx.fillText(i.name,i.x+7,i.y+i.h/2)});
 traffic.forEach(v=>{ctx.fillStyle="#56616b";ctx.fillRect(v.x-8,v.y-5,16,10)});
 Object.values(gameState.npcs).forEach(n=>{npcPosition(n);ctx.beginPath();ctx.fillStyle=n.id.includes("malik")?"#4da3ff":n.id.includes("amara")?"#c77dff":"#f0b35a";ctx.arc(n.position.x,n.position.y,13,0,Math.PI*2);ctx.fill();ctx.fillStyle="#fff";ctx.font="11px Arial";ctx.fillText(n.name,n.position.x-28,n.position.y-18)});
-gameState.vehicles.forEach(v=>{ctx.fillStyle=v.owner===gameState.active?"#d6b36a":"#65717d";ctx.fillRect(v.x-16,v.y-9,32,18)});
+gameState.vehicles.forEach(v=>{ctx.fillStyle=v.owner===gameState.active?"#d6b36a":"#65717d";ctx.fillRect(v.x-16,v.y-9,32,18)});Object.values(gameState.remotePlayers||{}).forEach(r=>{ctx.beginPath();ctx.fillStyle="#ffcf5a";ctx.arc(r.x,r.y,12,0,Math.PI*2);ctx.fill();ctx.fillStyle="#fff";ctx.font="9px Arial";ctx.fillText(r.name||"Online",r.x-22,r.y-17)});
 const p=currentPlayer();ctx.beginPath();ctx.fillStyle=gameState.active==="darius"?"#42e58c":gameState.active==="malik"?"#4da3ff":"#c77dff";ctx.arc(p.position.x,p.position.y,15,0,Math.PI*2);ctx.fill();
 if(worldWeather.kind==="rain"){ctx.strokeStyle="#7e9bad";for(let i=0;i<80;i++){let x=(i*97)%1500-700,y=(i*53+worldClock*10)%1100-500;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-4,y+14);ctx.stroke()}}
 ctx.restore();updateNearby()}
