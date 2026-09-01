@@ -197,7 +197,8 @@ function showMissionResult(name,score,reason=''){gameState.missionRuntime.lastRe
 
 function missionAction(){
   ensurePlayableState();const m=currentMission();const step=currentStep();if(!m||!step)return;
-  if(step.kind==='choice'&&m.id==='M86')return openEndingChoice();
+  if(step.kind==='choice'&&m.id==='M83')return window.phase19Batch09Runtime?.openRouteChoice?.()||notice('Final route choice unavailable.');
+  if(step.kind==='choice'&&m.id==='M86')return window.phase19Batch09Runtime?.openEndingChoice?.()||openEndingChoice();
   const d=distanceToTarget(step);if(d>90)return notice('Move closer to the objective.');
   if(window.phase19Runtime?.handleAction?.(m,step))return;
   advanceMissionStep();
