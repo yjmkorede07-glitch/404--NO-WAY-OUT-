@@ -1,0 +1,606 @@
+{
+  "phase": "Phase 19",
+  "name": "Batch 02",
+  "batch": "M11-M20",
+  "strategy": "Complete each 10-mission batch as one authoritative production/prototype slice before advancing to the next batch.",
+  "production_boundary": "Browser/2D gameplay, data contracts, dialogue, systems hooks and QA are implemented now. Final 3D Unreal production remains a later stage.",
+  "required_systems": [
+    "mission progression and prerequisites",
+    "multi-step objective/checkpoint state",
+    "mission scoring and failure/retry",
+    "save/load persistence",
+    "protagonist switching",
+    "relationship consequences",
+    "evidence/exposure/police pressure",
+    "world simulation/weather integration",
+    "NPC interaction hooks",
+    "vehicle interaction hooks",
+    "interior/location hooks",
+    "cinematic beat contracts",
+    "audio/VO cue contracts",
+    "QA acceptance tests",
+    "Unreal migration data contracts"
+  ],
+  "missions": [
+    {
+      "id": "M11",
+      "title": "The Witness",
+      "production_role": "Witness investigation / social pressure",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "witness-file",
+        "witness-contact",
+        "witness-convince"
+      ],
+      "qa": [
+        "Reach Police HQ",
+        "complete all witness checkpoints",
+        "finish with wanted level not increased for optional bonus",
+        "witness evidence persists after completion"
+      ],
+      "production_contract": [
+        {
+          "id": "witness-file",
+          "objective": "Locate the witness record.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "witness-contact",
+          "objective": "Find the witness contact point.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "witness-convince",
+          "objective": "Convince the witness to speak.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M12",
+      "title": "No One Saw Anything",
+      "production_role": "Witness escort / stealth protection",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "route-clear",
+        "escort-witness",
+        "safehouse"
+      ],
+      "qa": [
+        "Reach Police HQ",
+        "escort witness through all checkpoints",
+        "avoid unnecessary wanted increase",
+        "witness safety flag persists"
+      ],
+      "production_contract": [
+        {
+          "id": "route-clear",
+          "objective": "Find a safe route out.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "escort-witness",
+          "objective": "Move the witness without drawing attention.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "safehouse",
+          "objective": "Get the witness to safety.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M13",
+      "title": "Workshop Wheels",
+      "production_role": "Vehicle acquisition / workshop ownership",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "vehicle-source",
+        "vehicle-store"
+      ],
+      "qa": [
+        "Reach Reed Workshop",
+        "inspect and acquire vehicle",
+        "vehicle is stored/owned in persistent state",
+        "workshop access persists"
+      ],
+      "production_contract": [
+        {
+          "id": "vehicle-source",
+          "objective": "Inspect the available workshop vehicle.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "vehicle-store",
+          "objective": "Acquire the vehicle and store it at Reed Workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M14",
+      "title": "Bad Tire, Worse Timing",
+      "production_role": "Vehicle failure / repair under pressure",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "damage-check",
+        "repair-tire",
+        "destination"
+      ],
+      "qa": [
+        "Reach Reed Workshop",
+        "repair/replace tire",
+        "reach destination",
+        "vehicle tire state is healthy after repair"
+      ],
+      "production_contract": [
+        {
+          "id": "damage-check",
+          "objective": "Assess the damaged tire.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "repair-tire",
+          "objective": "Repair or replace the tire.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "destination",
+          "objective": "Reach the destination before the situation worsens.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M15",
+      "title": "Night Run",
+      "production_role": "Timed evidence transport",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "package-secure",
+        "package-deliver"
+      ],
+      "qa": [
+        "Reach Veyron Central",
+        "secure package",
+        "deliver before mission timer target",
+        "evidence package flag persists"
+      ],
+      "production_contract": [
+        {
+          "id": "package-secure",
+          "objective": "Secure the evidence package.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "package-deliver",
+          "objective": "Deliver the package before the timer expires.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M16",
+      "title": "The Driver",
+      "production_role": "Surveillance / tailing",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "target-identify",
+        "tail-start",
+        "tail-finish"
+      ],
+      "qa": [
+        "Reach Veyron Central",
+        "identify target",
+        "start and maintain tail",
+        "target identity evidence persists"
+      ],
+      "production_contract": [
+        {
+          "id": "target-identify",
+          "objective": "Identify the target driver.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "tail-start",
+          "objective": "Begin the tail without being noticed.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "tail-finish",
+          "objective": "Follow the target without losing them.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M17",
+      "title": "A Witness Called It In",
+      "production_role": "Witness incident / search evasion",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "incident",
+        "search-break",
+        "escape"
+      ],
+      "qa": [
+        "Reach Police HQ",
+        "resolve incident",
+        "break search",
+        "escape search area with pressure state recorded"
+      ],
+      "production_contract": [
+        {
+          "id": "incident",
+          "objective": "Resolve the witness incident.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "search-break",
+          "objective": "Break the active search pattern.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "escape",
+          "objective": "Escape the search area.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M18",
+      "title": "Heat",
+      "production_role": "Police pursuit / heat escape",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "pursuit",
+        "break-line",
+        "safe-location"
+      ],
+      "qa": [
+        "Reach Police HQ",
+        "survive pursuit",
+        "break line of sight",
+        "reach safe location with heat state recorded"
+      ],
+      "production_contract": [
+        {
+          "id": "pursuit",
+          "objective": "Survive the initial police pursuit.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "break-line",
+          "objective": "Break line of sight.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "safe-location",
+          "objective": "Reach a safe location.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M19",
+      "title": "The Warehouse Job",
+      "production_role": "Port warehouse heist / ledger retrieval",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "warehouse-entry",
+        "ledger-secure",
+        "warehouse-exit"
+      ],
+      "qa": [
+        "Reach Veyron Port",
+        "secure ledger",
+        "escape intact",
+        "ledger evidence persists"
+      ],
+      "production_contract": [
+        {
+          "id": "warehouse-entry",
+          "objective": "Enter Warehouse 7 and locate the hidden ledger.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "ledger-secure",
+          "objective": "Secure the ledger intact.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "warehouse-exit",
+          "objective": "Escape the port with the ledger.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M20",
+      "title": "The Cost of Being Seen",
+      "production_role": "Exposure consequences / evidence recovery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "wanted-lower",
+        "evidence-track",
+        "evidence-recover"
+      ],
+      "qa": [
+        "Reach Veyron Central",
+        "lower wanted level",
+        "track and recover evidence",
+        "exposure/pressure consequences persist"
+      ],
+      "production_contract": [
+        {
+          "id": "wanted-lower",
+          "objective": "Lower the wanted level.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "evidence-track",
+          "objective": "Track the lost evidence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "evidence-recover",
+          "objective": "Recover the evidence and stabilize the situation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ]
+}

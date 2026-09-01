@@ -45,3 +45,7 @@ The current implementation remains a **2D browser vertical slice**. Phase 19 add
 - Added `characters_production.json` with visual, performance and voice contracts for Darius Cole, Malik and Amara Vale.
 - Added `phase19_dialogue_batch01.json` covering mission-specific written dialogue for M01-M10.
 - Added `js/phase19_dialogue.js` to connect mission starts/actions/completions to the existing dialogue layer. Browser speech synthesis is explicitly a temporary prototype aid, not final voice acting.
+
+## Batch 02 — M11-M20
+
+Batch 02 extends the completed M01-M10 foundation with multi-step witness protection, vehicle acquisition/repair, timed evidence transport, surveillance/tailing, police-search escalation, pursuits, a port ledger retrieval, and exposure consequences. M11-M20 now have mission-specific browser runtime hooks, persistent checkpoint/state contracts, written dialogue/voice direction, cinematic/audio contracts, QA acceptance criteria, and Unreal migration data. Final 3D Unreal assets and recorded performances remain a later production stage.

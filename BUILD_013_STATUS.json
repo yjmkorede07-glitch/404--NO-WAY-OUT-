@@ -43,7 +43,7 @@
     "Unreal migration data-contract skeleton present",
     "Phase 19 Batch 01 contract: exactly 10 missions with required systems and QA gates"
   ],
-  "phase19_status": "batch_01_character_dialogue_integration",
+  "phase19_status": "batch_02_m11_m20_implemented",
   "phase19_batch": "M01-M10",
   "phase19_strategy": "10-mission production batches with a completion gate before the next batch.",
   "phase19_implemented": [
@@ -62,12 +62,20 @@
     "M01-M10 runtime bridge syntax",
     "M05 route targets represented in mission steps",
     "M08 inspection/escape steps represented",
-    "Build 013 and Phase 19 static validators PASS"
+    "Build 013 and Phase 19 static validators PASS",
+    "Batch 02 M11-M20 validator",
+    "Batch 01 regression validator after Batch 02 integration",
+    "JS syntax checks and JSON parsing",
+    "ZIP integrity"
   ],
   "phase19_implementation": [
     "production character bible for Darius Cole, Malik and Amara Vale",
     "M01-M10 mission-specific written dialogue and voice-direction layer",
     "browser dialogue playback hook using existing dialogue system with temporary TTS",
-    "character/dialogue production panel"
+    "character/dialogue production panel",
+    "M11-M20 multi-step mission runtime and persistent checkpoint contracts",
+    "M11-M20 mission-specific dialogue and temporary prototype TTS hooks",
+    "M11-M20 witness, vehicle, pursuit, surveillance, ledger and evidence consequence state",
+    "Batch 02 QA and Unreal migration contracts"
   ]
 }

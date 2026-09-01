@@ -685,10 +685,22 @@
           "text": "Reach Veyron Police Headquarters."
         },
         {
-          "id": "action",
+          "id": "witness-file",
           "kind": "action",
           "target": "police",
-          "text": "INVESTIGATE: Locate the witness and convince them to speak."
+          "text": "Locate the witness record."
+        },
+        {
+          "id": "witness-contact",
+          "kind": "action",
+          "target": "police",
+          "text": "Find the witness contact point."
+        },
+        {
+          "id": "witness-convince",
+          "kind": "action",
+          "target": "police",
+          "text": "Convince the witness to speak."
         }
       ],
       "prototypePlayable": true,
@@ -745,10 +757,22 @@
           "text": "Reach Veyron Police Headquarters."
         },
         {
-          "id": "action",
+          "id": "route-clear",
           "kind": "action",
           "target": "police",
-          "text": "INVESTIGATE: Move the witness to safety and avoid identification."
+          "text": "Find a safe route out."
+        },
+        {
+          "id": "escort-witness",
+          "kind": "action",
+          "target": "police",
+          "text": "Move the witness without drawing attention."
+        },
+        {
+          "id": "safehouse",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Get the witness to safety."
         }
       ],
       "prototypePlayable": true,
@@ -805,10 +829,16 @@
           "text": "Reach Reed Workshop."
         },
         {
-          "id": "action",
+          "id": "vehicle-source",
           "kind": "action",
           "target": "workshop",
-          "text": "INVESTIGATE: Acquire and store a usable vehicle at the workshop."
+          "text": "Inspect the available workshop vehicle."
+        },
+        {
+          "id": "vehicle-store",
+          "kind": "action",
+          "target": "workshop",
+          "text": "Acquire the vehicle and store it at Reed Workshop."
         }
       ],
       "prototypePlayable": true,
@@ -865,10 +895,22 @@
           "text": "Reach Reed Workshop."
         },
         {
-          "id": "action",
+          "id": "damage-check",
           "kind": "action",
           "target": "workshop",
-          "text": "INVESTIGATE: Repair or replace the damaged tire and reach the destination."
+          "text": "Assess the damaged tire."
+        },
+        {
+          "id": "repair-tire",
+          "kind": "action",
+          "target": "workshop",
+          "text": "Repair or replace the tire."
+        },
+        {
+          "id": "destination",
+          "kind": "action",
+          "target": "central",
+          "text": "Reach the destination before the situation worsens."
         }
       ],
       "prototypePlayable": true,
@@ -925,10 +967,16 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "package-secure",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Deliver the package before the timer expires."
+          "text": "Secure the evidence package."
+        },
+        {
+          "id": "package-deliver",
+          "kind": "action",
+          "target": "central",
+          "text": "Deliver the package before the timer expires."
         }
       ],
       "prototypePlayable": true,
@@ -985,10 +1033,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "target-identify",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Follow the target without losing them."
+          "text": "Identify the target driver."
+        },
+        {
+          "id": "tail-start",
+          "kind": "action",
+          "target": "central",
+          "text": "Begin the tail without being noticed."
+        },
+        {
+          "id": "tail-finish",
+          "kind": "action",
+          "target": "central",
+          "text": "Follow the target without losing them."
         }
       ],
       "prototypePlayable": true,
@@ -1046,10 +1106,22 @@
           "text": "Reach Veyron Police Headquarters."
         },
         {
-          "id": "action",
+          "id": "incident",
           "kind": "action",
           "target": "police",
-          "text": "INVESTIGATE: Resolve the incident and escape the active search."
+          "text": "Resolve the witness incident."
+        },
+        {
+          "id": "search-break",
+          "kind": "action",
+          "target": "police",
+          "text": "Break the active search pattern."
+        },
+        {
+          "id": "escape",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Escape the search area."
         }
       ],
       "prototypePlayable": true,
@@ -1106,10 +1178,22 @@
           "text": "Reach Veyron Police Headquarters."
         },
         {
-          "id": "action",
+          "id": "pursuit",
           "kind": "action",
           "target": "police",
-          "text": "INVESTIGATE: Lose the pursuit and reach a safe location."
+          "text": "Survive the initial police pursuit."
+        },
+        {
+          "id": "break-line",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Break line of sight."
+        },
+        {
+          "id": "safe-location",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Reach a safe location."
         }
       ],
       "prototypePlayable": true,
@@ -1166,10 +1250,22 @@
           "text": "Reach Veyron Port."
         },
         {
-          "id": "action",
+          "id": "warehouse-entry",
           "kind": "action",
           "target": "port",
-          "text": "INVESTIGATE: Secure the ledger and escape with it intact."
+          "text": "Enter Warehouse 7 and locate the hidden ledger."
+        },
+        {
+          "id": "ledger-secure",
+          "kind": "action",
+          "target": "port",
+          "text": "Secure the ledger intact."
+        },
+        {
+          "id": "warehouse-exit",
+          "kind": "action",
+          "target": "port",
+          "text": "Escape the port with the ledger."
         }
       ],
       "prototypePlayable": true,
@@ -1227,10 +1323,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "wanted-lower",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Lower the wanted level and recover the lost evidence."
+          "text": "Lower the wanted level."
+        },
+        {
+          "id": "evidence-track",
+          "kind": "action",
+          "target": "central",
+          "text": "Track the lost evidence."
+        },
+        {
+          "id": "evidence-recover",
+          "kind": "action",
+          "target": "central",
+          "text": "Recover the evidence and stabilize the situation."
         }
       ],
       "prototypePlayable": true,
@@ -2490,7 +2598,7 @@
       "id": "M41",
       "title": "The Regulars",
       "phase": "Phase 4",
-      "brief": "Learn who spends every evening at the same café.",
+      "brief": "Learn who spends every evening at the same caf\u00e9.",
       "win_condition": "Identify three regulars and one useful connection.",
       "protagonist": "darius",
       "supporting_npcs": [
