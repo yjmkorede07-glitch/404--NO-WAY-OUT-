@@ -1,0 +1,726 @@
+{
+  "batch": "M61-M70",
+  "phase": "Phase 19 Batch 07",
+  "missions": [
+    {
+      "id": "M61",
+      "title": "Three Deliveries",
+      "production_role": "multi-delivery coordination / network timing",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "delivery-one",
+        "delivery-two",
+        "delivery-three"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Complete the first delivery before its window closes.",
+        "Complete the second delivery without losing the network route.",
+        "Complete the third delivery before the network times out."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "delivery-one",
+          "objective": "Complete the first delivery before its window closes.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "delivery-two",
+          "objective": "Complete the second delivery without losing the network route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "delivery-three",
+          "objective": "Complete the third delivery before the network times out.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M62",
+      "title": "False Friend",
+      "production_role": "contact investigation / relationship preservation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "compare-contacts",
+        "test-lead",
+        "identify-leak"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Compare the contact accounts and identify the contradiction.",
+        "Test the suspect lead without exposing the useful relationship.",
+        "Identify the leak and preserve the relationship you need."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "compare-contacts",
+          "objective": "Compare the contact accounts and identify the contradiction.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "test-lead",
+          "objective": "Test the suspect lead without exposing the useful relationship.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "identify-leak",
+          "objective": "Identify the leak and preserve the relationship you need.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M63",
+      "title": "Dead Drop",
+      "production_role": "timed dead drop / rival interception",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "locate-drop",
+        "secure-package",
+        "escape-rivals"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Locate the timed dead drop before the rival team arrives.",
+        "Secure the package without losing the drop site.",
+        "Leave the drop before the rival team can take it."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "locate-drop",
+          "objective": "Locate the timed dead drop before the rival team arrives.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure-package",
+          "objective": "Secure the package without losing the drop site.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "escape-rivals",
+          "objective": "Leave the drop before the rival team can take it.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M64",
+      "title": "Switchboard",
+      "production_role": "communications tracing / pattern analysis",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "log-calls",
+        "trace-pattern",
+        "identify-origin"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Record the relevant calls in sequence.",
+        "Trace the repeating pattern across the call sequence.",
+        "Identify the originating location from the call pattern."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "log-calls",
+          "objective": "Record the relevant calls in sequence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "trace-pattern",
+          "objective": "Trace the repeating pattern across the call sequence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "identify-origin",
+          "objective": "Identify the originating location from the call pattern.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M65",
+      "title": "The Long Game",
+      "production_role": "linked jobs / progression management",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "job-one",
+        "job-two",
+        "lock-lead"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Complete the first linked job cleanly.",
+        "Complete the second linked job without failing two in a row.",
+        "Complete the final linked objective and secure the lead."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "job-one",
+          "objective": "Complete the first linked job cleanly.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "job-two",
+          "objective": "Complete the second linked job without failing two in a row.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "lock-lead",
+          "objective": "Complete the final linked objective and secure the lead.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M66",
+      "title": "Three Doors",
+      "production_role": "evidence-driven secure-site approach",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "review-evidence",
+        "choose-door",
+        "enter-site"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Review the evidence that distinguishes the three approaches.",
+        "Choose the route matching the evidence you collected.",
+        "Enter the secure site using the correct route."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "review-evidence",
+          "objective": "Review the evidence that distinguishes the three approaches.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "choose-door",
+          "objective": "Choose the route matching the evidence you collected.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "enter-site",
+          "objective": "Enter the secure site using the correct route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M67",
+      "title": "Legitimate Front",
+      "production_role": "legitimate business acquisition / economy",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "inspect-business",
+        "acquire-business",
+        "open-front"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Inspect the business and confirm it can operate as a legitimate front.",
+        "Complete the acquisition on acceptable terms.",
+        "Register the business and reach operating status."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "inspect-business",
+          "objective": "Inspect the business and confirm it can operate as a legitimate front.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "acquire-business",
+          "objective": "Complete the acquisition on acceptable terms.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "open-front",
+          "objective": "Register the business and reach operating status.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M68",
+      "title": "Payroll",
+      "production_role": "business payroll / operating continuity",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "audit-payroll",
+        "secure-funds",
+        "keep-open"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Audit the payroll problem and identify the shortfall.",
+        "Secure enough funds to cover the immediate payroll.",
+        "Resolve the payroll problem and keep the business open."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "audit-payroll",
+          "objective": "Audit the payroll problem and identify the shortfall.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure-funds",
+          "objective": "Secure enough funds to cover the immediate payroll.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "keep-open",
+          "objective": "Resolve the payroll problem and keep the business open.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M69",
+      "title": "The Property Deal",
+      "production_role": "strategic property acquisition / persistence",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "review-property",
+        "close-purchase",
+        "register-ownership"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Review the strategic property and its ownership terms.",
+        "Complete the property purchase.",
+        "Register ownership and secure the property."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "review-property",
+          "objective": "Review the strategic property and its ownership terms.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "close-purchase",
+          "objective": "Complete the property purchase.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "register-ownership",
+          "objective": "Register ownership and secure the property.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M70",
+      "title": "Garage Full",
+      "production_role": "garage expansion / vehicle storage",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "select-vehicles",
+        "store-vehicles",
+        "unlock-garage"
+      ],
+      "qa": [
+        "Reach Reed Workshop.",
+        "Select the required vehicles for the new garage tier.",
+        "Store the required vehicles in the workshop.",
+        "Unlock the garage tier and confirm the vehicle base is operational."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Reed Workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "select-vehicles",
+          "objective": "Select the required vehicles for the new garage tier.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "store-vehicles",
+          "objective": "Store the required vehicles in the workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "unlock-garage",
+          "objective": "Unlock the garage tier and confirm the vehicle base is operational.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ]
+}

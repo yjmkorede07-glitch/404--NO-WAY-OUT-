@@ -1,0 +1,406 @@
+{
+  "batch": "M61-M70",
+  "voice_mode": "prototype_tts_only; final recorded VO is production work",
+  "missions": {
+    "M61": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "Three deliveries, one clock. Nobody gets to be late."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "All three made it. That network is still open."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "Three deliveries, one clock. Nobody gets to be late."
+          }
+        ],
+        "delivery-one": [
+          {
+            "character": "Darius Cole",
+            "text": "Keep the sequence intact. A missed handoff breaks the network."
+          }
+        ],
+        "delivery-two": [
+          {
+            "character": "Amara",
+            "text": "Third delivery confirmed. Now disappear before the clock notices us."
+          }
+        ],
+        "delivery-three": [
+          {
+            "character": "Darius Cole",
+            "text": "All three made it. That network is still open."
+          }
+        ]
+      }
+    },
+    "M62": {
+      "beats": {
+        "start": [
+          {
+            "character": "Lena Brooks",
+            "text": "Someone is talking, and the pattern is getting too clean."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "The leak is identified. The relationship we need survives."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Lena Brooks",
+            "text": "Someone is talking, and the pattern is getting too clean."
+          }
+        ],
+        "compare-contacts": [
+          {
+            "character": "Amara",
+            "text": "We compare stories before we accuse anyone."
+          }
+        ],
+        "test-lead": [
+          {
+            "character": "Lena Brooks",
+            "text": "Test the weak link without burning the useful one."
+          }
+        ],
+        "identify-leak": [
+          {
+            "character": "Amara",
+            "text": "The leak is identified. The relationship we need survives."
+          }
+        ]
+      }
+    },
+    "M63": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Timed drops are easy. Being there before the other idiots is the hard part."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Drop recovered. Leave before the second team arrives."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Timed drops are easy. Being there before the other idiots is the hard part."
+          }
+        ],
+        "locate-drop": [
+          {
+            "character": "Darius Cole",
+            "text": "Locate it first. Noise only helps the rival team."
+          }
+        ],
+        "secure-package": [
+          {
+            "character": "Malik",
+            "text": "Package secured. Now we move."
+          }
+        ],
+        "escape-rivals": [
+          {
+            "character": "Darius Cole",
+            "text": "Drop recovered. Leave before the second team arrives."
+          }
+        ]
+      }
+    },
+    "M64": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "Calls leave patterns even when people think they leave none."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Origin confirmed. We have a place, not a theory."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "Calls leave patterns even when people think they leave none."
+          }
+        ],
+        "log-calls": [
+          {
+            "character": "Darius Cole",
+            "text": "Record the sequence. One missing call can change the origin."
+          }
+        ],
+        "trace-pattern": [
+          {
+            "character": "Amara",
+            "text": "The pattern converges on one location."
+          }
+        ],
+        "identify-origin": [
+          {
+            "character": "Darius Cole",
+            "text": "Origin confirmed. We have a place, not a theory."
+          }
+        ]
+      }
+    },
+    "M65": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Small jobs become leverage when you finish them consistently."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "The lead is locked. Now we decide what it is worth."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "Small jobs become leverage when you finish them consistently."
+          }
+        ],
+        "job-one": [
+          {
+            "character": "Malik Reed",
+            "text": "First one done. Keep the streak alive."
+          }
+        ],
+        "job-two": [
+          {
+            "character": "Amara Vale",
+            "text": "No two failures in a row. We control the pace."
+          }
+        ],
+        "lock-lead": [
+          {
+            "character": "Darius Cole",
+            "text": "The lead is locked. Now we decide what it is worth."
+          }
+        ]
+      }
+    },
+    "M66": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Three doors. One of them actually makes sense."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Correct route. We are inside without forcing the problem."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Three doors. One of them actually makes sense."
+          }
+        ],
+        "review-evidence": [
+          {
+            "character": "Darius Cole",
+            "text": "Use the evidence. Guessing is how secure sites become police scenes."
+          }
+        ],
+        "choose-door": [
+          {
+            "character": "Malik",
+            "text": "Door chosen. Let us see if the facts were right."
+          }
+        ],
+        "enter-site": [
+          {
+            "character": "Darius Cole",
+            "text": "Correct route. We are inside without forcing the problem."
+          }
+        ]
+      }
+    },
+    "M67": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "A legitimate front only works if it can survive daylight."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Business is registered. The front is officially open."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "A legitimate front only works if it can survive daylight."
+          }
+        ],
+        "inspect-business": [
+          {
+            "character": "Darius Cole",
+            "text": "Check the books, the staff and the operating costs."
+          }
+        ],
+        "acquire-business": [
+          {
+            "character": "Amara",
+            "text": "Terms are acceptable. We can make this real."
+          }
+        ],
+        "open-front": [
+          {
+            "character": "Darius Cole",
+            "text": "Business is registered. The front is officially open."
+          }
+        ]
+      }
+    },
+    "M68": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Payroll is not optional. People remember who pays them."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Payroll is settled. The business stays open."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "Payroll is not optional. People remember who pays them."
+          }
+        ],
+        "audit-payroll": [
+          {
+            "character": "Malik Reed",
+            "text": "The numbers are short. We need a clean fix fast."
+          }
+        ],
+        "secure-funds": [
+          {
+            "character": "Amara Vale",
+            "text": "Cover the immediate gap without creating a bigger one."
+          }
+        ],
+        "keep-open": [
+          {
+            "character": "Darius Cole",
+            "text": "Payroll is settled. The business stays open."
+          }
+        ]
+      }
+    },
+    "M69": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Property is boring until someone else wants it."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Registered and secured. One more piece of the city is under control."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Property is boring until someone else wants it."
+          }
+        ],
+        "review-property": [
+          {
+            "character": "Darius Cole",
+            "text": "Review the terms. Ownership has to survive scrutiny."
+          }
+        ],
+        "close-purchase": [
+          {
+            "character": "Malik",
+            "text": "Purchase closed. That is ours now."
+          }
+        ],
+        "register-ownership": [
+          {
+            "character": "Darius Cole",
+            "text": "Registered and secured. One more piece of the city is under control."
+          }
+        ]
+      }
+    },
+    "M70": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "A proper operation needs somewhere to keep its wheels."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Garage tier unlocked. The vehicle base is operational."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "A proper operation needs somewhere to keep its wheels."
+          }
+        ],
+        "select-vehicles": [
+          {
+            "character": "Darius Cole",
+            "text": "Choose the vehicles that justify the next garage tier."
+          }
+        ],
+        "store-vehicles": [
+          {
+            "character": "Amara",
+            "text": "Stored and accounted for. No loose ends."
+          }
+        ],
+        "unlock-garage": [
+          {
+            "character": "Darius Cole",
+            "text": "Garage tier unlocked. The vehicle base is operational."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -4169,10 +4169,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "delivery-one",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete all three before the network times out."
+          "text": "Complete the first delivery before its window closes."
+        },
+        {
+          "id": "delivery-two",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the second delivery without losing the network route."
+        },
+        {
+          "id": "delivery-three",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the third delivery before the network times out."
         }
       ],
       "prototypePlayable": true,
@@ -4229,10 +4241,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "compare-contacts",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Identify the leak and preserve the relationship you need."
+          "text": "Compare the contact accounts and identify the contradiction."
+        },
+        {
+          "id": "test-lead",
+          "kind": "action",
+          "target": "central",
+          "text": "Test the suspect lead without exposing the useful relationship."
+        },
+        {
+          "id": "identify-leak",
+          "kind": "action",
+          "target": "central",
+          "text": "Identify the leak and preserve the relationship you need."
         }
       ],
       "prototypePlayable": true,
@@ -4289,10 +4313,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "locate-drop",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Collect the package before the rival team arrives."
+          "text": "Locate the timed dead drop before the rival team arrives."
+        },
+        {
+          "id": "secure-package",
+          "kind": "action",
+          "target": "central",
+          "text": "Secure the package without losing the drop site."
+        },
+        {
+          "id": "escape-rivals",
+          "kind": "action",
+          "target": "central",
+          "text": "Leave the drop before the rival team can take it."
         }
       ],
       "prototypePlayable": true,
@@ -4349,10 +4385,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "log-calls",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Identify the originating location from the call pattern."
+          "text": "Record the relevant calls in sequence."
+        },
+        {
+          "id": "trace-pattern",
+          "kind": "action",
+          "target": "central",
+          "text": "Trace the repeating pattern across the call sequence."
+        },
+        {
+          "id": "identify-origin",
+          "kind": "action",
+          "target": "central",
+          "text": "Identify the originating location from the call pattern."
         }
       ],
       "prototypePlayable": true,
@@ -4410,10 +4458,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "job-one",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the linked objectives without failing two in a row."
+          "text": "Complete the first linked job cleanly."
+        },
+        {
+          "id": "job-two",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the second linked job without failing two in a row."
+        },
+        {
+          "id": "lock-lead",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the final linked objective and secure the lead."
         }
       ],
       "prototypePlayable": true,
@@ -4470,10 +4530,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "review-evidence",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Enter using the route matching the evidence you collected."
+          "text": "Review the evidence that distinguishes the three approaches."
+        },
+        {
+          "id": "choose-door",
+          "kind": "action",
+          "target": "central",
+          "text": "Choose the route matching the evidence you collected."
+        },
+        {
+          "id": "enter-site",
+          "kind": "action",
+          "target": "central",
+          "text": "Enter the secure site using the correct route."
         }
       ],
       "prototypePlayable": true,
@@ -4530,10 +4602,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "inspect-business",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Acquire the business and reach operating status."
+          "text": "Inspect the business and confirm it can operate as a legitimate front."
+        },
+        {
+          "id": "acquire-business",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the acquisition on acceptable terms."
+        },
+        {
+          "id": "open-front",
+          "kind": "action",
+          "target": "central",
+          "text": "Register the business and reach operating status."
         }
       ],
       "prototypePlayable": true,
@@ -4591,10 +4675,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "audit-payroll",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Resolve the payroll problem and keep the business open."
+          "text": "Audit the payroll problem and identify the shortfall."
+        },
+        {
+          "id": "secure-funds",
+          "kind": "action",
+          "target": "central",
+          "text": "Secure enough funds to cover the immediate payroll."
+        },
+        {
+          "id": "keep-open",
+          "kind": "action",
+          "target": "central",
+          "text": "Resolve the payroll problem and keep the business open."
         }
       ],
       "prototypePlayable": true,
@@ -4651,10 +4747,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "review-property",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the purchase and register ownership."
+          "text": "Review the strategic property and its ownership terms."
+        },
+        {
+          "id": "close-purchase",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the property purchase."
+        },
+        {
+          "id": "register-ownership",
+          "kind": "action",
+          "target": "central",
+          "text": "Register ownership and secure the property."
         }
       ],
       "prototypePlayable": true,
@@ -4711,10 +4819,22 @@
           "text": "Reach Reed Workshop."
         },
         {
-          "id": "action",
+          "id": "select-vehicles",
           "kind": "action",
           "target": "workshop",
-          "text": "INVESTIGATE: Store the required vehicles and unlock the garage tier."
+          "text": "Select the required vehicles for the new garage tier."
+        },
+        {
+          "id": "store-vehicles",
+          "kind": "action",
+          "target": "workshop",
+          "text": "Store the required vehicles in the workshop."
+        },
+        {
+          "id": "unlock-garage",
+          "kind": "action",
+          "target": "workshop",
+          "text": "Unlock the garage tier and confirm the vehicle base is operational."
         }
       ],
       "prototypePlayable": true,
