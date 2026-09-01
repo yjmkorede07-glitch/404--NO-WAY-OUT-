@@ -1,0 +1,37 @@
+{
+  "phase": 9,
+  "name": "Full 404 Story, Relationships & Persistent Consequences",
+  "systems": [
+    "protagonist relationship state",
+    "mission choices and branch flags",
+    "NPC relationship persistence",
+    "story evidence/case-board persistence",
+    "faction reputation",
+    "ending prerequisites",
+    "online character/world persistence",
+    "reconnect-safe state snapshots"
+  ],
+  "protagonists": [
+    "darius",
+    "malik",
+    "amara"
+  ],
+  "relationship_levels": [
+    "stranger",
+    "acquaintance",
+    "trusted",
+    "close",
+    "strained",
+    "rival"
+  ],
+  "factions": [
+    "404",
+    "Veyron Police",
+    "Port Network",
+    "North Hills Circle",
+    "Iron District",
+    "Civic/Business"
+  ],
+  "story_flags": "server-authoritative",
+  "ending_design": "choices accumulate through the 88-mission campaign; Phase 10 resolves the final state"
+}
