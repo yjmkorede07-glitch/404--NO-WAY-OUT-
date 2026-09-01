@@ -30,3 +30,10 @@
 /* ================= PHASE 14 — COMBAT / POLICE / VEHICLES ================= */
 #combatPanelButton{font-weight:700}
 .stars{letter-spacing:2px}
+
+/* ================= PHASE 15 — INTERIORS / PROPERTIES / PERSONAL LIFE ================= */
+.p15-card{display:flex;flex-direction:column;gap:5px;padding:10px 0;border-bottom:1px solid #27313d}
+.p15-card span{font-size:11px;color:#9aa6b4}
+.p15-card button,.p15-floor button,.p15-actions button{margin:4px 4px 4px 0}
+.p15-actions{display:flex;flex-wrap:wrap;gap:4px;margin:10px 0}
+.p15-floor{margin:8px 0}

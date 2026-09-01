@@ -19,3 +19,7 @@
 - Connected Phase 11 conversations to existing NPC memory/trust data.
 - Connected tire incidents to audible nearby reactions.
 - Preserved Story Mode/Online separation and existing systems.
+
+
+## Phase 15 — Interiors + Properties + Personal Life
+- Added js/phase15.js and property/interior/personal-life prototype layer.
