@@ -1,0 +1,20 @@
+{
+  "project": "404: NO WAY OUT",
+  "build": "013",
+  "phase": "20",
+  "campaign_missions": 88,
+  "endings": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+  ],
+  "source_hashes": {
+    "campaign_88_missions.json": "045bb5b3237bfb5091d22352cb2bd8b8b71d9e16da39c339a28f0eb8281c8671",
+    "world_phase3.json": "bc0ec4efe0178327483bc712d0bfa8d848eeaa7b8f799347efd7b9dc7ab2a48d",
+    "phase9_story_relationships.json": "62684e4d76b897e267004d85670d0e0dd2dccc5495b1638fa55bd39ef01e00b9",
+    "phase8_economy_properties.json": "fb959310f945d521a6fcac5e49b2c38b7f9c2782ef6b1c9592d4ed919eccaca7",
+    "phase6_combat_police.json": "5aff66543bff42f933386278337b07a13346125b86043633c9ce297e6fc027a4",
+    "phase18_registry.json": "0cf74e75c6acc26fcbbb6a9e54f62b32bdda817095a67e548273031f1e004036"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "phase": 18,
+  "name": "Final Integration \u2014 Relationships, Mission Graph, World Simulation",
+  "source_build": "012",
+  "mission_count": 88,
+  "systems": {
+    "relationships": "persistent graph",
+    "mission_triggers": "dynamic registry-derived",
+    "world_simulation": "tiered browser aggregate",
+    "weather": "dynamic state",
+    "businesses": "activity/open state",
+    "police": "incident\u2192witness\u2192report\u2192dispatch\u2192investigation\u2192search\u2192identification\u2192pursuit"
+  },
+  "production_boundary": "Browser 2D prototype; Unreal Engine/backend required for final 3D and authoritative online."
+}
