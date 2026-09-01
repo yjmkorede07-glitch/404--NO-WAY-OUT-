@@ -46,3 +46,10 @@
 /* ================= PHASE 17 — WORLD / RELATIONSHIPS / CONTROLLER ================= */
 .p17-row{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid #27313d}
 .p17-row span{font-size:11px;color:#9aa6b4;text-align:right}
+
+.p18-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:10px 0}
+.p18-grid>div,.p18-row{border:1px solid #29323d;background:#10161d;padding:8px;border-radius:8px}
+.p18-grid b,.p18-grid span{display:block}.p18-grid span{margin-top:4px;color:#b7c0ca}
+.p18-row{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:5px 0;font-size:12px}
+.p18-row span{color:#9aa6b3}.p18-row button{margin-left:auto}
+@media(max-width:700px){.p18-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.p18-row{flex-wrap:wrap}}

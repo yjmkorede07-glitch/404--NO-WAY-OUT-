@@ -1,47 +1,53 @@
-404: NO WAY OUT — BUILD 012
-PHASE 10 — PLAYABLE 88-MISSION PROTOTYPE
+# 404: NO WAY OUT — BUILD 013 / PHASE 18
 
-SOURCE OF TRUTH
-This build was created directly from the Build 011 Finale archive supplied for this project. No previous ChatGPT ZIP is required.
+## Source of truth
+This build starts from the **user-supplied Build 012 Phase 17 archive**. Existing functionality is preserved and extended.
 
-WHAT IS PLAYABLE NOW
-- 88-mission Story Mode journal
-- Sequential mission unlocks and replay
-- M01 canonical opening: Darius arrives at Veyron International Airport, takes a cab, returns to the Cole family house, and establishes the first lead
-- Mission objectives with world destinations
-- Mission Passed/Failed scoring and persistent results
-- Darius/Malik/Amara switching, including multi-protagonist mission steps
-- Natural NPC dialogue/reactions foundation
-- Vehicles with walk-up entry/exit and prototype driving
-- Public and protagonist vehicles placed in the world
-- Tire popping with handling penalty and driver panic reaction
-- Witness/police heat foundation
-- Five-star wanted HUD
-- Buildings/interiors/floor browser layer
-- Properties/hotels/economy panels
-- Four ending paths and persistent post-game state
-- Story Mode / Online separation
+## What the audit found
+The supplied Build 012 repository already contains:
+- 88 mission campaign data
+- browser-playable campaign framework
+- mission progression/replay/scoring foundation
+- Darius/Malik/Amara protagonist framework
+- NPC, vehicle, police, economy, properties and online data layers
+- Phase 17 relationships, mission triggers, world simulation, aim/controller contracts
 
-IMPORTANT
-This is still the browser 2D prototype. It is not the final PS4-quality 3D game. Full 3D character animation, cinematic facial animation, production vehicle physics, large-world streaming and authoritative online multiplayer belong to the future Unreal Engine/backend implementation.
+Therefore Build 013 does **not** pretend to implement the 88 missions from scratch. It builds upward from what is actually present.
 
-GITHUB PAGES
-Upload the project files themselves to the publishing root. Do not expect GitHub Pages to execute the ZIP file directly.
+## Phase 18 additions
+- Persistent protagonist relationship graph
+- Dynamic mission lead/trigger graph for the 88-mission registry
+- Mission discovery state
+- Dynamic traffic/crowd/emergency simulation state
+- Business activity simulation
+- Weather transitions and intensity
+- Dynamic world events
+- Tiered NPC simulation representation
+- Witness-to-police investigation case state
+- Mission consequence bridge
+- World Simulation UI
 
-EXPECTED ROOT FILES
-index.html
-style.css
-js/
-server/
-*.json
-*.md
+## Run
+Serve the project from a normal local/static web server or publish the project root to a static host. Keep the relative paths intact.
 
-TEST ORDER
-1. Open the live site.
-2. Open MISSIONS — it should say 88 missions.
-3. Start M01.
-4. Complete airport arrival, cab, family house and inspection.
-5. Confirm M02 unlocks.
-6. Return to free roam and test CAR.
-7. Test FIRE near a vehicle and confirm a tire pops.
-8. Confirm the wanted HUD uses five stars.
+For GitHub Pages, upload the project files themselves; do not expect a ZIP file to execute as the game.
+
+## Test
+1. Open the game.
+2. Open **MISSIONS** and verify the 88-mission journal.
+3. Start/replay missions through the existing campaign framework.
+4. Open **WORLD SIM**.
+5. Verify weather, traffic, crowd, emergency and business values update.
+6. Trigger/inspect relationship state through existing NPC interactions.
+7. Use `phase18.reportIncident({...})` from the browser console to verify the police case chain.
+8. Reload the page and verify Phase 18 state persists through the existing save layer.
+
+## Production boundary
+The final game vision still requires a future Unreal Engine/mobile production build for:
+- true 3D characters and animation
+- facial performance/lip sync
+- production vehicle physics
+- large-world streaming at scale
+- full cinematic production
+- authoritative multiplayer/backend services
+- server-side anti-cheat and persistence

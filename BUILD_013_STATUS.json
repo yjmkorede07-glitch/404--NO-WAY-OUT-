@@ -1,0 +1,37 @@
+{
+  "game": "404: NO WAY OUT",
+  "build": "013",
+  "phase": "18",
+  "source": "Build 012 Phase 17 archive supplied by user",
+  "mission_count": 88,
+  "story_mode_hours_target": ">=30",
+  "endings": 4,
+  "browser_prototype": "2D",
+  "future_3d_engine": "Unreal Engine 5.x / World Partition",
+  "phase18_status": "implemented_browser_integration",
+  "implemented": [
+    "persistent relationship graph for protagonists",
+    "88-mission dynamic availability/lead trigger graph",
+    "world simulation tiers and aggregate traffic/crowd/business state",
+    "dynamic weather state",
+    "dynamic world events",
+    "witness-to-police investigation case state machine",
+    "mission consequence bridge",
+    "world simulation UI panel"
+  ],
+  "not_claimed_as_finished": [
+    "production 3D open world",
+    "skeletal animation/facial animation",
+    "production vehicle physics",
+    "authoritative multiplayer",
+    "server-scale anti-cheat",
+    "full voice acting",
+    "full cinematic production"
+  ],
+  "source_audit": {
+    "build012_contains_88_mission_registry": true,
+    "build012_browser_campaign_framework": true,
+    "build012_phase17_present": true,
+    "note": "The supplied Build 012 repository is treated as the implementation source of truth; the pasted master prompt's earlier 'planned/not implemented' statements are not used to erase verified repository functionality."
+  }
+}
