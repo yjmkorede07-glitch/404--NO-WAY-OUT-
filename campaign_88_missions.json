@@ -1,0 +1,624 @@
+{
+  "title": "404: NO WAY OUT",
+  "target_main_story_hours": "45-60+ depending on play style",
+  "mission_count": 88,
+  "design_note": "88 main missions replace the earlier 34-mission target while preserving the original first 34 mission identities and expanding the campaign.",
+  "missions": [
+    {
+      "id": "M01",
+      "title": "First Night",
+      "phase": "Foundation",
+      "brief": "Meet Darius and establish the first lead.",
+      "win_condition": "Reach the safehouse and complete the introductory investigation."
+    },
+    {
+      "id": "M02",
+      "title": "The First Account",
+      "phase": "Foundation",
+      "brief": "Open the first financial trail.",
+      "win_condition": "Create a bank account and record the first suspicious transaction."
+    },
+    {
+      "id": "M03",
+      "title": "Three Names",
+      "phase": "Foundation",
+      "brief": "Learn that the investigation has more than one side.",
+      "win_condition": "Identify three connected names without losing the evidence."
+    },
+    {
+      "id": "M04",
+      "title": "The Call",
+      "phase": "Foundation",
+      "brief": "A call changes the direction of the investigation.",
+      "win_condition": "Answer the call and reach the meeting point alive."
+    },
+    {
+      "id": "M05",
+      "title": "Veyron Central",
+      "phase": "Phase 3",
+      "brief": "Enter the city's central district and map the new territory.",
+      "win_condition": "Visit the marked Central locations and return safely."
+    },
+    {
+      "id": "M06",
+      "title": "North Hills, Quiet Money",
+      "phase": "Phase 3",
+      "brief": "Follow a money trail into North Hills.",
+      "win_condition": "Photograph or record the target exchange and leave undetected."
+    },
+    {
+      "id": "M07",
+      "title": "Iron District",
+      "phase": "Phase 3",
+      "brief": "Meet the people who keep the city's machines moving.",
+      "win_condition": "Reach Reed Workshop and secure Malik's cooperation."
+    },
+    {
+      "id": "M08",
+      "title": "The Port Doesn't Sleep",
+      "phase": "Phase 3",
+      "brief": "Investigate Port traffic after dark.",
+      "win_condition": "Inspect the designated container and escape the port."
+    },
+    {
+      "id": "M09",
+      "title": "People Remember",
+      "phase": "Phase 4",
+      "brief": "Test how much Veyron's residents notice.",
+      "win_condition": "Complete three social interactions without causing a police response."
+    },
+    {
+      "id": "M10",
+      "title": "Amara's Rule",
+      "phase": "Phase 4",
+      "brief": "Learn Amara's information-gathering approach.",
+      "win_condition": "Collect three separate pieces of information and connect them."
+    },
+    {
+      "id": "M11",
+      "title": "The Witness",
+      "phase": "Phase 4",
+      "brief": "Find a witness before someone else does.",
+      "win_condition": "Locate the witness and convince them to speak."
+    },
+    {
+      "id": "M12",
+      "title": "No One Saw Anything",
+      "phase": "Phase 4",
+      "brief": "Protect a witness without exposing the team.",
+      "win_condition": "Move the witness to safety and avoid identification."
+    },
+    {
+      "id": "M13",
+      "title": "Workshop Wheels",
+      "phase": "Phase 5",
+      "brief": "Get a reliable vehicle.",
+      "win_condition": "Acquire and store a usable vehicle at the workshop."
+    },
+    {
+      "id": "M14",
+      "title": "Bad Tire, Worse Timing",
+      "phase": "Phase 5",
+      "brief": "Deal with a vehicle failure during a job.",
+      "win_condition": "Repair or replace the damaged tire and reach the destination."
+    },
+    {
+      "id": "M15",
+      "title": "Night Run",
+      "phase": "Phase 5",
+      "brief": "Move evidence across Veyron under pressure.",
+      "win_condition": "Deliver the package before the timer expires."
+    },
+    {
+      "id": "M16",
+      "title": "The Driver",
+      "phase": "Phase 5",
+      "brief": "Identify a driver linked to the network.",
+      "win_condition": "Follow the target without losing them."
+    },
+    {
+      "id": "M17",
+      "title": "A Witness Called It In",
+      "phase": "Phase 6",
+      "brief": "See the witness system become a real threat.",
+      "win_condition": "Resolve the incident and escape the active search."
+    },
+    {
+      "id": "M18",
+      "title": "Heat",
+      "phase": "Phase 6",
+      "brief": "Survive an escalating police response.",
+      "win_condition": "Lose the pursuit and reach a safe location."
+    },
+    {
+      "id": "M19",
+      "title": "The Warehouse Job",
+      "phase": "Phase 6",
+      "brief": "Retrieve a hidden ledger.",
+      "win_condition": "Secure the ledger and escape with it intact."
+    },
+    {
+      "id": "M20",
+      "title": "The Cost of Being Seen",
+      "phase": "Phase 6",
+      "brief": "Deal with the consequences of exposure.",
+      "win_condition": "Lower the wanted level and recover the lost evidence."
+    },
+    {
+      "id": "M21",
+      "title": "Three Angles",
+      "phase": "Phase 7",
+      "brief": "Use all three protagonists to solve one problem.",
+      "win_condition": "Complete the Darius, Malik and Amara objectives."
+    },
+    {
+      "id": "M22",
+      "title": "False Delivery",
+      "phase": "Phase 7",
+      "brief": "Use a decoy to redirect the network.",
+      "win_condition": "Complete the delivery without exposing the real package."
+    },
+    {
+      "id": "M23",
+      "title": "The Long Chase",
+      "phase": "Phase 7",
+      "brief": "Keep a fleeing target in sight.",
+      "win_condition": "Finish the chase with the target identified."
+    },
+    {
+      "id": "M24",
+      "title": "A Door That Wasn't There",
+      "phase": "Phase 7",
+      "brief": "Find a hidden entrance.",
+      "win_condition": "Discover the concealed location and retrieve the clue."
+    },
+    {
+      "id": "M25",
+      "title": "The Empty Office",
+      "phase": "Phase 7",
+      "brief": "Search an abandoned office before evidence disappears.",
+      "win_condition": "Recover the file and leave before the search closes in."
+    },
+    {
+      "id": "M26",
+      "title": "First Investment",
+      "phase": "Phase 8",
+      "brief": "Turn clean money into a legitimate foothold.",
+      "win_condition": "Complete the first investment and record its return."
+    },
+    {
+      "id": "M27",
+      "title": "Safehouse",
+      "phase": "Phase 8",
+      "brief": "Secure a place the team can control.",
+      "win_condition": "Acquire or unlock the safehouse and store a vehicle."
+    },
+    {
+      "id": "M28",
+      "title": "Pressure on the Books",
+      "phase": "Phase 8",
+      "brief": "Trace suspicious accounting.",
+      "win_condition": "Find the three accounting anomalies and link them."
+    },
+    {
+      "id": "M29",
+      "title": "The Brother's Trail",
+      "phase": "Phase 9",
+      "brief": "Follow the strongest lead about Darius's brother.",
+      "win_condition": "Recover the next location clue."
+    },
+    {
+      "id": "M30",
+      "title": "They Found Me",
+      "phase": "Phase 9",
+      "brief": "Survive a coordinated attack.",
+      "win_condition": "Escape the attack and preserve the evidence."
+    },
+    {
+      "id": "M31",
+      "title": "404",
+      "phase": "Phase 9",
+      "brief": "Discover what the 404 operation actually represents.",
+      "win_condition": "Assemble the required evidence chain."
+    },
+    {
+      "id": "M32",
+      "title": "The Choice",
+      "phase": "Phase 10",
+      "brief": "Choose who receives the truth.",
+      "win_condition": "Commit to an ending path and complete its objective."
+    },
+    {
+      "id": "M33",
+      "title": "No Way Out",
+      "phase": "Phase 10",
+      "brief": "Execute the final operation.",
+      "win_condition": "Complete the chosen operation and survive."
+    },
+    {
+      "id": "M34",
+      "title": "After 404",
+      "phase": "Phase 10",
+      "brief": "Live with the consequences.",
+      "win_condition": "Complete the epilogue conditions for the chosen ending."
+    },
+    {
+      "id": "M35",
+      "title": "Market Signals",
+      "phase": "Phase 3",
+      "brief": "Track a coded exchange through East Market.",
+      "win_condition": "Identify the buyer, seller and signal without losing the trail."
+    },
+    {
+      "id": "M36",
+      "title": "Rain on Central",
+      "phase": "Phase 3",
+      "brief": "Use bad weather to observe a protected meeting.",
+      "win_condition": "Record the meeting and leave the district."
+    },
+    {
+      "id": "M37",
+      "title": "Hilltop Contact",
+      "phase": "Phase 3",
+      "brief": "Meet a reluctant contact in North Hills.",
+      "win_condition": "Gain the contact's cooperation and obtain the address."
+    },
+    {
+      "id": "M38",
+      "title": "Port Manifest",
+      "phase": "Phase 3",
+      "brief": "Compare a physical shipment with its manifest.",
+      "win_condition": "Find the mismatch and photograph the relevant page."
+    },
+    {
+      "id": "M39",
+      "title": "Airport Window",
+      "phase": "Phase 3",
+      "brief": "Follow a passenger through the airport network.",
+      "win_condition": "Identify the passenger's destination."
+    },
+    {
+      "id": "M40",
+      "title": "Island Rumor",
+      "phase": "Phase 3",
+      "brief": "Verify the first rumor about Blackwater Island.",
+      "win_condition": "Confirm the rumor and return with proof."
+    },
+    {
+      "id": "M41",
+      "title": "The Regulars",
+      "phase": "Phase 4",
+      "brief": "Learn who spends every evening at the same caf\u00e9.",
+      "win_condition": "Identify three regulars and one useful connection."
+    },
+    {
+      "id": "M42",
+      "title": "Family Business",
+      "phase": "Phase 4",
+      "brief": "Help a resident with a local problem.",
+      "win_condition": "Resolve the problem without escalating conflict."
+    },
+    {
+      "id": "M43",
+      "title": "Bad Reputation",
+      "phase": "Phase 4",
+      "brief": "Repair Malik's standing with a neighborhood contact.",
+      "win_condition": "Raise the contact's trust enough to gain access."
+    },
+    {
+      "id": "M44",
+      "title": "Amara's Memory",
+      "phase": "Phase 4",
+      "brief": "Use a remembered detail to reopen a closed lead.",
+      "win_condition": "Find the remembered location and recover the clue."
+    },
+    {
+      "id": "M45",
+      "title": "Rumor Chain",
+      "phase": "Phase 4",
+      "brief": "Follow a rumor across three NPCs.",
+      "win_condition": "Reach the source without breaking the chain."
+    },
+    {
+      "id": "M46",
+      "title": "The Second Witness",
+      "phase": "Phase 4",
+      "brief": "Find someone who contradicts the first witness.",
+      "win_condition": "Interview both and determine the reliable lead."
+    },
+    {
+      "id": "M47",
+      "title": "Traffic Jam",
+      "phase": "Phase 5",
+      "brief": "Cross the city while traffic is gridlocked.",
+      "win_condition": "Reach the destination before the convoy leaves."
+    },
+    {
+      "id": "M48",
+      "title": "Four Flats",
+      "phase": "Phase 5",
+      "brief": "Recover a vehicle with multiple damaged tires.",
+      "win_condition": "Repair all four tires and return it."
+    },
+    {
+      "id": "M49",
+      "title": "Workshop Upgrade",
+      "phase": "Phase 5",
+      "brief": "Improve the team's vehicle capabilities.",
+      "win_condition": "Complete the workshop upgrade and test the vehicle."
+    },
+    {
+      "id": "M50",
+      "title": "Boat Run",
+      "phase": "Phase 5",
+      "brief": "Move an item through the coastal route.",
+      "win_condition": "Reach the dock and deliver the item without sinking."
+    },
+    {
+      "id": "M51",
+      "title": "Emergency Lane",
+      "phase": "Phase 5",
+      "brief": "Get through traffic behind an emergency response.",
+      "win_condition": "Stay with the route and reach the destination."
+    },
+    {
+      "id": "M52",
+      "title": "The Stolen Car",
+      "phase": "Phase 5",
+      "brief": "Recover a stolen vehicle using its trail.",
+      "win_condition": "Find the vehicle and return it intact."
+    },
+    {
+      "id": "M53",
+      "title": "Street Fight",
+      "phase": "Phase 6",
+      "brief": "Defend a contact from an assault.",
+      "win_condition": "Protect the contact and survive the encounter."
+    },
+    {
+      "id": "M54",
+      "title": "First Pursuit",
+      "phase": "Phase 6",
+      "brief": "Escape a two-unit police pursuit.",
+      "win_condition": "Lose both units and clear the search."
+    },
+    {
+      "id": "M55",
+      "title": "Evidence Locker",
+      "phase": "Phase 6",
+      "brief": "Recover a record before it is destroyed.",
+      "win_condition": "Secure the record and leave police territory."
+    },
+    {
+      "id": "M56",
+      "title": "Silent Witness",
+      "phase": "Phase 6",
+      "brief": "Stop a witness from being exposed.",
+      "win_condition": "Reach the witness first and escort them away."
+    },
+    {
+      "id": "M57",
+      "title": "Five Stars",
+      "phase": "Phase 6",
+      "brief": "Survive a maximum-level response.",
+      "win_condition": "Escape the response and reach a designated safehouse."
+    },
+    {
+      "id": "M58",
+      "title": "Counter-Surveillance",
+      "phase": "Phase 6",
+      "brief": "Detect who is following the team.",
+      "win_condition": "Identify the tail and break surveillance."
+    },
+    {
+      "id": "M59",
+      "title": "Clean Hands",
+      "phase": "Phase 6",
+      "brief": "Resolve a crime without increasing the team's wanted level.",
+      "win_condition": "Complete the objective with no new wanted points."
+    },
+    {
+      "id": "M60",
+      "title": "The Broker",
+      "phase": "Phase 7",
+      "brief": "Negotiate access to a restricted network.",
+      "win_condition": "Complete the negotiation and obtain the access token."
+    },
+    {
+      "id": "M61",
+      "title": "Three Deliveries",
+      "phase": "Phase 7",
+      "brief": "Coordinate three simultaneous deliveries.",
+      "win_condition": "Complete all three before the network times out."
+    },
+    {
+      "id": "M62",
+      "title": "False Friend",
+      "phase": "Phase 7",
+      "brief": "Determine which contact is feeding information away.",
+      "win_condition": "Identify the leak and preserve the relationship you need."
+    },
+    {
+      "id": "M63",
+      "title": "Dead Drop",
+      "phase": "Phase 7",
+      "brief": "Recover a package from a timed dead drop.",
+      "win_condition": "Collect the package before the rival team arrives."
+    },
+    {
+      "id": "M64",
+      "title": "Switchboard",
+      "phase": "Phase 7",
+      "brief": "Trace a sequence of calls.",
+      "win_condition": "Identify the originating location from the call pattern."
+    },
+    {
+      "id": "M65",
+      "title": "The Long Game",
+      "phase": "Phase 7",
+      "brief": "Build a lead over several smaller jobs.",
+      "win_condition": "Complete the linked objectives without failing two in a row."
+    },
+    {
+      "id": "M66",
+      "title": "Three Doors",
+      "phase": "Phase 7",
+      "brief": "Choose the correct approach to a secure site.",
+      "win_condition": "Enter using the route matching the evidence you collected."
+    },
+    {
+      "id": "M67",
+      "title": "Legitimate Front",
+      "phase": "Phase 8",
+      "brief": "Open the team's first legitimate front.",
+      "win_condition": "Acquire the business and reach operating status."
+    },
+    {
+      "id": "M68",
+      "title": "Payroll",
+      "phase": "Phase 8",
+      "brief": "Protect employees from a financial squeeze.",
+      "win_condition": "Resolve the payroll problem and keep the business open."
+    },
+    {
+      "id": "M69",
+      "title": "The Property Deal",
+      "phase": "Phase 8",
+      "brief": "Acquire a strategic property.",
+      "win_condition": "Complete the purchase and register ownership."
+    },
+    {
+      "id": "M70",
+      "title": "Garage Full",
+      "phase": "Phase 8",
+      "brief": "Build a proper vehicle base.",
+      "win_condition": "Store the required vehicles and unlock the garage tier."
+    },
+    {
+      "id": "M71",
+      "title": "Cash Flow",
+      "phase": "Phase 8",
+      "brief": "Stabilize the team's finances.",
+      "win_condition": "End the mission with positive cash flow."
+    },
+    {
+      "id": "M72",
+      "title": "Quiet Investor",
+      "phase": "Phase 8",
+      "brief": "Find a hidden investor.",
+      "win_condition": "Meet the investor and secure a conditional investment."
+    },
+    {
+      "id": "M73",
+      "title": "Paper Trail",
+      "phase": "Phase 8",
+      "brief": "Clean up inconsistencies in the business records.",
+      "win_condition": "Resolve every flagged transaction."
+    },
+    {
+      "id": "M74",
+      "title": "Brother's Photograph",
+      "phase": "Phase 9",
+      "brief": "Identify the location in an old photograph.",
+      "win_condition": "Find the matching location and recover a hidden item."
+    },
+    {
+      "id": "M75",
+      "title": "The Safe Voice",
+      "phase": "Phase 9",
+      "brief": "Decode a message left for Darius.",
+      "win_condition": "Decode the message and reach its meeting point."
+    },
+    {
+      "id": "M76",
+      "title": "Old Friends",
+      "phase": "Phase 9",
+      "brief": "Revisit someone who knew Darius's brother.",
+      "win_condition": "Get the missing detail without losing the contact."
+    },
+    {
+      "id": "M77",
+      "title": "The Inside Room",
+      "phase": "Phase 9",
+      "brief": "Enter the hidden room beneath a legitimate business.",
+      "win_condition": "Find the room and recover the archive."
+    },
+    {
+      "id": "M78",
+      "title": "Network Map",
+      "phase": "Phase 9",
+      "brief": "Assemble the organization from disconnected evidence.",
+      "win_condition": "Connect the required nodes in the case board."
+    },
+    {
+      "id": "M79",
+      "title": "The Man Behind It",
+      "phase": "Phase 9",
+      "brief": "Identify the person directing the operation.",
+      "win_condition": "Obtain two independent confirmations."
+    },
+    {
+      "id": "M80",
+      "title": "Broken Trust",
+      "phase": "Phase 9",
+      "brief": "Confront a teammate over a hidden decision.",
+      "win_condition": "Resolve the confrontation according to your relationship path."
+    },
+    {
+      "id": "M81",
+      "title": "Last Preparation",
+      "phase": "Phase 10",
+      "brief": "Prepare all three protagonists for the final operation.",
+      "win_condition": "Complete each protagonist's preparation objective."
+    },
+    {
+      "id": "M82",
+      "title": "No Loose Ends",
+      "phase": "Phase 10",
+      "brief": "Resolve outstanding threats before the finale.",
+      "win_condition": "Complete the required cleanup objectives."
+    },
+    {
+      "id": "M83",
+      "title": "The Final Route",
+      "phase": "Phase 10",
+      "brief": "Choose the safest route into the final site.",
+      "win_condition": "Reach the site using the route your evidence supports."
+    },
+    {
+      "id": "M84",
+      "title": "The Final Ledger",
+      "phase": "Phase 10",
+      "brief": "Secure the evidence that can expose 404.",
+      "win_condition": "Extract the ledger and keep it intact."
+    },
+    {
+      "id": "M85",
+      "title": "Three Against The City",
+      "phase": "Phase 10",
+      "brief": "Coordinate all three protagonists during the climax.",
+      "win_condition": "Complete all character objectives and survive."
+    },
+    {
+      "id": "M86",
+      "title": "The Last Choice",
+      "phase": "Phase 10",
+      "brief": "Make the irreversible final decision.",
+      "win_condition": "Commit to the selected ending condition."
+    },
+    {
+      "id": "M87",
+      "title": "Dawn",
+      "phase": "Phase 10",
+      "brief": "Survive the immediate aftermath.",
+      "win_condition": "Reach the final safe location."
+    },
+    {
+      "id": "M88",
+      "title": "Veyron After 404",
+      "phase": "Phase 10",
+      "brief": "See what the city becomes after the operation.",
+      "win_condition": "Complete the final epilogue and unlock free-roam consequences."
+    }
+  ]
+}
