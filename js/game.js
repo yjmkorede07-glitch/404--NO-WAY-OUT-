@@ -11,13 +11,18 @@ document.addEventListener(
 
 function updateUI() {
 
-    document.getElementById("cashDisplay")
-        .textContent =
+    document.getElementById(
+        "cashDisplay"
+    ).textContent =
         formatMoney(player.cash);
 
-    document.getElementById("bankBalance")
-        .textContent =
-        formatMoney(player.bank.balance);
+
+    document.getElementById(
+        "bankBalance"
+    ).textContent =
+        formatMoney(
+            player.bank.balance
+        );
 }
 
 
@@ -28,10 +33,15 @@ function showPanel(html) {
 
     panel.innerHTML = html;
 
-    panel.classList.remove("hidden");
+    panel.classList.remove(
+        "hidden"
+    );
+
 
     window.scrollTo({
-        top: document.body.scrollHeight,
+        top:
+            document.body.scrollHeight,
+
         behavior: "smooth"
     });
 }
@@ -45,23 +55,41 @@ function closePanel() {
 }
 
 
+/*
+    ATM
+*/
+
 function openATM() {
 
     showPanel(`
 
-        <h3>ATM</h3>
+        <h3>Veyron City Bank ATM</h3>
 
         <div class="notice">
-            Veyron City Bank ATM<br>
-            Account ending in 0001
+
+            Account ending in:
+            ${player.bank.accountNumber.slice(-4)}
+
+            <br><br>
+
+            Bank balance:
+            <strong>
+                ${formatMoney(
+                    player.bank.balance
+                )}
+            </strong>
+
+            <br>
+
+            Cash:
+            <strong>
+                ${formatMoney(
+                    player.cash
+                )}
+            </strong>
+
         </div>
 
-        <p>
-            Balance:
-            <strong>
-                ${formatMoney(player.bank.balance)}
-            </strong>
-        </p>
 
         <label>Amount</label>
 
@@ -72,13 +100,16 @@ function openATM() {
             placeholder="Enter amount"
         >
 
+
         <button onclick="handleWithdraw()">
             Withdraw Cash
         </button>
 
+
         <button onclick="handleDeposit()">
             Deposit Cash
         </button>
+
 
         <button onclick="closePanel()">
             Cancel
@@ -91,16 +122,23 @@ function openATM() {
 function handleWithdraw() {
 
     const amount =
-        document.getElementById("atmAmount").value;
+        document.getElementById(
+            "atmAmount"
+        ).value;
+
 
     const result =
         withdrawCash(amount);
 
+
     alert(result.message);
+
 
     updateUI();
 
+
     if (result.success) {
+
         openATM();
     }
 }
@@ -109,34 +147,66 @@ function handleWithdraw() {
 function handleDeposit() {
 
     const amount =
-        document.getElementById("atmAmount").value;
+        document.getElementById(
+            "atmAmount"
+        ).value;
+
 
     const result =
         depositCash(amount);
 
+
     alert(result.message);
+
 
     updateUI();
 
+
     if (result.success) {
+
         openATM();
     }
 }
 
 
+/*
+    TRANSFERS
+*/
+
 function openTransfer() {
+
+    const npcList =
+        getNPCList();
+
+
+    let options = "";
+
+
+    npcList.forEach(npc => {
+
+        options += `
+
+            <option value="${npc.id}">
+                ${npc.name}
+            </option>
+
+        `;
+    });
+
 
     showPanel(`
 
         <h3>Transfer Money</h3>
 
+
         <label>Recipient</label>
 
-        <input
-            id="recipient"
-            type="text"
-            placeholder="Name"
-        >
+        <select id="recipient">
+
+            ${options}
+
+        </select>
+
 
         <label>Amount</label>
 
@@ -147,15 +217,24 @@ function openTransfer() {
             placeholder="Amount"
         >
 
-        <button onclick="handleBankTransfer()">
+
+        <button
+            onclick="handleBankTransfer()"
+        >
             Bank Transfer
         </button>
 
-        <button onclick="handleCashTransfer()">
+
+        <button
+            onclick="handleCashTransfer()"
+        >
             Give Cash In Person
         </button>
 
-        <button onclick="closePanel()">
+
+        <button
+            onclick="closePanel()"
+        >
             Cancel
         </button>
 
@@ -165,20 +244,33 @@ function openTransfer() {
 
 function handleBankTransfer() {
 
-    const name =
-        document.getElementById("recipient").value;
+    const npcId =
+        document.getElementById(
+            "recipient"
+        ).value;
+
 
     const amount =
-        document.getElementById("transferAmount").value;
+        document.getElementById(
+            "transferAmount"
+        ).value;
+
 
     const result =
-        transferToPerson(name, amount);
+        transferToNPC(
+            npcId,
+            amount
+        );
+
 
     alert(result.message);
 
+
     updateUI();
 
+
     if (result.success) {
+
         openTransfer();
     }
 }
@@ -186,32 +278,54 @@ function handleBankTransfer() {
 
 function handleCashTransfer() {
 
-    const name =
-        document.getElementById("recipient").value;
+    const npcId =
+        document.getElementById(
+            "recipient"
+        ).value;
+
 
     const amount =
-        document.getElementById("transferAmount").value;
+        document.getElementById(
+            "transferAmount"
+        ).value;
+
 
     const result =
-        transferCashToPerson(name, amount);
+        transferCashToNPC(
+            npcId,
+            amount
+        );
+
 
     alert(result.message);
 
+
     updateUI();
 
+
     if (result.success) {
+
         openTransfer();
     }
 }
 
 
+/*
+    TRANSACTION HISTORY
+*/
+
 function openTransactions() {
 
     let html = `
+
         <h3>Transaction History</h3>
+
     `;
 
-    if (player.transactions.length === 0) {
+
+    if (
+        player.transactions.length === 0
+    ) {
 
         html += `
             <p>No transactions yet.</p>
@@ -227,32 +341,47 @@ function openTransactions() {
                         ? "+"
                         : "-";
 
+
                 const amountClass =
                     transaction.direction === "in"
                         ? "amount-positive"
                         : "amount-negative";
+
 
                 const date =
                     new Date(
                         transaction.date
                     ).toLocaleString();
 
+
                 html += `
 
                     <div class="transaction">
 
                         <div class="transaction-title">
+
                             ${transaction.description}
+
                         </div>
+
 
                         <div class="transaction-info">
+
+                            ${transaction.type}
+
+                            <br>
+
                             ${date}
+
                         </div>
 
+
                         <div class="${amountClass}">
+
                             ${sign}${formatMoney(
                                 transaction.amount
                             )}
+
                         </div>
 
                     </div>
@@ -262,15 +391,23 @@ function openTransactions() {
         );
     }
 
+
     html += `
+
         <button onclick="closePanel()">
             Close
         </button>
+
     `;
+
 
     showPanel(html);
 }
 
+
+/*
+    RESET
+*/
 
 function resetGame() {
 
@@ -279,15 +416,20 @@ function resetGame() {
             "Reset the 404 test account?"
         );
 
+
     if (!confirmed) {
         return;
     }
 
+
     deleteSave();
+
 
     initializePlayer();
 
+
     updateUI();
+
 
     closePanel();
 }
