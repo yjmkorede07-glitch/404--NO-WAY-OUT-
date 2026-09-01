@@ -52,14 +52,14 @@ function handle(ws,msg){
       const email=String(payload.email||"").trim().toLowerCase(),password=String(payload.password||""),name=String(payload.name||"Player").slice(0,30);
       if(!email||password.length<8)return reject(ws,"Email and password (8+ chars) required");
       const accountId=createAccount(email,password,name),t=token();sessionsByToken.set(t,accountId);ws.accountId=accountId;ws.token=t;
-      send(ws,"auth_ok",{token:t,profile:getProfile(accountId),missions:getMissions(accountId),properties:getProperties(accountId),businesses:getBusinesses(accountId),vehicles:getVehicles(accountId)});return;
+      send(ws,"auth_ok",{token:t,...fullAccountSnapshot(accountId)});return;
     }catch(e){return reject(ws,"Account registration failed")}
   }
   if(type==="login"){
     const profile=authenticate(String(payload.email||"").trim().toLowerCase(),String(payload.password||""));
     if(!profile)return reject(ws,"Invalid login");
     const t=token();sessionsByToken.set(t,profile.account_id);ws.accountId=profile.account_id;ws.token=t;
-    send(ws,"auth_ok",{token:t,profile,missions:getMissions(profile.account_id),properties:getProperties(profile.account_id),businesses:getBusinesses(profile.account_id),vehicles:getVehicles(profile.account_id)});return;
+    send(ws,"auth_ok",{token:t,...fullAccountSnapshot(profile.account_id)});return;
   }
   if(type==="resume"){
     const accountId=sessionsByToken.get(String(payload.token||""));
@@ -71,6 +71,30 @@ function handle(ws,msg){
   if(type==="business_update"){if(!authRequired(ws))return reject(ws,"Login required");return send(ws,"business_update",{business:saveBusiness(ws.accountId,String(payload.businessId||""),payload)});}
   if(type==="store_vehicle"){if(!authRequired(ws))return reject(ws,"Login required");storeVehicle(ws.accountId,String(payload.vehicleId||""),payload.name,payload.health,payload.propertyId);return send(ws,"vehicle_persisted",{vehicles:getVehicles(ws.accountId)});}
   if(type==="economy_snapshot"){if(!authRequired(ws))return reject(ws,"Login required");return send(ws,"economy_snapshot",{profile:getProfile(ws.accountId),properties:getProperties(ws.accountId),businesses:getBusinesses(ws.accountId),vehicles:getVehicles(ws.accountId)});}
+  if(type==="story_save"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    const story=saveStory(ws.accountId,payload); send(ws,"story_update",{story}); return;
+  }
+  if(type==="story_flag"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    setStoryFlag(ws.accountId,payload.flag,payload.value); send(ws,"story_update",{flags:getStoryFlags(ws.accountId)}); return;
+  }
+  if(type==="relationship"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    const rel=updateRelationship(ws.accountId,payload.subjectId,payload.delta); send(ws,"relationship_update",{relationship:rel}); return;
+  }
+  if(type==="faction_rep"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    const f=updateFaction(ws.accountId,payload.factionId,payload.delta); send(ws,"faction_update",{faction:f}); return;
+  }
+  if(type==="evidence"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    addEvidence(ws.accountId,payload.evidenceId,payload.metadata||{}); send(ws,"evidence_update",{evidence:getEvidence(ws.accountId)}); return;
+  }
+  if(type==="full_snapshot"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    send(ws,"full_snapshot",fullAccountSnapshot(ws.accountId)); return;
+  }
   if(type==="save_profile"){
     if(!authRequired(ws))return reject(ws,"Login required");
     saveProfile(ws.accountId,payload);send(ws,"saved",{profile:getProfile(ws.accountId)});return;
