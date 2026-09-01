@@ -59,3 +59,8 @@ M31-M40 are implemented as the next combined authoritative Phase 19 batch. The b
 
 ## Batch 05 — M41-M50
 M41-M50 are locked as the current Phase 19 prototype batch. The browser implementation expands the canonical two-step registry entries into four explicit beats per mission, adds persistent checkpoint/action state, mission-specific dialogue hooks, and QA/Unreal production contracts. Final 3D, recorded VO, full cinematics, production vehicle physics, backend multiplayer infrastructure, and release certification remain later production work.
+
+
+## Batch 06 — M51-M60
+
+Batch 06 expands M51-M60 from the authoritative campaign registry into four-beat browser prototype flows with persistent checkpoints, mission-specific runtime consequences, dialogue/TTS hooks, QA gates and Unreal migration contracts. Final 3D production, recorded VO, full cinematics, production vehicle physics, authoritative online infrastructure and mobile certification remain later-stage work.

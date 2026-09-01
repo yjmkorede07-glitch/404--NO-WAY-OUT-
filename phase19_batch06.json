@@ -1,0 +1,736 @@
+{
+  "batch": "M51-M60",
+  "phase": "Phase 19 Batch 06",
+  "missions": [
+    {
+      "id": "M51",
+      "title": "Emergency Lane",
+      "production_role": "traffic response / route following",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "follow-response",
+        "hold-route",
+        "reach-destination"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Get behind the emergency response and follow its route.",
+        "Stay with the route without losing the response.",
+        "Reach the destination before the route ends."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "follow-response",
+          "objective": "Get behind the emergency response and follow its route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "hold-route",
+          "objective": "Stay with the route without losing the response.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "reach-destination",
+          "objective": "Reach the destination before the route ends.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M52",
+      "title": "The Stolen Car",
+      "production_role": "stolen vehicle recovery / vehicle persistence",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "trace-vehicle",
+        "recover-vehicle",
+        "return-intact"
+      ],
+      "qa": [
+        "Reach Reed Workshop.",
+        "Trace the stolen vehicle from its last known trail.",
+        "Recover the vehicle without destroying the trail.",
+        "Return the vehicle intact to the workshop."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Reed Workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "trace-vehicle",
+          "objective": "Trace the stolen vehicle from its last known trail.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "recover-vehicle",
+          "objective": "Recover the vehicle without destroying the trail.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "return-intact",
+          "objective": "Return the vehicle intact to the workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M53",
+      "title": "Street Fight",
+      "production_role": "civilian protection / encounter control",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "reach-contact",
+        "protect-contact",
+        "survive-encounter"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Reach the contact before the assault escalates.",
+        "Protect the contact through the encounter.",
+        "Survive and get the contact clear."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reach-contact",
+          "objective": "Reach the contact before the assault escalates.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "protect-contact",
+          "objective": "Protect the contact through the encounter.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "survive-encounter",
+          "objective": "Survive and get the contact clear.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M54",
+      "title": "First Pursuit",
+      "production_role": "police pursuit / search clearing",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "trigger-pursuit",
+        "lose-first-unit",
+        "clear-search"
+      ],
+      "qa": [
+        "Reach Veyron Police Headquarters.",
+        "Trigger the two-unit pursuit.",
+        "Lose the first police unit without being incapacitated.",
+        "Clear the search and lose both units."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Police Headquarters.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "trigger-pursuit",
+          "objective": "Trigger the two-unit pursuit.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "lose-first-unit",
+          "objective": "Lose the first police unit without being incapacitated.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "clear-search",
+          "objective": "Clear the search and lose both units.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M55",
+      "title": "Evidence Locker",
+      "production_role": "police evidence recovery / stealth",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "locate-record",
+        "secure-record",
+        "leave-territory"
+      ],
+      "qa": [
+        "Reach Veyron Police Headquarters.",
+        "Locate the record before it is destroyed.",
+        "Secure the record without losing it.",
+        "Leave police territory with the record."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Police Headquarters.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "locate-record",
+          "objective": "Locate the record before it is destroyed.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "secure-record",
+          "objective": "Secure the record without losing it.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "leave-territory",
+          "objective": "Leave police territory with the record.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M56",
+      "title": "Silent Witness",
+      "production_role": "witness extraction / NPC escort",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "reach-witness",
+        "escort-witness",
+        "safe-exit"
+      ],
+      "qa": [
+        "Reach Veyron Police Headquarters.",
+        "Reach the witness before the exposure team does.",
+        "Escort the witness away from the threat.",
+        "Reach a safe exit with the witness."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Police Headquarters.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reach-witness",
+          "objective": "Reach the witness before the exposure team does.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "escort-witness",
+          "objective": "Escort the witness away from the threat.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "safe-exit",
+          "objective": "Reach a safe exit with the witness.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M57",
+      "title": "Five Stars",
+      "production_role": "maximum police response / safehouse escape",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "trigger-response",
+        "evade-response",
+        "reach-safehouse"
+      ],
+      "qa": [
+        "Reach Darius Safehouse.",
+        "Trigger the maximum-level response.",
+        "Break the response without being incapacitated.",
+        "Reach the designated safehouse and clear the response."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Darius Safehouse.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "trigger-response",
+          "objective": "Trigger the maximum-level response.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "evade-response",
+          "objective": "Break the response without being incapacitated.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "reach-safehouse",
+          "objective": "Reach the designated safehouse and clear the response.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M58",
+      "title": "Counter-Surveillance",
+      "production_role": "counter-surveillance / tail identification",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "detect-tail",
+        "identify-tail",
+        "break-surveillance"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Detect the vehicle or person following the team.",
+        "Identify the tail without exposing the team.",
+        "Break surveillance and confirm the tail is gone."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "detect-tail",
+          "objective": "Detect the vehicle or person following the team.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "identify-tail",
+          "objective": "Identify the tail without exposing the team.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "break-surveillance",
+          "objective": "Break surveillance and confirm the tail is gone.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M59",
+      "title": "Clean Hands",
+      "production_role": "clean resolution / wanted-level discipline",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "assess-risk",
+        "resolve-cleanly",
+        "confirm-no-wanted"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Assess the cleanest way to resolve the crime.",
+        "Resolve the objective without escalating the situation.",
+        "Confirm no new wanted points were added."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "assess-risk",
+          "objective": "Assess the cleanest way to resolve the crime.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "resolve-cleanly",
+          "objective": "Resolve the objective without escalating the situation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "confirm-no-wanted",
+          "objective": "Confirm no new wanted points were added.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M60",
+      "title": "The Broker",
+      "production_role": "broker negotiation / network access",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "meet-broker",
+        "negotiate-access",
+        "obtain-token"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Meet the broker without exposing the team.",
+        "Negotiate access to the restricted network.",
+        "Obtain and secure the access token."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "meet-broker",
+          "objective": "Meet the broker without exposing the team.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "negotiate-access",
+          "objective": "Negotiate access to the restricted network.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        },
+        {
+          "id": "obtain-token",
+          "objective": "Obtain and secure the access token.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence",
+            "runtime_consequence"
+          ]
+        }
+      ]
+    }
+  ]
+}

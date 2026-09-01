@@ -1,0 +1,406 @@
+{
+  "batch": "M51-M60",
+  "voice_mode": "prototype_tts_only; final recorded VO is production work",
+  "missions": {
+    "M51": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Emergency routes cut through the city like they own it."
+          }
+        ],
+        "follow-response": [
+          {
+            "character": "Malik",
+            "text": "Stay behind the response. Let them open the road."
+          }
+        ],
+        "hold-route": [
+          {
+            "character": "Darius Cole",
+            "text": "Do not lose the route. The destination matters more than speed."
+          }
+        ],
+        "reach-destination": [
+          {
+            "character": "Malik",
+            "text": "We made the lane. Now we get out before anyone remembers us."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Clean route. Clean exit. Good work."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Emergency routes cut through the city like they own it."
+          }
+        ]
+      }
+    },
+    "M52": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Reed can tell us what the stolen car left behind."
+          }
+        ],
+        "trace-vehicle": [
+          {
+            "character": "Malik",
+            "text": "There. Same trail, different driver."
+          }
+        ],
+        "recover-vehicle": [
+          {
+            "character": "Malik",
+            "text": "I have the car. Keep it running and keep it intact."
+          }
+        ],
+        "return-intact": [
+          {
+            "character": "Darius Cole",
+            "text": "Return it to Reed. The vehicle tells us where the thieves went."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Reed Workshop",
+            "text": "You brought it back in one piece. That gives us something to work with."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "Reed can tell us what the stolen car left behind."
+          }
+        ]
+      }
+    },
+    "M53": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Somebody picked the wrong person to corner."
+          }
+        ],
+        "reach-contact": [
+          {
+            "character": "Malik",
+            "text": "Get behind me. We are leaving together."
+          }
+        ],
+        "protect-contact": [
+          {
+            "character": "Darius Cole",
+            "text": "Protect the contact, but do not turn a street problem into a war."
+          }
+        ],
+        "survive-encounter": [
+          {
+            "character": "Malik",
+            "text": "Contact is clear. I am still standing."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Good. Keep the contact moving."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Somebody picked the wrong person to corner."
+          }
+        ]
+      }
+    },
+    "M54": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Two units? Fine. Let us see which ones can actually keep up."
+          }
+        ],
+        "trigger-pursuit": [
+          {
+            "character": "Darius Cole",
+            "text": "You are about to have their full attention."
+          }
+        ],
+        "lose-first-unit": [
+          {
+            "character": "Malik",
+            "text": "First unit is off the trail. One more."
+          }
+        ],
+        "clear-search": [
+          {
+            "character": "Malik",
+            "text": "Search is clear. Nobody saw where we went."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "That was close. Lose the heat before the next move."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Two units? Fine. Let us see which ones can actually keep up."
+          }
+        ]
+      }
+    },
+    "M55": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "The record disappears if we wait."
+          }
+        ],
+        "locate-record": [
+          {
+            "character": "Amara Vale",
+            "text": "Find the locker before someone finds us."
+          }
+        ],
+        "secure-record": [
+          {
+            "character": "Amara Vale",
+            "text": "Secure it. Nothing else in this building matters."
+          }
+        ],
+        "leave-territory": [
+          {
+            "character": "Darius Cole",
+            "text": "Leave police territory. Evidence only helps if it survives."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "The record is safe. That is enough for tonight."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara Vale",
+            "text": "The record disappears if we wait."
+          }
+        ]
+      }
+    },
+    "M56": {
+      "beats": {
+        "start": [
+          {
+            "character": "Lena Brooks",
+            "text": "They are coming for the witness. We have to reach them first."
+          }
+        ],
+        "reach-witness": [
+          {
+            "character": "Lena Brooks",
+            "text": "Stay with me. We are getting you out."
+          }
+        ],
+        "escort-witness": [
+          {
+            "character": "Lena Brooks",
+            "text": "Keep moving. Do not look back."
+          }
+        ],
+        "safe-exit": [
+          {
+            "character": "Darius Cole",
+            "text": "Witness is clear. Get them somewhere quiet."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Lena Brooks",
+            "text": "They are safe. Nobody had to get hurt."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Lena Brooks",
+            "text": "They are coming for the witness. We have to reach them first."
+          }
+        ]
+      }
+    },
+    "M57": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Maximum response? That sounds expensive."
+          }
+        ],
+        "trigger-response": [
+          {
+            "character": "Darius Cole",
+            "text": "Every unit in the city is about to become interested in you."
+          }
+        ],
+        "evade-response": [
+          {
+            "character": "Malik",
+            "text": "Break the response, then disappear."
+          }
+        ],
+        "reach-safehouse": [
+          {
+            "character": "Malik",
+            "text": "Safehouse reached. Five stars can stay behind us."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "That was too close. Do not make a habit of it."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Maximum response? That sounds expensive."
+          }
+        ]
+      }
+    },
+    "M58": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "We have a tail. Do not acknowledge it."
+          }
+        ],
+        "detect-tail": [
+          {
+            "character": "Amara Vale",
+            "text": "Watch the pattern, not the car."
+          }
+        ],
+        "identify-tail": [
+          {
+            "character": "Darius Cole",
+            "text": "Once you know who is following, you can choose where they stop following."
+          }
+        ],
+        "break-surveillance": [
+          {
+            "character": "Amara Vale",
+            "text": "Surveillance broken. They are looking at an empty route."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "Good. Now we decide what they were trying to learn."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara Vale",
+            "text": "We have a tail. Do not acknowledge it."
+          }
+        ]
+      }
+    },
+    "M59": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "We solve this without giving the city another reason to remember us."
+          }
+        ],
+        "assess-risk": [
+          {
+            "character": "Darius Cole",
+            "text": "Check every option before touching the one that creates noise."
+          }
+        ],
+        "resolve-cleanly": [
+          {
+            "character": "Amara Vale",
+            "text": "Quiet resolution. No unnecessary witnesses, no unnecessary heat."
+          }
+        ],
+        "confirm-no-wanted": [
+          {
+            "character": "Darius Cole",
+            "text": "No new wanted points. That is the result we needed."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "Clean hands are useful when everyone else is leaving fingerprints."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "We solve this without giving the city another reason to remember us."
+          }
+        ]
+      }
+    },
+    "M60": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "The broker wants a meeting. Let us give him one."
+          }
+        ],
+        "meet-broker": [
+          {
+            "character": "Darius Cole",
+            "text": "Do not show urgency. The access is worth more than the conversation."
+          }
+        ],
+        "negotiate-access": [
+          {
+            "character": "Malik",
+            "text": "We have terms. Now give us the token."
+          }
+        ],
+        "obtain-token": [
+          {
+            "character": "Darius Cole",
+            "text": "Token secured. The restricted network is no longer out of reach."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "Now that is a door worth opening."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "The broker wants a meeting. Let us give him one."
+          }
+        ]
+      }
+    }
+  }
+}
