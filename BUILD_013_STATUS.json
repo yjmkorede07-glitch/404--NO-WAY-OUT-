@@ -41,9 +41,14 @@
     "Phase 18 runtime loop uses a single monotonic requestAnimationFrame clock",
     "movement save writes are throttled to reduce mobile localStorage churn",
     "Unreal migration data-contract skeleton present",
-    "Phase 19 Batch 01 contract: exactly 10 missions with required systems and QA gates"
+    "Phase 19 Batch 01 contract: exactly 10 missions with required systems and QA gates",
+    "Batch 03 validator",
+    "Batch 03 JavaScript syntax",
+    "campaign 88 mission regression",
+    "Batch 01/02 preservation",
+    "ZIP integrity"
   ],
-  "phase19_status": "batch_02_m11_m20_implemented",
+  "phase19_status": "batch_03_m21_m30",
   "phase19_batch": "M01-M10",
   "phase19_strategy": "10-mission production batches with a completion gate before the next batch.",
   "phase19_implemented": [
@@ -77,5 +82,11 @@
     "M11-M20 mission-specific dialogue and temporary prototype TTS hooks",
     "M11-M20 witness, vehicle, pursuit, surveillance, ledger and evidence consequence state",
     "Batch 02 QA and Unreal migration contracts"
+  ],
+  "implementation": [
+    "M21-M30 mission-specific playable runtime and persistent checkpoints",
+    "M21-M30 written dialogue and temporary prototype TTS hooks",
+    "M21-M30 relationships/evidence/police/economy/vehicle/property state contracts",
+    "M21-M30 QA and Unreal production contracts"
   ]
 }

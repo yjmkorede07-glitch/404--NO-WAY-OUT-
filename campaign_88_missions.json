@@ -1406,6 +1406,12 @@
           "kind": "character",
           "target": "market",
           "text": "Complete Amara's information angle."
+        },
+        {
+          "id": "converge",
+          "kind": "action",
+          "target": "central",
+          "text": "Converge the three angles into one actionable lead."
         }
       ],
       "prototypePlayable": true,
@@ -1462,10 +1468,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "decoy-prepare",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the delivery without exposing the real package."
+          "text": "Prepare the decoy package."
+        },
+        {
+          "id": "decoy-deliver",
+          "kind": "action",
+          "target": "central",
+          "text": "Deliver the decoy without exposing the real package."
+        },
+        {
+          "id": "confirm",
+          "kind": "action",
+          "target": "central",
+          "text": "Confirm the network took the decoy."
         }
       ],
       "prototypePlayable": true,
@@ -1523,10 +1541,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "target-locate",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Finish the chase with the target identified."
+          "text": "Locate the fleeing target."
+        },
+        {
+          "id": "chase-maintain",
+          "kind": "action",
+          "target": "central",
+          "text": "Keep the target in sight."
+        },
+        {
+          "id": "identify",
+          "kind": "action",
+          "target": "central",
+          "text": "Finish the chase with the target identified."
         }
       ],
       "prototypePlayable": true,
@@ -1583,10 +1613,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "search-mark",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Discover the concealed location and retrieve the clue."
+          "text": "Search for the hidden entrance marker."
+        },
+        {
+          "id": "hidden-entry",
+          "kind": "action",
+          "target": "central",
+          "text": "Discover the concealed entrance."
+        },
+        {
+          "id": "clue-retrieve",
+          "kind": "action",
+          "target": "central",
+          "text": "Retrieve the clue from the concealed location."
         }
       ],
       "prototypePlayable": true,
@@ -1643,10 +1685,22 @@
           "text": "Reach Meridian Corporate Tower."
         },
         {
-          "id": "action",
+          "id": "office-search",
           "kind": "action",
           "target": "tower",
-          "text": "INVESTIGATE: Recover the file and leave before the search closes in."
+          "text": "Search the abandoned office."
+        },
+        {
+          "id": "file-recover",
+          "kind": "action",
+          "target": "tower",
+          "text": "Recover the file before evidence disappears."
+        },
+        {
+          "id": "exit",
+          "kind": "action",
+          "target": "tower",
+          "text": "Leave before the search closes in."
         }
       ],
       "prototypePlayable": true,
@@ -1704,10 +1758,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "investment-choose",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the first investment and record its return."
+          "text": "Choose the first legitimate investment."
+        },
+        {
+          "id": "investment-fund",
+          "kind": "action",
+          "target": "central",
+          "text": "Commit clean money to the investment."
+        },
+        {
+          "id": "return-record",
+          "kind": "action",
+          "target": "central",
+          "text": "Record the first return."
         }
       ],
       "prototypePlayable": true,
@@ -1764,10 +1830,22 @@
           "text": "Reach Reed Workshop."
         },
         {
-          "id": "action",
+          "id": "safehouse-unlock",
           "kind": "action",
           "target": "workshop",
-          "text": "INVESTIGATE: Acquire or unlock the safehouse and store a vehicle."
+          "text": "Acquire or unlock the safehouse."
+        },
+        {
+          "id": "secure",
+          "kind": "action",
+          "target": "workshop",
+          "text": "Secure the safehouse for team use."
+        },
+        {
+          "id": "vehicle-store",
+          "kind": "action",
+          "target": "workshop",
+          "text": "Store a vehicle at the safehouse."
         }
       ],
       "prototypePlayable": true,
@@ -1824,10 +1902,22 @@
           "text": "Reach Central Bank."
         },
         {
-          "id": "action",
+          "id": "anomaly-1",
           "kind": "action",
           "target": "bank",
-          "text": "INVESTIGATE: Find the three accounting anomalies and link them."
+          "text": "Find the first accounting anomaly."
+        },
+        {
+          "id": "anomaly-2",
+          "kind": "action",
+          "target": "bank",
+          "text": "Find the second accounting anomaly."
+        },
+        {
+          "id": "anomaly-3",
+          "kind": "action",
+          "target": "bank",
+          "text": "Find the third anomaly and link all three."
         }
       ],
       "prototypePlayable": true,
@@ -1886,10 +1976,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "lead-track",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Recover the next location clue."
+          "text": "Follow the strongest lead about Darius\u2019s brother."
+        },
+        {
+          "id": "location-search",
+          "kind": "action",
+          "target": "central",
+          "text": "Search the next location for a trace."
+        },
+        {
+          "id": "clue-recover",
+          "kind": "action",
+          "target": "central",
+          "text": "Recover the next location clue."
         }
       ],
       "prototypePlayable": true,
@@ -1948,10 +2050,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "attack-survive",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Escape the attack and preserve the evidence."
+          "text": "Survive the coordinated attack."
+        },
+        {
+          "id": "escape",
+          "kind": "action",
+          "target": "central",
+          "text": "Escape the attack zone."
+        },
+        {
+          "id": "evidence-preserve",
+          "kind": "action",
+          "target": "central",
+          "text": "Preserve the evidence while getting clear."
         }
       ],
       "prototypePlayable": true,

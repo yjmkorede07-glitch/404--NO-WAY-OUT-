@@ -1,0 +1,352 @@
+{
+  "batch": "M21-M30",
+  "voice_mode": "prototype_tts_only; final recorded VO is production work",
+  "missions": {
+    "M21": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Three angles should make one answer. Let\u2019s see if they do."
+          }
+        ],
+        "darius": [
+          {
+            "character": "Darius Cole",
+            "text": "Central gives me the first piece."
+          }
+        ],
+        "malik": [
+          {
+            "character": "Malik",
+            "text": "Workshop gives me the second. Funny how everything needs wheels."
+          }
+        ],
+        "amara": [
+          {
+            "character": "Amara Vale",
+            "text": "The information is consistent. That is the part I dislike."
+          }
+        ],
+        "converge": [
+          {
+            "character": "Darius Cole",
+            "text": "Three angles, one lead. Now we know where to look."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "A shared lead is useful. Trust is still a separate problem."
+          }
+        ]
+      }
+    },
+    "M22": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "We give them something to chase. It just will not be the thing we care about."
+          }
+        ],
+        "decoy-prepare": [
+          {
+            "character": "Amara Vale",
+            "text": "The decoy looks convincing. That is enough."
+          }
+        ],
+        "decoy-deliver": [
+          {
+            "character": "Darius Cole",
+            "text": "Real package stays hidden. Let the wrong people celebrate."
+          }
+        ],
+        "confirm": [
+          {
+            "character": "Amara Vale",
+            "text": "They took the bait."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "False delivery, real result."
+          }
+        ]
+      }
+    },
+    "M23": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Keep the target moving. I need the identity, not a crash."
+          }
+        ],
+        "target-locate": [
+          {
+            "character": "Darius Cole",
+            "text": "There. Same route pattern as before."
+          }
+        ],
+        "chase-maintain": [
+          {
+            "character": "Malik",
+            "text": "I can see them. Just keep me from doing anything stupid."
+          }
+        ],
+        "identify": [
+          {
+            "character": "Darius Cole",
+            "text": "We have the face and the route."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Now the chase has a name attached to it."
+          }
+        ]
+      }
+    },
+    "M24": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "If somebody hid a door, somebody expected somebody else to miss it."
+          }
+        ],
+        "search-mark": [
+          {
+            "character": "Malik",
+            "text": "That mark is too deliberate to be decoration."
+          }
+        ],
+        "hidden-entry": [
+          {
+            "character": "Amara Vale",
+            "text": "Hidden entrance confirmed."
+          }
+        ],
+        "clue-retrieve": [
+          {
+            "character": "Malik",
+            "text": "Got the clue. Whoever left it wanted us to keep going."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "A door that was not there. Until we found it."
+          }
+        ]
+      }
+    },
+    "M25": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "Empty offices are rarely empty. They are just finished being used."
+          }
+        ],
+        "office-search": [
+          {
+            "character": "Amara Vale",
+            "text": "Someone left in a hurry."
+          }
+        ],
+        "file-recover": [
+          {
+            "character": "Darius Cole",
+            "text": "File recovered. We leave before the building remembers us."
+          }
+        ],
+        "exit": [
+          {
+            "character": "Amara Vale",
+            "text": "Search is closing. Move."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "The office was empty. The evidence was not."
+          }
+        ]
+      }
+    },
+    "M26": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Clean money needs a clean place to go."
+          }
+        ],
+        "investment-choose": [
+          {
+            "character": "Darius Cole",
+            "text": "Start small. Legitimate. Traceable."
+          }
+        ],
+        "investment-fund": [
+          {
+            "character": "Darius Cole",
+            "text": "Capital committed."
+          }
+        ],
+        "return-record": [
+          {
+            "character": "Amara Vale",
+            "text": "A return is proof the door can stay open."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "First investment made. We finally have a foothold that can explain itself."
+          }
+        ]
+      }
+    },
+    "M27": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "We need a place nobody can casually take from us."
+          }
+        ],
+        "safehouse-unlock": [
+          {
+            "character": "Malik",
+            "text": "This can work. Needs locks, discipline, and less talking."
+          }
+        ],
+        "secure": [
+          {
+            "character": "Darius Cole",
+            "text": "Secure the perimeter. This becomes our fallback."
+          }
+        ],
+        "vehicle-store": [
+          {
+            "character": "Malik",
+            "text": "Runner is parked. Home sweet questionable home."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "Safehouse is ours. That changes how we move."
+          }
+        ]
+      }
+    },
+    "M28": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "Three anomalies are enough to prove a pattern. Find them."
+          }
+        ],
+        "anomaly-1": [
+          {
+            "character": "Amara Vale",
+            "text": "First anomaly. Same account family."
+          }
+        ],
+        "anomaly-2": [
+          {
+            "character": "Darius Cole",
+            "text": "Second anomaly. Same timing."
+          }
+        ],
+        "anomaly-3": [
+          {
+            "character": "Amara Vale",
+            "text": "Third anomaly. Now it is a system."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "The books are talking. We only had to read them."
+          }
+        ]
+      }
+    },
+    "M29": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "This lead is about my brother. I am not handing it off."
+          }
+        ],
+        "lead-track": [
+          {
+            "character": "Darius Cole",
+            "text": "Strongest lead is still moving."
+          }
+        ],
+        "location-search": [
+          {
+            "character": "Malik",
+            "text": "No one stays invisible forever. Check the place again."
+          }
+        ],
+        "clue-recover": [
+          {
+            "character": "Darius Cole",
+            "text": "There. The next location."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "The trail continues. Now it points somewhere specific."
+          }
+        ]
+      }
+    },
+    "M30": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "They found us. So we make sure they do not keep us."
+          }
+        ],
+        "attack-survive": [
+          {
+            "character": "Malik",
+            "text": "Keep moving. We can be scared later."
+          }
+        ],
+        "escape": [
+          {
+            "character": "Darius Cole",
+            "text": "Out of the attack zone. Keep the evidence intact."
+          }
+        ],
+        "evidence-preserve": [
+          {
+            "character": "Amara Vale",
+            "text": "Evidence preserved. They wanted it gone."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "They found us once. Next time, we are ready."
+          }
+        ]
+      }
+    }
+  }
+}

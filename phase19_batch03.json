@@ -1,0 +1,707 @@
+{
+  "batch": "M21-M30",
+  "phase": "Phase 19 Batch 03",
+  "missions": [
+    {
+      "id": "M21",
+      "title": "Three Angles",
+      "production_role": "Three-protagonist convergence / shared lead",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "darius",
+        "malik",
+        "amara",
+        "converge"
+      ],
+      "qa": [
+        "Complete Darius angle",
+        "complete Malik angle",
+        "complete Amara angle",
+        "converge lead and preserve all three flags"
+      ],
+      "production_contract": [
+        {
+          "id": "darius",
+          "objective": "Complete Darius's investigation angle.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "malik",
+          "objective": "Complete Malik's vehicle angle.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "amara",
+          "objective": "Complete Amara's information angle.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "converge",
+          "objective": "Converge the three angles into one actionable lead.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M22",
+      "title": "False Delivery",
+      "production_role": "Decoy delivery / evidence protection",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "decoy-prepare",
+        "decoy-deliver",
+        "confirm"
+      ],
+      "qa": [
+        "prepare decoy",
+        "complete delivery without exposing real package",
+        "confirm decoy diversion",
+        "real package remains protected"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "decoy-prepare",
+          "objective": "Prepare the decoy package.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "decoy-deliver",
+          "objective": "Deliver the decoy without exposing the real package.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "confirm",
+          "objective": "Confirm the network took the decoy.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M23",
+      "title": "The Long Chase",
+      "production_role": "Dynamic chase / target identification",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "target-locate",
+        "chase-maintain",
+        "identify"
+      ],
+      "qa": [
+        "locate target",
+        "maintain chase",
+        "finish with target identified",
+        "target evidence persists"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "target-locate",
+          "objective": "Locate the fleeing target.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "chase-maintain",
+          "objective": "Keep the target in sight.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "identify",
+          "objective": "Finish the chase with the target identified.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M24",
+      "title": "A Door That Wasn't There",
+      "production_role": "Hidden entrance / environmental investigation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "search-mark",
+        "hidden-entry",
+        "clue-retrieve"
+      ],
+      "qa": [
+        "find hidden marker",
+        "discover concealed entrance",
+        "retrieve clue",
+        "clue persists"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "search-mark",
+          "objective": "Search for the hidden entrance marker.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "hidden-entry",
+          "objective": "Discover the concealed entrance.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "clue-retrieve",
+          "objective": "Retrieve the clue from the concealed location.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M25",
+      "title": "The Empty Office",
+      "production_role": "Timed office search / evidence recovery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "office-search",
+        "file-recover",
+        "exit"
+      ],
+      "qa": [
+        "reach tower",
+        "recover file",
+        "leave before search closes",
+        "file persists"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Meridian Corporate Tower.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "office-search",
+          "objective": "Search the abandoned office.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "file-recover",
+          "objective": "Recover the file before evidence disappears.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "exit",
+          "objective": "Leave before the search closes in.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M26",
+      "title": "First Investment",
+      "production_role": "Economy / first legitimate investment",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "investment-choose",
+        "investment-fund",
+        "return-record"
+      ],
+      "qa": [
+        "choose legitimate investment",
+        "commit clean funds",
+        "record return",
+        "economy state persists"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "investment-choose",
+          "objective": "Choose the first legitimate investment.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "investment-fund",
+          "objective": "Commit clean money to the investment.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "return-record",
+          "objective": "Record the first return.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M27",
+      "title": "Safehouse",
+      "production_role": "Safehouse acquisition / persistent vehicle storage",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "safehouse-unlock",
+        "secure",
+        "vehicle-store"
+      ],
+      "qa": [
+        "unlock safehouse",
+        "secure location",
+        "store vehicle",
+        "safehouse and vehicle persist"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Reed Workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "safehouse-unlock",
+          "objective": "Acquire or unlock the safehouse.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure",
+          "objective": "Secure the safehouse for team use.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "vehicle-store",
+          "objective": "Store a vehicle at the safehouse.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M28",
+      "title": "Pressure on the Books",
+      "production_role": "Accounting investigation / anomaly linking",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "anomaly-1",
+        "anomaly-2",
+        "anomaly-3"
+      ],
+      "qa": [
+        "find anomaly one",
+        "find anomaly two",
+        "find anomaly three",
+        "link accounting evidence"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Central Bank.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "anomaly-1",
+          "objective": "Find the first accounting anomaly.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "anomaly-2",
+          "objective": "Find the second accounting anomaly.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "anomaly-3",
+          "objective": "Find the third anomaly and link all three.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M29",
+      "title": "The Brother's Trail",
+      "production_role": "Personal story lead / brother investigation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "lead-track",
+        "location-search",
+        "clue-recover"
+      ],
+      "qa": [
+        "track strongest lead",
+        "search next location",
+        "recover clue",
+        "brother-trail state persists"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "lead-track",
+          "objective": "Follow the strongest lead about Darius\u2019s brother.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "location-search",
+          "objective": "Search the next location for a trace.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "clue-recover",
+          "objective": "Recover the next location clue.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M30",
+      "title": "They Found Me",
+      "production_role": "Coordinated attack / evidence preservation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "attack-survive",
+        "escape",
+        "evidence-preserve"
+      ],
+      "qa": [
+        "survive attack",
+        "escape attack zone",
+        "preserve evidence",
+        "attack consequence state persists"
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "attack-survive",
+          "objective": "Survive the coordinated attack.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "escape",
+          "objective": "Escape the attack zone.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "evidence-preserve",
+          "objective": "Preserve the evidence while getting clear.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ],
+  "gate": "All M21-M30 runtime, dialogue, persistence, production-contract and QA coverage complete before batch lock."
+}
