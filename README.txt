@@ -1,30 +1,32 @@
-404: NO WAY OUT — Build 006
-PHASE 5 + ONLINE SYNCHRONIZATION
+404: NO WAY OUT — Build 007
+PHASE 6 + REAL MULTIPLAYER BACKEND
 
-PHASE 5:
-- Vehicle classes/data
-- vehicle body/engine/windows/doors/lights/tire condition
-- tire states and handling penalties
-- vehicle damage events/log
-- driver reaction state
-- traffic reaction foundation
-- vehicle condition panel
-- tire damage test
+Phase 6:
+- Crime incidents
+- Witness integration
+- Wanted levels 0–5
+- Police dispatch/search/pursuit foundation
+- Combat health and damage foundation
+- Server-authoritative combat/crime design
 
-ONLINE SYNC:
-- authoritative-server architecture
-- WebSocket-ready event model
-- sequence numbers
-- session/player IDs
-- 20 Hz sync target
-- interest management for nearby entities
-- player/vehicle/mission/NPC event replication structures
-- server-authoritative economy, inventory, mission rewards and properties
-- reconnect/session foundation
+REAL ONLINE BACKEND:
+- Node.js WebSocket server in /server
+- Session creation/joining
+- Up to 16 players per session in prototype
+- Stable player/session IDs
+- Server movement validation
+- Server-authoritative crime/wanted state
+- Mission event replication
+- Vehicle state replication
+- Character switching replication
+- World tick
+- Browser client transport in js/online_real.js
 
-IMPORTANT:
-This browser build contains the client/data architecture for synchronization, but production online multiplayer still requires an actual authoritative backend server. The design intentionally avoids pretending local browser code is real multiplayer.
+Run:
+cd server
+npm install
+npm start
 
-Phases completed in the prototype:
-1, 2, 3, 4, 5
-Story and 34-mission campaign from earlier builds remain included.
+Production multiplayer still needs persistent accounts/database, TLS, matchmaking, scaling, anti-cheat hardening and deployment infrastructure. Those are intentionally next-layer tasks, not hidden or faked.
+
+Phases 1–6 remain in this build.
