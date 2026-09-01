@@ -20,3 +20,14 @@ Build 012 is an integration upgrade on top of Build 011 Finale. Existing systems
 
 ## Important reality check
 The browser build remains a 2D gameplay prototype. Build 012 does not falsely claim to be a PS4-quality 3D game. A production-scale 3D version should migrate the gameplay contracts to a real engine. Unreal Engine's World Partition is designed for distance-based streaming of large worlds, with HLOD and other world-management features. See the official Epic documentation for the future-engine implementation plan.
+
+## Build 012 playable completion pass
+- Replaced the 34-entry mission journal view with the canonical 88-mission campaign registry.
+- Added sequential mission unlocks, replay, active objective tracking and persistent completion.
+- Implemented playable prototype steps for all 88 missions; M01 has the canonical airport → cab → Cole family house opening.
+- Added mobile ACTION/CAR/FIRE controls, enter/exit vehicle flow and drivable public/owned vehicles.
+- Added tire-pop interaction and connected it to vehicle handling/driver panic and witness/police heat.
+- Added five-star wanted HUD and preserved the existing witness → dispatch → pursuit foundation.
+- Added building/floor interaction browser layer and exposed Economy/Hotels/Mode panels.
+- Added protagonist switching within multi-protagonist mission sequences.
+- Added final-path selection at M86 and persistent ending/post-game state at M88.

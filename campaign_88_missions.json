@@ -2,623 +2,5343 @@
   "title": "404: NO WAY OUT",
   "target_main_story_hours": "45-60+ depending on play style",
   "mission_count": 88,
-  "design_note": "88 main missions replace the earlier 34-mission target while preserving the original first 34 mission identities and expanding the campaign.",
+  "design_note": "Build 012 playable campaign: all 88 missions are retained and now have protagonist assignments, world targets, prototype steps, prerequisites, scoring and consequence contracts. M01 is the canonical opening: airport arrival, cab, Cole family house, first lead. M32-M34 are mid/late campaign arcs; M86-M88 are the true final choice, aftermath and post-game epilogue.",
   "missions": [
     {
       "id": "M01",
       "title": "First Night",
       "phase": "Foundation",
       "brief": "Meet Darius and establish the first lead.",
-      "win_condition": "Reach the safehouse and complete the introductory investigation."
+      "win_condition": "Reach the safehouse and complete the introductory investigation.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Rhea Cole"
+      ],
+      "location": "Darius Safehouse",
+      "prototype_steps": [
+        {
+          "id": "airport-arrival",
+          "kind": "travel",
+          "target": "airport",
+          "text": "Arrive at Veyron International Airport."
+        },
+        {
+          "id": "take-cab",
+          "kind": "action",
+          "target": "airport",
+          "text": "Take the cab waiting outside."
+        },
+        {
+          "id": "family-house",
+          "kind": "travel",
+          "target": "family",
+          "text": "Return to the old Cole family house."
+        },
+        {
+          "id": "inspect-house",
+          "kind": "action",
+          "target": "family",
+          "text": "Inspect the house and establish the first lead."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the safehouse and complete the introductory investigation."
+      ],
+      "rewards": {
+        "cash": 625,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [],
+      "unlocked_content": []
     },
     {
       "id": "M02",
       "title": "The First Account",
       "phase": "Foundation",
       "brief": "Open the first financial trail.",
-      "win_condition": "Create a bank account and record the first suspicious transaction."
+      "win_condition": "Create a bank account and record the first suspicious transaction.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Central Bank",
+      "prototype_steps": [
+        {
+          "id": "bank",
+          "kind": "travel",
+          "target": "bank",
+          "text": "Reach the Central Bank."
+        },
+        {
+          "id": "account",
+          "kind": "action",
+          "target": "bank",
+          "text": "Open the first financial trail."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Create a bank account and record the first suspicious transaction."
+      ],
+      "rewards": {
+        "cash": 750,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M01"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M03",
       "title": "Three Names",
       "phase": "Foundation",
       "brief": "Learn that the investigation has more than one side.",
-      "win_condition": "Identify three connected names without losing the evidence."
+      "win_condition": "Identify three connected names without losing the evidence.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Identify three connected names without losing the evidence."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify three connected names without losing the evidence."
+      ],
+      "rewards": {
+        "cash": 875,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M02"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M04",
       "title": "The Call",
       "phase": "Foundation",
       "brief": "A call changes the direction of the investigation.",
-      "win_condition": "Answer the call and reach the meeting point alive."
+      "win_condition": "Answer the call and reach the meeting point alive.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Answer the call and reach the meeting point alive."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Answer the call and reach the meeting point alive."
+      ],
+      "rewards": {
+        "cash": 1000,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M03"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M05",
       "title": "Veyron Central",
       "phase": "Phase 3",
       "brief": "Enter the city's central district and map the new territory.",
-      "win_condition": "Visit the marked Central locations and return safely."
+      "win_condition": "Visit the marked Central locations and return safely.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Visit the marked Central locations and return safely."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Visit the marked Central locations and return safely."
+      ],
+      "rewards": {
+        "cash": 1125,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M04"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M06",
       "title": "North Hills, Quiet Money",
       "phase": "Phase 3",
       "brief": "Follow a money trail into North Hills.",
-      "win_condition": "Photograph or record the target exchange and leave undetected."
+      "win_condition": "Photograph or record the target exchange and leave undetected.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "North Hills",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "north",
+          "text": "Reach North Hills."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "north",
+          "text": "INVESTIGATE: Photograph or record the target exchange and leave undetected."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Photograph or record the target exchange and leave undetected."
+      ],
+      "rewards": {
+        "cash": 1250,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M05"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M07",
       "title": "Iron District",
       "phase": "Phase 3",
       "brief": "Meet the people who keep the city's machines moving.",
-      "win_condition": "Reach Reed Workshop and secure Malik's cooperation."
+      "win_condition": "Reach Reed Workshop and secure Malik's cooperation.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Reach Reed Workshop and secure Malik's cooperation."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach Reed Workshop and secure Malik's cooperation."
+      ],
+      "rewards": {
+        "cash": 1375,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M06"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M08",
       "title": "The Port Doesn't Sleep",
       "phase": "Phase 3",
       "brief": "Investigate Port traffic after dark.",
-      "win_condition": "Inspect the designated container and escape the port."
+      "win_condition": "Inspect the designated container and escape the port.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Port",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "port",
+          "text": "Reach Veyron Port."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Inspect the designated container and escape the port."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Inspect the designated container and escape the port."
+      ],
+      "rewards": {
+        "cash": 1500,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M07"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M09",
       "title": "People Remember",
       "phase": "Phase 4",
       "brief": "Test how much Veyron's residents notice.",
-      "win_condition": "Complete three social interactions without causing a police response."
+      "win_condition": "Complete three social interactions without causing a police response.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Complete three social interactions without causing a police response."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete three social interactions without causing a police response."
+      ],
+      "rewards": {
+        "cash": 1625,
+        "reputation": 2
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M08"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M10",
       "title": "Amara's Rule",
       "phase": "Phase 4",
       "brief": "Learn Amara's information-gathering approach.",
-      "win_condition": "Collect three separate pieces of information and connect them."
+      "win_condition": "Collect three separate pieces of information and connect them.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Collect three separate pieces of information and connect them."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Collect three separate pieces of information and connect them."
+      ],
+      "rewards": {
+        "cash": 1750,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M09"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M11",
       "title": "The Witness",
       "phase": "Phase 4",
       "brief": "Find a witness before someone else does.",
-      "win_condition": "Locate the witness and convince them to speak."
+      "win_condition": "Locate the witness and convince them to speak.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Locate the witness and convince them to speak."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Locate the witness and convince them to speak."
+      ],
+      "rewards": {
+        "cash": 1875,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M10"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M12",
       "title": "No One Saw Anything",
       "phase": "Phase 4",
       "brief": "Protect a witness without exposing the team.",
-      "win_condition": "Move the witness to safety and avoid identification."
+      "win_condition": "Move the witness to safety and avoid identification.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Move the witness to safety and avoid identification."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Move the witness to safety and avoid identification."
+      ],
+      "rewards": {
+        "cash": 2000,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M11"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M13",
       "title": "Workshop Wheels",
       "phase": "Phase 5",
       "brief": "Get a reliable vehicle.",
-      "win_condition": "Acquire and store a usable vehicle at the workshop."
+      "win_condition": "Acquire and store a usable vehicle at the workshop.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Acquire and store a usable vehicle at the workshop."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Acquire and store a usable vehicle at the workshop."
+      ],
+      "rewards": {
+        "cash": 2125,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M12"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M14",
       "title": "Bad Tire, Worse Timing",
       "phase": "Phase 5",
       "brief": "Deal with a vehicle failure during a job.",
-      "win_condition": "Repair or replace the damaged tire and reach the destination."
+      "win_condition": "Repair or replace the damaged tire and reach the destination.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Repair or replace the damaged tire and reach the destination."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Repair or replace the damaged tire and reach the destination."
+      ],
+      "rewards": {
+        "cash": 2250,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M13"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M15",
       "title": "Night Run",
       "phase": "Phase 5",
       "brief": "Move evidence across Veyron under pressure.",
-      "win_condition": "Deliver the package before the timer expires."
+      "win_condition": "Deliver the package before the timer expires.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Deliver the package before the timer expires."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Deliver the package before the timer expires."
+      ],
+      "rewards": {
+        "cash": 2375,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M14"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M16",
       "title": "The Driver",
       "phase": "Phase 5",
       "brief": "Identify a driver linked to the network.",
-      "win_condition": "Follow the target without losing them."
+      "win_condition": "Follow the target without losing them.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Follow the target without losing them."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Follow the target without losing them."
+      ],
+      "rewards": {
+        "cash": 2500,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M15"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M17",
       "title": "A Witness Called It In",
       "phase": "Phase 6",
       "brief": "See the witness system become a real threat.",
-      "win_condition": "Resolve the incident and escape the active search."
+      "win_condition": "Resolve the incident and escape the active search.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Resolve the incident and escape the active search."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Resolve the incident and escape the active search."
+      ],
+      "rewards": {
+        "cash": 2625,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M16"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M18",
       "title": "Heat",
       "phase": "Phase 6",
       "brief": "Survive an escalating police response.",
-      "win_condition": "Lose the pursuit and reach a safe location."
+      "win_condition": "Lose the pursuit and reach a safe location.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Lose the pursuit and reach a safe location."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Lose the pursuit and reach a safe location."
+      ],
+      "rewards": {
+        "cash": 2750,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M17"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M19",
       "title": "The Warehouse Job",
       "phase": "Phase 6",
       "brief": "Retrieve a hidden ledger.",
-      "win_condition": "Secure the ledger and escape with it intact."
+      "win_condition": "Secure the ledger and escape with it intact.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Port",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "port",
+          "text": "Reach Veyron Port."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Secure the ledger and escape with it intact."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Secure the ledger and escape with it intact."
+      ],
+      "rewards": {
+        "cash": 2875,
+        "reputation": 3
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M18"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M20",
       "title": "The Cost of Being Seen",
       "phase": "Phase 6",
       "brief": "Deal with the consequences of exposure.",
-      "win_condition": "Lower the wanted level and recover the lost evidence."
+      "win_condition": "Lower the wanted level and recover the lost evidence.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Lower the wanted level and recover the lost evidence."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Lower the wanted level and recover the lost evidence."
+      ],
+      "rewards": {
+        "cash": 3000,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M19"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M21",
       "title": "Three Angles",
       "phase": "Phase 7",
       "brief": "Use all three protagonists to solve one problem.",
-      "win_condition": "Complete the Darius, Malik and Amara objectives."
+      "win_condition": "Complete the Darius, Malik and Amara objectives.",
+      "protagonist": "all",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "darius",
+          "kind": "character",
+          "target": "central",
+          "text": "Complete Darius's investigation angle."
+        },
+        {
+          "id": "malik",
+          "kind": "character",
+          "target": "workshop",
+          "text": "Complete Malik's vehicle angle."
+        },
+        {
+          "id": "amara",
+          "kind": "character",
+          "target": "market",
+          "text": "Complete Amara's information angle."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the Darius, Malik and Amara objectives."
+      ],
+      "rewards": {
+        "cash": 3125,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M20"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M22",
       "title": "False Delivery",
       "phase": "Phase 7",
       "brief": "Use a decoy to redirect the network.",
-      "win_condition": "Complete the delivery without exposing the real package."
+      "win_condition": "Complete the delivery without exposing the real package.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the delivery without exposing the real package."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the delivery without exposing the real package."
+      ],
+      "rewards": {
+        "cash": 3250,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M21"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M23",
       "title": "The Long Chase",
       "phase": "Phase 7",
       "brief": "Keep a fleeing target in sight.",
-      "win_condition": "Finish the chase with the target identified."
+      "win_condition": "Finish the chase with the target identified.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Finish the chase with the target identified."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Finish the chase with the target identified."
+      ],
+      "rewards": {
+        "cash": 3375,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M22"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M24",
       "title": "A Door That Wasn't There",
       "phase": "Phase 7",
       "brief": "Find a hidden entrance.",
-      "win_condition": "Discover the concealed location and retrieve the clue."
+      "win_condition": "Discover the concealed location and retrieve the clue.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Discover the concealed location and retrieve the clue."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Discover the concealed location and retrieve the clue."
+      ],
+      "rewards": {
+        "cash": 3500,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M23"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M25",
       "title": "The Empty Office",
       "phase": "Phase 7",
       "brief": "Search an abandoned office before evidence disappears.",
-      "win_condition": "Recover the file and leave before the search closes in."
+      "win_condition": "Recover the file and leave before the search closes in.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Meridian Corporate Tower",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "tower",
+          "text": "Reach Meridian Corporate Tower."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "tower",
+          "text": "INVESTIGATE: Recover the file and leave before the search closes in."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Recover the file and leave before the search closes in."
+      ],
+      "rewards": {
+        "cash": 3625,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M24"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M26",
       "title": "First Investment",
       "phase": "Phase 8",
       "brief": "Turn clean money into a legitimate foothold.",
-      "win_condition": "Complete the first investment and record its return."
+      "win_condition": "Complete the first investment and record its return.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the first investment and record its return."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the first investment and record its return."
+      ],
+      "rewards": {
+        "cash": 3750,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M25"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M27",
       "title": "Safehouse",
       "phase": "Phase 8",
       "brief": "Secure a place the team can control.",
-      "win_condition": "Acquire or unlock the safehouse and store a vehicle."
+      "win_condition": "Acquire or unlock the safehouse and store a vehicle.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Acquire or unlock the safehouse and store a vehicle."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Acquire or unlock the safehouse and store a vehicle."
+      ],
+      "rewards": {
+        "cash": 3875,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M26"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M28",
       "title": "Pressure on the Books",
       "phase": "Phase 8",
       "brief": "Trace suspicious accounting.",
-      "win_condition": "Find the three accounting anomalies and link them."
+      "win_condition": "Find the three accounting anomalies and link them.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Central Bank",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "bank",
+          "text": "Reach Central Bank."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "bank",
+          "text": "INVESTIGATE: Find the three accounting anomalies and link them."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Find the three accounting anomalies and link them."
+      ],
+      "rewards": {
+        "cash": 4000,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M27"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M29",
       "title": "The Brother's Trail",
       "phase": "Phase 9",
       "brief": "Follow the strongest lead about Darius's brother.",
-      "win_condition": "Recover the next location clue."
+      "win_condition": "Recover the next location clue.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Rhea Cole",
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Recover the next location clue."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Recover the next location clue."
+      ],
+      "rewards": {
+        "cash": 4125,
+        "reputation": 4
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M28"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M30",
       "title": "They Found Me",
       "phase": "Phase 9",
       "brief": "Survive a coordinated attack.",
-      "win_condition": "Escape the attack and preserve the evidence."
+      "win_condition": "Escape the attack and preserve the evidence.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Rhea Cole",
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Escape the attack and preserve the evidence."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Escape the attack and preserve the evidence."
+      ],
+      "rewards": {
+        "cash": 4250,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M29"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M31",
       "title": "404",
       "phase": "Phase 9",
       "brief": "Discover what the 404 operation actually represents.",
-      "win_condition": "Assemble the required evidence chain."
+      "win_condition": "Assemble the required evidence chain.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Rhea Cole",
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Assemble the required evidence chain."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Assemble the required evidence chain."
+      ],
+      "rewards": {
+        "cash": 4375,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M30"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M32",
       "title": "The Choice",
       "phase": "Phase 10",
       "brief": "Choose who receives the truth.",
-      "win_condition": "Commit to an ending path and complete its objective."
+      "win_condition": "Commit to an ending path and complete its objective.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Commit to an ending path and complete its objective."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Commit to an ending path and complete its objective."
+      ],
+      "rewards": {
+        "cash": 4500,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M31"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M33",
       "title": "No Way Out",
       "phase": "Phase 10",
       "brief": "Execute the final operation.",
-      "win_condition": "Complete the chosen operation and survive."
+      "win_condition": "Complete the chosen operation and survive.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the chosen operation and survive."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the chosen operation and survive."
+      ],
+      "rewards": {
+        "cash": 4625,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M32"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M34",
       "title": "After 404",
       "phase": "Phase 10",
       "brief": "Live with the consequences.",
-      "win_condition": "Complete the epilogue conditions for the chosen ending."
+      "win_condition": "Complete the epilogue conditions for the chosen ending.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the epilogue conditions for the chosen ending."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the epilogue conditions for the chosen ending."
+      ],
+      "rewards": {
+        "cash": 4750,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M33"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M35",
       "title": "Market Signals",
       "phase": "Phase 3",
       "brief": "Track a coded exchange through East Market.",
-      "win_condition": "Identify the buyer, seller and signal without losing the trail."
+      "win_condition": "Identify the buyer, seller and signal without losing the trail.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "East Market",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "market",
+          "text": "Reach East Market."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "market",
+          "text": "INVESTIGATE: Identify the buyer, seller and signal without losing the trail."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify the buyer, seller and signal without losing the trail."
+      ],
+      "rewards": {
+        "cash": 4875,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M34"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M36",
       "title": "Rain on Central",
       "phase": "Phase 3",
       "brief": "Use bad weather to observe a protected meeting.",
-      "win_condition": "Record the meeting and leave the district."
+      "win_condition": "Record the meeting and leave the district.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Record the meeting and leave the district."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Record the meeting and leave the district."
+      ],
+      "rewards": {
+        "cash": 5000,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M35"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M37",
       "title": "Hilltop Contact",
       "phase": "Phase 3",
       "brief": "Meet a reluctant contact in North Hills.",
-      "win_condition": "Gain the contact's cooperation and obtain the address."
+      "win_condition": "Gain the contact's cooperation and obtain the address.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "North Hills",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "north",
+          "text": "Reach North Hills."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "north",
+          "text": "INVESTIGATE: Gain the contact's cooperation and obtain the address."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Gain the contact's cooperation and obtain the address."
+      ],
+      "rewards": {
+        "cash": 5125,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M36"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M38",
       "title": "Port Manifest",
       "phase": "Phase 3",
       "brief": "Compare a physical shipment with its manifest.",
-      "win_condition": "Find the mismatch and photograph the relevant page."
+      "win_condition": "Find the mismatch and photograph the relevant page.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Port",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "port",
+          "text": "Reach Veyron Port."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Find the mismatch and photograph the relevant page."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Find the mismatch and photograph the relevant page."
+      ],
+      "rewards": {
+        "cash": 5250,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M37"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M39",
       "title": "Airport Window",
       "phase": "Phase 3",
       "brief": "Follow a passenger through the airport network.",
-      "win_condition": "Identify the passenger's destination."
+      "win_condition": "Identify the passenger's destination.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron International Airport",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "airport",
+          "text": "Reach Veyron International Airport."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "airport",
+          "text": "INVESTIGATE: Identify the passenger's destination."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify the passenger's destination."
+      ],
+      "rewards": {
+        "cash": 5375,
+        "reputation": 5
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M38"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M40",
       "title": "Island Rumor",
       "phase": "Phase 3",
       "brief": "Verify the first rumor about Blackwater Island.",
-      "win_condition": "Confirm the rumor and return with proof."
+      "win_condition": "Confirm the rumor and return with proof.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Blackwater Island",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "island",
+          "text": "Reach Blackwater Island."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "island",
+          "text": "INVESTIGATE: Confirm the rumor and return with proof."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Confirm the rumor and return with proof."
+      ],
+      "rewards": {
+        "cash": 5500,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M39"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M41",
       "title": "The Regulars",
       "phase": "Phase 4",
-      "brief": "Learn who spends every evening at the same caf\u00e9.",
-      "win_condition": "Identify three regulars and one useful connection."
+      "brief": "Learn who spends every evening at the same café.",
+      "win_condition": "Identify three regulars and one useful connection.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Lena's Cafe",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "cafe",
+          "text": "Reach Lena's Cafe."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "cafe",
+          "text": "INVESTIGATE: Identify three regulars and one useful connection."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify three regulars and one useful connection."
+      ],
+      "rewards": {
+        "cash": 5625,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M40"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M42",
       "title": "Family Business",
       "phase": "Phase 4",
       "brief": "Help a resident with a local problem.",
-      "win_condition": "Resolve the problem without escalating conflict."
+      "win_condition": "Resolve the problem without escalating conflict.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Lena Brooks"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Resolve the problem without escalating conflict."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Resolve the problem without escalating conflict."
+      ],
+      "rewards": {
+        "cash": 5750,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M41"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M43",
       "title": "Bad Reputation",
       "phase": "Phase 4",
       "brief": "Repair Malik's standing with a neighborhood contact.",
-      "win_condition": "Raise the contact's trust enough to gain access."
+      "win_condition": "Raise the contact's trust enough to gain access.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Raise the contact's trust enough to gain access."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Raise the contact's trust enough to gain access."
+      ],
+      "rewards": {
+        "cash": 5875,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M42"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M44",
       "title": "Amara's Memory",
       "phase": "Phase 4",
       "brief": "Use a remembered detail to reopen a closed lead.",
-      "win_condition": "Find the remembered location and recover the clue."
+      "win_condition": "Find the remembered location and recover the clue.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Find the remembered location and recover the clue."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Find the remembered location and recover the clue."
+      ],
+      "rewards": {
+        "cash": 6000,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M43"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M45",
       "title": "Rumor Chain",
       "phase": "Phase 4",
       "brief": "Follow a rumor across three NPCs.",
-      "win_condition": "Reach the source without breaking the chain."
+      "win_condition": "Reach the source without breaking the chain.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Lena Brooks"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Reach the source without breaking the chain."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the source without breaking the chain."
+      ],
+      "rewards": {
+        "cash": 6125,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M44"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M46",
       "title": "The Second Witness",
       "phase": "Phase 4",
       "brief": "Find someone who contradicts the first witness.",
-      "win_condition": "Interview both and determine the reliable lead."
+      "win_condition": "Interview both and determine the reliable lead.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Lena Brooks"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Interview both and determine the reliable lead."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Interview both and determine the reliable lead."
+      ],
+      "rewards": {
+        "cash": 6250,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M45"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M47",
       "title": "Traffic Jam",
       "phase": "Phase 5",
       "brief": "Cross the city while traffic is gridlocked.",
-      "win_condition": "Reach the destination before the convoy leaves."
+      "win_condition": "Reach the destination before the convoy leaves.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Reach the destination before the convoy leaves."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the destination before the convoy leaves."
+      ],
+      "rewards": {
+        "cash": 6375,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M46"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M48",
       "title": "Four Flats",
       "phase": "Phase 5",
       "brief": "Recover a vehicle with multiple damaged tires.",
-      "win_condition": "Repair all four tires and return it."
+      "win_condition": "Repair all four tires and return it.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Repair all four tires and return it."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Repair all four tires and return it."
+      ],
+      "rewards": {
+        "cash": 6500,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M47"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M49",
       "title": "Workshop Upgrade",
       "phase": "Phase 5",
       "brief": "Improve the team's vehicle capabilities.",
-      "win_condition": "Complete the workshop upgrade and test the vehicle."
+      "win_condition": "Complete the workshop upgrade and test the vehicle.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Complete the workshop upgrade and test the vehicle."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the workshop upgrade and test the vehicle."
+      ],
+      "rewards": {
+        "cash": 6625,
+        "reputation": 6
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M48"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M50",
       "title": "Boat Run",
       "phase": "Phase 5",
       "brief": "Move an item through the coastal route.",
-      "win_condition": "Reach the dock and deliver the item without sinking."
+      "win_condition": "Reach the dock and deliver the item without sinking.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Port",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "port",
+          "text": "Reach Veyron Port."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Reach the dock and deliver the item without sinking."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the dock and deliver the item without sinking."
+      ],
+      "rewards": {
+        "cash": 6750,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M49"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M51",
       "title": "Emergency Lane",
       "phase": "Phase 5",
       "brief": "Get through traffic behind an emergency response.",
-      "win_condition": "Stay with the route and reach the destination."
+      "win_condition": "Stay with the route and reach the destination.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Stay with the route and reach the destination."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Stay with the route and reach the destination."
+      ],
+      "rewards": {
+        "cash": 6875,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M50"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M52",
       "title": "The Stolen Car",
       "phase": "Phase 5",
       "brief": "Recover a stolen vehicle using its trail.",
-      "win_condition": "Find the vehicle and return it intact."
+      "win_condition": "Find the vehicle and return it intact.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Find the vehicle and return it intact."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Find the vehicle and return it intact."
+      ],
+      "rewards": {
+        "cash": 7000,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M51"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M53",
       "title": "Street Fight",
       "phase": "Phase 6",
       "brief": "Defend a contact from an assault.",
-      "win_condition": "Protect the contact and survive the encounter."
+      "win_condition": "Protect the contact and survive the encounter.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Protect the contact and survive the encounter."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Protect the contact and survive the encounter."
+      ],
+      "rewards": {
+        "cash": 7125,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M52"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M54",
       "title": "First Pursuit",
       "phase": "Phase 6",
       "brief": "Escape a two-unit police pursuit.",
-      "win_condition": "Lose both units and clear the search."
+      "win_condition": "Lose both units and clear the search.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Lose both units and clear the search."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Lose both units and clear the search."
+      ],
+      "rewards": {
+        "cash": 7250,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M53"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M55",
       "title": "Evidence Locker",
       "phase": "Phase 6",
       "brief": "Recover a record before it is destroyed.",
-      "win_condition": "Secure the record and leave police territory."
+      "win_condition": "Secure the record and leave police territory.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Secure the record and leave police territory."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Secure the record and leave police territory."
+      ],
+      "rewards": {
+        "cash": 7375,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M54"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M56",
       "title": "Silent Witness",
       "phase": "Phase 6",
       "brief": "Stop a witness from being exposed.",
-      "win_condition": "Reach the witness first and escort them away."
+      "win_condition": "Reach the witness first and escort them away.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Lena Brooks"
+      ],
+      "location": "Veyron Police Headquarters",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "police",
+          "text": "Reach Veyron Police Headquarters."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Reach the witness first and escort them away."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the witness first and escort them away."
+      ],
+      "rewards": {
+        "cash": 7500,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M55"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M57",
       "title": "Five Stars",
       "phase": "Phase 6",
       "brief": "Survive a maximum-level response.",
-      "win_condition": "Escape the response and reach a designated safehouse."
+      "win_condition": "Escape the response and reach a designated safehouse.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Darius Safehouse",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "safehouse",
+          "text": "Reach Darius Safehouse."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "INVESTIGATE: Escape the response and reach a designated safehouse."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Escape the response and reach a designated safehouse."
+      ],
+      "rewards": {
+        "cash": 7625,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M56"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M58",
       "title": "Counter-Surveillance",
       "phase": "Phase 6",
       "brief": "Detect who is following the team.",
-      "win_condition": "Identify the tail and break surveillance."
+      "win_condition": "Identify the tail and break surveillance.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Identify the tail and break surveillance."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify the tail and break surveillance."
+      ],
+      "rewards": {
+        "cash": 7750,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M57"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M59",
       "title": "Clean Hands",
       "phase": "Phase 6",
       "brief": "Resolve a crime without increasing the team's wanted level.",
-      "win_condition": "Complete the objective with no new wanted points."
+      "win_condition": "Complete the objective with no new wanted points.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the objective with no new wanted points."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the objective with no new wanted points."
+      ],
+      "rewards": {
+        "cash": 7875,
+        "reputation": 7
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M58"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M60",
       "title": "The Broker",
       "phase": "Phase 7",
       "brief": "Negotiate access to a restricted network.",
-      "win_condition": "Complete the negotiation and obtain the access token."
+      "win_condition": "Complete the negotiation and obtain the access token.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the negotiation and obtain the access token."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the negotiation and obtain the access token."
+      ],
+      "rewards": {
+        "cash": 8000,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M59"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M61",
       "title": "Three Deliveries",
       "phase": "Phase 7",
       "brief": "Coordinate three simultaneous deliveries.",
-      "win_condition": "Complete all three before the network times out."
+      "win_condition": "Complete all three before the network times out.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete all three before the network times out."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete all three before the network times out."
+      ],
+      "rewards": {
+        "cash": 8125,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M60"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M62",
       "title": "False Friend",
       "phase": "Phase 7",
       "brief": "Determine which contact is feeding information away.",
-      "win_condition": "Identify the leak and preserve the relationship you need."
+      "win_condition": "Identify the leak and preserve the relationship you need.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Lena Brooks"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Identify the leak and preserve the relationship you need."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify the leak and preserve the relationship you need."
+      ],
+      "rewards": {
+        "cash": 8250,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M61"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M63",
       "title": "Dead Drop",
       "phase": "Phase 7",
       "brief": "Recover a package from a timed dead drop.",
-      "win_condition": "Collect the package before the rival team arrives."
+      "win_condition": "Collect the package before the rival team arrives.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Collect the package before the rival team arrives."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Collect the package before the rival team arrives."
+      ],
+      "rewards": {
+        "cash": 8375,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M62"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M64",
       "title": "Switchboard",
       "phase": "Phase 7",
       "brief": "Trace a sequence of calls.",
-      "win_condition": "Identify the originating location from the call pattern."
+      "win_condition": "Identify the originating location from the call pattern.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Identify the originating location from the call pattern."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Identify the originating location from the call pattern."
+      ],
+      "rewards": {
+        "cash": 8500,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M63"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M65",
       "title": "The Long Game",
       "phase": "Phase 7",
       "brief": "Build a lead over several smaller jobs.",
-      "win_condition": "Complete the linked objectives without failing two in a row."
+      "win_condition": "Complete the linked objectives without failing two in a row.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the linked objectives without failing two in a row."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the linked objectives without failing two in a row."
+      ],
+      "rewards": {
+        "cash": 8625,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M64"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M66",
       "title": "Three Doors",
       "phase": "Phase 7",
       "brief": "Choose the correct approach to a secure site.",
-      "win_condition": "Enter using the route matching the evidence you collected."
+      "win_condition": "Enter using the route matching the evidence you collected.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Enter using the route matching the evidence you collected."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Enter using the route matching the evidence you collected."
+      ],
+      "rewards": {
+        "cash": 8750,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M65"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M67",
       "title": "Legitimate Front",
       "phase": "Phase 8",
       "brief": "Open the team's first legitimate front.",
-      "win_condition": "Acquire the business and reach operating status."
+      "win_condition": "Acquire the business and reach operating status.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Acquire the business and reach operating status."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Acquire the business and reach operating status."
+      ],
+      "rewards": {
+        "cash": 8875,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M66"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M68",
       "title": "Payroll",
       "phase": "Phase 8",
       "brief": "Protect employees from a financial squeeze.",
-      "win_condition": "Resolve the payroll problem and keep the business open."
+      "win_condition": "Resolve the payroll problem and keep the business open.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Resolve the payroll problem and keep the business open."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Resolve the payroll problem and keep the business open."
+      ],
+      "rewards": {
+        "cash": 9000,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M67"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M69",
       "title": "The Property Deal",
       "phase": "Phase 8",
       "brief": "Acquire a strategic property.",
-      "win_condition": "Complete the purchase and register ownership."
+      "win_condition": "Complete the purchase and register ownership.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the purchase and register ownership."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the purchase and register ownership."
+      ],
+      "rewards": {
+        "cash": 9125,
+        "reputation": 8
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M68"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M70",
       "title": "Garage Full",
       "phase": "Phase 8",
       "brief": "Build a proper vehicle base.",
-      "win_condition": "Store the required vehicles and unlock the garage tier."
+      "win_condition": "Store the required vehicles and unlock the garage tier.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Reed Workshop",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "workshop",
+          "text": "Reach Reed Workshop."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Store the required vehicles and unlock the garage tier."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Store the required vehicles and unlock the garage tier."
+      ],
+      "rewards": {
+        "cash": 9250,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M69"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M71",
       "title": "Cash Flow",
       "phase": "Phase 8",
       "brief": "Stabilize the team's finances.",
-      "win_condition": "End the mission with positive cash flow."
+      "win_condition": "End the mission with positive cash flow.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: End the mission with positive cash flow."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "End the mission with positive cash flow."
+      ],
+      "rewards": {
+        "cash": 9375,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M70"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M72",
       "title": "Quiet Investor",
       "phase": "Phase 8",
       "brief": "Find a hidden investor.",
-      "win_condition": "Meet the investor and secure a conditional investment."
+      "win_condition": "Meet the investor and secure a conditional investment.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Meet the investor and secure a conditional investment."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Meet the investor and secure a conditional investment."
+      ],
+      "rewards": {
+        "cash": 9500,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M71"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M73",
       "title": "Paper Trail",
       "phase": "Phase 8",
       "brief": "Clean up inconsistencies in the business records.",
-      "win_condition": "Resolve every flagged transaction."
+      "win_condition": "Resolve every flagged transaction.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Resolve every flagged transaction."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Resolve every flagged transaction."
+      ],
+      "rewards": {
+        "cash": 9625,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M72"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M74",
       "title": "Brother's Photograph",
       "phase": "Phase 9",
       "brief": "Identify the location in an old photograph.",
-      "win_condition": "Find the matching location and recover a hidden item."
+      "win_condition": "Find the matching location and recover a hidden item.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Rhea Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Find the matching location and recover a hidden item."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Find the matching location and recover a hidden item."
+      ],
+      "rewards": {
+        "cash": 9750,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M73"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M75",
       "title": "The Safe Voice",
       "phase": "Phase 9",
       "brief": "Decode a message left for Darius.",
-      "win_condition": "Decode the message and reach its meeting point."
+      "win_condition": "Decode the message and reach its meeting point.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Decode the message and reach its meeting point."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Decode the message and reach its meeting point."
+      ],
+      "rewards": {
+        "cash": 9875,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M74"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M76",
       "title": "Old Friends",
       "phase": "Phase 9",
       "brief": "Revisit someone who knew Darius's brother.",
-      "win_condition": "Get the missing detail without losing the contact."
+      "win_condition": "Get the missing detail without losing the contact.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Rhea Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Get the missing detail without losing the contact."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Get the missing detail without losing the contact."
+      ],
+      "rewards": {
+        "cash": 10000,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M75"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M77",
       "title": "The Inside Room",
       "phase": "Phase 9",
       "brief": "Enter the hidden room beneath a legitimate business.",
-      "win_condition": "Find the room and recover the archive."
+      "win_condition": "Find the room and recover the archive.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Meridian Corporate Tower",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "tower",
+          "text": "Reach Meridian Corporate Tower."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "tower",
+          "text": "INVESTIGATE: Find the room and recover the archive."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Find the room and recover the archive."
+      ],
+      "rewards": {
+        "cash": 10125,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M76"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M78",
       "title": "Network Map",
       "phase": "Phase 9",
       "brief": "Assemble the organization from disconnected evidence.",
-      "win_condition": "Connect the required nodes in the case board."
+      "win_condition": "Connect the required nodes in the case board.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Connect the required nodes in the case board."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Connect the required nodes in the case board."
+      ],
+      "rewards": {
+        "cash": 10250,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M77"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M79",
       "title": "The Man Behind It",
       "phase": "Phase 9",
       "brief": "Identify the person directing the operation.",
-      "win_condition": "Obtain two independent confirmations."
+      "win_condition": "Obtain two independent confirmations.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Rhea Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Obtain two independent confirmations."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Obtain two independent confirmations."
+      ],
+      "rewards": {
+        "cash": 10375,
+        "reputation": 9
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M78"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M80",
       "title": "Broken Trust",
       "phase": "Phase 9",
       "brief": "Confront a teammate over a hidden decision.",
-      "win_condition": "Resolve the confrontation according to your relationship path."
+      "win_condition": "Resolve the confrontation according to your relationship path.",
+      "protagonist": "npc",
+      "supporting_npcs": [
+        "Lena Brooks"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Resolve the confrontation according to your relationship path."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Resolve the confrontation according to your relationship path."
+      ],
+      "rewards": {
+        "cash": 10500,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M79"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M81",
       "title": "Last Preparation",
       "phase": "Phase 10",
       "brief": "Prepare all three protagonists for the final operation.",
-      "win_condition": "Complete each protagonist's preparation objective."
+      "win_condition": "Complete each protagonist's preparation objective.",
+      "protagonist": "all",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "darius",
+          "kind": "character",
+          "target": "safehouse",
+          "text": "Prepare Darius."
+        },
+        {
+          "id": "malik",
+          "kind": "character",
+          "target": "workshop",
+          "text": "Prepare Malik."
+        },
+        {
+          "id": "amara",
+          "kind": "character",
+          "target": "central",
+          "text": "Prepare Amara."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete each protagonist's preparation objective."
+      ],
+      "rewards": {
+        "cash": 10625,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M80"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M82",
       "title": "No Loose Ends",
       "phase": "Phase 10",
       "brief": "Resolve outstanding threats before the finale.",
-      "win_condition": "Complete the required cleanup objectives."
+      "win_condition": "Complete the required cleanup objectives.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "central",
+          "text": "Reach Veyron Central."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Complete the required cleanup objectives."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the required cleanup objectives."
+      ],
+      "rewards": {
+        "cash": 10750,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M81"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M83",
       "title": "The Final Route",
       "phase": "Phase 10",
       "brief": "Choose the safest route into the final site.",
-      "win_condition": "Reach the site using the route your evidence supports."
+      "win_condition": "Reach the site using the route your evidence supports.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Port",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "port",
+          "text": "Reach Veyron Port."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Reach the site using the route your evidence supports."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the site using the route your evidence supports."
+      ],
+      "rewards": {
+        "cash": 10875,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M82"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M84",
       "title": "The Final Ledger",
       "phase": "Phase 10",
       "brief": "Secure the evidence that can expose 404.",
-      "win_condition": "Extract the ledger and keep it intact."
+      "win_condition": "Extract the ledger and keep it intact.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Central Bank",
+      "prototype_steps": [
+        {
+          "id": "travel",
+          "kind": "travel",
+          "target": "bank",
+          "text": "Reach Central Bank."
+        },
+        {
+          "id": "action",
+          "kind": "action",
+          "target": "bank",
+          "text": "INVESTIGATE: Extract the ledger and keep it intact."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Extract the ledger and keep it intact."
+      ],
+      "rewards": {
+        "cash": 11000,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M83"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M85",
       "title": "Three Against The City",
       "phase": "Phase 10",
       "brief": "Coordinate all three protagonists during the climax.",
-      "win_condition": "Complete all character objectives and survive."
+      "win_condition": "Complete all character objectives and survive.",
+      "protagonist": "all",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "darius",
+          "kind": "character",
+          "target": "tower",
+          "text": "Coordinate Darius at the final site."
+        },
+        {
+          "id": "malik",
+          "kind": "character",
+          "target": "port",
+          "text": "Coordinate Malik at the extraction route."
+        },
+        {
+          "id": "amara",
+          "kind": "character",
+          "target": "central",
+          "text": "Coordinate Amara on the evidence channel."
+        },
+        {
+          "id": "final",
+          "kind": "action",
+          "target": "tower",
+          "text": "Survive the coordinated climax."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete all character objectives and survive."
+      ],
+      "rewards": {
+        "cash": 11125,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M84"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M86",
       "title": "The Last Choice",
       "phase": "Phase 10",
       "brief": "Make the irreversible final decision.",
-      "win_condition": "Commit to the selected ending condition."
+      "win_condition": "Commit to the selected ending condition.",
+      "protagonist": "darius",
+      "supporting_npcs": [
+        "Malik Reed",
+        "Amara Vale"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "choice",
+          "kind": "choice",
+          "target": "central",
+          "text": "Open the final decision."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Commit to the selected ending condition."
+      ],
+      "rewards": {
+        "cash": 11250,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M85"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M87",
       "title": "Dawn",
       "phase": "Phase 10",
       "brief": "Survive the immediate aftermath.",
-      "win_condition": "Reach the final safe location."
+      "win_condition": "Reach the final safe location.",
+      "protagonist": "malik",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "dawn",
+          "kind": "travel",
+          "target": "family",
+          "text": "Reach the final safe location."
+        },
+        {
+          "id": "aftermath",
+          "kind": "action",
+          "target": "family",
+          "text": "Survive the immediate aftermath."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Reach the final safe location."
+      ],
+      "rewards": {
+        "cash": 11375,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 1,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M86"
+      ],
+      "unlocked_content": []
     },
     {
       "id": "M88",
       "title": "Veyron After 404",
       "phase": "Phase 10",
       "brief": "See what the city becomes after the operation.",
-      "win_condition": "Complete the final epilogue and unlock free-roam consequences."
+      "win_condition": "Complete the final epilogue and unlock free-roam consequences.",
+      "protagonist": "amara",
+      "supporting_npcs": [
+        "Darius Cole"
+      ],
+      "location": "Veyron Central",
+      "prototype_steps": [
+        {
+          "id": "free-roam",
+          "kind": "travel",
+          "target": "central",
+          "text": "Return to Veyron and witness the changed city."
+        },
+        {
+          "id": "epilogue",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the epilogue and unlock free roam."
+        }
+      ],
+      "prototypePlayable": true,
+      "optional_objectives": [
+        {
+          "id": "clean",
+          "text": "Complete the mission without unnecessary wanted level increases.",
+          "points": 20
+        }
+      ],
+      "failure_conditions": [
+        "Critical objective failed",
+        "Player incapacitated"
+      ],
+      "success_conditions": [
+        "Complete the final epilogue and unlock free-roam consequences."
+      ],
+      "rewards": {
+        "cash": 11500,
+        "reputation": 10
+      },
+      "consequences": {
+        "evidence": 0,
+        "policePressure": 0
+      },
+      "score_weights": {
+        "critical": 50,
+        "optional": 20,
+        "time": 10,
+        "survival": 10,
+        "precision": 10
+      },
+      "required_previous_missions": [
+        "M87"
+      ],
+      "unlocked_content": []
     }
   ]
 }

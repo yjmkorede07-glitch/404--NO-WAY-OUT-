@@ -5,9 +5,9 @@
 </head><body>
 <header class="topbar"><div><div class="game-title">404: NO WAY OUT</div><div id="location" class="location">VEYRON CENTRAL</div></div><div class="money"><span>CASH</span><strong id="cashDisplay">$0</strong></div></header>
 <main class="game-shell">
-<section class="hud"><div><b id="playerName">Darius Cole</b><small id="playerStatus">Available</small></div><div class="stats"><span>HP <b id="hp">100</b></span><span>STM <b id="stamina">100</b></span><span>WANTED <b id="wanted">0</b></span></div></section>
-<section id="world" class="world"><canvas id="cityCanvas"></canvas><div id="interactHint" class="hint hidden"></div><div id="toast" class="toast hidden"></div><div id="dialogue" class="dialogue hidden"></div><div class="controls"><button data-key="w">▲</button><div><button data-key="a">◀</button><button data-key="s">▼</button><button data-key="d">▶</button></div></div></section>
-<section class="quick-menu"><button onclick="openSwitch()">SWITCH</button><button onclick="openMissions()">MISSIONS</button><button onclick="openVehicles()">VEHICLES</button><button onclick="openVehicleDamage()">DAMAGE</button><button onclick="openInteriors()">INTERIORS</button><button onclick="openOnline()">ONLINE</button><button onclick="accountLogin()">LOGIN</button><button onclick="accountRegister()">REGISTER</button><button onclick="openSyncMonitor()">SYNC</button><button onclick="openPhone()">PHONE</button><button onclick="openMap()">MAP</button><button onclick="openATM()">BANK</button><button onclick="openNPCs()">PEOPLE</button><button onclick="resetGame()">RESET</button></section>
+<section class="hud"><div><b id="playerName">Darius Cole</b><small id="playerStatus">Available</small></div><div class="stats"><span>HP <b id="hp">100</b></span><span>STM <b id="stamina">100</b></span><span>WANTED <b id="wanted">☆☆☆☆☆</b></span></div></section>
+<section id="world" class="world"><canvas id="cityCanvas"></canvas><div id="interactHint" class="hint hidden"></div><div id="toast" class="toast hidden"></div><div id="dialogue" class="dialogue hidden"></div><div class="controls"><button data-key="w">▲</button><div><button data-key="a">◀</button><button data-key="s">▼</button><button data-key="d">▶</button></div><div class="action-row"><button id="actionBtn" onclick="contextAction()">ACTION</button><button id="vehicleBtn" onclick="toggleVehicle()">CAR</button><button id="fireBtn" onclick="fireAction()">FIRE</button></div></div></section>
+<section class="quick-menu"><button onclick="openSwitch()">SWITCH</button><button onclick="openMissions()">MISSIONS <span id="missionCount">88</span></button><button onclick="openVehicles()">VEHICLES</button><button onclick="openVehicleDamage()">DAMAGE</button><button onclick="openInteriors()">INTERIORS</button><button onclick="openOnline()">ONLINE</button><button onclick="accountLogin()">LOGIN</button><button onclick="accountRegister()">REGISTER</button><button onclick="openSyncMonitor()">SYNC</button><button onclick="openPhone()">PHONE</button><button onclick="openMap()">MAP</button><button onclick="openATM()">BANK</button><button onclick="openNPCs()">PEOPLE</button><button onclick="openEconomy()">ECONOMY</button><button onclick="openHotels()">HOTELS</button><button onclick="openModeStatus()">MODE</button><button onclick="resetGame()">RESET</button></section>
 <section id="panel" class="panel hidden"></section>
 </main>
 <script src="js/storage.js"></script><script src="js/player.js"></script><script src="js/banking.js"></script><script src="js/game.js"></script><script src="js/missions.js"></script><script src="js/systems.js"></script><script src="js/online.js"></script>
@@ -22,5 +22,5 @@
 <script src="js/phase9.js"></script>
 <script src="js/mission_score.js"></script>
 <script src="js/finale.js"></script>
-<script src="js/phase10_upgrade.js"></script>
+<script src="js/phase10_upgrade.js"></script><script src="js/playable_phase10.js"></script>
 </body></html>
