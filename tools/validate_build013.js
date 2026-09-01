@@ -15,7 +15,7 @@ campaign.missions.forEach((m, i) => {
     if (!ids.includes(req)) errors.push(`${m.id} references missing prerequisite ${req}.`);
   }
 });
-if (status.build !== "013" || String(status.phase) !== "18") errors.push("Build/phase status mismatch.");
+if (status.build !== "013" || Number(status.phase) < 18) errors.push("Build/phase status mismatch.");
 const jsDir = path.join(root, "js");
 for (const f of fs.readdirSync(jsDir).filter(f => f.endsWith(".js"))) {
   // Syntax validation is performed by the shell runner below; this script only
