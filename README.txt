@@ -58,3 +58,11 @@ BUILD 013 PHASE 18 VERIFICATION
 - Data contract: node tools/validate_build013.js
 - Browser smoke test: serve the folder over HTTP and verify mission/world-sim UI in a real browser.
 - Unreal/: migration skeleton/data contracts only; not a complete UE project.
+
+
+PHASE 19 BATCHING
+- Production is now organized as 10-mission batches.
+- Batch 01 is M01-M10.
+- `phase19_batch01.json` is the source contract for systems, beats and QA gates.
+- Open the game and use PHASE 19 to inspect/start/replay the batch.
+- A batch is not considered complete until all ten persisted mission results pass.

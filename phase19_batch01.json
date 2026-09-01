@@ -1,0 +1,106 @@
+{
+  "phase": 19,
+  "name": "Production Vertical Slice — Batch 01",
+  "batch": "M01-M10",
+  "strategy": "10 missions per production batch; complete all required contracts before moving to the next batch.",
+  "production_boundary": "Browser 2D vertical-slice implementation plus Unreal migration contracts. This is not a claim of finished 3D production.",
+  "required_systems": [
+    "mission progression and prerequisites",
+    "objective/checkpoint state",
+    "mission scoring and failure/retry",
+    "save/load persistence",
+    "protagonist switching",
+    "relationship consequences",
+    "evidence/exposure/police pressure",
+    "world simulation/weather integration",
+    "NPC interaction hooks",
+    "vehicle interaction hooks",
+    "interior/location hooks",
+    "cinematic beat contracts",
+    "audio/VO cue contracts",
+    "QA acceptance tests",
+    "Unreal migration data contracts"
+  ],
+  "missions": [
+    {
+      "id": "M01",
+      "title": "First Night",
+      "production_role": "vertical-slice opener",
+      "systems": ["airport arrival", "travel", "cab interaction", "family-house investigation", "lead creation", "save checkpoint"],
+      "beats": ["arrival", "cab", "family house", "first clue"],
+      "qa": ["M01 starts at airport", "all 4 objectives can advance", "lead persists after reload", "completion unlocks M02"]
+    },
+    {
+      "id": "M02",
+      "title": "The First Account",
+      "production_role": "economy/investigation slice",
+      "systems": ["bank location", "account interaction", "financial evidence", "reward", "save checkpoint"],
+      "beats": ["reach bank", "open account", "record suspicious transaction"],
+      "qa": ["M02 remains locked before M01", "bank objective completes in range", "evidence/reward persist", "completion unlocks M03"]
+    },
+    {
+      "id": "M03",
+      "title": "Three Names",
+      "production_role": "multi-protagonist investigation slice",
+      "systems": ["Malik handoff", "central investigation", "evidence", "relationship consequence"],
+      "beats": ["arrive central", "identify names", "secure evidence"],
+      "qa": ["player switches to Malik", "objective is range-gated", "evidence persists", "completion unlocks M04"]
+    },
+    {
+      "id": "M04",
+      "title": "The Call",
+      "production_role": "Amara introduction",
+      "systems": ["Amara handoff", "call/meeting contract", "exposure consequence", "relationship consequence"],
+      "beats": ["reach central", "answer call", "survive meeting"],
+      "qa": ["player switches to Amara", "call objective completes", "state persists", "completion unlocks M05"]
+    },
+    {
+      "id": "M05",
+      "title": "Veyron Central",
+      "production_role": "world-navigation slice",
+      "systems": ["multi-location routing", "bank", "market", "police HQ", "safehouse", "world simulation"],
+      "beats": ["route through Central", "visit marked locations", "return safely"],
+      "qa": ["all route targets resolve", "weather remains synchronized", "world-sim state remains active", "completion unlocks M06"]
+    },
+    {
+      "id": "M06",
+      "title": "North Hills, Quiet Money",
+      "production_role": "stealth/investigation slice",
+      "systems": ["North Hills routing", "observation contract", "wanted-level avoidance", "evidence"],
+      "beats": ["reach North Hills", "record target exchange", "leave undetected"],
+      "qa": ["target location resolves", "mission can complete without wanted escalation", "evidence persists", "completion unlocks M07"]
+    },
+    {
+      "id": "M07",
+      "title": "Iron District",
+      "production_role": "workshop/NPC relationship slice",
+      "systems": ["Reed Workshop", "NPC interaction", "relationship change", "interior hook"],
+      "beats": ["reach workshop", "secure Malik cooperation"],
+      "qa": ["workshop target resolves", "NPC interaction hook is available", "relationship state updates", "completion unlocks M08"]
+    },
+    {
+      "id": "M08",
+      "title": "The Port Doesn't Sleep",
+      "production_role": "port investigation/world-pressure slice",
+      "systems": ["port routing", "container investigation", "police pressure", "world events"],
+      "beats": ["reach port", "inspect container", "escape port"],
+      "qa": ["port target resolves", "world event state can coexist with mission", "pressure persists", "completion unlocks M09"]
+    },
+    {
+      "id": "M09",
+      "title": "People Remember",
+      "production_role": "social/police slice",
+      "systems": ["Police HQ", "three social interactions", "relationship trust", "police response avoidance"],
+      "beats": ["reach HQ", "complete social interactions", "leave without response"],
+      "qa": ["social mission does not require combat", "trust changes persist", "wanted level is not automatically raised", "completion unlocks M10"]
+    },
+    {
+      "id": "M10",
+      "title": "Amara's Rule",
+      "production_role": "batch finale / information synthesis",
+      "systems": ["Amara control", "three information hooks", "evidence", "relationship", "batch completion"],
+      "beats": ["reach Central", "collect information", "connect the evidence"],
+      "qa": ["Amara is active", "three information objectives resolve", "batch completion is recorded", "M11 becomes available"]
+    }
+  ]
+}

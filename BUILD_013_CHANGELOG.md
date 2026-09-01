@@ -32,3 +32,11 @@ Phase 18 does not claim to implement a console-scale 3D world in HTML/JavaScript
 - Added `tools/validate_build013.js` for mission/status data-contract validation.
 - Added `Unreal/` migration skeleton with mission and world-simulation C++ data contracts plus handoff notes.
 - Re-ran JavaScript syntax validation and JSON validation successfully.
+
+
+## Phase 19 — Batch 01 production batching
+- Adopted a 10-mission production cadence instead of treating all 88 missions as one undifferentiated build.
+- Added `phase19_batch01.json` covering M01-M10 with required systems, story beats and mission-specific QA gates.
+- Added `js/phase19.js` with a browser production-batch panel, replay/start controls and persisted batch completion gate.
+- Added `PHASE19.md` documenting the batch strategy and subsequent batch ranges.
+- Phase 19 remains a 2D browser vertical-slice layer plus Unreal migration contracts; it does not claim finished 3D production.
