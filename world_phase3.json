@@ -1,0 +1,160 @@
+{
+  "city": "Veyron City",
+  "districts": [
+    {
+      "id": "central",
+      "name": "Veyron Central",
+      "x": 0,
+      "y": 0,
+      "w": 620,
+      "h": 420,
+      "description": "Downtown core: bank, market, apartments, safehouse access and civic buildings."
+    },
+    {
+      "id": "east",
+      "name": "East Market",
+      "x": -620,
+      "y": 20,
+      "w": 320,
+      "h": 300,
+      "description": "Dense residential and commercial streets, small shops and alleys."
+    },
+    {
+      "id": "north",
+      "name": "North Hills",
+      "x": -470,
+      "y": -430,
+      "w": 420,
+      "h": 280,
+      "description": "Affluent hillside district with guarded properties and quieter streets."
+    },
+    {
+      "id": "iron",
+      "name": "Iron District",
+      "x": 260,
+      "y": 40,
+      "w": 420,
+      "h": 300,
+      "description": "Industrial yards, workshops, warehouses and freight traffic."
+    },
+    {
+      "id": "west",
+      "name": "West Coast",
+      "x": -180,
+      "y": 430,
+      "w": 700,
+      "h": 190,
+      "description": "Beachfront, hotels, leisure spaces and tourist traffic."
+    },
+    {
+      "id": "airport",
+      "name": "Veyron International Airport",
+      "x": 600,
+      "y": -520,
+      "w": 520,
+      "h": 300,
+      "description": "Runways, terminals, service roads and future flight systems."
+    },
+    {
+      "id": "port",
+      "name": "Veyron Port",
+      "x": 690,
+      "y": 390,
+      "w": 520,
+      "h": 300,
+      "description": "Container yards, docks, warehouses and maritime traffic."
+    },
+    {
+      "id": "island",
+      "name": "Blackwater Island",
+      "x": 1120,
+      "y": -180,
+      "w": 360,
+      "h": 300,
+      "description": "Remote island location reserved for later story and endgame content."
+    }
+  ],
+  "interiors": [
+    {
+      "id": "bank",
+      "name": "Veyron Bank",
+      "district": "central",
+      "kind": "financial"
+    },
+    {
+      "id": "safehouse",
+      "name": "Darius Safehouse",
+      "district": "central",
+      "kind": "safehouse"
+    },
+    {
+      "id": "market",
+      "name": "Central Market",
+      "district": "central",
+      "kind": "shopping"
+    },
+    {
+      "id": "police",
+      "name": "Police Headquarters",
+      "district": "central",
+      "kind": "civic"
+    },
+    {
+      "id": "workshop",
+      "name": "Reed Workshop",
+      "district": "iron",
+      "kind": "garage"
+    },
+    {
+      "id": "cafe",
+      "name": "Lena's Cafe",
+      "district": "east",
+      "kind": "social"
+    },
+    {
+      "id": "warehouse",
+      "name": "Port Warehouse 7",
+      "district": "port",
+      "kind": "industrial"
+    },
+    {
+      "id": "terminal",
+      "name": "Airport Terminal",
+      "district": "airport",
+      "kind": "transport"
+    }
+  ],
+  "world_clock": {
+    "start_hour": 8,
+    "minutes_per_real_second": 0.55
+  },
+  "weather": [
+    "clear",
+    "cloudy",
+    "rain",
+    "storm"
+  ],
+  "traffic_density": {
+    "morning": 0.75,
+    "day": 0.9,
+    "evening": 1.0,
+    "night": 0.35
+  },
+  "online": {
+    "enabled": true,
+    "architecture": "session-ready",
+    "mode": "shared-world",
+    "players_max": 16,
+    "features_reserved": [
+      "online character presence",
+      "co-op mission parties",
+      "shared vehicles",
+      "property ownership sync",
+      "economy sync",
+      "voice/text chat",
+      "friends/invites",
+      "anti-cheat/server authority"
+    ],
+    "note": "This browser build provides the online data/session layer and UI foundation; authoritative multiplayer requires a server backend in a later implementation phase."
+  }
+}
