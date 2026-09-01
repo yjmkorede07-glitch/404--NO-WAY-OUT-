@@ -1,0 +1,73 @@
+{
+  "id": "M35",
+  "title": "Market Signals",
+  "phase": "Phase 3",
+  "brief": "Track a coded exchange through East Market.",
+  "win_condition": "Identify the buyer, seller and signal without losing the trail.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "East Market",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "market",
+      "text": "Reach East Market."
+    },
+    {
+      "id": "find-signal",
+      "kind": "action",
+      "target": "market",
+      "text": "Find the coded market signal."
+    },
+    {
+      "id": "track-exchange",
+      "kind": "action",
+      "target": "market",
+      "text": "Track the buyer and seller without losing the trail."
+    },
+    {
+      "id": "identify",
+      "kind": "action",
+      "target": "market",
+      "text": "Identify the signal and preserve the exchange evidence."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify the buyer, seller and signal without losing the trail."
+  ],
+  "rewards": {
+    "cash": 4875,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M34"
+  ],
+  "unlocked_content": []
+}

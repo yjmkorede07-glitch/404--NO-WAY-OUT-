@@ -1,0 +1,72 @@
+{
+  "id": "M80",
+  "title": "Broken Trust",
+  "phase": "Phase 9",
+  "brief": "Confront a teammate over a hidden decision.",
+  "win_condition": "Resolve the confrontation according to your relationship path.",
+  "protagonist": "npc",
+  "supporting_npcs": [
+    "Lena Brooks"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "review-relationship",
+      "kind": "action",
+      "target": "central",
+      "text": "Review the relationship state before the confrontation."
+    },
+    {
+      "id": "confront-teammate",
+      "kind": "action",
+      "target": "central",
+      "text": "Confront the teammate over the hidden decision."
+    },
+    {
+      "id": "resolve-trust-path",
+      "kind": "action",
+      "target": "central",
+      "text": "Resolve the confrontation according to your relationship path."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Resolve the confrontation according to your relationship path."
+  ],
+  "rewards": {
+    "cash": 10500,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M79"
+  ],
+  "unlocked_content": []
+}

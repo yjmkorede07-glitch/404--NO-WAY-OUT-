@@ -1,0 +1,72 @@
+{
+  "id": "M67",
+  "title": "Legitimate Front",
+  "phase": "Phase 8",
+  "brief": "Open the team's first legitimate front.",
+  "win_condition": "Acquire the business and reach operating status.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "inspect-business",
+      "kind": "action",
+      "target": "central",
+      "text": "Inspect the business and confirm it can operate as a legitimate front."
+    },
+    {
+      "id": "acquire-business",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the acquisition on acceptable terms."
+    },
+    {
+      "id": "open-front",
+      "kind": "action",
+      "target": "central",
+      "text": "Register the business and reach operating status."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Acquire the business and reach operating status."
+  ],
+  "rewards": {
+    "cash": 8875,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M66"
+  ],
+  "unlocked_content": []
+}

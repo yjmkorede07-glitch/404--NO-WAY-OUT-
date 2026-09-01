@@ -1,0 +1,72 @@
+{
+  "id": "M73",
+  "title": "Paper Trail",
+  "phase": "Phase 8",
+  "brief": "Clean up inconsistencies in the business records.",
+  "win_condition": "Resolve every flagged transaction.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "flag-transactions",
+      "kind": "action",
+      "target": "central",
+      "text": "Review every transaction flagged by the business records."
+    },
+    {
+      "id": "reconcile-records",
+      "kind": "action",
+      "target": "central",
+      "text": "Reconcile the conflicting entries and preserve the useful paper trail."
+    },
+    {
+      "id": "close-audit",
+      "kind": "action",
+      "target": "central",
+      "text": "Resolve every flagged transaction."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Resolve every flagged transaction."
+  ],
+  "rewards": {
+    "cash": 9625,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M72"
+  ],
+  "unlocked_content": []
+}

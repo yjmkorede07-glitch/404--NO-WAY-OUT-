@@ -1,0 +1,72 @@
+{
+  "id": "M84",
+  "title": "The Final Ledger",
+  "phase": "Phase 10",
+  "brief": "Secure the evidence that can expose 404.",
+  "win_condition": "Extract the ledger and keep it intact.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Central Bank",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "bank",
+      "text": "Reach Central Bank."
+    },
+    {
+      "id": "access-ledger",
+      "kind": "action",
+      "target": "bank",
+      "text": "Access the hidden financial records."
+    },
+    {
+      "id": "secure-ledger",
+      "kind": "action",
+      "target": "bank",
+      "text": "Secure the final ledger without destroying the proof."
+    },
+    {
+      "id": "extract-ledger",
+      "kind": "action",
+      "target": "central",
+      "text": "Extract the ledger and keep it intact."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Extract the ledger and keep it intact."
+  ],
+  "rewards": {
+    "cash": 11000,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M83"
+  ],
+  "unlocked_content": []
+}

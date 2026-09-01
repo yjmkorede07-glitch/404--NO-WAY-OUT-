@@ -1,0 +1,72 @@
+{
+  "id": "M87",
+  "title": "Dawn",
+  "phase": "Phase 10",
+  "brief": "Survive the immediate aftermath.",
+  "win_condition": "Reach the final safe location.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "dawn",
+      "kind": "travel",
+      "target": "family",
+      "text": "Reach the final safe location."
+    },
+    {
+      "id": "aftermath",
+      "kind": "action",
+      "target": "family",
+      "text": "Survive the immediate aftermath."
+    },
+    {
+      "id": "consequences",
+      "kind": "action",
+      "target": "family",
+      "text": "Assess who survived, what evidence remains and how the city reacts."
+    },
+    {
+      "id": "leave",
+      "kind": "action",
+      "target": "central",
+      "text": "Leave the safe location and carry the chosen ending into Veyron."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach the final safe location."
+  ],
+  "rewards": {
+    "cash": 11375,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M86"
+  ],
+  "unlocked_content": []
+}

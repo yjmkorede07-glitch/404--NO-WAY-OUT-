@@ -1,0 +1,60 @@
+{
+  "id": "M58",
+  "title": "Counter-Surveillance",
+  "phase": "Phase 6",
+  "brief": "Detect who is following the team.",
+  "win_condition": "Identify the tail and break surveillance.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Identify the tail and break surveillance."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify the tail and break surveillance."
+  ],
+  "rewards": {
+    "cash": 7750,
+    "reputation": 7
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M57"
+  ],
+  "unlocked_content": []
+}

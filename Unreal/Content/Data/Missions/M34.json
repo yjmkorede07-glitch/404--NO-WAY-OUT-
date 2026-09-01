@@ -1,0 +1,72 @@
+{
+  "id": "M34",
+  "title": "After 404",
+  "phase": "Phase 10",
+  "brief": "Live with the consequences.",
+  "win_condition": "Complete the epilogue conditions for the chosen ending.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "assess",
+      "kind": "action",
+      "target": "central",
+      "text": "Assess the consequences of the chosen ending path."
+    },
+    {
+      "id": "epilogue",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the epilogue conditions."
+    },
+    {
+      "id": "leave-mark",
+      "kind": "action",
+      "target": "central",
+      "text": "Leave the city state in a persistent final condition."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the epilogue conditions for the chosen ending."
+  ],
+  "rewards": {
+    "cash": 4750,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M33"
+  ],
+  "unlocked_content": []
+}

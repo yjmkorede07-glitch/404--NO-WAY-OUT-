@@ -1,0 +1,73 @@
+{
+  "id": "M26",
+  "title": "First Investment",
+  "phase": "Phase 8",
+  "brief": "Turn clean money into a legitimate foothold.",
+  "win_condition": "Complete the first investment and record its return.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "investment-choose",
+      "kind": "action",
+      "target": "central",
+      "text": "Choose the first legitimate investment."
+    },
+    {
+      "id": "investment-fund",
+      "kind": "action",
+      "target": "central",
+      "text": "Commit clean money to the investment."
+    },
+    {
+      "id": "return-record",
+      "kind": "action",
+      "target": "central",
+      "text": "Record the first return."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the first investment and record its return."
+  ],
+  "rewards": {
+    "cash": 3750,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M25"
+  ],
+  "unlocked_content": []
+}

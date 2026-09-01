@@ -1,0 +1,60 @@
+{
+  "id": "M04",
+  "title": "The Call",
+  "phase": "Foundation",
+  "brief": "A call changes the direction of the investigation.",
+  "win_condition": "Answer the call and reach the meeting point alive.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Answer the call and reach the meeting point alive."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Answer the call and reach the meeting point alive."
+  ],
+  "rewards": {
+    "cash": 1000,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M03"
+  ],
+  "unlocked_content": []
+}

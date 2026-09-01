@@ -1,0 +1,60 @@
+{
+  "id": "M57",
+  "title": "Five Stars",
+  "phase": "Phase 6",
+  "brief": "Survive a maximum-level response.",
+  "win_condition": "Escape the response and reach a designated safehouse.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Darius Safehouse",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "safehouse",
+      "text": "Reach Darius Safehouse."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "INVESTIGATE: Escape the response and reach a designated safehouse."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Escape the response and reach a designated safehouse."
+  ],
+  "rewards": {
+    "cash": 7625,
+    "reputation": 7
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M56"
+  ],
+  "unlocked_content": []
+}

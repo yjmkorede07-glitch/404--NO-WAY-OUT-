@@ -1,0 +1,74 @@
+{
+  "id": "M31",
+  "title": "404",
+  "phase": "Phase 9",
+  "brief": "Discover what the 404 operation actually represents.",
+  "win_condition": "Assemble the required evidence chain.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Rhea Cole",
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "evidence-chain",
+      "kind": "action",
+      "target": "central",
+      "text": "Assemble the 404 evidence chain."
+    },
+    {
+      "id": "cross-check",
+      "kind": "action",
+      "target": "central",
+      "text": "Cross-check the chain against the three known threads."
+    },
+    {
+      "id": "confirm",
+      "kind": "action",
+      "target": "central",
+      "text": "Confirm what the 404 operation represents."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Assemble the required evidence chain."
+  ],
+  "rewards": {
+    "cash": 4375,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M30"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M74",
+  "title": "Brother's Photograph",
+  "phase": "Phase 9",
+  "brief": "Identify the location in an old photograph.",
+  "win_condition": "Find the matching location and recover a hidden item.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Rhea Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "inspect-photo",
+      "kind": "action",
+      "target": "central",
+      "text": "Inspect the old photograph for identifying details."
+    },
+    {
+      "id": "match-location",
+      "kind": "action",
+      "target": "central",
+      "text": "Match the photograph to a real location in Veyron."
+    },
+    {
+      "id": "recover-item",
+      "kind": "action",
+      "target": "central",
+      "text": "Recover the hidden item from the matching location."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Find the matching location and recover a hidden item."
+  ],
+  "rewards": {
+    "cash": 9750,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M73"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "M38",
+  "title": "Port Manifest",
+  "phase": "Phase 3",
+  "brief": "Compare a physical shipment with its manifest.",
+  "win_condition": "Find the mismatch and photograph the relevant page.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Port",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "port",
+      "text": "Reach Veyron Port."
+    },
+    {
+      "id": "compare-shipment",
+      "kind": "action",
+      "target": "port",
+      "text": "Compare the physical shipment with its manifest."
+    },
+    {
+      "id": "find-mismatch",
+      "kind": "action",
+      "target": "port",
+      "text": "Find the manifest mismatch."
+    },
+    {
+      "id": "photograph",
+      "kind": "action",
+      "target": "port",
+      "text": "Photograph the relevant page and preserve the evidence."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Find the mismatch and photograph the relevant page."
+  ],
+  "rewards": {
+    "cash": 5250,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M37"
+  ],
+  "unlocked_content": []
+}

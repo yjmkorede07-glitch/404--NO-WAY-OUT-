@@ -1,0 +1,103 @@
+{
+  "id": "M05",
+  "title": "Veyron Central",
+  "phase": "Phase 3",
+  "brief": "Enter the city's central district and map the new territory.",
+  "win_condition": "Visit the marked Central locations and return safely.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "central",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "bank",
+      "kind": "travel",
+      "target": "bank",
+      "text": "Visit the Central Bank."
+    },
+    {
+      "id": "bank-log",
+      "kind": "action",
+      "target": "bank",
+      "text": "Log the bank as part of the Central route."
+    },
+    {
+      "id": "market",
+      "kind": "travel",
+      "target": "market",
+      "text": "Visit East Market."
+    },
+    {
+      "id": "market-log",
+      "kind": "action",
+      "target": "market",
+      "text": "Log the market as part of the Central route."
+    },
+    {
+      "id": "police",
+      "kind": "travel",
+      "target": "police",
+      "text": "Visit Veyron Police Headquarters."
+    },
+    {
+      "id": "police-log",
+      "kind": "action",
+      "target": "police",
+      "text": "Log police presence without triggering a response."
+    },
+    {
+      "id": "safehouse",
+      "kind": "travel",
+      "target": "safehouse",
+      "text": "Return to Darius Safehouse."
+    },
+    {
+      "id": "safehouse-log",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "Complete the Central route and return safely."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Visit the marked Central locations and return safely."
+  ],
+  "rewards": {
+    "cash": 1125,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M04"
+  ],
+  "unlocked_content": []
+}

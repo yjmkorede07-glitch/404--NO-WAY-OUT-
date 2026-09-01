@@ -1,0 +1,72 @@
+{
+  "id": "M82",
+  "title": "No Loose Ends",
+  "phase": "Phase 10",
+  "brief": "Resolve outstanding threats before the finale.",
+  "win_condition": "Complete the required cleanup objectives.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "threats",
+      "kind": "action",
+      "target": "central",
+      "text": "Identify and resolve the outstanding threats before the finale."
+    },
+    {
+      "id": "secure",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "Secure the remaining people, evidence and fallback route."
+    },
+    {
+      "id": "clear",
+      "kind": "action",
+      "target": "central",
+      "text": "Confirm that no unresolved loose end can compromise the operation."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the required cleanup objectives."
+  ],
+  "rewards": {
+    "cash": 10750,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M81"
+  ],
+  "unlocked_content": []
+}

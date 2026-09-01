@@ -1,0 +1,67 @@
+{
+  "id": "M08",
+  "title": "The Port Doesn't Sleep",
+  "phase": "Phase 3",
+  "brief": "Investigate Port traffic after dark.",
+  "win_condition": "Inspect the designated container and escape the port.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Port",
+  "prototype_steps": [
+    {
+      "id": "port",
+      "kind": "travel",
+      "target": "port",
+      "text": "Reach Veyron Port."
+    },
+    {
+      "id": "container",
+      "kind": "action",
+      "target": "port",
+      "text": "Inspect the designated container."
+    },
+    {
+      "id": "escape",
+      "kind": "action",
+      "target": "port",
+      "text": "Escape the port before police pressure escalates."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Inspect the designated container and escape the port."
+  ],
+  "rewards": {
+    "cash": 1500,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M07"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "M60",
+  "title": "The Broker",
+  "phase": "Phase 7",
+  "brief": "Negotiate access to a restricted network.",
+  "win_condition": "Complete the negotiation and obtain the access token.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Complete the negotiation and obtain the access token."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the negotiation and obtain the access token."
+  ],
+  "rewards": {
+    "cash": 8000,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M59"
+  ],
+  "unlocked_content": []
+}

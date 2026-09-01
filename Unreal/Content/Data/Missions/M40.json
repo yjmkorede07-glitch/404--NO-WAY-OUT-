@@ -1,0 +1,72 @@
+{
+  "id": "M40",
+  "title": "Island Rumor",
+  "phase": "Phase 3",
+  "brief": "Verify the first rumor about Blackwater Island.",
+  "win_condition": "Confirm the rumor and return with proof.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Blackwater Island",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "island",
+      "text": "Reach Blackwater Island."
+    },
+    {
+      "id": "investigate-rumor",
+      "kind": "action",
+      "target": "island",
+      "text": "Investigate the first island rumor."
+    },
+    {
+      "id": "verify",
+      "kind": "action",
+      "target": "island",
+      "text": "Verify the rumor against physical evidence."
+    },
+    {
+      "id": "return-proof",
+      "kind": "action",
+      "target": "island",
+      "text": "Return with proof and preserve the island lead."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Confirm the rumor and return with proof."
+  ],
+  "rewards": {
+    "cash": 5500,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M39"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "M85",
+  "title": "Three Against The City",
+  "phase": "Phase 10",
+  "brief": "Coordinate all three protagonists during the climax.",
+  "win_condition": "Complete all character objectives and survive.",
+  "protagonist": "all",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "darius",
+      "kind": "character",
+      "target": "tower",
+      "text": "Coordinate Darius at the final site."
+    },
+    {
+      "id": "malik",
+      "kind": "character",
+      "target": "port",
+      "text": "Coordinate Malik at the extraction route."
+    },
+    {
+      "id": "amara",
+      "kind": "character",
+      "target": "central",
+      "text": "Coordinate Amara on the evidence channel."
+    },
+    {
+      "id": "final",
+      "kind": "action",
+      "target": "tower",
+      "text": "Survive the coordinated climax and complete the operation."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete all character objectives and survive."
+  ],
+  "rewards": {
+    "cash": 11125,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M84"
+  ],
+  "unlocked_content": []
+}

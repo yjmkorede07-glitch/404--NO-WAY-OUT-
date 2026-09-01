@@ -1,0 +1,73 @@
+{
+  "id": "M21",
+  "title": "Three Angles",
+  "phase": "Phase 7",
+  "brief": "Use all three protagonists to solve one problem.",
+  "win_condition": "Complete the Darius, Malik and Amara objectives.",
+  "protagonist": "all",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "darius",
+      "kind": "character",
+      "target": "central",
+      "text": "Complete Darius's investigation angle."
+    },
+    {
+      "id": "malik",
+      "kind": "character",
+      "target": "workshop",
+      "text": "Complete Malik's vehicle angle."
+    },
+    {
+      "id": "amara",
+      "kind": "character",
+      "target": "market",
+      "text": "Complete Amara's information angle."
+    },
+    {
+      "id": "converge",
+      "kind": "action",
+      "target": "central",
+      "text": "Converge the three angles into one actionable lead."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the Darius, Malik and Amara objectives."
+  ],
+  "rewards": {
+    "cash": 3125,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M20"
+  ],
+  "unlocked_content": []
+}

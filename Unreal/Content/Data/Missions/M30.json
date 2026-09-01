@@ -1,0 +1,74 @@
+{
+  "id": "M30",
+  "title": "They Found Me",
+  "phase": "Phase 9",
+  "brief": "Survive a coordinated attack.",
+  "win_condition": "Escape the attack and preserve the evidence.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Rhea Cole",
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "attack-survive",
+      "kind": "action",
+      "target": "central",
+      "text": "Survive the coordinated attack."
+    },
+    {
+      "id": "escape",
+      "kind": "action",
+      "target": "central",
+      "text": "Escape the attack zone."
+    },
+    {
+      "id": "evidence-preserve",
+      "kind": "action",
+      "target": "central",
+      "text": "Preserve the evidence while getting clear."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Escape the attack and preserve the evidence."
+  ],
+  "rewards": {
+    "cash": 4250,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M29"
+  ],
+  "unlocked_content": []
+}

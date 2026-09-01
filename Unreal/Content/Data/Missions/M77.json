@@ -1,0 +1,73 @@
+{
+  "id": "M77",
+  "title": "The Inside Room",
+  "phase": "Phase 9",
+  "brief": "Enter the hidden room beneath a legitimate business.",
+  "win_condition": "Find the room and recover the archive.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Meridian Corporate Tower",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "tower",
+      "text": "Reach Meridian Corporate Tower."
+    },
+    {
+      "id": "survey-business",
+      "kind": "action",
+      "target": "tower",
+      "text": "Survey the legitimate business for signs of a concealed room."
+    },
+    {
+      "id": "find-hidden-entry",
+      "kind": "action",
+      "target": "tower",
+      "text": "Find the hidden entry beneath the business."
+    },
+    {
+      "id": "recover-archive",
+      "kind": "action",
+      "target": "tower",
+      "text": "Recover the archive and leave the site secure."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Find the room and recover the archive."
+  ],
+  "rewards": {
+    "cash": 10125,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M76"
+  ],
+  "unlocked_content": []
+}

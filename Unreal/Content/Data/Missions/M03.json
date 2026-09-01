@@ -1,0 +1,60 @@
+{
+  "id": "M03",
+  "title": "Three Names",
+  "phase": "Foundation",
+  "brief": "Learn that the investigation has more than one side.",
+  "win_condition": "Identify three connected names without losing the evidence.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Identify three connected names without losing the evidence."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify three connected names without losing the evidence."
+  ],
+  "rewards": {
+    "cash": 875,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M02"
+  ],
+  "unlocked_content": []
+}

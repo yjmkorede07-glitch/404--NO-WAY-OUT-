@@ -1,0 +1,72 @@
+{
+  "id": "M43",
+  "title": "Bad Reputation",
+  "phase": "Phase 4",
+  "brief": "Repair Malik's standing with a neighborhood contact.",
+  "win_condition": "Raise the contact's trust enough to gain access.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "meet-contact",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Meet the neighborhood contact and acknowledge Malik's reputation."
+    },
+    {
+      "id": "repair-trust",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Repair enough trust to reopen the conversation."
+    },
+    {
+      "id": "gain-access",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Raise trust enough to gain access."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Raise the contact's trust enough to gain access."
+  ],
+  "rewards": {
+    "cash": 5875,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M42"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M88",
+  "title": "Veyron After 404",
+  "phase": "Phase 10",
+  "brief": "See what the city becomes after the operation.",
+  "win_condition": "Complete the final epilogue and unlock free-roam consequences.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "free-roam",
+      "kind": "travel",
+      "target": "central",
+      "text": "Return to Veyron and witness the changed city."
+    },
+    {
+      "id": "epilogue",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the epilogue for the chosen ending."
+    },
+    {
+      "id": "world-state",
+      "kind": "action",
+      "target": "central",
+      "text": "Apply the ending-dependent city, relationship and evidence consequences."
+    },
+    {
+      "id": "free-roam-unlocked",
+      "kind": "action",
+      "target": "central",
+      "text": "Unlock post-game free roam and the ending state."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the final epilogue and unlock free-roam consequences."
+  ],
+  "rewards": {
+    "cash": 11500,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M87"
+  ],
+  "unlocked_content": []
+}

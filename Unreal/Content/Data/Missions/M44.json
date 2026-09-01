@@ -1,0 +1,72 @@
+{
+  "id": "M44",
+  "title": "Amara's Memory",
+  "phase": "Phase 4",
+  "brief": "Use a remembered detail to reopen a closed lead.",
+  "win_condition": "Find the remembered location and recover the clue.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "retrace-memory",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Retrace Amara's remembered detail."
+    },
+    {
+      "id": "search-location",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Search the remembered location for the closed lead."
+    },
+    {
+      "id": "recover-clue",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Recover the clue and preserve it."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Find the remembered location and recover the clue."
+  ],
+  "rewards": {
+    "cash": 6000,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M43"
+  ],
+  "unlocked_content": []
+}

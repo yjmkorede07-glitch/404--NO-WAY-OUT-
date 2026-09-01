@@ -1,0 +1,72 @@
+{
+  "id": "M75",
+  "title": "The Safe Voice",
+  "phase": "Phase 9",
+  "brief": "Decode a message left for Darius.",
+  "win_condition": "Decode the message and reach its meeting point.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "decode-message",
+      "kind": "action",
+      "target": "central",
+      "text": "Decode the message left for Darius."
+    },
+    {
+      "id": "verify-marker",
+      "kind": "action",
+      "target": "central",
+      "text": "Verify the meeting marker before committing to the route."
+    },
+    {
+      "id": "reach-meeting",
+      "kind": "action",
+      "target": "central",
+      "text": "Reach the meeting point with the decoded message intact."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Decode the message and reach its meeting point."
+  ],
+  "rewards": {
+    "cash": 9875,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M74"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M45",
+  "title": "Rumor Chain",
+  "phase": "Phase 4",
+  "brief": "Follow a rumor across three NPCs.",
+  "win_condition": "Reach the source without breaking the chain.",
+  "protagonist": "npc",
+  "supporting_npcs": [
+    "Lena Brooks"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "follow-first",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Follow the first rumor source."
+    },
+    {
+      "id": "follow-second",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Follow the second NPC without breaking the chain."
+    },
+    {
+      "id": "reach-source",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Reach the rumor source without breaking the chain."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach the source without breaking the chain."
+  ],
+  "rewards": {
+    "cash": 6125,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M44"
+  ],
+  "unlocked_content": []
+}

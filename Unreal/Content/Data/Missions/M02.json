@@ -1,0 +1,61 @@
+{
+  "id": "M02",
+  "title": "The First Account",
+  "phase": "Foundation",
+  "brief": "Open the first financial trail.",
+  "win_condition": "Create a bank account and record the first suspicious transaction.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Central Bank",
+  "prototype_steps": [
+    {
+      "id": "bank",
+      "kind": "travel",
+      "target": "bank",
+      "text": "Reach the Central Bank."
+    },
+    {
+      "id": "account",
+      "kind": "action",
+      "target": "bank",
+      "text": "Open the first financial trail."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Create a bank account and record the first suspicious transaction."
+  ],
+  "rewards": {
+    "cash": 750,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M01"
+  ],
+  "unlocked_content": []
+}

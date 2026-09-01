@@ -1,0 +1,72 @@
+{
+  "id": "M70",
+  "title": "Garage Full",
+  "phase": "Phase 8",
+  "brief": "Build a proper vehicle base.",
+  "win_condition": "Store the required vehicles and unlock the garage tier.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "select-vehicles",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Select the required vehicles for the new garage tier."
+    },
+    {
+      "id": "store-vehicles",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Store the required vehicles in the workshop."
+    },
+    {
+      "id": "unlock-garage",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Unlock the garage tier and confirm the vehicle base is operational."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Store the required vehicles and unlock the garage tier."
+  ],
+  "rewards": {
+    "cash": 9250,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M69"
+  ],
+  "unlocked_content": []
+}

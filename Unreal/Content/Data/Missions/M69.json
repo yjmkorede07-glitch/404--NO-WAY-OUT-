@@ -1,0 +1,72 @@
+{
+  "id": "M69",
+  "title": "The Property Deal",
+  "phase": "Phase 8",
+  "brief": "Acquire a strategic property.",
+  "win_condition": "Complete the purchase and register ownership.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "review-property",
+      "kind": "action",
+      "target": "central",
+      "text": "Review the strategic property and its ownership terms."
+    },
+    {
+      "id": "close-purchase",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the property purchase."
+    },
+    {
+      "id": "register-ownership",
+      "kind": "action",
+      "target": "central",
+      "text": "Register ownership and secure the property."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the purchase and register ownership."
+  ],
+  "rewards": {
+    "cash": 9125,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M68"
+  ],
+  "unlocked_content": []
+}

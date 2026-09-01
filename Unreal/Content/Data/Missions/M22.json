@@ -1,0 +1,72 @@
+{
+  "id": "M22",
+  "title": "False Delivery",
+  "phase": "Phase 7",
+  "brief": "Use a decoy to redirect the network.",
+  "win_condition": "Complete the delivery without exposing the real package.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "decoy-prepare",
+      "kind": "action",
+      "target": "central",
+      "text": "Prepare the decoy package."
+    },
+    {
+      "id": "decoy-deliver",
+      "kind": "action",
+      "target": "central",
+      "text": "Deliver the decoy without exposing the real package."
+    },
+    {
+      "id": "confirm",
+      "kind": "action",
+      "target": "central",
+      "text": "Confirm the network took the decoy."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the delivery without exposing the real package."
+  ],
+  "rewards": {
+    "cash": 3250,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M21"
+  ],
+  "unlocked_content": []
+}

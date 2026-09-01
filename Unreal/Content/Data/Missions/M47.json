@@ -1,0 +1,72 @@
+{
+  "id": "M47",
+  "title": "Traffic Jam",
+  "phase": "Phase 5",
+  "brief": "Cross the city while traffic is gridlocked.",
+  "win_condition": "Reach the destination before the convoy leaves.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "read-traffic",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Read the gridlocked traffic pattern."
+    },
+    {
+      "id": "route-convoy",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Choose a route that keeps the convoy reachable."
+    },
+    {
+      "id": "reach-destination",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Reach the destination before the convoy leaves."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach the destination before the convoy leaves."
+  ],
+  "rewards": {
+    "cash": 6375,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M46"
+  ],
+  "unlocked_content": []
+}

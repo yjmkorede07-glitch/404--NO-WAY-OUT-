@@ -1,0 +1,72 @@
+{
+  "id": "M39",
+  "title": "Airport Window",
+  "phase": "Phase 3",
+  "brief": "Follow a passenger through the airport network.",
+  "win_condition": "Identify the passenger's destination.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron International Airport",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "airport",
+      "text": "Reach Veyron International Airport."
+    },
+    {
+      "id": "pick-passenger",
+      "kind": "action",
+      "target": "airport",
+      "text": "Identify and follow the passenger."
+    },
+    {
+      "id": "track-network",
+      "kind": "action",
+      "target": "airport",
+      "text": "Track the passenger through the airport network."
+    },
+    {
+      "id": "destination",
+      "kind": "action",
+      "target": "airport",
+      "text": "Identify the passenger’s destination."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify the passenger's destination."
+  ],
+  "rewards": {
+    "cash": 5375,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M38"
+  ],
+  "unlocked_content": []
+}

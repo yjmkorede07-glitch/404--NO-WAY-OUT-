@@ -1,0 +1,72 @@
+{
+  "id": "M50",
+  "title": "Boat Run",
+  "phase": "Phase 5",
+  "brief": "Move an item through the coastal route.",
+  "win_condition": "Reach the dock and deliver the item without sinking.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Port",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "port",
+      "text": "Reach Veyron Port."
+    },
+    {
+      "id": "load-item",
+      "kind": "action",
+      "target": "port",
+      "text": "INVESTIGATE: Load and secure the item for the coastal route."
+    },
+    {
+      "id": "coastal-run",
+      "kind": "action",
+      "target": "port",
+      "text": "INVESTIGATE: Complete the coastal run without sinking."
+    },
+    {
+      "id": "dock-delivery",
+      "kind": "action",
+      "target": "port",
+      "text": "INVESTIGATE: Reach the dock and deliver the item."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach the dock and deliver the item without sinking."
+  ],
+  "rewards": {
+    "cash": 6750,
+    "reputation": 7
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M49"
+  ],
+  "unlocked_content": []
+}

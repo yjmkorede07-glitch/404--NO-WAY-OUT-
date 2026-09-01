@@ -1,0 +1,72 @@
+{
+  "id": "M63",
+  "title": "Dead Drop",
+  "phase": "Phase 7",
+  "brief": "Recover a package from a timed dead drop.",
+  "win_condition": "Collect the package before the rival team arrives.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "locate-drop",
+      "kind": "action",
+      "target": "central",
+      "text": "Locate the timed dead drop before the rival team arrives."
+    },
+    {
+      "id": "secure-package",
+      "kind": "action",
+      "target": "central",
+      "text": "Secure the package without losing the drop site."
+    },
+    {
+      "id": "escape-rivals",
+      "kind": "action",
+      "target": "central",
+      "text": "Leave the drop before the rival team can take it."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Collect the package before the rival team arrives."
+  ],
+  "rewards": {
+    "cash": 8375,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M62"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "M13",
+  "title": "Workshop Wheels",
+  "phase": "Phase 5",
+  "brief": "Get a reliable vehicle.",
+  "win_condition": "Acquire and store a usable vehicle at the workshop.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "vehicle-source",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Inspect the available workshop vehicle."
+    },
+    {
+      "id": "vehicle-store",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Acquire the vehicle and store it at Reed Workshop."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Acquire and store a usable vehicle at the workshop."
+  ],
+  "rewards": {
+    "cash": 2125,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M12"
+  ],
+  "unlocked_content": []
+}

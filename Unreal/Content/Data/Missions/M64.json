@@ -1,0 +1,72 @@
+{
+  "id": "M64",
+  "title": "Switchboard",
+  "phase": "Phase 7",
+  "brief": "Trace a sequence of calls.",
+  "win_condition": "Identify the originating location from the call pattern.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "log-calls",
+      "kind": "action",
+      "target": "central",
+      "text": "Record the relevant calls in sequence."
+    },
+    {
+      "id": "trace-pattern",
+      "kind": "action",
+      "target": "central",
+      "text": "Trace the repeating pattern across the call sequence."
+    },
+    {
+      "id": "identify-origin",
+      "kind": "action",
+      "target": "central",
+      "text": "Identify the originating location from the call pattern."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify the originating location from the call pattern."
+  ],
+  "rewards": {
+    "cash": 8500,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M63"
+  ],
+  "unlocked_content": []
+}

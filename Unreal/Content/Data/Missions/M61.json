@@ -1,0 +1,72 @@
+{
+  "id": "M61",
+  "title": "Three Deliveries",
+  "phase": "Phase 7",
+  "brief": "Coordinate three simultaneous deliveries.",
+  "win_condition": "Complete all three before the network times out.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "delivery-one",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the first delivery before its window closes."
+    },
+    {
+      "id": "delivery-two",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the second delivery without losing the network route."
+    },
+    {
+      "id": "delivery-three",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the third delivery before the network times out."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete all three before the network times out."
+  ],
+  "rewards": {
+    "cash": 8125,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M60"
+  ],
+  "unlocked_content": []
+}

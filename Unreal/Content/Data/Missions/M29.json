@@ -1,0 +1,74 @@
+{
+  "id": "M29",
+  "title": "The Brother's Trail",
+  "phase": "Phase 9",
+  "brief": "Follow the strongest lead about Darius's brother.",
+  "win_condition": "Recover the next location clue.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Rhea Cole",
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "lead-track",
+      "kind": "action",
+      "target": "central",
+      "text": "Follow the strongest lead about Darius’s brother."
+    },
+    {
+      "id": "location-search",
+      "kind": "action",
+      "target": "central",
+      "text": "Search the next location for a trace."
+    },
+    {
+      "id": "clue-recover",
+      "kind": "action",
+      "target": "central",
+      "text": "Recover the next location clue."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Recover the next location clue."
+  ],
+  "rewards": {
+    "cash": 4125,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M28"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M25",
+  "title": "The Empty Office",
+  "phase": "Phase 7",
+  "brief": "Search an abandoned office before evidence disappears.",
+  "win_condition": "Recover the file and leave before the search closes in.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Meridian Corporate Tower",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "tower",
+      "text": "Reach Meridian Corporate Tower."
+    },
+    {
+      "id": "office-search",
+      "kind": "action",
+      "target": "tower",
+      "text": "Search the abandoned office."
+    },
+    {
+      "id": "file-recover",
+      "kind": "action",
+      "target": "tower",
+      "text": "Recover the file before evidence disappears."
+    },
+    {
+      "id": "exit",
+      "kind": "action",
+      "target": "tower",
+      "text": "Leave before the search closes in."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Recover the file and leave before the search closes in."
+  ],
+  "rewards": {
+    "cash": 3625,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M24"
+  ],
+  "unlocked_content": []
+}

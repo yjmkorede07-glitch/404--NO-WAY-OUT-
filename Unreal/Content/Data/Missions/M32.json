@@ -1,0 +1,73 @@
+{
+  "id": "M32",
+  "title": "The Choice",
+  "phase": "Phase 10",
+  "brief": "Choose who receives the truth.",
+  "win_condition": "Commit to an ending path and complete its objective.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "review-paths",
+      "kind": "action",
+      "target": "central",
+      "text": "Review who can safely receive the truth."
+    },
+    {
+      "id": "commit-choice",
+      "kind": "action",
+      "target": "central",
+      "text": "Commit to an ending path."
+    },
+    {
+      "id": "secure-choice",
+      "kind": "action",
+      "target": "central",
+      "text": "Secure the chosen path and preserve the evidence."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Commit to an ending path and complete its objective."
+  ],
+  "rewards": {
+    "cash": 4500,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M31"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M48",
+  "title": "Four Flats",
+  "phase": "Phase 5",
+  "brief": "Recover a vehicle with multiple damaged tires.",
+  "win_condition": "Repair all four tires and return it.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "inspect-vehicle",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Inspect the recovered vehicle and confirm four damaged tires."
+    },
+    {
+      "id": "repair-tires",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Repair all four tires."
+    },
+    {
+      "id": "return-vehicle",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Return the repaired vehicle."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Repair all four tires and return it."
+  ],
+  "rewards": {
+    "cash": 6500,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M47"
+  ],
+  "unlocked_content": []
+}

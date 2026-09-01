@@ -1,0 +1,72 @@
+{
+  "id": "M36",
+  "title": "Rain on Central",
+  "phase": "Phase 3",
+  "brief": "Use bad weather to observe a protected meeting.",
+  "win_condition": "Record the meeting and leave the district.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central in the rain."
+    },
+    {
+      "id": "position",
+      "kind": "action",
+      "target": "central",
+      "text": "Take a discreet observation position."
+    },
+    {
+      "id": "record",
+      "kind": "action",
+      "target": "central",
+      "text": "Record the protected meeting."
+    },
+    {
+      "id": "leave-district",
+      "kind": "action",
+      "target": "central",
+      "text": "Leave the district without exposing the observation."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Record the meeting and leave the district."
+  ],
+  "rewards": {
+    "cash": 5000,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M35"
+  ],
+  "unlocked_content": []
+}

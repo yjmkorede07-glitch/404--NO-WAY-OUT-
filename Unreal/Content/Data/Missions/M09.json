@@ -1,0 +1,60 @@
+{
+  "id": "M09",
+  "title": "People Remember",
+  "phase": "Phase 4",
+  "brief": "Test how much Veyron's residents notice.",
+  "win_condition": "Complete three social interactions without causing a police response.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Police Headquarters",
+  "prototype_steps": [
+    {
+      "id": "police",
+      "kind": "travel",
+      "target": "police",
+      "text": "Reach Veyron Police Headquarters."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "police",
+      "text": "Complete three social interactions without causing a police response."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete three social interactions without causing a police response."
+  ],
+  "rewards": {
+    "cash": 1625,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M08"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M27",
+  "title": "Safehouse",
+  "phase": "Phase 8",
+  "brief": "Secure a place the team can control.",
+  "win_condition": "Acquire or unlock the safehouse and store a vehicle.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "safehouse-unlock",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Acquire or unlock the safehouse."
+    },
+    {
+      "id": "secure",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Secure the safehouse for team use."
+    },
+    {
+      "id": "vehicle-store",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Store a vehicle at the safehouse."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Acquire or unlock the safehouse and store a vehicle."
+  ],
+  "rewards": {
+    "cash": 3875,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M26"
+  ],
+  "unlocked_content": []
+}

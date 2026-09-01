@@ -1,0 +1,72 @@
+{
+  "id": "M42",
+  "title": "Family Business",
+  "phase": "Phase 4",
+  "brief": "Help a resident with a local problem.",
+  "win_condition": "Resolve the problem without escalating conflict.",
+  "protagonist": "npc",
+  "supporting_npcs": [
+    "Lena Brooks"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "hear-problem",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Hear the resident's problem without escalating conflict."
+    },
+    {
+      "id": "deescalate",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Separate the dispute and identify a workable resolution."
+    },
+    {
+      "id": "resolve",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Resolve the problem without escalating conflict."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Resolve the problem without escalating conflict."
+  ],
+  "rewards": {
+    "cash": 5750,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M41"
+  ],
+  "unlocked_content": []
+}
