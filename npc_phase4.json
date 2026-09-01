@@ -1,0 +1,132 @@
+{
+  "phase": 4,
+  "name": "Living NPC & Social Simulation",
+  "principles": [
+    "Context \u2192 personality \u2192 proximity \u2192 event \u2192 reaction",
+    "NPCs have routines, moods, relationships and memories",
+    "Witnesses remember events and can report them",
+    "The three protagonists can produce different reactions",
+    "NPC state persists through saves and is designed for future online synchronization"
+  ],
+  "archetypes": [
+    {
+      "id": "worker",
+      "name": "Worker",
+      "traits": [
+        "routine",
+        "practical",
+        "time_sensitive"
+      ]
+    },
+    {
+      "id": "shopkeeper",
+      "name": "Shopkeeper",
+      "traits": [
+        "commercial",
+        "observant",
+        "relationship_driven"
+      ]
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal",
+      "traits": [
+        "risk_tolerant",
+        "territorial",
+        "networked"
+      ]
+    },
+    {
+      "id": "police",
+      "name": "Police",
+      "traits": [
+        "procedural",
+        "alert",
+        "evidence_driven"
+      ]
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "traits": [
+        "private",
+        "controlled",
+        "status_aware"
+      ]
+    },
+    {
+      "id": "resident",
+      "name": "Resident",
+      "traits": [
+        "community",
+        "memory",
+        "safety_sensitive"
+      ]
+    },
+    {
+      "id": "driver",
+      "name": "Driver",
+      "traits": [
+        "traffic",
+        "impatient",
+        "situational"
+      ]
+    },
+    {
+      "id": "tourist",
+      "name": "Tourist",
+      "traits": [
+        "curious",
+        "unfamiliar",
+        "photo_focused"
+      ]
+    }
+  ],
+  "simulation": {
+    "mood": [
+      "calm",
+      "happy",
+      "stressed",
+      "angry",
+      "afraid",
+      "suspicious",
+      "excited",
+      "tired"
+    ],
+    "weather_effects": {
+      "rain": "more indoor activity and cautious driving",
+      "storm": "reduced outdoor activity",
+      "clear": "normal routines"
+    },
+    "time_blocks": [
+      "late_night",
+      "morning",
+      "workday",
+      "afternoon",
+      "evening",
+      "night"
+    ],
+    "memory": [
+      "meeting",
+      "helped",
+      "threatened",
+      "witnessed_crime",
+      "heard_rumor",
+      "received_call"
+    ],
+    "relationships": [
+      "stranger",
+      "acquaintance",
+      "friend",
+      "trusted",
+      "rival",
+      "enemy"
+    ]
+  },
+  "witness_model": {
+    "visibility": "distance + line of sight + lighting + obstruction",
+    "recognition": "protagonist familiarity + clothing/context + previous encounters",
+    "reporting": "fear + trust + personality + relationship + severity + ability to contact police",
+    "memory_decay": "older events become less salient but important relationships remain"
+  }
+}
