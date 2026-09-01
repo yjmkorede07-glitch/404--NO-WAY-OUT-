@@ -1,0 +1,56 @@
+{
+  "phase": 10,
+  "name": "The Final Chapter \u2014 4 Endings + Post-Game Free Roam",
+  "tone": "mixed",
+  "mission_scoring": {
+    "scale": "0-100",
+    "components": {
+      "critical_objectives": 50,
+      "optional_objectives": 20,
+      "time": 10,
+      "damage_and_survival": 10,
+      "stealth_or_precision": 10
+    },
+    "rules": "Critical objective failure fails the mission. Optional objectives affect score but do not normally fail the mission.",
+    "thresholds": {
+      "90-100": "Exceptional",
+      "75-89": "Excellent",
+      "60-74": "Passed",
+      "40-59": "Barely Passed",
+      "0-39": "Failed"
+    },
+    "retry": "checkpoint restart and full mission retry; score is recalculated"
+  },
+  "endings": [
+    {
+      "id": "E1",
+      "name": "The Escape",
+      "tone": "hopeful-bitter",
+      "summary": "Expose 404 and attempt to disappear from Veyron.",
+      "postgame": "Low-key survival, rebuilding and hidden enemies."
+    },
+    {
+      "id": "E2",
+      "name": "The Crown",
+      "tone": "dark-triumphant",
+      "summary": "Take control of the power structure instead of destroying it.",
+      "postgame": "Power, money and faction politics reshape free roam."
+    },
+    {
+      "id": "E3",
+      "name": "The Sacrifice",
+      "tone": "bittersweet",
+      "summary": "One protagonist pays a major personal price so the others can survive.",
+      "postgame": "The surviving protagonists carry the consequences."
+    },
+    {
+      "id": "E4",
+      "name": "No Way Out",
+      "tone": "dark",
+      "summary": "404's plan succeeds in a devastating way.",
+      "postgame": "A changed Veyron with harsher encounters and restricted opportunities."
+    }
+  ],
+  "ending_variations": "8-12 smaller variations across survivor status, relationships, evidence and faction reputation.",
+  "postgame": "Open-world free roam with ending-dependent NPCs, missions, properties, businesses, vehicles, factions and dynamic events."
+}

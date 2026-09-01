@@ -1,0 +1,91 @@
+{
+  "playable_protagonists": [
+    {
+      "id": "darius",
+      "name": "Darius",
+      "role": "primary protagonist",
+      "playable": true,
+      "switchable": true
+    },
+    {
+      "id": "malik",
+      "name": "Malik",
+      "role": "primary protagonist",
+      "playable": true,
+      "switchable": true
+    },
+    {
+      "id": "amara",
+      "name": "Amara",
+      "role": "primary protagonist",
+      "playable": true,
+      "switchable": true
+    }
+  ],
+  "major_non_playable_protagonists": [
+    {
+      "id": "elias",
+      "name": "Elias Vale",
+      "role": "investigative journalist and information broker",
+      "playable": false,
+      "importance": "major ally"
+    },
+    {
+      "id": "nadia",
+      "name": "Nadia Okafor",
+      "role": "financial investigator who understands the money trail",
+      "playable": false,
+      "importance": "major ally"
+    },
+    {
+      "id": "reed",
+      "name": "Jonah Reed",
+      "role": "workshop owner and vehicle specialist",
+      "playable": false,
+      "importance": "trusted support"
+    },
+    {
+      "id": "selene",
+      "name": "Selene Ward",
+      "role": "police intelligence officer with divided loyalties",
+      "playable": false,
+      "importance": "major wildcard"
+    },
+    {
+      "id": "victor",
+      "name": "Victor Kane",
+      "role": "senior 404 strategist and principal antagonist",
+      "playable": false,
+      "importance": "primary antagonist"
+    },
+    {
+      "id": "mara",
+      "name": "Mara Voss",
+      "role": "404 field commander",
+      "playable": false,
+      "importance": "major antagonist"
+    },
+    {
+      "id": "tariq",
+      "name": "Tariq Bello",
+      "role": "Port Network fixer",
+      "playable": false,
+      "importance": "faction contact"
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea Cole",
+      "role": "North Hills power broker",
+      "playable": false,
+      "importance": "faction contact"
+    },
+    {
+      "id": "noah",
+      "name": "Noah Grant",
+      "role": "young witness whose survival affects later missions",
+      "playable": false,
+      "importance": "recurring story character"
+    }
+  ],
+  "rule": "Only Darius, Malik and Amara are playable protagonists in Story Mode. Added protagonists/major characters are non-playable unless a later design decision explicitly changes this."
+}

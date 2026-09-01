@@ -1,34 +1,30 @@
-404: NO WAY OUT — Build 010
-PHASE 9 + FULL ONLINE PERSISTENCE
+404: NO WAY OUT — Build 011
+PHASE 10 — HUGE FINAL CHAPTER + 4 ENDINGS + POST-GAME FREE ROAM
 
-Phase 9:
-- Story state persistence
-- Story flags
-- Relationship scores/levels
-- Faction reputation
-- Evidence collection
-- Ending-path persistence
-- Full account snapshot
-- Story/relationship UI
+Added:
+- 0–100 mission performance scoring
+- Mission Passed / Mission Failed result screen foundation
+- Score categories: critical, optional, time, survival, precision
+- Four major endings with mixed tone
+- 8–12 smaller ending variations planned
+- Post-game free roam state
+- Final chapter UI foundation
+- Story cast document
 
-Persistent online data:
-- Account/profile
-- 88 missions
-- Cash
-- Properties/upgrades
-- Businesses
-- Stored vehicles
-- Wanted state
-- Story state
-- Relationships
-- Faction reputation
-- Evidence
+Playable protagonists:
+- Darius
+- Malik
+- Amara
 
-The server remains authoritative: clients request state changes and the database persists them.
+Major non-playable story characters:
+- Elias Vale
+- Nadia Okafor
+- Jonah Reed
+- Selene Ward
+- Victor Kane
+- Mara Voss
+- Tariq Bello
+- Rhea Cole
+- Noah Grant
 
-Run:
-cd server
-npm install
-npm start
-
-Production still needs TLS/WSS, secure token lifecycle, account recovery/verification, managed database/backups, transaction ledgering, scaling, rate limits and hardened anti-cheat.
+Online remains separate from Story Mode.
