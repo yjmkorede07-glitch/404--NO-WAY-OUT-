@@ -23,3 +23,7 @@
 
 ## Phase 15 — Interiors + Properties + Personal Life
 - Added js/phase15.js and property/interior/personal-life prototype layer.
+
+
+## Phase 16 — Mission + Cinematic Production Pipeline
+- Added js/phase16.js with modular mission runtime, scoring, replay, dialogue and cinematic event contracts.

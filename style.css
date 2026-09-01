@@ -37,3 +37,8 @@
 .p15-card button,.p15-floor button,.p15-actions button{margin:4px 4px 4px 0}
 .p15-actions{display:flex;flex-wrap:wrap;gap:4px;margin:10px 0}
 .p15-floor{margin:8px 0}
+
+/* ================= PHASE 16 — MISSION / CINEMATIC PIPELINE ================= */
+.p16-mission{display:flex;flex-direction:column;gap:4px;padding:10px 0;border-bottom:1px solid #27313d}
+.p16-mission span,.p16-mission small{font-size:11px;color:#9aa6b4}
+.p16-mission button{margin-top:4px}
