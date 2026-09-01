@@ -1,0 +1,14 @@
+{
+  "game":"404: NO WAY OUT",
+  "build":"012",
+  "phase":"10",
+  "source":"Build 011 Finale archive supplied by user",
+  "mission_count":88,
+  "story_mode_hours_target":">=30",
+  "endings":4,
+  "free_roam_after_ending":true,
+  "story_online_separated":true,
+  "browser_prototype":"2D",
+  "future_3d_engine":"Unreal Engine 5.x Open World / World Partition",
+  "upgrade_count":14
+}
