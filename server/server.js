@@ -1,6 +1,6 @@
 import { WebSocketServer } from "ws";
 import crypto from "crypto";
-import { createAccount, authenticate, getProfile, saveProfile, saveMission, getMissions } from "./db.js";
+import { createAccount, authenticate, getProfile, saveProfile, saveMission, getMissions, getProperties, getBusinesses, getVehicles, buyProperty, upgradeProperty, saveBusiness, storeVehicle } from "./db.js";
 
 const PORT=process.env.PORT||8080;
 const TICK=20;
@@ -52,20 +52,25 @@ function handle(ws,msg){
       const email=String(payload.email||"").trim().toLowerCase(),password=String(payload.password||""),name=String(payload.name||"Player").slice(0,30);
       if(!email||password.length<8)return reject(ws,"Email and password (8+ chars) required");
       const accountId=createAccount(email,password,name),t=token();sessionsByToken.set(t,accountId);ws.accountId=accountId;ws.token=t;
-      send(ws,"auth_ok",{token:t,profile:getProfile(accountId),missions:getMissions(accountId)});return;
+      send(ws,"auth_ok",{token:t,profile:getProfile(accountId),missions:getMissions(accountId),properties:getProperties(accountId),businesses:getBusinesses(accountId),vehicles:getVehicles(accountId)});return;
     }catch(e){return reject(ws,"Account registration failed")}
   }
   if(type==="login"){
     const profile=authenticate(String(payload.email||"").trim().toLowerCase(),String(payload.password||""));
     if(!profile)return reject(ws,"Invalid login");
     const t=token();sessionsByToken.set(t,profile.account_id);ws.accountId=profile.account_id;ws.token=t;
-    send(ws,"auth_ok",{token:t,profile,missions:getMissions(profile.account_id)});return;
+    send(ws,"auth_ok",{token:t,profile,missions:getMissions(profile.account_id),properties:getProperties(profile.account_id),businesses:getBusinesses(profile.account_id),vehicles:getVehicles(profile.account_id)});return;
   }
   if(type==="resume"){
     const accountId=sessionsByToken.get(String(payload.token||""));
     if(!accountId)return reject(ws,"Session expired");
     ws.accountId=accountId;ws.token=String(payload.token);send(ws,"auth_ok",{token:ws.token,profile:getProfile(accountId),missions:getMissions(accountId)});return;
   }
+  if(type==="buy_property"){if(!authRequired(ws))return reject(ws,"Login required");const r=buyProperty(ws.accountId,String(payload.propertyId||""),payload.price);if(!r.ok)return reject(ws,r.reason);return send(ws,"economy_update",{profile:r.profile,properties:r.properties});}
+  if(type==="upgrade_property"){if(!authRequired(ws))return reject(ws,"Login required");const r=upgradeProperty(ws.accountId,String(payload.propertyId||""),payload.price);if(!r.ok)return reject(ws,r.reason);return send(ws,"economy_update",{profile:r.profile,properties:r.properties});}
+  if(type==="business_update"){if(!authRequired(ws))return reject(ws,"Login required");return send(ws,"business_update",{business:saveBusiness(ws.accountId,String(payload.businessId||""),payload)});}
+  if(type==="store_vehicle"){if(!authRequired(ws))return reject(ws,"Login required");storeVehicle(ws.accountId,String(payload.vehicleId||""),payload.name,payload.health,payload.propertyId);return send(ws,"vehicle_persisted",{vehicles:getVehicles(ws.accountId)});}
+  if(type==="economy_snapshot"){if(!authRequired(ws))return reject(ws,"Login required");return send(ws,"economy_snapshot",{profile:getProfile(ws.accountId),properties:getProperties(ws.accountId),businesses:getBusinesses(ws.accountId),vehicles:getVehicles(ws.accountId)});}
   if(type==="save_profile"){
     if(!authRequired(ws))return reject(ws,"Login required");
     saveProfile(ws.accountId,payload);send(ws,"saved",{profile:getProfile(ws.accountId)});return;
