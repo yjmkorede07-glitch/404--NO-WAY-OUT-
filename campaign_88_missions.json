@@ -1979,7 +1979,7 @@
           "id": "lead-track",
           "kind": "action",
           "target": "central",
-          "text": "Follow the strongest lead about Darius’s brother."
+          "text": "Follow the strongest lead about Darius\u2019s brother."
         },
         {
           "id": "location-search",
@@ -2567,7 +2567,7 @@
           "id": "earn-cooperation",
           "kind": "action",
           "target": "north",
-          "text": "Gain the contact’s cooperation."
+          "text": "Gain the contact\u2019s cooperation."
         },
         {
           "id": "obtain-address",
@@ -2718,7 +2718,7 @@
           "id": "destination",
           "kind": "action",
           "target": "airport",
-          "text": "Identify the passenger’s destination."
+          "text": "Identify the passenger\u2019s destination."
         }
       ],
       "prototypePlayable": true,
@@ -2832,7 +2832,7 @@
       "id": "M41",
       "title": "The Regulars",
       "phase": "Phase 4",
-      "brief": "Learn who spends every evening at the same café.",
+      "brief": "Learn who spends every evening at the same caf\u00e9.",
       "win_condition": "Identify three regulars and one useful connection.",
       "protagonist": "darius",
       "supporting_npcs": [
@@ -2848,10 +2848,22 @@
           "text": "Reach Lena's Cafe."
         },
         {
-          "id": "action",
+          "id": "observe-regulars",
           "kind": "action",
           "target": "cafe",
-          "text": "INVESTIGATE: Identify three regulars and one useful connection."
+          "text": "INVESTIGATE: Identify the first two regulars."
+        },
+        {
+          "id": "trace-connection",
+          "kind": "action",
+          "target": "cafe",
+          "text": "INVESTIGATE: Trace one useful connection between them."
+        },
+        {
+          "id": "confirm-source",
+          "kind": "action",
+          "target": "cafe",
+          "text": "INVESTIGATE: Confirm three regulars and one useful connection."
         }
       ],
       "prototypePlayable": true,
@@ -2908,7 +2920,19 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "hear-problem",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Hear the resident's problem without escalating conflict."
+        },
+        {
+          "id": "deescalate",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Separate the dispute and identify a workable resolution."
+        },
+        {
+          "id": "resolve",
           "kind": "action",
           "target": "central",
           "text": "INVESTIGATE: Resolve the problem without escalating conflict."
@@ -2968,10 +2992,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "meet-contact",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Raise the contact's trust enough to gain access."
+          "text": "INVESTIGATE: Meet the neighborhood contact and acknowledge Malik's reputation."
+        },
+        {
+          "id": "repair-trust",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Repair enough trust to reopen the conversation."
+        },
+        {
+          "id": "gain-access",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Raise trust enough to gain access."
         }
       ],
       "prototypePlayable": true,
@@ -3028,10 +3064,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "retrace-memory",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Find the remembered location and recover the clue."
+          "text": "INVESTIGATE: Retrace Amara's remembered detail."
+        },
+        {
+          "id": "search-location",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Search the remembered location for the closed lead."
+        },
+        {
+          "id": "recover-clue",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Recover the clue and preserve it."
         }
       ],
       "prototypePlayable": true,
@@ -3088,10 +3136,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "follow-first",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Reach the source without breaking the chain."
+          "text": "INVESTIGATE: Follow the first rumor source."
+        },
+        {
+          "id": "follow-second",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Follow the second NPC without breaking the chain."
+        },
+        {
+          "id": "reach-source",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Reach the rumor source without breaking the chain."
         }
       ],
       "prototypePlayable": true,
@@ -3148,10 +3208,22 @@
           "text": "Reach Veyron Police Headquarters."
         },
         {
-          "id": "action",
+          "id": "interview-first",
           "kind": "action",
           "target": "police",
-          "text": "INVESTIGATE: Interview both and determine the reliable lead."
+          "text": "INVESTIGATE: Interview the first witness."
+        },
+        {
+          "id": "interview-second",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Interview the contradicting witness."
+        },
+        {
+          "id": "weigh-leads",
+          "kind": "action",
+          "target": "police",
+          "text": "INVESTIGATE: Determine the reliable lead."
         }
       ],
       "prototypePlayable": true,
@@ -3208,7 +3280,19 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "read-traffic",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Read the gridlocked traffic pattern."
+        },
+        {
+          "id": "route-convoy",
+          "kind": "action",
+          "target": "central",
+          "text": "INVESTIGATE: Choose a route that keeps the convoy reachable."
+        },
+        {
+          "id": "reach-destination",
           "kind": "action",
           "target": "central",
           "text": "INVESTIGATE: Reach the destination before the convoy leaves."
@@ -3268,10 +3352,22 @@
           "text": "Reach Reed Workshop."
         },
         {
-          "id": "action",
+          "id": "inspect-vehicle",
           "kind": "action",
           "target": "workshop",
-          "text": "INVESTIGATE: Repair all four tires and return it."
+          "text": "INVESTIGATE: Inspect the recovered vehicle and confirm four damaged tires."
+        },
+        {
+          "id": "repair-tires",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Repair all four tires."
+        },
+        {
+          "id": "return-vehicle",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Return the repaired vehicle."
         }
       ],
       "prototypePlayable": true,
@@ -3328,10 +3424,22 @@
           "text": "Reach Reed Workshop."
         },
         {
-          "id": "action",
+          "id": "choose-upgrade",
           "kind": "action",
           "target": "workshop",
-          "text": "INVESTIGATE: Complete the workshop upgrade and test the vehicle."
+          "text": "INVESTIGATE: Choose the workshop capability upgrade."
+        },
+        {
+          "id": "install-upgrade",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Install and complete the upgrade."
+        },
+        {
+          "id": "test-vehicle",
+          "kind": "action",
+          "target": "workshop",
+          "text": "INVESTIGATE: Test the vehicle and confirm the upgrade works."
         }
       ],
       "prototypePlayable": true,
@@ -3388,10 +3496,22 @@
           "text": "Reach Veyron Port."
         },
         {
-          "id": "action",
+          "id": "load-item",
           "kind": "action",
           "target": "port",
-          "text": "INVESTIGATE: Reach the dock and deliver the item without sinking."
+          "text": "INVESTIGATE: Load and secure the item for the coastal route."
+        },
+        {
+          "id": "coastal-run",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Complete the coastal run without sinking."
+        },
+        {
+          "id": "dock-delivery",
+          "kind": "action",
+          "target": "port",
+          "text": "INVESTIGATE: Reach the dock and deliver the item."
         }
       ],
       "prototypePlayable": true,

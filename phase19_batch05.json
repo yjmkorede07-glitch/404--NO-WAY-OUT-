@@ -1,0 +1,706 @@
+{
+  "batch": "M41-M50",
+  "phase": "Phase 19 Batch 05",
+  "missions": [
+    {
+      "id": "M41",
+      "title": "The Regulars",
+      "production_role": "cafe surveillance / social intelligence",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "observe-regulars",
+        "trace-connection",
+        "confirm-source"
+      ],
+      "qa": [
+        "Reach Lena's Cafe.",
+        "Identify the first two regulars.",
+        "Trace one useful connection between them.",
+        "Confirm three regulars and one useful connection."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Lena's Cafe.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "observe-regulars",
+          "objective": "Identify the first two regulars.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "trace-connection",
+          "objective": "Trace one useful connection between them.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "confirm-source",
+          "objective": "Confirm three regulars and one useful connection.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M42",
+      "title": "Family Business",
+      "production_role": "civilian problem-solving / de-escalation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "hear-problem",
+        "deescalate",
+        "resolve"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Hear the resident's problem without escalating conflict.",
+        "Separate the dispute and identify a workable resolution.",
+        "Resolve the problem without escalating conflict."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "hear-problem",
+          "objective": "Hear the resident's problem without escalating conflict.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "deescalate",
+          "objective": "Separate the dispute and identify a workable resolution.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "resolve",
+          "objective": "Resolve the problem without escalating conflict.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M43",
+      "title": "Bad Reputation",
+      "production_role": "relationship repair / access negotiation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "meet-contact",
+        "repair-trust",
+        "gain-access"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Meet the neighborhood contact and acknowledge Malik's reputation.",
+        "Repair enough trust to reopen the conversation.",
+        "Raise trust enough to gain access."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "meet-contact",
+          "objective": "Meet the neighborhood contact and acknowledge Malik's reputation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "repair-trust",
+          "objective": "Repair enough trust to reopen the conversation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "gain-access",
+          "objective": "Raise trust enough to gain access.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M44",
+      "title": "Amara's Memory",
+      "production_role": "memory-led investigation / clue recovery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "retrace-memory",
+        "search-location",
+        "recover-clue"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Retrace Amara's remembered detail.",
+        "Search the remembered location for the closed lead.",
+        "Recover the clue and preserve it."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "retrace-memory",
+          "objective": "Retrace Amara's remembered detail.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "search-location",
+          "objective": "Search the remembered location for the closed lead.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "recover-clue",
+          "objective": "Recover the clue and preserve it.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M45",
+      "title": "Rumor Chain",
+      "production_role": "rumor-chain social tracking",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "follow-first",
+        "follow-second",
+        "reach-source"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Follow the first rumor source.",
+        "Follow the second NPC without breaking the chain.",
+        "Reach the rumor source without breaking the chain."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "follow-first",
+          "objective": "Follow the first rumor source.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "follow-second",
+          "objective": "Follow the second NPC without breaking the chain.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reach-source",
+          "objective": "Reach the rumor source without breaking the chain.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M46",
+      "title": "The Second Witness",
+      "production_role": "witness contradiction / lead evaluation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "interview-first",
+        "interview-second",
+        "weigh-leads"
+      ],
+      "qa": [
+        "Reach Veyron Police Headquarters.",
+        "Interview the first witness.",
+        "Interview the contradicting witness.",
+        "Determine the reliable lead."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Police Headquarters.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "interview-first",
+          "objective": "Interview the first witness.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "interview-second",
+          "objective": "Interview the contradicting witness.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "weigh-leads",
+          "objective": "Determine the reliable lead.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M47",
+      "title": "Traffic Jam",
+      "production_role": "traffic navigation / convoy timing",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "read-traffic",
+        "route-convoy",
+        "reach-destination"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Read the gridlocked traffic pattern.",
+        "Choose a route that keeps the convoy reachable.",
+        "Reach the destination before the convoy leaves."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "read-traffic",
+          "objective": "Read the gridlocked traffic pattern.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "route-convoy",
+          "objective": "Choose a route that keeps the convoy reachable.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reach-destination",
+          "objective": "Reach the destination before the convoy leaves.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M48",
+      "title": "Four Flats",
+      "production_role": "vehicle recovery / four-tire repair",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "inspect-vehicle",
+        "repair-tires",
+        "return-vehicle"
+      ],
+      "qa": [
+        "Reach Reed Workshop.",
+        "Inspect the recovered vehicle and confirm four damaged tires.",
+        "Repair all four tires.",
+        "Return the repaired vehicle."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Reed Workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "inspect-vehicle",
+          "objective": "Inspect the recovered vehicle and confirm four damaged tires.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "repair-tires",
+          "objective": "Repair all four tires.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "return-vehicle",
+          "objective": "Return the repaired vehicle.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M49",
+      "title": "Workshop Upgrade",
+      "production_role": "workshop capability upgrade / vehicle test",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "choose-upgrade",
+        "install-upgrade",
+        "test-vehicle"
+      ],
+      "qa": [
+        "Reach Reed Workshop.",
+        "Choose the workshop capability upgrade.",
+        "Install and complete the upgrade.",
+        "Test the vehicle and confirm the upgrade works."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Reed Workshop.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "choose-upgrade",
+          "objective": "Choose the workshop capability upgrade.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "install-upgrade",
+          "objective": "Install and complete the upgrade.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "test-vehicle",
+          "objective": "Test the vehicle and confirm the upgrade works.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M50",
+      "title": "Boat Run",
+      "production_role": "coastal transport / boat delivery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "load-item",
+        "coastal-run",
+        "dock-delivery"
+      ],
+      "qa": [
+        "Reach Veyron Port.",
+        "Load and secure the item for the coastal route.",
+        "Complete the coastal run without sinking.",
+        "Reach the dock and deliver the item."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Port.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "load-item",
+          "objective": "Load and secure the item for the coastal route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "coastal-run",
+          "objective": "Complete the coastal run without sinking.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "dock-delivery",
+          "objective": "Reach the dock and deliver the item.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ]
+}

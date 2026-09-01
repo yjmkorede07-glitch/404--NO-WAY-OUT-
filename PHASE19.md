@@ -56,3 +56,6 @@ Batch 03 continues directly from the locked M01–M20 implementation. The author
 
 ## Batch 04 — M31-M40
 M31-M40 are implemented as the next combined authoritative Phase 19 batch. The batch adds four-step mission execution, persistent checkpoints, mission-specific consequences, evidence/exposure/police hooks, ending-choice state, dialogue/temporary TTS hooks, QA tooling, production contracts, and Unreal handoff requirements. Final 3D characters, animation, recorded VO, final environments/interiors, production cinematics and online infrastructure remain later production work.
+
+## Batch 05 — M41-M50
+M41-M50 are locked as the current Phase 19 prototype batch. The browser implementation expands the canonical two-step registry entries into four explicit beats per mission, adds persistent checkpoint/action state, mission-specific dialogue hooks, and QA/Unreal production contracts. Final 3D, recorded VO, full cinematics, production vehicle physics, backend multiplayer infrastructure, and release certification remain later production work.

@@ -1,0 +1,406 @@
+{
+  "batch": "M41-M50",
+  "voice_mode": "prototype_tts_only; final recorded VO is production work",
+  "missions": {
+    "M41": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Lena's Cafe is a better information hub than people realize."
+          }
+        ],
+        "observe-regulars": [
+          {
+            "character": "Darius Cole",
+            "text": "Same faces, same hours. Patterns make people careless."
+          }
+        ],
+        "trace-connection": [
+          {
+            "character": "Malik",
+            "text": "Everybody knows somebody. We just need the right somebody."
+          }
+        ],
+        "confirm-source": [
+          {
+            "character": "Darius Cole",
+            "text": "Three regulars. One connection worth following."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "Good. Keep the useful connection quiet."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "Lena's Cafe is a better information hub than people realize."
+          }
+        ]
+      }
+    },
+    "M42": {
+      "beats": {
+        "start": [
+          {
+            "character": "Lena Brooks",
+            "text": "This is local. It should not become a spectacle."
+          }
+        ],
+        "hear-problem": [
+          {
+            "character": "Lena Brooks",
+            "text": "Hear both sides before you pick one."
+          }
+        ],
+        "deescalate": [
+          {
+            "character": "Lena Brooks",
+            "text": "Lower the temperature. Then solve the actual problem."
+          }
+        ],
+        "resolve": [
+          {
+            "character": "Darius Cole",
+            "text": "No escalation. That is the point."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Lena Brooks",
+            "text": "Sometimes helping means leaving everyone with their dignity."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Lena Brooks",
+            "text": "This is local. It should not become a spectacle."
+          }
+        ]
+      }
+    },
+    "M43": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "Malik has a reputation. We need the person behind it to reconsider."
+          }
+        ],
+        "meet-contact": [
+          {
+            "character": "Darius Cole",
+            "text": "Listen first. Defend nothing that does not need defending."
+          }
+        ],
+        "repair-trust": [
+          {
+            "character": "Amara Vale",
+            "text": "Trust is not a speech. It is a pattern of choices."
+          }
+        ],
+        "gain-access": [
+          {
+            "character": "Amara Vale",
+            "text": "Access granted. Now do not waste it."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "That door opened because you earned it."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara Vale",
+            "text": "Malik has a reputation. We need the person behind it to reconsider."
+          }
+        ]
+      }
+    },
+    "M44": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "I remember the detail. I do not remember why I forgot it."
+          }
+        ],
+        "retrace-memory": [
+          {
+            "character": "Amara Vale",
+            "text": "The street is wrong in small ways. That is what makes it familiar."
+          }
+        ],
+        "search-location": [
+          {
+            "character": "Darius Cole",
+            "text": "Search the place, not the story."
+          }
+        ],
+        "recover-clue": [
+          {
+            "character": "Amara Vale",
+            "text": "There. The clue survived."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Then the closed lead is open again."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara Vale",
+            "text": "I remember the detail. I do not remember why I forgot it."
+          }
+        ]
+      }
+    },
+    "M45": {
+      "beats": {
+        "start": [
+          {
+            "character": "Lena Brooks",
+            "text": "Rumors travel faster than facts, but they still leave tracks."
+          }
+        ],
+        "follow-first": [
+          {
+            "character": "Lena Brooks",
+            "text": "First source confirmed. Do not jump ahead."
+          }
+        ],
+        "follow-second": [
+          {
+            "character": "Lena Brooks",
+            "text": "Second source. Keep the chain intact."
+          }
+        ],
+        "reach-source": [
+          {
+            "character": "Lena Brooks",
+            "text": "There is the source. We made it without burning the trail."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Now we can test what the rumor is actually worth."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Lena Brooks",
+            "text": "Rumors travel faster than facts, but they still leave tracks."
+          }
+        ]
+      }
+    },
+    "M46": {
+      "beats": {
+        "start": [
+          {
+            "character": "Lena Brooks",
+            "text": "One witness says one thing. Another says the opposite."
+          }
+        ],
+        "interview-first": [
+          {
+            "character": "Lena Brooks",
+            "text": "Start with the first account."
+          }
+        ],
+        "interview-second": [
+          {
+            "character": "Lena Brooks",
+            "text": "Now hear the contradiction without deciding too early."
+          }
+        ],
+        "weigh-leads": [
+          {
+            "character": "Darius Cole",
+            "text": "The reliable lead is the one the details can support."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Lena Brooks",
+            "text": "Good. We have a lead, not a story we want to believe."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Lena Brooks",
+            "text": "One witness says one thing. Another says the opposite."
+          }
+        ]
+      }
+    },
+    "M47": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Gridlock everywhere. Of course today is the day."
+          }
+        ],
+        "read-traffic": [
+          {
+            "character": "Darius Cole",
+            "text": "Read the traffic before you fight it."
+          }
+        ],
+        "route-convoy": [
+          {
+            "character": "Malik",
+            "text": "Convoy is moving. I need a route, not a miracle."
+          }
+        ],
+        "reach-destination": [
+          {
+            "character": "Malik",
+            "text": "Made it. The convoy is still here."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Timing solved the problem."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Gridlock everywhere. Of course today is the day."
+          }
+        ]
+      }
+    },
+    "M48": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Four flats? Somebody really wanted this thing parked."
+          }
+        ],
+        "inspect-vehicle": [
+          {
+            "character": "Darius Cole",
+            "text": "Confirm the damage before we spend time repairing it."
+          }
+        ],
+        "repair-tires": [
+          {
+            "character": "Malik",
+            "text": "One tire. Two. Three. Four. Now we fix it."
+          }
+        ],
+        "return-vehicle": [
+          {
+            "character": "Malik",
+            "text": "All four are holding."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Bring it back clean."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Four flats? Somebody really wanted this thing parked."
+          }
+        ]
+      }
+    },
+    "M49": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Reed, let us make this workshop earn its keep."
+          }
+        ],
+        "choose-upgrade": [
+          {
+            "character": "Darius Cole",
+            "text": "Pick the upgrade that improves what we already use."
+          }
+        ],
+        "install-upgrade": [
+          {
+            "character": "Malik",
+            "text": "Installed. Now comes the part where we find out if it works."
+          }
+        ],
+        "test-vehicle": [
+          {
+            "character": "Malik",
+            "text": "That test felt better already."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Upgrade confirmed."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Reed, let us make this workshop earn its keep."
+          }
+        ]
+      }
+    },
+    "M50": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Boat run. Water is less forgiving than asphalt."
+          }
+        ],
+        "load-item": [
+          {
+            "character": "Darius Cole",
+            "text": "Secure the item twice. We only get one delivery."
+          }
+        ],
+        "coastal-run": [
+          {
+            "character": "Malik",
+            "text": "Coast is clear. Keep the hull steady."
+          }
+        ],
+        "dock-delivery": [
+          {
+            "character": "Malik",
+            "text": "Dock ahead. Item stays dry."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Delivered. No sinking, no excuses."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Boat run. Water is less forgiving than asphalt."
+          }
+        ]
+      }
+    }
+  }
+}
