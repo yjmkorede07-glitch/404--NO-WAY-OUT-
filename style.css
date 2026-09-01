@@ -26,3 +26,7 @@
 .p13-row span{color:#9aa6b4;font-size:11px;text-align:right}
 .p13-event{padding:9px 0;border-bottom:1px solid #27313d}
 .p13-event small{display:block;color:#9aa6b4;margin-top:4px;line-height:1.35}
+
+/* ================= PHASE 14 — COMBAT / POLICE / VEHICLES ================= */
+#combatPanelButton{font-weight:700}
+.stars{letter-spacing:2px}
