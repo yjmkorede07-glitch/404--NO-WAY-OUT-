@@ -199,6 +199,7 @@ function missionAction(){
   ensurePlayableState();const m=currentMission();const step=currentStep();if(!m||!step)return;
   if(step.kind==='choice'&&m.id==='M86')return openEndingChoice();
   const d=distanceToTarget(step);if(d>90)return notice('Move closer to the objective.');
+  if(window.phase19Runtime?.handleAction?.(m,step))return;
   advanceMissionStep();
 }
 function openEndingChoice(){
