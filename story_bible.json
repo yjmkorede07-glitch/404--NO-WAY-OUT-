@@ -1,0 +1,75 @@
+{
+  "title": "404: NO WAY OUT",
+  "premise": "Darius Cole returns to Veyron City after his brother disappears. What begins as a missing-person investigation expands into a criminal organization, corrupt businesses, government connections, secret operations, and the meaning of 404.",
+  "protagonists": {
+    "Darius": "Calm, intelligent, observant, ambitious. Best for investigation and balanced play.",
+    "Malik": "Loud, funny, reckless, loyal. Best for vehicles, mechanics, strength and high-risk approaches.",
+    "Amara": "Intelligent, controlled, sarcastic, mysterious. Best for stealth, analysis, social manipulation and information."
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Foundation",
+      "status": "complete",
+      "focus": "Project foundation and core architecture."
+    },
+    {
+      "phase": 2,
+      "name": "Darius & Core Gameplay",
+      "status": "complete",
+      "focus": "Player, movement, camera/gameplay foundation and progression hooks."
+    },
+    {
+      "phase": 3,
+      "name": "Veyron City & Living World",
+      "focus": "Veyron Central, East Veyron, West Coast, North Hills, Iron District, airport, port and island; day/night, weather, traffic, interiors and density."
+    },
+    {
+      "phase": 4,
+      "name": "Living NPCs & Social Simulation",
+      "focus": "Identity, personality, mood, relationships, schedules, memory, context-based reactions, phones and witnesses."
+    },
+    {
+      "phase": 5,
+      "name": "Vehicles, Traffic & Physical World",
+      "focus": "Cars, SUVs, trucks, motorcycles, boats, emergency/public transport, vehicle damage and tire reactions."
+    },
+    {
+      "phase": 6,
+      "name": "Combat, Crime, Witnesses & Police",
+      "focus": "Melee, shooting, stealth, crime severity, witness visibility/recognition, dispatch and pursuit."
+    },
+    {
+      "phase": 7,
+      "name": "Missions, Activities & Progression",
+      "focus": "Main missions, character missions, heists, chases, investigations, side activities and random events."
+    },
+    {
+      "phase": 8,
+      "name": "Economy, Properties & Personal Life",
+      "focus": "Cash, bank, purchases, income, businesses, properties, phone/laptop, clothing, relationships and hobbies."
+    },
+    {
+      "phase": 9,
+      "name": "404 Story, Relationships & Cinematic Experience",
+      "focus": "Missing brother, criminal organization, corrupt businesses, government connections, secret operations, relationships and character switching."
+    },
+    {
+      "phase": 10,
+      "name": "Endgame & Replay",
+      "focus": "Final operation, branching choices, protagonist-specific solutions, endings, post-game world and replay value."
+    }
+  ],
+  "ending_design": [
+    "Truth Ending \u2014 expose the operation with the strongest evidence chain.",
+    "Family Ending \u2014 prioritize finding and protecting the missing brother.",
+    "Power Ending \u2014 take control of part of the network rather than destroying everything.",
+    "Shadow Ending \u2014 keep the truth buried and disappear, preserving the protagonists but leaving unanswered questions."
+  ],
+  "playtime": {
+    "main_story_target_hours": "30+",
+    "main_missions": 34,
+    "main_mission_estimate_hours": 34.5,
+    "with_side_content": "40\u201355+ hours depending on exploration, activities, property/economy play and alternate approaches."
+  }
+}
