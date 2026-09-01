@@ -1,0 +1,17 @@
+const fs=require('fs');const path=require('path');
+const root=path.resolve(__dirname,'..');
+const batch=JSON.parse(fs.readFileSync(path.join(root,'phase19_batch04.json'),'utf8'));
+const campaign=JSON.parse(fs.readFileSync(path.join(root,'campaign_88_missions.json'),'utf8'));
+const missions=campaign.missions||campaign;
+const ids=Array.from({length:10},(_,i)=>`M${String(i+31).padStart(2,'0')}`);
+function fail(x){console.error('FAIL:',x);process.exitCode=1}
+if(batch.batch!=='M31-M40'||batch.missions.length!==10)fail('batch shape');
+for(const id of ids){const m=batch.missions.find(x=>x.id===id), c=missions.find(x=>x.id===id);if(!m||!c)fail(`${id} missing`);if(m.title!==c.title)fail(`${id} title mismatch`);if(m.beats.length<4)fail(`${id} needs >=4 beats`);if(!m.production_contract||m.production_contract.length!==m.beats.length)fail(`${id} production contract mismatch`);if(!m.qa||m.qa.length!==m.beats.length)fail(`${id} QA mismatch`)}
+const runtime=fs.readFileSync(path.join(root,'js/phase19_batch04_runtime.js'),'utf8');
+for(const id of ids)if(!runtime.includes(id))fail(`${id} runtime missing`);
+if(!fs.readFileSync(path.join(root,'index.html'),'utf8').includes('phase19_batch04_runtime.js'))fail('runtime not loaded');
+const dlg=JSON.parse(fs.readFileSync(path.join(root,'phase19_dialogue_batch04.json'),'utf8'));
+for(const id of ids){const b=dlg.missions[id]?.beats;if(!b||!b.start||!b.complete)fail(`${id} dialogue start/complete missing`)}
+if(!fs.existsSync(path.join(root,'js/phase19_dialogue_batch04.js')))fail('dialogue loader missing');
+if(!fs.existsSync(path.join(root,'js/phase19_batch04.js')))fail('UI missing');
+if(!process.exitCode)console.log('PASS: Phase 19 Batch 04 M31-M40 validation');
