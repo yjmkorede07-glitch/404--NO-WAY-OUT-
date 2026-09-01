@@ -40,3 +40,8 @@ The current implementation remains a **2D browser vertical slice**. Phase 19 add
 - Batch 07: M61-M70
 - Batch 08: M71-M80
 - Batch 09: M81-M88 (8 missions)
+
+### Batch 01 Character/Dialogues
+- Added `characters_production.json` with visual, performance and voice contracts for Darius Cole, Malik and Amara Vale.
+- Added `phase19_dialogue_batch01.json` covering mission-specific written dialogue for M01-M10.
+- Added `js/phase19_dialogue.js` to connect mission starts/actions/completions to the existing dialogue layer. Browser speech synthesis is explicitly a temporary prototype aid, not final voice acting.

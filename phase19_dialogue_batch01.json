@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "batch": "M01-M10",
+  "status": "written_dialogue_and_voice_direction",
+  "voice_note": "Dialogue text is production-ready writing reference. Browser speech synthesis is only a temporary prototype aid; it is not final recorded voice acting.",
+  "missions": {
+    "M01": {
+      "title": "First Night",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"Veyron hasn't changed as much as I expected. That's probably the problem."}],
+        "take-cab": [{"character":"Cab Driver","text":"North Hills? That's a long ride this late."},{"character":"Darius Cole","text":"Just take me there."},{"character":"Cab Driver","text":"You visiting family?"},{"character":"Darius Cole","text":"Something like that."}],
+        "inspect-house": [{"character":"Darius Cole","text":"Marcus wouldn't leave this lying around. He wanted someone to find it."},{"character":"Darius Cole","text":"Malik. You're still here."}],
+        "complete": [{"character":"Darius Cole","text":"First night back, and already somebody left me a trail."}]
+      }
+    },
+    "M02": {
+      "title": "The First Account",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"If Marcus was moving money, there should be a record somewhere."}],
+        "account": [{"character":"Bank Clerk","text":"The account is older than most of the staff here. What exactly are you looking for?"},{"character":"Darius Cole","text":"A transaction that doesn't belong."}],
+        "complete": [{"character":"Darius Cole","text":"There it is. Someone wanted this buried."}]
+      }
+    },
+    "M03": {
+      "title": "Three Names",
+      "beats": {
+        "start": [{"character":"Malik","text":"You really came back to Veyron and thought nobody would notice?"},{"character":"Darius Cole","text":"I was hoping for one quiet day."},{"character":"Malik","text":"Wrong city."}],
+        "action": [{"character":"Malik","text":"One name. That's not enough. Keep digging."}],
+        "complete": [{"character":"Darius Cole","text":"Three names. Three connections. That's too deliberate."}]
+      }
+    },
+    "M04": {
+      "title": "The Call",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"Unknown number. Nobody calls by accident anymore."}],
+        "action": [{"character":"Amara Vale","text":"If you're hearing my voice, you're already closer than you should be."},{"character":"Darius Cole","text":"Who are you?"},{"character":"Amara Vale","text":"Someone who knows what happens next if you keep asking the wrong questions."}],
+        "complete": [{"character":"Amara Vale","text":"Now you know where to look. Don't make me regret telling you."}]
+      }
+    },
+    "M05": {
+      "title": "Veyron Central",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"Central first. Bank, market, headquarters, then the safehouse. We keep the route clean."}],
+        "bank-log": [{"character":"Darius Cole","text":"Bank logged. Move."}],
+        "market-log": [{"character":"Malik","text":"Market is busy. Which means we're less interesting."}],
+        "police-log": [{"character":"Amara Vale","text":"Police headquarters. Try not to become memorable."}],
+        "safehouse-log": [{"character":"Darius Cole","text":"Route complete. We know where the pressure is."}],
+        "complete": [{"character":"Malik","text":"Okay. Now we're actually in this."}]
+      }
+    },
+    "M06": {
+      "title": "North Hills, Quiet Money",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"Quiet streets. Expensive houses. Money moves differently up here."}],
+        "action": [{"character":"Darius Cole","text":"There. Record it. No contact."}],
+        "complete": [{"character":"Darius Cole","text":"Nobody saw us. That's the point."}]
+      }
+    },
+    "M07": {
+      "title": "Iron District",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"Malik's workshop is exactly where I'd expect him to hide."}],
+        "action": [{"character":"Malik","text":"You disappear for years, walk back in, and now you need my help?"},{"character":"Darius Cole","text":"I need someone I can trust."},{"character":"Malik","text":"You should've led with that."}],
+        "complete": [{"character":"Malik","text":"Fine. We're in it together. But if this goes bad, I'm blaming you first."}]
+      }
+    },
+    "M08": {
+      "title": "The Port Doesn't Sleep",
+      "beats": {
+        "start": [{"character":"Malik","text":"Port never sleeps. Cameras do, sometimes. People don't."}],
+        "container": [{"character":"Darius Cole","text":"This is the container. Open it carefully."},{"character":"Malik","text":"You say that like you've done this before."}],
+        "escape": [{"character":"Amara Vale","text":"Leave. Now. Your window just closed."},{"character":"Malik","text":"That's our cue."}],
+        "complete": [{"character":"Darius Cole","text":"We got the evidence. Nobody needs to know how."}]
+      }
+    },
+    "M09": {
+      "title": "People Remember",
+      "beats": {
+        "start": [{"character":"Darius Cole","text":"Police headquarters. Everybody remembers something. The trick is finding out what."}],
+        "action": [{"character":"Contact","text":"I remember Marcus. I also remember what happened to people who asked about him."},{"character":"Darius Cole","text":"Then tell me what you know before somebody else decides for you."}],
+        "complete": [{"character":"Darius Cole","text":"Three conversations. Three different stories. Somebody's lying."}]
+      }
+    },
+    "M10": {
+      "title": "Amara's Rule",
+      "beats": {
+        "start": [{"character":"Amara Vale","text":"Rule one: never trust a clean story. Clean stories are usually prepared."}],
+        "action": [{"character":"Amara Vale","text":"That's the first piece. Keep going."}],
+        "complete": [{"character":"Amara Vale","text":"Now you can see the pattern. The question is whether you're ready for what it means."},{"character":"Darius Cole","text":"I didn't come back to Veyron for easy answers."}]
+      }
+    }
+  }
+}
