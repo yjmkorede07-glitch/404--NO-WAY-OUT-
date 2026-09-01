@@ -27,3 +27,7 @@
 
 ## Phase 16 — Mission + Cinematic Production Pipeline
 - Added js/phase16.js with modular mission runtime, scoring, replay, dialogue and cinematic event contracts.
+
+
+## Phase 17 — Dynamic Relationships + Mission Triggers + World Simulation
+- Added js/phase17.js for marker/NPC/call mission triggers, relationship state, world simulation, soft auto-aim and browser gamepad input.

@@ -42,3 +42,7 @@
 .p16-mission{display:flex;flex-direction:column;gap:4px;padding:10px 0;border-bottom:1px solid #27313d}
 .p16-mission span,.p16-mission small{font-size:11px;color:#9aa6b4}
 .p16-mission button{margin-top:4px}
+
+/* ================= PHASE 17 — WORLD / RELATIONSHIPS / CONTROLLER ================= */
+.p17-row{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid #27313d}
+.p17-row span{font-size:11px;color:#9aa6b4;text-align:right}
