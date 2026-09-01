@@ -8,7 +8,7 @@
   "endings": 4,
   "browser_prototype": "2D",
   "future_3d_engine": "Unreal Engine 5.x / World Partition",
-  "phase18_status": "implemented_browser_integration",
+  "phase18_status": "implemented_browser_integration_verified",
   "implemented": [
     "persistent relationship graph for protagonists",
     "88-mission dynamic availability/lead trigger graph",
@@ -33,5 +33,13 @@
     "build012_browser_campaign_framework": true,
     "build012_phase17_present": true,
     "note": "The supplied Build 012 repository is treated as the implementation source of truth; the pasted master prompt's earlier 'planned/not implemented' statements are not used to erase verified repository functionality."
-  }
+  },
+  "verified": [
+    "88-mission registry count and sequential IDs",
+    "mission prerequisite references",
+    "all JavaScript syntax",
+    "Phase 18 runtime loop uses a single monotonic requestAnimationFrame clock",
+    "movement save writes are throttled to reduce mobile localStorage churn",
+    "Unreal migration data-contract skeleton present"
+  ]
 }

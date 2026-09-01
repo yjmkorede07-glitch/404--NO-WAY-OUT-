@@ -23,3 +23,12 @@
 
 ## Production boundary
 Phase 18 does not claim to implement a console-scale 3D world in HTML/JavaScript. The same state contracts can be consumed by a future Unreal Engine implementation and an authoritative backend.
+
+
+## Session verification / integration hardening
+- Fixed Phase 18 scheduler clock-domain mismatch: `performance.now()` is now used consistently for world/NPC/business simulation cadence.
+- Phase 18 now mirrors the visible browser weather state instead of running a competing weather clock.
+- Throttled player movement persistence to 250 ms to reduce unnecessary mobile `localStorage` writes while preserving save behavior.
+- Added `tools/validate_build013.js` for mission/status data-contract validation.
+- Added `Unreal/` migration skeleton with mission and world-simulation C++ data contracts plus handoff notes.
+- Re-ran JavaScript syntax validation and JSON validation successfully.

@@ -51,3 +51,10 @@ The final game vision still requires a future Unreal Engine/mobile production bu
 - full cinematic production
 - authoritative multiplayer/backend services
 - server-side anti-cheat and persistence
+
+
+BUILD 013 PHASE 18 VERIFICATION
+- Node syntax: node --check on every JS file
+- Data contract: node tools/validate_build013.js
+- Browser smoke test: serve the folder over HTTP and verify mission/world-sim UI in a real browser.
+- Unreal/: migration skeleton/data contracts only; not a complete UE project.
