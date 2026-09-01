@@ -1979,7 +1979,7 @@
           "id": "lead-track",
           "kind": "action",
           "target": "central",
-          "text": "Follow the strongest lead about Darius\u2019s brother."
+          "text": "Follow the strongest lead about Darius’s brother."
         },
         {
           "id": "location-search",
@@ -2124,10 +2124,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "evidence-chain",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Assemble the required evidence chain."
+          "text": "Assemble the 404 evidence chain."
+        },
+        {
+          "id": "cross-check",
+          "kind": "action",
+          "target": "central",
+          "text": "Cross-check the chain against the three known threads."
+        },
+        {
+          "id": "confirm",
+          "kind": "action",
+          "target": "central",
+          "text": "Confirm what the 404 operation represents."
         }
       ],
       "prototypePlayable": true,
@@ -2185,10 +2197,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "review-paths",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Commit to an ending path and complete its objective."
+          "text": "Review who can safely receive the truth."
+        },
+        {
+          "id": "commit-choice",
+          "kind": "action",
+          "target": "central",
+          "text": "Commit to an ending path."
+        },
+        {
+          "id": "secure-choice",
+          "kind": "action",
+          "target": "central",
+          "text": "Secure the chosen path and preserve the evidence."
         }
       ],
       "prototypePlayable": true,
@@ -2245,10 +2269,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "stage-operation",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the chosen operation and survive."
+          "text": "Stage the chosen operation."
+        },
+        {
+          "id": "execute",
+          "kind": "action",
+          "target": "central",
+          "text": "Execute the operation."
+        },
+        {
+          "id": "survive",
+          "kind": "action",
+          "target": "central",
+          "text": "Survive the operation and preserve the result."
         }
       ],
       "prototypePlayable": true,
@@ -2305,10 +2341,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "assess",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the epilogue conditions for the chosen ending."
+          "text": "Assess the consequences of the chosen ending path."
+        },
+        {
+          "id": "epilogue",
+          "kind": "action",
+          "target": "central",
+          "text": "Complete the epilogue conditions."
+        },
+        {
+          "id": "leave-mark",
+          "kind": "action",
+          "target": "central",
+          "text": "Leave the city state in a persistent final condition."
         }
       ],
       "prototypePlayable": true,
@@ -2366,10 +2414,22 @@
           "text": "Reach East Market."
         },
         {
-          "id": "action",
+          "id": "find-signal",
           "kind": "action",
           "target": "market",
-          "text": "INVESTIGATE: Identify the buyer, seller and signal without losing the trail."
+          "text": "Find the coded market signal."
+        },
+        {
+          "id": "track-exchange",
+          "kind": "action",
+          "target": "market",
+          "text": "Track the buyer and seller without losing the trail."
+        },
+        {
+          "id": "identify",
+          "kind": "action",
+          "target": "market",
+          "text": "Identify the signal and preserve the exchange evidence."
         }
       ],
       "prototypePlayable": true,
@@ -2423,13 +2483,25 @@
           "id": "travel",
           "kind": "travel",
           "target": "central",
-          "text": "Reach Veyron Central."
+          "text": "Reach Veyron Central in the rain."
         },
         {
-          "id": "action",
+          "id": "position",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Record the meeting and leave the district."
+          "text": "Take a discreet observation position."
+        },
+        {
+          "id": "record",
+          "kind": "action",
+          "target": "central",
+          "text": "Record the protected meeting."
+        },
+        {
+          "id": "leave-district",
+          "kind": "action",
+          "target": "central",
+          "text": "Leave the district without exposing the observation."
         }
       ],
       "prototypePlayable": true,
@@ -2486,10 +2558,22 @@
           "text": "Reach North Hills."
         },
         {
-          "id": "action",
+          "id": "meet-contact",
           "kind": "action",
           "target": "north",
-          "text": "INVESTIGATE: Gain the contact's cooperation and obtain the address."
+          "text": "Meet the reluctant contact."
+        },
+        {
+          "id": "earn-cooperation",
+          "kind": "action",
+          "target": "north",
+          "text": "Gain the contact’s cooperation."
+        },
+        {
+          "id": "obtain-address",
+          "kind": "action",
+          "target": "north",
+          "text": "Obtain and preserve the target address."
         }
       ],
       "prototypePlayable": true,
@@ -2547,10 +2631,22 @@
           "text": "Reach Veyron Port."
         },
         {
-          "id": "action",
+          "id": "compare-shipment",
           "kind": "action",
           "target": "port",
-          "text": "INVESTIGATE: Find the mismatch and photograph the relevant page."
+          "text": "Compare the physical shipment with its manifest."
+        },
+        {
+          "id": "find-mismatch",
+          "kind": "action",
+          "target": "port",
+          "text": "Find the manifest mismatch."
+        },
+        {
+          "id": "photograph",
+          "kind": "action",
+          "target": "port",
+          "text": "Photograph the relevant page and preserve the evidence."
         }
       ],
       "prototypePlayable": true,
@@ -2607,10 +2703,22 @@
           "text": "Reach Veyron International Airport."
         },
         {
-          "id": "action",
+          "id": "pick-passenger",
           "kind": "action",
           "target": "airport",
-          "text": "INVESTIGATE: Identify the passenger's destination."
+          "text": "Identify and follow the passenger."
+        },
+        {
+          "id": "track-network",
+          "kind": "action",
+          "target": "airport",
+          "text": "Track the passenger through the airport network."
+        },
+        {
+          "id": "destination",
+          "kind": "action",
+          "target": "airport",
+          "text": "Identify the passenger’s destination."
         }
       ],
       "prototypePlayable": true,
@@ -2667,10 +2775,22 @@
           "text": "Reach Blackwater Island."
         },
         {
-          "id": "action",
+          "id": "investigate-rumor",
           "kind": "action",
           "target": "island",
-          "text": "INVESTIGATE: Confirm the rumor and return with proof."
+          "text": "Investigate the first island rumor."
+        },
+        {
+          "id": "verify",
+          "kind": "action",
+          "target": "island",
+          "text": "Verify the rumor against physical evidence."
+        },
+        {
+          "id": "return-proof",
+          "kind": "action",
+          "target": "island",
+          "text": "Return with proof and preserve the island lead."
         }
       ],
       "prototypePlayable": true,
@@ -2712,7 +2832,7 @@
       "id": "M41",
       "title": "The Regulars",
       "phase": "Phase 4",
-      "brief": "Learn who spends every evening at the same caf\u00e9.",
+      "brief": "Learn who spends every evening at the same café.",
       "win_condition": "Identify three regulars and one useful connection.",
       "protagonist": "darius",
       "supporting_npcs": [

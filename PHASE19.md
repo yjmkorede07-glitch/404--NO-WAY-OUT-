@@ -53,3 +53,6 @@ Batch 02 extends the completed M01-M10 foundation with multi-step witness protec
 ## Phase 19 — Batch 03: M21–M30
 
 Batch 03 continues directly from the locked M01–M20 implementation. The authoritative campaign registry remains 88 missions. M21–M30 now have explicit multi-step browser execution, persistent mission state, relationship/evidence/heat/economy hooks, mission-specific written dialogue, QA contracts and Unreal-ready production contracts. Final 3D Unreal production remains intentionally deferred to the final production stage.
+
+## Batch 04 — M31-M40
+M31-M40 are implemented as the next combined authoritative Phase 19 batch. The batch adds four-step mission execution, persistent checkpoints, mission-specific consequences, evidence/exposure/police hooks, ending-choice state, dialogue/temporary TTS hooks, QA tooling, production contracts, and Unreal handoff requirements. Final 3D characters, animation, recorded VO, final environments/interiors, production cinematics and online infrastructure remain later production work.

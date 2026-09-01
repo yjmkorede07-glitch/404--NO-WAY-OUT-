@@ -1,0 +1,706 @@
+{
+  "batch": "M31-M40",
+  "phase": "Phase 19 Batch 04",
+  "missions": [
+    {
+      "id": "M31",
+      "title": "404",
+      "production_role": "404 operation discovery / evidence-chain synthesis",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "evidence-chain",
+        "cross-check",
+        "confirm"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Assemble the 404 evidence chain.",
+        "Cross-check the chain against the three known threads.",
+        "Confirm what the 404 operation represents."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "evidence-chain",
+          "objective": "Assemble the 404 evidence chain.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "cross-check",
+          "objective": "Cross-check the chain against the three known threads.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "confirm",
+          "objective": "Confirm what the 404 operation represents.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M32",
+      "title": "The Choice",
+      "production_role": "Ending-path decision / consequence lock",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "review-paths",
+        "commit-choice",
+        "secure-choice"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Review who can safely receive the truth.",
+        "Commit to an ending path.",
+        "Secure the chosen path and preserve the evidence."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "review-paths",
+          "objective": "Review who can safely receive the truth.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "commit-choice",
+          "objective": "Commit to an ending path.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure-choice",
+          "objective": "Secure the chosen path and preserve the evidence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M33",
+      "title": "No Way Out",
+      "production_role": "Final operation execution / survival",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "stage-operation",
+        "execute",
+        "survive"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Stage the chosen operation.",
+        "Execute the operation.",
+        "Survive the operation and preserve the result."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "stage-operation",
+          "objective": "Stage the chosen operation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "execute",
+          "objective": "Execute the operation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "survive",
+          "objective": "Survive the operation and preserve the result.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M34",
+      "title": "After 404",
+      "production_role": "Post-404 epilogue / persistent consequence state",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "assess",
+        "epilogue",
+        "leave-mark"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Assess the consequences of the chosen ending path.",
+        "Complete the epilogue conditions.",
+        "Leave the city state in a persistent final condition."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "assess",
+          "objective": "Assess the consequences of the chosen ending path.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "epilogue",
+          "objective": "Complete the epilogue conditions.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "leave-mark",
+          "objective": "Leave the city state in a persistent final condition.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M35",
+      "title": "Market Signals",
+      "production_role": "Coded market surveillance / exchange identification",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "find-signal",
+        "track-exchange",
+        "identify"
+      ],
+      "qa": [
+        "Reach East Market.",
+        "Find the coded market signal.",
+        "Track the buyer and seller without losing the trail.",
+        "Identify the signal and preserve the exchange evidence."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach East Market.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "find-signal",
+          "objective": "Find the coded market signal.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "track-exchange",
+          "objective": "Track the buyer and seller without losing the trail.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "identify",
+          "objective": "Identify the signal and preserve the exchange evidence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M36",
+      "title": "Rain on Central",
+      "production_role": "Weather-assisted observation / stealth recording",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "position",
+        "record",
+        "leave-district"
+      ],
+      "qa": [
+        "Reach Veyron Central in the rain.",
+        "Take a discreet observation position.",
+        "Record the protected meeting.",
+        "Leave the district without exposing the observation."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central in the rain.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "position",
+          "objective": "Take a discreet observation position.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "record",
+          "objective": "Record the protected meeting.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "leave-district",
+          "objective": "Leave the district without exposing the observation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M37",
+      "title": "Hilltop Contact",
+      "production_role": "Contact negotiation / address acquisition",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "meet-contact",
+        "earn-cooperation",
+        "obtain-address"
+      ],
+      "qa": [
+        "Reach North Hills.",
+        "Meet the reluctant contact.",
+        "Gain the contact’s cooperation.",
+        "Obtain and preserve the target address."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach North Hills.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "meet-contact",
+          "objective": "Meet the reluctant contact.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "earn-cooperation",
+          "objective": "Gain the contact’s cooperation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "obtain-address",
+          "objective": "Obtain and preserve the target address.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M38",
+      "title": "Port Manifest",
+      "production_role": "Port manifest comparison / evidence capture",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "compare-shipment",
+        "find-mismatch",
+        "photograph"
+      ],
+      "qa": [
+        "Reach Veyron Port.",
+        "Compare the physical shipment with its manifest.",
+        "Find the manifest mismatch.",
+        "Photograph the relevant page and preserve the evidence."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Port.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "compare-shipment",
+          "objective": "Compare the physical shipment with its manifest.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "find-mismatch",
+          "objective": "Find the manifest mismatch.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "photograph",
+          "objective": "Photograph the relevant page and preserve the evidence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M39",
+      "title": "Airport Window",
+      "production_role": "Airport passenger surveillance / destination identification",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "pick-passenger",
+        "track-network",
+        "destination"
+      ],
+      "qa": [
+        "Reach Veyron International Airport.",
+        "Identify and follow the passenger.",
+        "Track the passenger through the airport network.",
+        "Identify the passenger’s destination."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron International Airport.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "pick-passenger",
+          "objective": "Identify and follow the passenger.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "track-network",
+          "objective": "Track the passenger through the airport network.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "destination",
+          "objective": "Identify the passenger’s destination.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M40",
+      "title": "Island Rumor",
+      "production_role": "Blackwater Island rumor verification / proof recovery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "investigate-rumor",
+        "verify",
+        "return-proof"
+      ],
+      "qa": [
+        "Reach Blackwater Island.",
+        "Investigate the first island rumor.",
+        "Verify the rumor against physical evidence.",
+        "Return with proof and preserve the island lead."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Blackwater Island.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "investigate-rumor",
+          "objective": "Investigate the first island rumor.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "verify",
+          "objective": "Verify the rumor against physical evidence.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "return-proof",
+          "objective": "Return with proof and preserve the island lead.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ]
+}

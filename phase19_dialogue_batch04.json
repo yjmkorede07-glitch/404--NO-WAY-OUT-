@@ -1,0 +1,346 @@
+{
+  "batch": "M31-M40",
+  "voice_mode": "prototype_tts_only; final recorded VO is production work",
+  "missions": {
+    "M31": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "404 is more than a label. We are finally close enough to prove it."
+          }
+        ],
+        "evidence-chain": [
+          {
+            "character": "Amara Vale",
+            "text": "Put every piece on the table. Nothing gets assumed."
+          }
+        ],
+        "cross-check": [
+          {
+            "character": "Darius Cole",
+            "text": "The threads agree. That is the strongest evidence we have."
+          }
+        ],
+        "confirm": [
+          {
+            "character": "Amara Vale",
+            "text": "Now we know what 404 actually means."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "The operation has a shape. The next choice is ours."
+          }
+        ]
+      }
+    },
+    "M32": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Truth is only useful if you know who can survive hearing it."
+          }
+        ],
+        "review-paths": [
+          {
+            "character": "Darius Cole",
+            "text": "Three paths. Three different consequences."
+          }
+        ],
+        "commit-choice": [
+          {
+            "character": "Amara Vale",
+            "text": "Choose carefully. A decision like this does not stay private."
+          }
+        ],
+        "secure-choice": [
+          {
+            "character": "Darius Cole",
+            "text": "Choice locked. We move forward with it."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "Now we live with the choice."
+          }
+        ]
+      }
+    },
+    "M33": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "All right. No speeches. We do the job and get out."
+          }
+        ],
+        "stage-operation": [
+          {
+            "character": "Malik",
+            "text": "Everything is where it needs to be. That is almost suspicious."
+          }
+        ],
+        "execute": [
+          {
+            "character": "Darius Cole",
+            "text": "Go. Keep the objective clean."
+          }
+        ],
+        "survive": [
+          {
+            "character": "Malik",
+            "text": "Still standing. I will take that as a win."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "The operation is done. The consequences are already moving."
+          }
+        ]
+      }
+    },
+    "M34": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "After 404, the city does not simply forget."
+          }
+        ],
+        "assess": [
+          {
+            "character": "Amara Vale",
+            "text": "Look at what changed. That is the real ending."
+          }
+        ],
+        "epilogue": [
+          {
+            "character": "Darius Cole",
+            "text": "We finished what we started. Now the world state matters."
+          }
+        ],
+        "leave-mark": [
+          {
+            "character": "Amara Vale",
+            "text": "No clean slate. Just a final state."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "That is what remains after the noise stops."
+          }
+        ]
+      }
+    },
+    "M35": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "East Market is loud enough to hide a signal. That is why they chose it."
+          }
+        ],
+        "find-signal": [
+          {
+            "character": "Darius Cole",
+            "text": "There. The pattern is deliberate."
+          }
+        ],
+        "track-exchange": [
+          {
+            "character": "Malik",
+            "text": "Buyer, seller, signal. Nobody loses the thread."
+          }
+        ],
+        "identify": [
+          {
+            "character": "Darius Cole",
+            "text": "We have all three. Preserve it."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "A small exchange can expose a large network."
+          }
+        ]
+      }
+    },
+    "M36": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Rain makes everybody look innocent. Perfect."
+          }
+        ],
+        "position": [
+          {
+            "character": "Malik",
+            "text": "I have the angle. Nobody knows I am here."
+          }
+        ],
+        "record": [
+          {
+            "character": "Darius Cole",
+            "text": "Keep recording. We only get one clean meeting."
+          }
+        ],
+        "leave-district": [
+          {
+            "character": "Malik",
+            "text": "We were never here."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "The recording is worth more than a confrontation."
+          }
+        ]
+      }
+    },
+    "M37": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "North Hills contacts do not give answers for free."
+          }
+        ],
+        "meet-contact": [
+          {
+            "character": "Amara Vale",
+            "text": "You called me. Start talking."
+          }
+        ],
+        "earn-cooperation": [
+          {
+            "character": "Amara Vale",
+            "text": "Good. We can work with that."
+          }
+        ],
+        "obtain-address": [
+          {
+            "character": "Darius Cole",
+            "text": "Address secured. Now we know where to look."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "People talk when they believe the alternative is worse."
+          }
+        ]
+      }
+    },
+    "M38": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "A manifest is only useful when the cargo disagrees with it."
+          }
+        ],
+        "compare-shipment": [
+          {
+            "character": "Darius Cole",
+            "text": "Line by line. Find the lie."
+          }
+        ],
+        "find-mismatch": [
+          {
+            "character": "Malik",
+            "text": "There it is. That number does not belong."
+          }
+        ],
+        "photograph": [
+          {
+            "character": "Darius Cole",
+            "text": "Captured. The page survives even if the paper does not."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara Vale",
+            "text": "One mismatch is enough to open the right door."
+          }
+        ]
+      }
+    },
+    "M39": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Airport crowds. Finally, a place where following somebody looks normal."
+          }
+        ],
+        "pick-passenger": [
+          {
+            "character": "Malik",
+            "text": "I have the passenger."
+          }
+        ],
+        "track-network": [
+          {
+            "character": "Darius Cole",
+            "text": "Stay on the route. Do not force the destination."
+          }
+        ],
+        "destination": [
+          {
+            "character": "Malik",
+            "text": "Got it. They are leaving Veyron."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "The trail just got bigger."
+          }
+        ]
+      }
+    },
+    "M40": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara Vale",
+            "text": "Rumors become useful when they leave footprints."
+          }
+        ],
+        "investigate-rumor": [
+          {
+            "character": "Amara Vale",
+            "text": "There is something here. The rumor was not invented from nothing."
+          }
+        ],
+        "verify": [
+          {
+            "character": "Darius Cole",
+            "text": "Physical proof. That changes the weight of the story."
+          }
+        ],
+        "return-proof": [
+          {
+            "character": "Amara Vale",
+            "text": "Proof secured. Blackwater just became part of the map."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "We came for a rumor. We are leaving with a lead."
+          }
+        ]
+      }
+    }
+  }
+}
