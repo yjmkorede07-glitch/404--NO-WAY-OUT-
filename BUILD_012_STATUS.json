@@ -1,7 +1,7 @@
 {
   "game": "404: NO WAY OUT",
   "build": "012",
-  "phase": "11",
+  "phase": "12",
   "source": "Build 011 Finale archive supplied by user",
   "mission_count": 88,
   "story_mode_hours_target": ">=30",
@@ -31,5 +31,17 @@
       "voice_toggle"
     ],
     "production_boundary": "Future Unreal Engine required for true 3D camera, animation, mocap, lip sync and spatial audio."
+  },
+  "phase12": {
+    "status": "implemented_prototype",
+    "features": [
+      "branded_loading_screen",
+      "first_boot_detection",
+      "veyron_city_intro",
+      "audible_boot_narration",
+      "skip_intro",
+      "direct_continue_on_returning_launch"
+    ],
+    "production_boundary": "Browser remains 2D; true 3D vertical slice, seamless world streaming and production cinematics require Unreal Engine."
   }
 }
