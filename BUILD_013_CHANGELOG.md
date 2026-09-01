@@ -40,3 +40,13 @@ Phase 18 does not claim to implement a console-scale 3D world in HTML/JavaScript
 - Added `js/phase19.js` with a browser production-batch panel, replay/start controls and persisted batch completion gate.
 - Added `PHASE19.md` documenting the batch strategy and subsequent batch ranges.
 - Phase 19 remains a 2D browser vertical-slice layer plus Unreal migration contracts; it does not claim finished 3D production.
+
+## Phase 19 Batch 01 — M01-M10 implementation pass
+- Added mission-specific runtime contracts for M01-M10 rather than relying only on generic objective advancement.
+- Added persistent Phase 19 mission checkpoints/action counters and batch completion state.
+- Added mission-specific interactions for the opening investigation, bank evidence, three-name investigation, Amara call, Central route, North Hills observation, Reed Workshop cooperation, port container/escape, three social contacts, and Amara's three-part information synthesis.
+- Expanded M05 route objectives to explicitly cover Central Bank, East Market, Police HQ and Darius Safehouse.
+- Expanded M08 into container inspection plus port escape actions.
+- Added per-mission production contracts covering cinematic beats, audio/VO, art/world hooks, animation, NPC/AI, failure modes, save points, scoring and persistence.
+- Added `tools/validate_phase19_batch01.js` for static Batch 01 production-gate validation.
+- Validation: 88 missions intact, M01-M10 mapped, JSON valid, all JavaScript/server syntax valid, Build 013 validator PASS, Phase 19 Batch 01 validator PASS.

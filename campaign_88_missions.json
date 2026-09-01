@@ -269,16 +269,58 @@
       "location": "Veyron Central",
       "prototype_steps": [
         {
-          "id": "travel",
+          "id": "central",
           "kind": "travel",
           "target": "central",
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "bank",
+          "kind": "travel",
+          "target": "bank",
+          "text": "Visit the Central Bank."
+        },
+        {
+          "id": "bank-log",
           "kind": "action",
-          "target": "central",
-          "text": "INVESTIGATE: Visit the marked Central locations and return safely."
+          "target": "bank",
+          "text": "Log the bank as part of the Central route."
+        },
+        {
+          "id": "market",
+          "kind": "travel",
+          "target": "market",
+          "text": "Visit East Market."
+        },
+        {
+          "id": "market-log",
+          "kind": "action",
+          "target": "market",
+          "text": "Log the market as part of the Central route."
+        },
+        {
+          "id": "police",
+          "kind": "travel",
+          "target": "police",
+          "text": "Visit Veyron Police Headquarters."
+        },
+        {
+          "id": "police-log",
+          "kind": "action",
+          "target": "police",
+          "text": "Log police presence without triggering a response."
+        },
+        {
+          "id": "safehouse",
+          "kind": "travel",
+          "target": "safehouse",
+          "text": "Return to Darius Safehouse."
+        },
+        {
+          "id": "safehouse-log",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Complete the Central route and return safely."
         }
       ],
       "prototypePlayable": true,
@@ -450,16 +492,22 @@
       "location": "Veyron Port",
       "prototype_steps": [
         {
-          "id": "travel",
+          "id": "port",
           "kind": "travel",
           "target": "port",
           "text": "Reach Veyron Port."
         },
         {
-          "id": "action",
+          "id": "container",
           "kind": "action",
           "target": "port",
-          "text": "INVESTIGATE: Inspect the designated container and escape the port."
+          "text": "Inspect the designated container."
+        },
+        {
+          "id": "escape",
+          "kind": "action",
+          "target": "port",
+          "text": "Escape the port before police pressure escalates."
         }
       ],
       "prototypePlayable": true,
@@ -510,7 +558,7 @@
       "location": "Veyron Police Headquarters",
       "prototype_steps": [
         {
-          "id": "travel",
+          "id": "police",
           "kind": "travel",
           "target": "police",
           "text": "Reach Veyron Police Headquarters."
@@ -519,7 +567,7 @@
           "id": "action",
           "kind": "action",
           "target": "police",
-          "text": "INVESTIGATE: Complete three social interactions without causing a police response."
+          "text": "Complete three social interactions without causing a police response."
         }
       ],
       "prototypePlayable": true,

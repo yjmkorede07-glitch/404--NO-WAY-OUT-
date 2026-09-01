@@ -26,81 +26,713 @@
       "id": "M01",
       "title": "First Night",
       "production_role": "vertical-slice opener",
-      "systems": ["airport arrival", "travel", "cab interaction", "family-house investigation", "lead creation", "save checkpoint"],
-      "beats": ["arrival", "cab", "family house", "first clue"],
-      "qa": ["M01 starts at airport", "all 4 objectives can advance", "lead persists after reload", "completion unlocks M02"]
+      "systems": [
+        "airport arrival",
+        "travel",
+        "cab interaction",
+        "family-house investigation",
+        "lead creation",
+        "save checkpoint"
+      ],
+      "beats": [
+        "arrival",
+        "cab",
+        "family house",
+        "first clue"
+      ],
+      "qa": [
+        "M01 starts at airport",
+        "all 4 objectives can advance",
+        "lead persists after reload",
+        "completion unlocks M02"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "airport arrival",
+          "cab transition",
+          "family-house discovery"
+        ],
+        "audio_vo": [
+          "airport ambience",
+          "cab ambience",
+          "phone discovery cue"
+        ],
+        "art_world": [
+          "airport exterior marker",
+          "family-house marker",
+          "safehouse marker"
+        ],
+        "animation": [
+          "arrival",
+          "enter cab",
+          "inspect/search"
+        ],
+        "npc_ai": [
+          "ambient airport NPCs",
+          "cab driver"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "critical objective not completed"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M02",
       "title": "The First Account",
       "production_role": "economy/investigation slice",
-      "systems": ["bank location", "account interaction", "financial evidence", "reward", "save checkpoint"],
-      "beats": ["reach bank", "open account", "record suspicious transaction"],
-      "qa": ["M02 remains locked before M01", "bank objective completes in range", "evidence/reward persist", "completion unlocks M03"]
+      "systems": [
+        "bank location",
+        "account interaction",
+        "financial evidence",
+        "reward",
+        "save checkpoint"
+      ],
+      "beats": [
+        "reach bank",
+        "open account",
+        "record suspicious transaction"
+      ],
+      "qa": [
+        "M02 remains locked before M01",
+        "bank objective completes in range",
+        "evidence/reward persist",
+        "completion unlocks M03"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "bank arrival",
+          "account interaction",
+          "transaction reveal"
+        ],
+        "audio_vo": [
+          "bank ambience",
+          "transaction cue",
+          "evidence cue"
+        ],
+        "art_world": [
+          "Central Bank exterior/interior hook",
+          "account terminal"
+        ],
+        "animation": [
+          "bank interaction",
+          "document review"
+        ],
+        "npc_ai": [
+          "bank staff ambient"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "critical objective not completed"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M03",
       "title": "Three Names",
       "production_role": "multi-protagonist investigation slice",
-      "systems": ["Malik handoff", "central investigation", "evidence", "relationship consequence"],
-      "beats": ["arrive central", "identify names", "secure evidence"],
-      "qa": ["player switches to Malik", "objective is range-gated", "evidence persists", "completion unlocks M04"]
+      "systems": [
+        "Malik handoff",
+        "central investigation",
+        "evidence",
+        "relationship consequence"
+      ],
+      "beats": [
+        "arrive central",
+        "identify names",
+        "secure evidence"
+      ],
+      "qa": [
+        "player switches to Malik",
+        "objective is range-gated",
+        "evidence persists",
+        "completion unlocks M04"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "Malik handoff",
+          "three-name reveal"
+        ],
+        "audio_vo": [
+          "street ambience",
+          "name/evidence cues"
+        ],
+        "art_world": [
+          "Central investigation marker"
+        ],
+        "animation": [
+          "Malik handoff",
+          "investigation interaction"
+        ],
+        "npc_ai": [
+          "street contacts"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "evidence loss"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M04",
       "title": "The Call",
       "production_role": "Amara introduction",
-      "systems": ["Amara handoff", "call/meeting contract", "exposure consequence", "relationship consequence"],
-      "beats": ["reach central", "answer call", "survive meeting"],
-      "qa": ["player switches to Amara", "call objective completes", "state persists", "completion unlocks M05"]
+      "systems": [
+        "Amara handoff",
+        "call/meeting contract",
+        "exposure consequence",
+        "relationship consequence"
+      ],
+      "beats": [
+        "reach central",
+        "answer call",
+        "survive meeting"
+      ],
+      "qa": [
+        "player switches to Amara",
+        "call objective completes",
+        "state persists",
+        "completion unlocks M05"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "incoming call",
+          "meeting setup",
+          "Amara introduction"
+        ],
+        "audio_vo": [
+          "phone ring",
+          "call dialogue",
+          "meeting tension"
+        ],
+        "art_world": [
+          "Central meeting marker"
+        ],
+        "animation": [
+          "phone interaction",
+          "Amara introduction"
+        ],
+        "npc_ai": [
+          "meeting contact"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "meeting failure"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M05",
       "title": "Veyron Central",
       "production_role": "world-navigation slice",
-      "systems": ["multi-location routing", "bank", "market", "police HQ", "safehouse", "world simulation"],
-      "beats": ["route through Central", "visit marked locations", "return safely"],
-      "qa": ["all route targets resolve", "weather remains synchronized", "world-sim state remains active", "completion unlocks M06"]
+      "systems": [
+        "multi-location routing",
+        "bank",
+        "market",
+        "police HQ",
+        "safehouse",
+        "world simulation"
+      ],
+      "beats": [
+        "route through Central",
+        "visit marked locations",
+        "return safely"
+      ],
+      "qa": [
+        "all route targets resolve",
+        "weather remains synchronized",
+        "world-sim state remains active",
+        "completion unlocks M06"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "Central route montage"
+        ],
+        "audio_vo": [
+          "Central ambience",
+          "location confirmation cues"
+        ],
+        "art_world": [
+          "bank",
+          "market",
+          "police HQ",
+          "safehouse route markers"
+        ],
+        "animation": [
+          "navigation",
+          "location interactions"
+        ],
+        "npc_ai": [
+          "traffic/crowd/police ambient"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "route abandonment"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M06",
       "title": "North Hills, Quiet Money",
       "production_role": "stealth/investigation slice",
-      "systems": ["North Hills routing", "observation contract", "wanted-level avoidance", "evidence"],
-      "beats": ["reach North Hills", "record target exchange", "leave undetected"],
-      "qa": ["target location resolves", "mission can complete without wanted escalation", "evidence persists", "completion unlocks M07"]
+      "systems": [
+        "North Hills routing",
+        "observation contract",
+        "wanted-level avoidance",
+        "evidence"
+      ],
+      "beats": [
+        "reach North Hills",
+        "record target exchange",
+        "leave undetected"
+      ],
+      "qa": [
+        "target location resolves",
+        "mission can complete without wanted escalation",
+        "evidence persists",
+        "completion unlocks M07"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "observation setup",
+          "target exchange"
+        ],
+        "audio_vo": [
+          "North Hills ambience",
+          "camera/evidence cue",
+          "stealth tension"
+        ],
+        "art_world": [
+          "observation point",
+          "target exchange marker"
+        ],
+        "animation": [
+          "observe",
+          "record"
+        ],
+        "npc_ai": [
+          "target group",
+          "awareness/search"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "critical evidence loss"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M07",
       "title": "Iron District",
       "production_role": "workshop/NPC relationship slice",
-      "systems": ["Reed Workshop", "NPC interaction", "relationship change", "interior hook"],
-      "beats": ["reach workshop", "secure Malik cooperation"],
-      "qa": ["workshop target resolves", "NPC interaction hook is available", "relationship state updates", "completion unlocks M08"]
+      "systems": [
+        "Reed Workshop",
+        "NPC interaction",
+        "relationship change",
+        "interior hook"
+      ],
+      "beats": [
+        "reach workshop",
+        "secure Malik cooperation"
+      ],
+      "qa": [
+        "workshop target resolves",
+        "NPC interaction hook is available",
+        "relationship state updates",
+        "completion unlocks M08"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "workshop arrival",
+          "Malik cooperation beat"
+        ],
+        "audio_vo": [
+          "workshop ambience",
+          "tool/garage ambience",
+          "relationship cue"
+        ],
+        "art_world": [
+          "Reed Workshop interior hook"
+        ],
+        "animation": [
+          "workshop interaction",
+          "dialogue"
+        ],
+        "npc_ai": [
+          "Malik relationship response",
+          "workshop NPCs"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "cooperation not secured"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M08",
       "title": "The Port Doesn't Sleep",
       "production_role": "port investigation/world-pressure slice",
-      "systems": ["port routing", "container investigation", "police pressure", "world events"],
-      "beats": ["reach port", "inspect container", "escape port"],
-      "qa": ["port target resolves", "world event state can coexist with mission", "pressure persists", "completion unlocks M09"]
+      "systems": [
+        "port routing",
+        "container investigation",
+        "police pressure",
+        "world events"
+      ],
+      "beats": [
+        "reach port",
+        "inspect container",
+        "escape port"
+      ],
+      "qa": [
+        "port target resolves",
+        "world event state can coexist with mission",
+        "pressure persists",
+        "completion unlocks M09"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "port arrival",
+          "container inspection",
+          "escape"
+        ],
+        "audio_vo": [
+          "port ambience",
+          "container cue",
+          "police pressure cue"
+        ],
+        "art_world": [
+          "port",
+          "container",
+          "warehouse hooks"
+        ],
+        "animation": [
+          "inspect container",
+          "escape movement"
+        ],
+        "npc_ai": [
+          "port workers",
+          "police response"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "evidence lost",
+          "escape failure"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M09",
       "title": "People Remember",
       "production_role": "social/police slice",
-      "systems": ["Police HQ", "three social interactions", "relationship trust", "police response avoidance"],
-      "beats": ["reach HQ", "complete social interactions", "leave without response"],
-      "qa": ["social mission does not require combat", "trust changes persist", "wanted level is not automatically raised", "completion unlocks M10"]
+      "systems": [
+        "Police HQ",
+        "three social interactions",
+        "relationship trust",
+        "police response avoidance"
+      ],
+      "beats": [
+        "reach HQ",
+        "complete social interactions",
+        "leave without response"
+      ],
+      "qa": [
+        "social mission does not require combat",
+        "trust changes persist",
+        "wanted level is not automatically raised",
+        "completion unlocks M10"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "police HQ arrival",
+          "three-contact social sequence"
+        ],
+        "audio_vo": [
+          "HQ ambience",
+          "dialogue",
+          "response warning"
+        ],
+        "art_world": [
+          "Police HQ social markers"
+        ],
+        "animation": [
+          "three social interactions"
+        ],
+        "npc_ai": [
+          "three social contacts",
+          "police response suppression"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "police response"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     },
     {
       "id": "M10",
       "title": "Amara's Rule",
       "production_role": "batch finale / information synthesis",
-      "systems": ["Amara control", "three information hooks", "evidence", "relationship", "batch completion"],
-      "beats": ["reach Central", "collect information", "connect the evidence"],
-      "qa": ["Amara is active", "three information objectives resolve", "batch completion is recorded", "M11 becomes available"]
+      "systems": [
+        "Amara control",
+        "three information hooks",
+        "evidence",
+        "relationship",
+        "batch completion"
+      ],
+      "beats": [
+        "reach Central",
+        "collect information",
+        "connect the evidence"
+      ],
+      "qa": [
+        "Amara is active",
+        "three information objectives resolve",
+        "batch completion is recorded",
+        "M11 becomes available"
+      ],
+      "production_contract": {
+        "implementation": {
+          "browser": "implemented in Phase 19 runtime contract",
+          "unreal": "data-driven migration contract required"
+        },
+        "cinematic": [
+          "Amara briefing",
+          "three-information synthesis"
+        ],
+        "audio_vo": [
+          "briefing dialogue",
+          "information cues",
+          "batch-complete cue"
+        ],
+        "art_world": [
+          "Central information markers"
+        ],
+        "animation": [
+          "information interactions",
+          "evidence synthesis"
+        ],
+        "npc_ai": [
+          "Amara relationship response"
+        ],
+        "failure_modes": [
+          "incapacitated",
+          "information synthesis failure"
+        ],
+        "save_points": [
+          "mission start",
+          "each completed objective",
+          "mission result"
+        ],
+        "score_components": [
+          "critical",
+          "optional",
+          "time",
+          "survival",
+          "precision"
+        ],
+        "persistence": [
+          "mission result",
+          "story consequences",
+          "relationship state",
+          "evidence/police state as applicable"
+        ]
+      }
     }
   ]
 }

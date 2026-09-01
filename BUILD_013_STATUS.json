@@ -43,13 +43,25 @@
     "Unreal migration data-contract skeleton present",
     "Phase 19 Batch 01 contract: exactly 10 missions with required systems and QA gates"
   ],
-  "phase19_status": "batch_01_production_contract_ready",
+  "phase19_status": "batch_01_runtime_implementation_in_progress",
   "phase19_batch": "M01-M10",
   "phase19_strategy": "10-mission production batches with a completion gate before the next batch.",
   "phase19_implemented": [
     "Batch 01 manifest for M01-M10 with required systems, beats and QA acceptance tests",
     "Phase 19 browser batch panel and launch/replay integration",
     "Batch completion gate based on persisted mission results",
-    "Phase 19 production documentation and next-batch plan"
+    "Phase 19 production documentation and next-batch plan",
+    "M01-M10 mission-specific browser runtime contracts and checkpoint/action state",
+    "M05 explicit Central Bank / East Market / Police HQ / Safehouse route",
+    "M08 explicit container inspection and port escape sequence",
+    "per-mission cinematic/audio/art/animation/NPC-AI/failure/save/scoring/persistence contracts",
+    "Phase 19 Batch 01 static production-gate validator"
+  ],
+  "phase19_verified": [
+    "M01-M10 production contract coverage",
+    "M01-M10 runtime bridge syntax",
+    "M05 route targets represented in mission steps",
+    "M08 inspection/escape steps represented",
+    "Build 013 and Phase 19 static validators PASS"
   ]
 }
