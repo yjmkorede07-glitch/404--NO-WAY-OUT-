@@ -1,11 +1,13 @@
-/* 404 — Phase 10 finale / ending state */
-const FINALE={ending:null,postgameUnlocked:false};
+/* 404 — Build 012 conditional finale UI. Uses the existing finale concepts and P10 state machine. */
 function openFinale(){
- panel(`<h3>THE FINAL CHAPTER <button class="close" onclick="closePanel()">×</button></h3>
- <p>Four major endings. Your choices, relationships, evidence and faction reputation determine availability.</p>
- <div class="mission"><b>E1 — THE ESCAPE</b><span>Expose 404 and disappear.</span></div>
- <div class="mission"><b>E2 — THE CROWN</b><span>Take control of the power structure.</span></div>
- <div class="mission"><b>E3 — THE SACRIFICE</b><span>One protagonist pays the price.</span></div>
- <div class="mission"><b>E4 — NO WAY OUT</b><span>404's plan succeeds.</span></div>
- <h4>POST-GAME</h4><p>Free roam continues after the ending, with the city and available activities reflecting what happened.</p>`);
+  if(typeof ensureState==='function')ensureState();
+  const rows=Object.values(ENDINGS||{}).map(e=>{
+    const available=e.conditions(gameState);
+    return `<div class="mission"><b>ENDING ${e.id} — ${e.title}</b><span>${e.post}</span><small>${available?'AVAILABLE':'LOCKED'} · Final missions: ${e.finalMissions.join(', ')}</small></div>`;
+  }).join('');
+  panel(`<h3>THE FINAL CHAPTER <button class="close" onclick="closePanel()">×</button></h3>
+  <p>Four major endings are state-driven. Choices, evidence, relationships, faction standing and survivor states determine the outcome.</p>
+  ${rows}
+  <button onclick="finalizeEnding()">RESOLVE FINALE</button>
+  <h4>POST-GAME</h4><p>Free roam continues after the ending, with city state, activities and law pressure reflecting what happened.</p>`);
 }
