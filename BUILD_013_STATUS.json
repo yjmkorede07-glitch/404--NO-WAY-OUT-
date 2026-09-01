@@ -107,5 +107,13 @@
     "M21-M30 written dialogue and temporary prototype TTS hooks",
     "M21-M30 relationships/evidence/police/economy/vehicle/property state contracts",
     "M21-M30 QA and Unreal production contracts"
-  ]
+  ],
+  "phase19_batch08": {
+    "batch": "M71-M80",
+    "status": "locked",
+    "missions": 10,
+    "implementation": "browser prototype runtime + mission data + dialogue + QA",
+    "final_unreal_3d": "deferred"
+  },
+  "phase19_last_batch": "M71-M80"
 }

@@ -1,0 +1,726 @@
+{
+  "batch": "M71-M80",
+  "phase": "Phase 19 Batch 08",
+  "missions": [
+    {
+      "id": "M71",
+      "title": "Cash Flow",
+      "production_role": "cash-flow stabilization / operating economy",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "review-ledger",
+        "stabilize-costs",
+        "lock-cashflow"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Review current income, expenses, and outstanding obligations.",
+        "Stabilize the largest cost pressure without breaking the operation.",
+        "End the mission with positive cash flow."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "review-ledger",
+          "objective": "Review current income, expenses, and outstanding obligations.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "stabilize-costs",
+          "objective": "Stabilize the largest cost pressure without breaking the operation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "lock-cashflow",
+          "objective": "End the mission with positive cash flow.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M72",
+      "title": "Quiet Investor",
+      "production_role": "hidden investor / conditional funding",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "trace-introduction",
+        "meet-investor",
+        "secure-condition"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Trace the quiet introduction to the hidden investor.",
+        "Meet the investor without exposing the operation.",
+        "Secure a conditional investment and the terms attached to it."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "trace-introduction",
+          "objective": "Trace the quiet introduction to the hidden investor.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "meet-investor",
+          "objective": "Meet the investor without exposing the operation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure-condition",
+          "objective": "Secure a conditional investment and the terms attached to it.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M73",
+      "title": "Paper Trail",
+      "production_role": "business records / transaction reconciliation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "flag-transactions",
+        "reconcile-records",
+        "close-audit"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Review every transaction flagged by the business records.",
+        "Reconcile the conflicting entries and preserve the useful paper trail.",
+        "Resolve every flagged transaction."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "flag-transactions",
+          "objective": "Review every transaction flagged by the business records.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reconcile-records",
+          "objective": "Reconcile the conflicting entries and preserve the useful paper trail.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "close-audit",
+          "objective": "Resolve every flagged transaction.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M74",
+      "title": "Brother's Photograph",
+      "production_role": "photographic investigation / hidden-item recovery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "inspect-photo",
+        "match-location",
+        "recover-item"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Inspect the old photograph for identifying details.",
+        "Match the photograph to a real location in Veyron.",
+        "Recover the hidden item from the matching location."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "inspect-photo",
+          "objective": "Inspect the old photograph for identifying details.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "match-location",
+          "objective": "Match the photograph to a real location in Veyron.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "recover-item",
+          "objective": "Recover the hidden item from the matching location.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M75",
+      "title": "The Safe Voice",
+      "production_role": "message decoding / meeting verification",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "decode-message",
+        "verify-marker",
+        "reach-meeting"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Decode the message left for Darius.",
+        "Verify the meeting marker before committing to the route.",
+        "Reach the meeting point with the decoded message intact."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "decode-message",
+          "objective": "Decode the message left for Darius.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "verify-marker",
+          "objective": "Verify the meeting marker before committing to the route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reach-meeting",
+          "objective": "Reach the meeting point with the decoded message intact.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M76",
+      "title": "Old Friends",
+      "production_role": "contact recovery / relationship preservation",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "reconnect-contact",
+        "ask-missing-detail",
+        "protect-contact"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Reconnect with someone who knew Darius\u2019s brother.",
+        "Ask for the missing detail without escalating the encounter.",
+        "Get the missing detail without losing the contact."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reconnect-contact",
+          "objective": "Reconnect with someone who knew Darius\u2019s brother.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "ask-missing-detail",
+          "objective": "Ask for the missing detail without escalating the encounter.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "protect-contact",
+          "objective": "Get the missing detail without losing the contact.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M77",
+      "title": "The Inside Room",
+      "production_role": "hidden-room investigation / archive recovery",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "survey-business",
+        "find-hidden-entry",
+        "recover-archive"
+      ],
+      "qa": [
+        "Reach Meridian Corporate Tower.",
+        "Survey the legitimate business for signs of a concealed room.",
+        "Find the hidden entry beneath the business.",
+        "Recover the archive and leave the site secure."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Meridian Corporate Tower.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "survey-business",
+          "objective": "Survey the legitimate business for signs of a concealed room.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "find-hidden-entry",
+          "objective": "Find the hidden entry beneath the business.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "recover-archive",
+          "objective": "Recover the archive and leave the site secure.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M78",
+      "title": "Network Map",
+      "production_role": "evidence synthesis / network mapping",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "sort-evidence",
+        "connect-nodes",
+        "lock-network-map"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Sort the disconnected evidence into usable groups.",
+        "Connect the required nodes in the case board.",
+        "Lock the network map with the required connections intact."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "sort-evidence",
+          "objective": "Sort the disconnected evidence into usable groups.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "connect-nodes",
+          "objective": "Connect the required nodes in the case board.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "lock-network-map",
+          "objective": "Lock the network map with the required connections intact.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M79",
+      "title": "The Man Behind It",
+      "production_role": "independent confirmation / director identification",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "find-first-confirmation",
+        "find-second-confirmation",
+        "identify-director"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Obtain the first independent confirmation of the operation\u2019s director.",
+        "Obtain a second independent confirmation without exposing the source.",
+        "Identify the person directing the operation from two independent confirmations."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "find-first-confirmation",
+          "objective": "Obtain the first independent confirmation of the operation\u2019s director.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "find-second-confirmation",
+          "objective": "Obtain a second independent confirmation without exposing the source.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "identify-director",
+          "objective": "Identify the person directing the operation from two independent confirmations.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M80",
+      "title": "Broken Trust",
+      "production_role": "relationship confrontation / trust-path resolution",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "review-relationship",
+        "confront-teammate",
+        "resolve-trust-path"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Review the relationship state before the confrontation.",
+        "Confront the teammate over the hidden decision.",
+        "Resolve the confrontation according to your relationship path."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "review-relationship",
+          "objective": "Review the relationship state before the confrontation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "confront-teammate",
+          "objective": "Confront the teammate over the hidden decision.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "resolve-trust-path",
+          "objective": "Resolve the confrontation according to your relationship path.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ]
+}

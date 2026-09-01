@@ -4892,10 +4892,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "review-ledger",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: End the mission with positive cash flow."
+          "text": "Review current income, expenses, and outstanding obligations."
+        },
+        {
+          "id": "stabilize-costs",
+          "kind": "action",
+          "target": "central",
+          "text": "Stabilize the largest cost pressure without breaking the operation."
+        },
+        {
+          "id": "lock-cashflow",
+          "kind": "action",
+          "target": "central",
+          "text": "End the mission with positive cash flow."
         }
       ],
       "prototypePlayable": true,
@@ -4952,10 +4964,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "trace-introduction",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Meet the investor and secure a conditional investment."
+          "text": "Trace the quiet introduction to the hidden investor."
+        },
+        {
+          "id": "meet-investor",
+          "kind": "action",
+          "target": "central",
+          "text": "Meet the investor without exposing the operation."
+        },
+        {
+          "id": "secure-condition",
+          "kind": "action",
+          "target": "central",
+          "text": "Secure a conditional investment and the terms attached to it."
         }
       ],
       "prototypePlayable": true,
@@ -5012,10 +5036,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "flag-transactions",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Resolve every flagged transaction."
+          "text": "Review every transaction flagged by the business records."
+        },
+        {
+          "id": "reconcile-records",
+          "kind": "action",
+          "target": "central",
+          "text": "Reconcile the conflicting entries and preserve the useful paper trail."
+        },
+        {
+          "id": "close-audit",
+          "kind": "action",
+          "target": "central",
+          "text": "Resolve every flagged transaction."
         }
       ],
       "prototypePlayable": true,
@@ -5072,10 +5108,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "inspect-photo",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Find the matching location and recover a hidden item."
+          "text": "Inspect the old photograph for identifying details."
+        },
+        {
+          "id": "match-location",
+          "kind": "action",
+          "target": "central",
+          "text": "Match the photograph to a real location in Veyron."
+        },
+        {
+          "id": "recover-item",
+          "kind": "action",
+          "target": "central",
+          "text": "Recover the hidden item from the matching location."
         }
       ],
       "prototypePlayable": true,
@@ -5132,10 +5180,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "decode-message",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Decode the message and reach its meeting point."
+          "text": "Decode the message left for Darius."
+        },
+        {
+          "id": "verify-marker",
+          "kind": "action",
+          "target": "central",
+          "text": "Verify the meeting marker before committing to the route."
+        },
+        {
+          "id": "reach-meeting",
+          "kind": "action",
+          "target": "central",
+          "text": "Reach the meeting point with the decoded message intact."
         }
       ],
       "prototypePlayable": true,
@@ -5192,10 +5252,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "reconnect-contact",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Get the missing detail without losing the contact."
+          "text": "Reconnect with someone who knew Darius\u2019s brother."
+        },
+        {
+          "id": "ask-missing-detail",
+          "kind": "action",
+          "target": "central",
+          "text": "Ask for the missing detail without escalating the encounter."
+        },
+        {
+          "id": "protect-contact",
+          "kind": "action",
+          "target": "central",
+          "text": "Get the missing detail without losing the contact."
         }
       ],
       "prototypePlayable": true,
@@ -5253,10 +5325,22 @@
           "text": "Reach Meridian Corporate Tower."
         },
         {
-          "id": "action",
+          "id": "survey-business",
           "kind": "action",
           "target": "tower",
-          "text": "INVESTIGATE: Find the room and recover the archive."
+          "text": "Survey the legitimate business for signs of a concealed room."
+        },
+        {
+          "id": "find-hidden-entry",
+          "kind": "action",
+          "target": "tower",
+          "text": "Find the hidden entry beneath the business."
+        },
+        {
+          "id": "recover-archive",
+          "kind": "action",
+          "target": "tower",
+          "text": "Recover the archive and leave the site secure."
         }
       ],
       "prototypePlayable": true,
@@ -5313,10 +5397,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "sort-evidence",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Connect the required nodes in the case board."
+          "text": "Sort the disconnected evidence into usable groups."
+        },
+        {
+          "id": "connect-nodes",
+          "kind": "action",
+          "target": "central",
+          "text": "Connect the required nodes in the case board."
+        },
+        {
+          "id": "lock-network-map",
+          "kind": "action",
+          "target": "central",
+          "text": "Lock the network map with the required connections intact."
         }
       ],
       "prototypePlayable": true,
@@ -5373,10 +5469,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "find-first-confirmation",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Obtain two independent confirmations."
+          "text": "Obtain the first independent confirmation of the operation\u2019s director."
+        },
+        {
+          "id": "find-second-confirmation",
+          "kind": "action",
+          "target": "central",
+          "text": "Obtain a second independent confirmation without exposing the source."
+        },
+        {
+          "id": "identify-director",
+          "kind": "action",
+          "target": "central",
+          "text": "Identify the person directing the operation from two independent confirmations."
         }
       ],
       "prototypePlayable": true,
@@ -5433,10 +5541,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "review-relationship",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Resolve the confrontation according to your relationship path."
+          "text": "Review the relationship state before the confrontation."
+        },
+        {
+          "id": "confront-teammate",
+          "kind": "action",
+          "target": "central",
+          "text": "Confront the teammate over the hidden decision."
+        },
+        {
+          "id": "resolve-trust-path",
+          "kind": "action",
+          "target": "central",
+          "text": "Resolve the confrontation according to your relationship path."
         }
       ],
       "prototypePlayable": true,

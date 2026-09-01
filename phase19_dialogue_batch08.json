@@ -1,0 +1,406 @@
+{
+  "batch": "M71-M80",
+  "voice_mode": "prototype_tts_only; final recorded VO is production work",
+  "missions": {
+    "M71": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "Money has to work before anything else does."
+          }
+        ],
+        "review-ledger": [
+          {
+            "character": "Darius Cole",
+            "text": "Review current income, expenses, and outstanding obligations."
+          }
+        ],
+        "stabilize-costs": [
+          {
+            "character": "Amara",
+            "text": "Stabilize the largest cost pressure without breaking the operation."
+          }
+        ],
+        "lock-cashflow": [
+          {
+            "character": "Darius Cole",
+            "text": "End the mission with positive cash flow."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Positive cash flow. Now the operation can breathe."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "Money has to work before anything else does."
+          }
+        ]
+      }
+    },
+    "M72": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "Quiet money is still money. The question is who trusts us with it."
+          }
+        ],
+        "trace-introduction": [
+          {
+            "character": "Amara",
+            "text": "Trace the quiet introduction to the hidden investor."
+          }
+        ],
+        "meet-investor": [
+          {
+            "character": "Darius Cole",
+            "text": "Meet the investor without exposing the operation."
+          }
+        ],
+        "secure-condition": [
+          {
+            "character": "Amara",
+            "text": "Secure a conditional investment and the terms attached to it."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "Conditional investment secured. Quiet money stays quiet."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "Quiet money is still money. The question is who trusts us with it."
+          }
+        ]
+      }
+    },
+    "M73": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "Paper never forgets. That makes it useful\u2014and dangerous."
+          }
+        ],
+        "flag-transactions": [
+          {
+            "character": "Amara",
+            "text": "Review every transaction flagged by the business records."
+          }
+        ],
+        "reconcile-records": [
+          {
+            "character": "Darius Cole",
+            "text": "Reconcile the conflicting entries and preserve the useful paper trail."
+          }
+        ],
+        "close-audit": [
+          {
+            "character": "Amara",
+            "text": "Resolve every flagged transaction."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "Every flagged transaction is resolved. The records hold."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "Paper never forgets. That makes it useful\u2014and dangerous."
+          }
+        ]
+      }
+    },
+    "M74": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "That photograph survived for a reason. Let\u2019s find out what it remembers."
+          }
+        ],
+        "inspect-photo": [
+          {
+            "character": "Darius Cole",
+            "text": "Inspect the old photograph for identifying details."
+          }
+        ],
+        "match-location": [
+          {
+            "character": "Rhea Cole",
+            "text": "Match the photograph to a real location in Veyron."
+          }
+        ],
+        "recover-item": [
+          {
+            "character": "Darius Cole",
+            "text": "Recover the hidden item from the matching location."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "We found the item. The photograph was pointing at the past."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "That photograph survived for a reason. Let\u2019s find out what it remembers."
+          }
+        ]
+      }
+    },
+    "M75": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "A message meant for Darius does not get ignored."
+          }
+        ],
+        "decode-message": [
+          {
+            "character": "Amara",
+            "text": "Decode the message left for Darius."
+          }
+        ],
+        "verify-marker": [
+          {
+            "character": "Darius Cole",
+            "text": "Verify the meeting marker before committing to the route."
+          }
+        ],
+        "reach-meeting": [
+          {
+            "character": "Amara",
+            "text": "Reach the meeting point with the decoded message intact."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "The meeting point was real. Now we know who wanted Darius there."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "A message meant for Darius does not get ignored."
+          }
+        ]
+      }
+    },
+    "M76": {
+      "beats": {
+        "start": [
+          {
+            "character": "Rhea Cole",
+            "text": "Old friends can carry old answers. They can also carry old fear."
+          }
+        ],
+        "reconnect-contact": [
+          {
+            "character": "Rhea Cole",
+            "text": "Reconnect with someone who knew Darius\u2019s brother."
+          }
+        ],
+        "ask-missing-detail": [
+          {
+            "character": "Darius Cole",
+            "text": "Ask for the missing detail without escalating the encounter."
+          }
+        ],
+        "protect-contact": [
+          {
+            "character": "Rhea Cole",
+            "text": "Get the missing detail without losing the contact."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Rhea Cole",
+            "text": "The detail is safe, and the contact is still with us."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Rhea Cole",
+            "text": "Old friends can carry old answers. They can also carry old fear."
+          }
+        ]
+      }
+    },
+    "M77": {
+      "beats": {
+        "start": [
+          {
+            "character": "Darius Cole",
+            "text": "A legitimate business with a hidden room is never just a business."
+          }
+        ],
+        "survey-business": [
+          {
+            "character": "Darius Cole",
+            "text": "Survey the legitimate business for signs of a concealed room."
+          }
+        ],
+        "find-hidden-entry": [
+          {
+            "character": "Malik Reed",
+            "text": "Find the hidden entry beneath the business."
+          }
+        ],
+        "recover-archive": [
+          {
+            "character": "Darius Cole",
+            "text": "Recover the archive and leave the site secure."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius Cole",
+            "text": "Archive recovered. Whatever was hidden is ours to examine."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Darius Cole",
+            "text": "A legitimate business with a hidden room is never just a business."
+          }
+        ]
+      }
+    },
+    "M78": {
+      "beats": {
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Separate clues are noise. Connected clues become a map."
+          }
+        ],
+        "sort-evidence": [
+          {
+            "character": "Malik",
+            "text": "Sort the disconnected evidence into usable groups."
+          }
+        ],
+        "connect-nodes": [
+          {
+            "character": "Darius Cole",
+            "text": "Connect the required nodes in the case board."
+          }
+        ],
+        "lock-network-map": [
+          {
+            "character": "Malik",
+            "text": "Lock the network map with the required connections intact."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "The map is complete. Now the shape of the organization is visible."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Separate clues are noise. Connected clues become a map."
+          }
+        ]
+      }
+    },
+    "M79": {
+      "beats": {
+        "start": [
+          {
+            "character": "Amara",
+            "text": "One confirmation is a lead. Two independent confirmations are a target."
+          }
+        ],
+        "find-first-confirmation": [
+          {
+            "character": "Amara",
+            "text": "Obtain the first independent confirmation of the operation\u2019s director."
+          }
+        ],
+        "find-second-confirmation": [
+          {
+            "character": "Darius Cole",
+            "text": "Obtain a second independent confirmation without exposing the source."
+          }
+        ],
+        "identify-director": [
+          {
+            "character": "Amara",
+            "text": "Identify the person directing the operation from two independent confirmations."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "Two independent confirmations. We know who is behind it."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "One confirmation is a lead. Two independent confirmations are a target."
+          }
+        ]
+      }
+    },
+    "M80": {
+      "beats": {
+        "start": [
+          {
+            "character": "Rhea Cole",
+            "text": "Before we confront them, we need to know what the relationship can survive."
+          }
+        ],
+        "review-relationship": [
+          {
+            "character": "Rhea Cole",
+            "text": "Review the relationship state before the confrontation."
+          }
+        ],
+        "confront-teammate": [
+          {
+            "character": "Darius Cole",
+            "text": "Confront the teammate over the hidden decision."
+          }
+        ],
+        "resolve-trust-path": [
+          {
+            "character": "Rhea Cole",
+            "text": "Resolve the confrontation according to your relationship path."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Rhea Cole",
+            "text": "The confrontation is settled. What comes next depends on what we kept intact."
+          }
+        ],
+        "travel": [
+          {
+            "character": "Rhea Cole",
+            "text": "Before we confront them, we need to know what the relationship can survive."
+          }
+        ]
+      }
+    }
+  }
+}

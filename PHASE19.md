@@ -64,3 +64,7 @@ M41-M50 are locked as the current Phase 19 prototype batch. The browser implemen
 ## Batch 06 — M61-M70
 
 Batch 06 expands M61-M70 from the authoritative campaign registry into four-beat browser prototype flows with persistent checkpoints, mission-specific runtime consequences, dialogue/TTS hooks, QA gates and Unreal migration contracts. Final 3D production, recorded VO, full cinematics, production vehicle physics, authoritative online infrastructure and mobile certification remain later-stage work.
+
+
+## Batch 08 — M71–M80
+Batch 08 expands M71–M80 into four-beat playable browser prototype flows with mission-specific persistence, runtime effects, dialogue hooks, QA acceptance, and Unreal production contracts. The 88-mission registry remains authoritative. Final 3D/VO/cinematic/online production is deferred.
