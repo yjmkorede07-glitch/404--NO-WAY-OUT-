@@ -1,5 +1,6 @@
 import { WebSocketServer } from "ws";
 import crypto from "crypto";
+import { createAccount, authenticate, getProfile, saveProfile, saveMission, getMissions } from "./db.js";
 
 const PORT=process.env.PORT||8080;
 const TICK=20;
@@ -39,9 +40,42 @@ function validatePlayerState(p,data){
   return true;
 }
 
+
+const sessionsByToken=new Map();
+function token(){return crypto.randomBytes(32).toString("hex")}
+function authRequired(ws){return ws.accountId?true:false}
+
 function handle(ws,msg){
   const {type,payload={}}=msg||{};
+  if(type==="register"){
+    try{
+      const email=String(payload.email||"").trim().toLowerCase(),password=String(payload.password||""),name=String(payload.name||"Player").slice(0,30);
+      if(!email||password.length<8)return reject(ws,"Email and password (8+ chars) required");
+      const accountId=createAccount(email,password,name),t=token();sessionsByToken.set(t,accountId);ws.accountId=accountId;ws.token=t;
+      send(ws,"auth_ok",{token:t,profile:getProfile(accountId),missions:getMissions(accountId)});return;
+    }catch(e){return reject(ws,"Account registration failed")}
+  }
+  if(type==="login"){
+    const profile=authenticate(String(payload.email||"").trim().toLowerCase(),String(payload.password||""));
+    if(!profile)return reject(ws,"Invalid login");
+    const t=token();sessionsByToken.set(t,profile.account_id);ws.accountId=profile.account_id;ws.token=t;
+    send(ws,"auth_ok",{token:t,profile,missions:getMissions(profile.account_id)});return;
+  }
+  if(type==="resume"){
+    const accountId=sessionsByToken.get(String(payload.token||""));
+    if(!accountId)return reject(ws,"Session expired");
+    ws.accountId=accountId;ws.token=String(payload.token);send(ws,"auth_ok",{token:ws.token,profile:getProfile(accountId),missions:getMissions(accountId)});return;
+  }
+  if(type==="save_profile"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    saveProfile(ws.accountId,payload);send(ws,"saved",{profile:getProfile(ws.accountId)});return;
+  }
+  if(type==="save_mission"){
+    if(!authRequired(ws))return reject(ws,"Login required");
+    saveMission(ws.accountId,payload.missionId,payload.state);send(ws,"mission_saved",{missionId:payload.missionId,state:payload.state});return;
+  }
   if(type==="hello"){
+    if(payload.token){ws.accountId=sessionsByToken.get(String(payload.token))||null;}
     let session=payload.sessionId?sessions.get(payload.sessionId):null;
     if(!session)session=createSession();
     if(session.players.size>=MAX_PLAYERS)return reject(ws,"Session full");
