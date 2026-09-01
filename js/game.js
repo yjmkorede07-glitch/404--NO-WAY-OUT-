@@ -17,7 +17,7 @@ const INTERIORS=[
 {id:"cafe",x:-500,y:100,w:100,h:70,name:"LENA'S CAFE"},
 {id:"warehouse",x:800,y:480,w:150,h:90,name:"WAREHOUSE 7"},
 {id:"terminal",x:760,y:-410,w:180,h:100,name:"AIRPORT TERMINAL"}];
-let traffic=[],worldWeather={kind:"clear",timer:0},worldClock=8*60;
+let traffic=[],worldWeather={kind:"clear",timer:0},worldClock=8*60,saveMoveTimer=0;
 
 function init(){initializePlayer();canvas=document.getElementById("cityCanvas");ctx=canvas.getContext("2d");resize();seedTraffic();addInput();updateHUD();requestAnimationFrame(loop)}
 function resize(){const r=canvas.parentElement.getBoundingClientRect(),d=devicePixelRatio||1;canvas.width=r.width*d;canvas.height=r.height*d;ctx.setTransform(d,0,0,d,0,0)}
@@ -25,7 +25,8 @@ addEventListener("resize",resize);
 function addInput(){addEventListener("keydown",e=>{keys[e.key.toLowerCase()]=true;if(e.key.toLowerCase()==="e")interact()});addEventListener("keyup",e=>keys[e.key.toLowerCase()]=false);document.querySelectorAll("[data-key]").forEach(b=>{const k=b.dataset.key;b.onpointerdown=()=>keys[k]=true;b.onpointerup=b.onpointercancel=()=>keys[k]=false})}
 function seedTraffic(){for(let i=0;i<32;i++){traffic.push({x:-800+Math.random()*1900,y:-650+Math.random()*1300,axis:Math.random()<.5?"x":"y",speed:45+Math.random()*45,phase:Math.random()*6.28})}}
 function loop(t){const dt=Math.min((t-last)/1000||0,.05);last=t;worldClock=(worldClock+dt*.55)%1440;worldWeather.timer-=dt;if(worldWeather.timer<=0){worldWeather.kind=["clear","clear","cloudy","rain"][Math.floor(Math.random()*4)];worldWeather.timer=75+Math.random()*90}move(dt);updateTraffic(dt);if(typeof window.playableTick==="function")window.playableTick(dt);draw();requestAnimationFrame(loop)}
-function move(dt){const p=currentPlayer();let dx=(keys.d?1:0)-(keys.a?1:0),dy=(keys.s?1:0)-(keys.w?1:0);if(!dx&&!dy){p.stamina=Math.min(100,p.stamina+22*dt);return}const sprint=keys.shift&&p.stamina>1,speed=sprint?210:130;if(sprint)p.stamina=Math.max(0,p.stamina-28*dt);else p.stamina=Math.min(100,p.stamina+12*dt);const l=Math.hypot(dx,dy);p.position.x+=dx/l*speed*dt;p.position.y+=dy/l*speed*dt;p.location=getDistrict(p.position.x,p.position.y);saveAll();updateHUD()}
+function move(dt){const p=currentPlayer();let dx=(keys.d?1:0)-(keys.a?1:0),dy=(keys.s?1:0)-(keys.w?1:0);if(!dx&&!dy){p.stamina=Math.min(100,p.stamina+22*dt);return}const sprint=keys.shift&&p.stamina>1,speed=sprint?210:130;if(sprint)p.stamina=Math.max(0,p.stamina-28*dt);else p.stamina=Math.min(100,p.stamina+12*dt);const l=Math.hypot(dx,dy);p.position.x+=dx/l*speed*dt;p.position.y+=dy/l*speed*dt;p.location=getDistrict(p.position.x,p.position.y);
+saveMoveTimer+=dt;if(saveMoveTimer>=0.25){saveMoveTimer=0;saveAll()}updateHUD()}
 function updateTraffic(dt){const density=trafficDensity();traffic.forEach(v=>{if(v.axis==="x")v.x+=v.speed*dt;else v.y+=v.speed*dt;if(v.x>1250)v.x=-850;if(v.y>800)v.y=-700})}
 function trafficDensity(){const h=worldClock/60;if(h>=7&&h<10)return .75;if(h>=17&&h<21)return 1;if(h>=22||h<6)return .35;return .9}
 function getDistrict(x,y){for(const d of P3_DISTRICTS)if(x>=d.x&&x<=d.x+d.w&&y>=d.y&&y<=d.y+d.h)return d.name.replace("VEYRON INTERNATIONAL AIRPORT","Airport").replace("VEYRON PORT","Veyron Port").replace("BLACKWATER ISLAND","Blackwater Island");return"Veyron Outskirts"}

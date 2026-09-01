@@ -14,7 +14,9 @@ const P18={
   lastWorldTick:0,
   lastMissionSignature:"",
   weatherTimer:0,
-  businessTimer:0
+  businessTimer:0,
+  worldSimTimer:0,
+  npcTimer:0
 };
 
 const RELATIONSHIP_SEEDS={
@@ -211,18 +213,14 @@ function dayPhase(){
 }
 function updateWeather(dt){
   ensure();const w=G().p18.worldSim;
-  P18.weatherTimer-=dt;
-  if(P18.weatherTimer>0)return;
-  const roll=Math.random();
-  const current=w.weather;
-  let next=current;
-  if(current==="storm")next=roll<0.6?"rain":roll<0.85?"cloudy":"clear";
-  else if(current==="rain")next=roll<0.2?"storm":roll<0.65?"rain":"cloudy";
-  else if(current==="cloudy")next=roll<0.25?"rain":roll<0.55?"cloudy":"clear";
-  else next=roll<0.12?"rain":roll<0.38?"cloudy":"clear";
-  w.weather=next;
-  w.weatherIntensity=next==="storm"?0.95:next==="rain"?0.65:next==="cloudy"?0.35:0.1;
-  P18.weatherTimer=45+Math.random()*90;
+  // The base 2D renderer owns the visible weather state. Phase 18 mirrors it
+  // into the persistent simulation contract instead of running a second,
+  // competing weather clock.
+  const visible=window.worldWeather||{};
+  const kind=visible.kind||w.weather||"clear";
+  w.weather=kind;
+  w.weatherIntensity=kind==="storm"?0.95:kind==="rain"?0.65:kind==="cloudy"?0.35:0.1;
+  P18.weatherTimer=Math.max(0,P18.weatherTimer-dt);
 }
 function updateBusinesses(){
   ensure();const w=G().p18.worldSim, phase=dayPhase();
@@ -313,9 +311,24 @@ function loop(now){
   const dt=Math.min(0.25,((now-(P18.lastWorldTick||now))/1000)||0);
   if(dt>0){
     P18.lastWorldTick=now;
-    if(now%1>=0)updateWeather(dt);
-    if(now-(G().p18.worldSim.lastTick||0)>2200){updateWorld(dt);updateNPCSimulation();}
-    if(now-(G().p18.businessTick||0)>5000){updateBusinesses();G().p18.businessTick=now;}
+    updateWeather(dt);
+
+    // Use the same monotonic performance clock as requestAnimationFrame.
+    // Date.now() and performance.now() have different epochs and must not
+    // be compared.
+    P18.worldSimTimer+=dt;
+    if(P18.worldSimTimer>=2.2){
+      P18.worldSimTimer=0;
+      updateWorld(dt);
+      updateNPCSimulation();
+    }
+
+    P18.businessTimer+=dt;
+    if(P18.businessTimer>=5){
+      P18.businessTimer=0;
+      updateBusinesses();
+    }
+
     refreshMissionTriggers();
     const active=G().missionRuntime?.active||G().activeMission||"";
     if(active!==P18.lastMissionSignature){
