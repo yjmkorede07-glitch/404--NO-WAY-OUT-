@@ -1,0 +1,582 @@
+{
+  "batch": "M81-M88",
+  "phase": "Phase 19 Batch 09",
+  "missions": [
+    {
+      "id": "M81",
+      "title": "Last Preparation",
+      "production_role": "final-operation preparation / protagonist readiness",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "darius",
+        "malik",
+        "amara",
+        "ready"
+      ],
+      "qa": [
+        "Prepare Darius and confirm the final evidence kit.",
+        "Prepare Malik and confirm the final vehicle and tools.",
+        "Prepare Amara and confirm the evidence channel.",
+        "Lock the three preparations into one final-operation plan."
+      ],
+      "production_contract": [
+        {
+          "id": "darius",
+          "objective": "Prepare Darius and confirm the final evidence kit.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "malik",
+          "objective": "Prepare Malik and confirm the final vehicle and tools.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "amara",
+          "objective": "Prepare Amara and confirm the evidence channel.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "ready",
+          "objective": "Lock the three preparations into one final-operation plan.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M82",
+      "title": "No Loose Ends",
+      "production_role": "final threat cleanup / consequence protection",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "threats",
+        "secure",
+        "clear"
+      ],
+      "qa": [
+        "Reach Veyron Central.",
+        "Identify and resolve the outstanding threats before the finale.",
+        "Secure the remaining people, evidence and fallback route.",
+        "Confirm that no unresolved loose end can compromise the operation."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Central.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "threats",
+          "objective": "Identify and resolve the outstanding threats before the finale.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure",
+          "objective": "Secure the remaining people, evidence and fallback route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "clear",
+          "objective": "Confirm that no unresolved loose end can compromise the operation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M83",
+      "title": "The Final Route",
+      "production_role": "route selection / evidence-supported approach",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "route-evidence",
+        "choose-route",
+        "reach-site"
+      ],
+      "qa": [
+        "Reach Veyron Port.",
+        "Use the evidence to compare the viable approaches into the final site.",
+        "Choose the safest supported final route.",
+        "Reach the final site using the committed route."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Veyron Port.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "route-evidence",
+          "objective": "Use the evidence to compare the viable approaches into the final site.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "choose-route",
+          "objective": "Choose the safest supported final route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "reach-site",
+          "objective": "Reach the final site using the committed route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M84",
+      "title": "The Final Ledger",
+      "production_role": "final financial evidence / ledger extraction",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "travel",
+        "access-ledger",
+        "secure-ledger",
+        "extract-ledger"
+      ],
+      "qa": [
+        "Reach Central Bank.",
+        "Access the hidden financial records.",
+        "Secure the final ledger without destroying the proof.",
+        "Extract the ledger and keep it intact."
+      ],
+      "production_contract": [
+        {
+          "id": "travel",
+          "objective": "Reach Central Bank.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "access-ledger",
+          "objective": "Access the hidden financial records.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "secure-ledger",
+          "objective": "Secure the final ledger without destroying the proof.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "extract-ledger",
+          "objective": "Extract the ledger and keep it intact.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M85",
+      "title": "Three Against The City",
+      "production_role": "three-protagonist climax / coordinated survival",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "darius",
+        "malik",
+        "amara",
+        "final"
+      ],
+      "qa": [
+        "Coordinate Darius at the final site.",
+        "Coordinate Malik at the extraction route.",
+        "Coordinate Amara on the evidence channel.",
+        "Survive the coordinated climax and complete the operation."
+      ],
+      "production_contract": [
+        {
+          "id": "darius",
+          "objective": "Coordinate Darius at the final site.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "malik",
+          "objective": "Coordinate Malik at the extraction route.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "amara",
+          "objective": "Coordinate Amara on the evidence channel.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "final",
+          "objective": "Survive the coordinated climax and complete the operation.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M86",
+      "title": "The Last Choice",
+      "production_role": "irreversible ending choice / state lock",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "choice",
+        "commit",
+        "fallback",
+        "ready"
+      ],
+      "qa": [
+        "Open the irreversible final decision.",
+        "Confirm the selected ending path is locked.",
+        "Prepare the selected path for the immediate aftermath.",
+        "Commit the final state and move into the aftermath."
+      ],
+      "production_contract": [
+        {
+          "id": "choice",
+          "objective": "Open the irreversible final decision.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "commit",
+          "objective": "Confirm the selected ending path is locked.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "fallback",
+          "objective": "Prepare the selected path for the immediate aftermath.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "ready",
+          "objective": "Commit the final state and move into the aftermath.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M87",
+      "title": "Dawn",
+      "production_role": "immediate aftermath / survivor consequences",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "dawn",
+        "aftermath",
+        "consequences",
+        "leave"
+      ],
+      "qa": [
+        "Reach the final safe location.",
+        "Survive the immediate aftermath.",
+        "Assess who survived, what evidence remains and how the city reacts.",
+        "Leave the safe location and carry the chosen ending into Veyron."
+      ],
+      "production_contract": [
+        {
+          "id": "dawn",
+          "objective": "Reach the final safe location.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "aftermath",
+          "objective": "Survive the immediate aftermath.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "consequences",
+          "objective": "Assess who survived, what evidence remains and how the city reacts.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "leave",
+          "objective": "Leave the safe location and carry the chosen ending into Veyron.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M88",
+      "title": "Veyron After 404",
+      "production_role": "ending epilogue / post-game free roam",
+      "systems": [
+        "mission_runtime",
+        "checkpoint_state",
+        "save_load",
+        "relationships",
+        "evidence_exposure",
+        "police_heat",
+        "npc_ai_hooks",
+        "vehicle_hooks",
+        "interior_hooks",
+        "cinematic",
+        "audio_vo",
+        "scoring",
+        "economy",
+        "property_state",
+        "unreal_contract"
+      ],
+      "beats": [
+        "free-roam",
+        "epilogue",
+        "world-state",
+        "free-roam-unlocked"
+      ],
+      "qa": [
+        "Return to Veyron and witness the changed city.",
+        "Complete the epilogue for the chosen ending.",
+        "Apply the ending-dependent city, relationship and evidence consequences.",
+        "Unlock post-game free roam and the ending state."
+      ],
+      "production_contract": [
+        {
+          "id": "free-roam",
+          "objective": "Return to Veyron and witness the changed city.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "epilogue",
+          "objective": "Complete the epilogue for the chosen ending.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "world-state",
+          "objective": "Apply the ending-dependent city, relationship and evidence consequences.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        },
+        {
+          "id": "free-roam-unlocked",
+          "objective": "Unlock post-game free roam and the ending state.",
+          "systems": [
+            "mission_state",
+            "checkpoint",
+            "save_persistence"
+          ]
+        }
+      ]
+    }
+  ]
+}

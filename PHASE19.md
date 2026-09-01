@@ -68,3 +68,6 @@ Batch 06 expands M61-M70 from the authoritative campaign registry into four-beat
 
 ## Batch 08 — M71–M80
 Batch 08 expands M71–M80 into four-beat playable browser prototype flows with mission-specific persistence, runtime effects, dialogue hooks, QA acceptance, and Unreal production contracts. The 88-mission registry remains authoritative. Final 3D/VO/cinematic/online production is deferred.
+
+## Batch 09 — M81-M88
+M81-M88 complete the Phase 19 browser campaign implementation. The final eight missions now use four explicit beats where appropriate, persistent checkpoint/action state, ending-aware final choice state, mission-specific dialogue hooks, QA acceptance and Unreal production contracts. M86 maps the four authoritative endings to E1 The Escape, E2 The Crown, E3 The Sacrifice and E4 No Way Out; M88 applies ending-dependent world state and unlocks post-game free roam. This completes the browser prototype campaign implementation through all 88 missions. Final Unreal 3D assets, production animation, recorded VO, full cinematics, complete vehicle/world/NPC content, authoritative online infrastructure and mobile release work remain separate production stages.

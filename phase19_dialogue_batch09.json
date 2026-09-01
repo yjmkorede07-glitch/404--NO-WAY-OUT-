@@ -1,0 +1,325 @@
+{
+  "batch": "M81-M88",
+  "missions": {
+    "M81": {
+      "beats": {
+        "darius": [
+          {
+            "character": "Darius",
+            "text": "Final check. No improvising after we move."
+          }
+        ],
+        "malik": [
+          {
+            "character": "Malik",
+            "text": "If the car fails, I want a backup before we leave."
+          }
+        ],
+        "amara": [
+          {
+            "character": "Amara",
+            "text": "The evidence channel is ready. Once we open it, there is no quiet version of this story."
+          }
+        ],
+        "ready": [
+          {
+            "character": "Darius",
+            "text": "Three people. One operation. No loose ends."
+          }
+        ],
+        "start": [
+          {
+            "character": "Darius",
+            "text": "We are preparing for the final operation."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius",
+            "text": "Preparation locked."
+          }
+        ]
+      }
+    },
+    "M82": {
+      "beats": {
+        "travel": [
+          {
+            "character": "Amara",
+            "text": "I found the remaining pressure points. We deal with them now."
+          }
+        ],
+        "threats": [
+          {
+            "character": "Amara",
+            "text": "Nobody gets left behind because we were in a hurry."
+          }
+        ],
+        "secure": [
+          {
+            "character": "Darius",
+            "text": "The fallback route is protected. We can still choose how this ends."
+          }
+        ],
+        "clear": [
+          {
+            "character": "Malik",
+            "text": "Then we make sure nothing follows us into the final operation."
+          }
+        ],
+        "start": [
+          {
+            "character": "Amara",
+            "text": "We clean up everything that can still hurt us."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "No loose ends remain."
+          }
+        ]
+      }
+    },
+    "M83": {
+      "beats": {
+        "travel": [
+          {
+            "character": "Darius",
+            "text": "The evidence gives us more than one way in."
+          }
+        ],
+        "route-evidence": [
+          {
+            "character": "Amara",
+            "text": "The safest route is the one that leaves the least uncertainty."
+          }
+        ],
+        "choose-route": [
+          {
+            "character": "Darius",
+            "text": "You choose. I will make the route work."
+          }
+        ],
+        "reach-site": [
+          {
+            "character": "Darius",
+            "text": "We are through. Keep moving."
+          }
+        ],
+        "start": [
+          {
+            "character": "Darius",
+            "text": "We need the final route."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius",
+            "text": "Route confirmed."
+          }
+        ]
+      }
+    },
+    "M84": {
+      "beats": {
+        "travel": [
+          {
+            "character": "Malik",
+            "text": "Bank records. This is what we came for."
+          }
+        ],
+        "access-ledger": [
+          {
+            "character": "Malik",
+            "text": "Copy first. Touch nothing we cannot restore."
+          }
+        ],
+        "secure-ledger": [
+          {
+            "character": "Darius",
+            "text": "The ledger is intact. That means the proof survives with us."
+          }
+        ],
+        "extract-ledger": [
+          {
+            "character": "Amara",
+            "text": "Then the truth has a chance to survive the people who built this."
+          }
+        ],
+        "start": [
+          {
+            "character": "Malik",
+            "text": "The last ledger is inside the bank."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "Ledger secured."
+          }
+        ]
+      }
+    },
+    "M85": {
+      "beats": {
+        "darius": [
+          {
+            "character": "Darius",
+            "text": "Darius moving. Malik, take the extraction. Amara, protect the record."
+          }
+        ],
+        "malik": [
+          {
+            "character": "Malik",
+            "text": "I have the route. Keep the pressure off me."
+          }
+        ],
+        "amara": [
+          {
+            "character": "Amara",
+            "text": "Evidence channel is live. Do not let the story disappear."
+          }
+        ],
+        "final": [
+          {
+            "character": "Darius",
+            "text": "All three positions are holding. Finish it."
+          }
+        ],
+        "start": [
+          {
+            "character": "Darius",
+            "text": "Three people. One coordinated operation."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Darius",
+            "text": "The operation is complete."
+          }
+        ]
+      }
+    },
+    "M86": {
+      "beats": {
+        "choice": [
+          {
+            "character": "Darius",
+            "text": "This is the last decision. After this, the city remembers what we chose."
+          }
+        ],
+        "commit": [
+          {
+            "character": "Darius",
+            "text": "Say it clearly. Which path are we taking?"
+          }
+        ],
+        "fallback": [
+          {
+            "character": "Amara",
+            "text": "Whatever we choose, the consequences belong to all three of us."
+          }
+        ],
+        "ready": [
+          {
+            "character": "Malik",
+            "text": "Then lock it. No turning back."
+          }
+        ],
+        "start": [
+          {
+            "character": "Darius",
+            "text": "The last choice is here."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "The final path is locked."
+          }
+        ]
+      }
+    },
+    "M87": {
+      "beats": {
+        "dawn": [
+          {
+            "character": "Malik",
+            "text": "We made it this far. That does not mean we won."
+          }
+        ],
+        "aftermath": [
+          {
+            "character": "Darius",
+            "text": "Somebody has to look at what remains."
+          }
+        ],
+        "consequences": [
+          {
+            "character": "Amara",
+            "text": "The survivors matter. So does the evidence."
+          }
+        ],
+        "leave": [
+          {
+            "character": "Malik",
+            "text": "Morning is here. Veyron is still standing."
+          }
+        ],
+        "start": [
+          {
+            "character": "Malik",
+            "text": "Now we survive what comes after."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Malik",
+            "text": "The aftermath is survived."
+          }
+        ]
+      }
+    },
+    "M88": {
+      "beats": {
+        "free-roam": [
+          {
+            "character": "Amara",
+            "text": "Look at the city. The operation is over, but the consequences are not."
+          }
+        ],
+        "epilogue": [
+          {
+            "character": "Darius",
+            "text": "The ending is ours now. The world state has to remember it."
+          }
+        ],
+        "world-state": [
+          {
+            "character": "Malik",
+            "text": "Whatever we lost, we carry it forward."
+          }
+        ],
+        "free-roam-unlocked": [
+          {
+            "character": "Amara",
+            "text": "Free roam is open. Veyron remembers 404."
+          }
+        ],
+        "start": [
+          {
+            "character": "Amara",
+            "text": "Now we see what Veyron became."
+          }
+        ],
+        "complete": [
+          {
+            "character": "Amara",
+            "text": "The epilogue is complete. Free roam is open."
+          }
+        ]
+      }
+    }
+  }
+}

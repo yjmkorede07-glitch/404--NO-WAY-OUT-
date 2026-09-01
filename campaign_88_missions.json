@@ -1979,7 +1979,7 @@
           "id": "lead-track",
           "kind": "action",
           "target": "central",
-          "text": "Follow the strongest lead about Darius\u2019s brother."
+          "text": "Follow the strongest lead about Darius’s brother."
         },
         {
           "id": "location-search",
@@ -2567,7 +2567,7 @@
           "id": "earn-cooperation",
           "kind": "action",
           "target": "north",
-          "text": "Gain the contact\u2019s cooperation."
+          "text": "Gain the contact’s cooperation."
         },
         {
           "id": "obtain-address",
@@ -2718,7 +2718,7 @@
           "id": "destination",
           "kind": "action",
           "target": "airport",
-          "text": "Identify the passenger\u2019s destination."
+          "text": "Identify the passenger’s destination."
         }
       ],
       "prototypePlayable": true,
@@ -2832,7 +2832,7 @@
       "id": "M41",
       "title": "The Regulars",
       "phase": "Phase 4",
-      "brief": "Learn who spends every evening at the same caf\u00e9.",
+      "brief": "Learn who spends every evening at the same café.",
       "win_condition": "Identify three regulars and one useful connection.",
       "protagonist": "darius",
       "supporting_npcs": [
@@ -5255,7 +5255,7 @@
           "id": "reconnect-contact",
           "kind": "action",
           "target": "central",
-          "text": "Reconnect with someone who knew Darius\u2019s brother."
+          "text": "Reconnect with someone who knew Darius’s brother."
         },
         {
           "id": "ask-missing-detail",
@@ -5472,7 +5472,7 @@
           "id": "find-first-confirmation",
           "kind": "action",
           "target": "central",
-          "text": "Obtain the first independent confirmation of the operation\u2019s director."
+          "text": "Obtain the first independent confirmation of the operation’s director."
         },
         {
           "id": "find-second-confirmation",
@@ -5611,19 +5611,25 @@
           "id": "darius",
           "kind": "character",
           "target": "safehouse",
-          "text": "Prepare Darius."
+          "text": "Prepare Darius and confirm the final evidence kit."
         },
         {
           "id": "malik",
           "kind": "character",
           "target": "workshop",
-          "text": "Prepare Malik."
+          "text": "Prepare Malik and confirm the final vehicle and tools."
         },
         {
           "id": "amara",
           "kind": "character",
           "target": "central",
-          "text": "Prepare Amara."
+          "text": "Prepare Amara and confirm the evidence channel."
+        },
+        {
+          "id": "ready",
+          "kind": "action",
+          "target": "central",
+          "text": "Lock the three preparations into one final-operation plan."
         }
       ],
       "prototypePlayable": true,
@@ -5680,10 +5686,22 @@
           "text": "Reach Veyron Central."
         },
         {
-          "id": "action",
+          "id": "threats",
           "kind": "action",
           "target": "central",
-          "text": "INVESTIGATE: Complete the required cleanup objectives."
+          "text": "Identify and resolve the outstanding threats before the finale."
+        },
+        {
+          "id": "secure",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Secure the remaining people, evidence and fallback route."
+        },
+        {
+          "id": "clear",
+          "kind": "action",
+          "target": "central",
+          "text": "Confirm that no unresolved loose end can compromise the operation."
         }
       ],
       "prototypePlayable": true,
@@ -5741,10 +5759,22 @@
           "text": "Reach Veyron Port."
         },
         {
-          "id": "action",
+          "id": "route-evidence",
           "kind": "action",
           "target": "port",
-          "text": "INVESTIGATE: Reach the site using the route your evidence supports."
+          "text": "Use the evidence to compare the viable approaches into the final site."
+        },
+        {
+          "id": "choose-route",
+          "kind": "choice",
+          "target": "port",
+          "text": "Choose the safest supported final route."
+        },
+        {
+          "id": "reach-site",
+          "kind": "action",
+          "target": "port",
+          "text": "Reach the final site using the committed route."
         }
       ],
       "prototypePlayable": true,
@@ -5801,10 +5831,22 @@
           "text": "Reach Central Bank."
         },
         {
-          "id": "action",
+          "id": "access-ledger",
           "kind": "action",
           "target": "bank",
-          "text": "INVESTIGATE: Extract the ledger and keep it intact."
+          "text": "Access the hidden financial records."
+        },
+        {
+          "id": "secure-ledger",
+          "kind": "action",
+          "target": "bank",
+          "text": "Secure the final ledger without destroying the proof."
+        },
+        {
+          "id": "extract-ledger",
+          "kind": "action",
+          "target": "central",
+          "text": "Extract the ledger and keep it intact."
         }
       ],
       "prototypePlayable": true,
@@ -5877,7 +5919,7 @@
           "id": "final",
           "kind": "action",
           "target": "tower",
-          "text": "Survive the coordinated climax."
+          "text": "Survive the coordinated climax and complete the operation."
         }
       ],
       "prototypePlayable": true,
@@ -5932,7 +5974,25 @@
           "id": "choice",
           "kind": "choice",
           "target": "central",
-          "text": "Open the final decision."
+          "text": "Open the irreversible final decision."
+        },
+        {
+          "id": "commit",
+          "kind": "action",
+          "target": "central",
+          "text": "Confirm the selected ending path is locked."
+        },
+        {
+          "id": "fallback",
+          "kind": "action",
+          "target": "safehouse",
+          "text": "Prepare the selected path for the immediate aftermath."
+        },
+        {
+          "id": "ready",
+          "kind": "action",
+          "target": "central",
+          "text": "Commit the final state and move into the aftermath."
         }
       ],
       "prototypePlayable": true,
@@ -5993,6 +6053,18 @@
           "kind": "action",
           "target": "family",
           "text": "Survive the immediate aftermath."
+        },
+        {
+          "id": "consequences",
+          "kind": "action",
+          "target": "family",
+          "text": "Assess who survived, what evidence remains and how the city reacts."
+        },
+        {
+          "id": "leave",
+          "kind": "action",
+          "target": "central",
+          "text": "Leave the safe location and carry the chosen ending into Veyron."
         }
       ],
       "prototypePlayable": true,
@@ -6052,7 +6124,19 @@
           "id": "epilogue",
           "kind": "action",
           "target": "central",
-          "text": "Complete the epilogue and unlock free roam."
+          "text": "Complete the epilogue for the chosen ending."
+        },
+        {
+          "id": "world-state",
+          "kind": "action",
+          "target": "central",
+          "text": "Apply the ending-dependent city, relationship and evidence consequences."
+        },
+        {
+          "id": "free-roam-unlocked",
+          "kind": "action",
+          "target": "central",
+          "text": "Unlock post-game free roam and the ending state."
         }
       ],
       "prototypePlayable": true,

@@ -48,8 +48,8 @@
     "Batch 01/02 preservation",
     "ZIP integrity"
   ],
-  "phase19_status": "batch_07_m61_m70",
-  "phase19_batch": "M61-M70",
+  "phase19_status": "batch_09_m81_m88_complete",
+  "phase19_batch": "M81-M88",
   "phase19_strategy": "10-mission production batches with a completion gate before the next batch.",
   "phase19_implemented": [
     "Batch 01 manifest for M01-M10 with required systems, beats and QA acceptance tests",
@@ -60,7 +60,13 @@
     "M05 explicit Central Bank / East Market / Police HQ / Safehouse route",
     "M08 explicit container inspection and port escape sequence",
     "per-mission cinematic/audio/art/animation/NPC-AI/failure/save/scoring/persistence contracts",
-    "Phase 19 Batch 01 static production-gate validator"
+    "Phase 19 Batch 01 static production-gate validator",
+    "M71-M80 browser batch completion",
+    "M81-M88 final campaign browser runtime and persistent state",
+    "M81-M88 final-choice E1-E4 mapping",
+    "M81-M88 ending-aware aftermath and post-game free-roam state",
+    "M81-M88 dialogue and temporary prototype TTS hooks",
+    "M81-M88 QA and Unreal production contracts"
   ],
   "phase19_verified": [
     "M01-M10 production contract coverage",
@@ -75,7 +81,10 @@
     "Phase 19 Batch 04 M31-M40 validation",
     "Phase 19 Batch 05 M41-M50 validation",
     "Phase 19 Batch 06 M51-M60 validation",
-    "Phase 19 Batch 07 M61-M70 validation"
+    "Phase 19 Batch 07 M61-M70 validation",
+    "Phase 19 Batch 08 M71-M80 regression preservation",
+    "Phase 19 Batch 09 M81-M88 validation",
+    "88-mission registry remains sequential after final-batch expansion"
   ],
   "phase19_implementation": [
     "production character bible for Darius Cole, Malik and Amara Vale",
