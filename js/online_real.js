@@ -10,6 +10,8 @@ function realOnlineConnect(name="Player",sessionId=null){
   REAL_ONLINE.ws.onmessage=e=>{
     const m=JSON.parse(e.data);
     if(m.type==="auth_ok"){ACCOUNT.token=m.payload.token;ACCOUNT.profile=m.payload.profile;localStorage.setItem("404_token",ACCOUNT.token);notice("Account authenticated.");}
+    if(m.type==="economy_update"||m.type==="economy_snapshot"){economyApply(m.payload);}
+    if(m.type==="vehicle_persisted"){economyApply({vehicles:m.payload.vehicles});}
     if(m.type==="welcome"){REAL_ONLINE.status="connected";REAL_ONLINE.sessionId=m.payload.sessionId;REAL_ONLINE.playerId=m.payload.playerId;notice("Connected to Veyron Online.");}
     if(m.type==="player_state")applyRemotePlayer(m.payload);
     if(m.type==="character_switch")applyRemoteCharacter(m.payload);
