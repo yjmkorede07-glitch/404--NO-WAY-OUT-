@@ -1,0 +1,36 @@
+{
+  "phase": "cross-phase infrastructure",
+  "mode": "authoritative-server-ready",
+  "transport": "WebSocket-ready",
+  "authority": "server",
+  "replication": {
+    "high_priority": [
+      "player transform",
+      "active character",
+      "vehicle transform",
+      "vehicle damage",
+      "mission state",
+      "wanted state"
+    ],
+    "medium_priority": [
+      "NPC state",
+      "weather",
+      "traffic state",
+      "nearby interactables"
+    ],
+    "low_priority": [
+      "distant NPC cosmetic state",
+      "ambient traffic detail"
+    ]
+  },
+  "rules": [
+    "Client predicts local movement for responsiveness.",
+    "Server validates movement and writes authoritative state.",
+    "Only nearby entities replicate at high frequency.",
+    "Economy, inventory, mission rewards and property ownership are server-authoritative.",
+    "NPC memories and witness reports can be synchronized as compact events rather than full NPC snapshots.",
+    "Vehicle damage and tire state are replicated as state plus event deltas.",
+    "Session IDs and player IDs are stable enough for reconnect handling.",
+    "Production deployment still requires an actual backend service."
+  ]
+}

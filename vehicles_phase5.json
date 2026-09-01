@@ -1,0 +1,101 @@
+{
+  "phase": 5,
+  "name": "Vehicles, Traffic & Physical World",
+  "classes": [
+    {
+      "id": "compact",
+      "examples": [
+        "Kite",
+        "Mira"
+      ],
+      "handling": "balanced"
+    },
+    {
+      "id": "sedan",
+      "examples": [
+        "Veyron Executive",
+        "Crown"
+      ],
+      "handling": "stable"
+    },
+    {
+      "id": "suv",
+      "examples": [
+        "Atlas",
+        "Ranger"
+      ],
+      "handling": "heavy"
+    },
+    {
+      "id": "sports",
+      "examples": [
+        "Vortex",
+        "Specter"
+      ],
+      "handling": "fast"
+    },
+    {
+      "id": "truck",
+      "examples": [
+        "Hauler",
+        "Boxline"
+      ],
+      "handling": "heavy"
+    },
+    {
+      "id": "motorcycle",
+      "examples": [
+        "Reed Runner",
+        "Nightblade"
+      ],
+      "handling": "agile"
+    },
+    {
+      "id": "boat",
+      "examples": [
+        "Coastline",
+        "Harbor Runner"
+      ],
+      "handling": "water"
+    },
+    {
+      "id": "emergency",
+      "examples": [
+        "Police Cruiser",
+        "Ambulance"
+      ],
+      "handling": "priority"
+    }
+  ],
+  "damage": [
+    "body",
+    "engine",
+    "windows",
+    "doors",
+    "hood",
+    "trunk",
+    "lights",
+    "tires"
+  ],
+  "tire_states": [
+    "healthy",
+    "worn",
+    "punctured",
+    "flat",
+    "destroyed"
+  ],
+  "traffic": {
+    "signals": true,
+    "lanes": true,
+    "density_by_time": true,
+    "emergency_priority": true,
+    "driver_reactions": [
+      "brake",
+      "swerve",
+      "horn",
+      "change_lane",
+      "flee",
+      "stop"
+    ]
+  }
+}
