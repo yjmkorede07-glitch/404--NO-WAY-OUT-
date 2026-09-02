@@ -1,1 +1,8 @@
-
+{
+  "schema":"404.properties.v2",
+  "ownership":"Story and Online use separate ownership ledgers.",
+  "property_types":["safehouse","apartment","house","garage","warehouse","office","nightclub","retail","industrial","hangar","mountain_lodge"],
+  "purchase_channels":["in_world_sign","phone_browser","company_website","agent_contact"],
+  "rules":["Properties are physical world locations, not menu-only inventory.","Owned properties can be visited in free roam.","Upgrades alter interior/exterior presentation and gameplay capacity.","Online ownership is server authoritative."],
+  "upgrade_categories":["security","storage","garage","interior","exterior","utilities","staff","business_equipment"]
+}
