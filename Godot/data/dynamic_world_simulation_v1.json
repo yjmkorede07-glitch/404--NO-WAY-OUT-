@@ -1,0 +1,1 @@
+{"clock":{"real_minutes_per_game_hour":5,"real_minutes_per_game_day":120},"systems":["npc_schedules","traffic","npc_police","businesses","properties","dynamic_events","weather"]}
