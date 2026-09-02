@@ -1,23 +1,259 @@
 {
-  "schema":"404.freemode.v1",
-  "design_goal":"Story and Online are living open worlds, not mission lists. Players can discover, initiate, interrupt and complete unscripted criminal activities while travelling through Veyron.",
-  "activity_families":[
-    {"id":"bank_robbery","player_count":[1,4],"story":true,"online":true,"repeatable":true},
-    {"id":"store_robbery","player_count":[1,4],"story":true,"online":true,"repeatable":true},
-    {"id":"armored_transport","player_count":[1,4],"story":true,"online":true,"repeatable":true},
-    {"id":"cash_pickup","player_count":[1,4],"story":true,"online":true,"repeatable":true},
-    {"id":"vehicle_theft","player_count":[1,4],"story":true,"online":true,"repeatable":true},
-    {"id":"territory_event","player_count":[1,4],"story":true,"online":true,"repeatable":true},
-    {"id":"police_intercept","player_count":[1,4],"story":true,"online":true,"repeatable":true}
+  "schema": "404.freemode.v1",
+  "design_goal": "Story and Online are living open worlds, not mission lists. Players can discover, initiate, interrupt and complete unscripted criminal activities while travelling through Veyron.",
+  "activity_families": [
+    {
+      "id": "bank_robbery",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "store_robbery",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "armored_transport",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "cash_pickup",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "vehicle_theft",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "territory_event",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "police_intercept",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "property_purchase",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "business_operation",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "construction_project",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": false
+    },
+    {
+      "id": "blacknet_order",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    },
+    {
+      "id": "stock_trading",
+      "player_count": [
+        1,
+        4
+      ],
+      "story": true,
+      "online": true,
+      "repeatable": true
+    }
   ],
-  "banks":[
-    {"id":"bank_veyron_central","display_name":"Veyron Bank","district":"Veyron Central","tier":3,"cash_range":[8000,22000],"vault_access":"conditional","trigger":"enter_with_intent_or_interact_at_counter","cooldown_minutes":30},
-    {"id":"bank_central_reserve","display_name":"Central Reserve Bank","district":"Veyron Central","tier":5,"cash_range":[25000,70000],"vault_access":"heist_or_high_heat","trigger":"security_state_allows","cooldown_minutes":60},
-    {"id":"bank_east_market","display_name":"East Market Credit Union","district":"East Market","tier":2,"cash_range":[4000,12000],"vault_access":"none","trigger":"interact_at_counter","cooldown_minutes":20},
-    {"id":"bank_port_finance","display_name":"Port Finance","district":"Port","tier":3,"cash_range":[7000,18000],"vault_access":"conditional","trigger":"interact_at_counter","cooldown_minutes":30}
+  "banks": [
+    {
+      "id": "bank_veyron_central",
+      "display_name": "Veyron Bank",
+      "district": "Veyron Central",
+      "tier": 3,
+      "cash_range": [
+        8000,
+        22000
+      ],
+      "vault_access": "conditional",
+      "trigger": "enter_with_intent_or_interact_at_counter",
+      "cooldown_minutes": 30
+    },
+    {
+      "id": "bank_central_reserve",
+      "display_name": "Central Reserve Bank",
+      "district": "Veyron Central",
+      "tier": 5,
+      "cash_range": [
+        25000,
+        70000
+      ],
+      "vault_access": "heist_or_high_heat",
+      "trigger": "security_state_allows",
+      "cooldown_minutes": 60
+    },
+    {
+      "id": "bank_east_market",
+      "display_name": "East Market Credit Union",
+      "district": "East Market",
+      "tier": 2,
+      "cash_range": [
+        4000,
+        12000
+      ],
+      "vault_access": "none",
+      "trigger": "interact_at_counter",
+      "cooldown_minutes": 20
+    },
+    {
+      "id": "bank_port_finance",
+      "display_name": "Port Finance",
+      "district": "Port",
+      "tier": 3,
+      "cash_range": [
+        7000,
+        18000
+      ],
+      "vault_access": "conditional",
+      "trigger": "interact_at_counter",
+      "cooldown_minutes": 30
+    },
+    {
+      "id": "bank_north_hills",
+      "display_name": "North Hills Private Bank",
+      "district": "North Hills",
+      "tier": 3,
+      "cash_range": [
+        9000,
+        24000
+      ],
+      "vault_access": "conditional",
+      "trigger": "interact_at_counter",
+      "cooldown_minutes": 30
+    },
+    {
+      "id": "bank_iron_district",
+      "display_name": "Iron District Workers Bank",
+      "district": "Iron District",
+      "tier": 2,
+      "cash_range": [
+        5000,
+        14000
+      ],
+      "vault_access": "none",
+      "trigger": "interact_at_counter",
+      "cooldown_minutes": 20
+    },
+    {
+      "id": "bank_west_coast",
+      "display_name": "West Coast Trust",
+      "district": "West Coast",
+      "tier": 3,
+      "cash_range": [
+        10000,
+        26000
+      ],
+      "vault_access": "conditional",
+      "trigger": "interact_at_counter",
+      "cooldown_minutes": 30
+    },
+    {
+      "id": "bank_airport",
+      "display_name": "Veyron Airport Finance",
+      "district": "Airport",
+      "tier": 3,
+      "cash_range": [
+        12000,
+        30000
+      ],
+      "vault_access": "conditional",
+      "trigger": "interact_at_counter",
+      "cooldown_minutes": 35
+    },
+    {
+      "id": "bank_blackwater",
+      "display_name": "Blackwater Island Bank",
+      "district": "Blackwater Island",
+      "tier": 4,
+      "cash_range": [
+        15000,
+        40000
+      ],
+      "vault_access": "conditional",
+      "trigger": "security_state_allows",
+      "cooldown_minutes": 45
+    }
   ],
-  "robbery_state_machine":["discoverable","approach","threaten","security_response","cash_access","escape","police_response","cooldown","resolved"],
-  "design_rules":[
+  "robbery_state_machine": [
+    "discoverable",
+    "approach",
+    "threaten",
+    "security_response",
+    "cash_access",
+    "escape",
+    "police_response",
+    "cooldown",
+    "resolved"
+  ],
+  "design_rules": [
     "No free-cash button: every robbery creates risk, witnesses, security response and police consequences.",
     "Story mode may use authored protagonist reactions and relationship consequences.",
     "Online mode resolves rewards, cooldowns, heat and ownership on the server.",
