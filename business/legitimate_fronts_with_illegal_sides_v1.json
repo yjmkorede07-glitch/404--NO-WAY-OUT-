@@ -1,1 +1,18 @@
-
+{
+  "system_id": "VEYRON_BUSINESS_DUAL_USE_V1",
+  "design_rule": "A legitimate business can be profitable on its legal operations while optionally exposing the owner to fictional low-level illegal side activities. Illegal activity is a game mechanic with risk, heat, evidence and consequences.",
+  "businesses": [
+    {"id":"corner_market","legal":"grocery and convenience retail","illegal_sides":["off-book deliveries","fence_low_value_goods"],"risk":"low"},
+    {"id":"auto_shop","legal":"vehicle repair and customization","illegal_sides":["hide_stolen_parts","alter_vehicle_identity"],"risk":"medium"},
+    {"id":"logistics_company","legal":"freight and courier services","illegal_sides":["unregistered_cargo","after_hours_dropoffs"],"risk":"medium"},
+    {"id":"construction_company","legal":"building, renovation and contracting","illegal_sides":["unreported_materials","off-book_site_jobs"],"risk":"medium"},
+    {"id":"nightclub","legal":"music, food and entertainment","illegal_sides":["private_backroom_deals","unlicensed_cash_events"],"risk":"medium"},
+    {"id":"security_company","legal":"guards and event security","illegal_sides":["intimidation_contracts","off-record_recovery_jobs"],"risk":"medium"},
+    {"id":"car_dealership","legal":"vehicle sales and financing","illegal_sides":["paperwork_fraud","quiet_vehicle_transfers"],"risk":"medium"},
+    {"id":"arcade","legal":"games, food and social venue","illegal_sides":["underground_tournaments","private_cash_games"],"risk":"low"},
+    {"id":"warehouse","legal":"storage and fulfillment","illegal_sides":["unregistered_storage","blacknet_dropoff"],"risk":"medium"},
+    {"id":"cafe","legal":"food and coffee","illegal_sides":["coded_pickups","off-book_delivery"],"risk":"low"}
+  ],
+  "shared_systems": ["business_revenue", "inventory", "employees", "property", "police_heat", "evidence", "faction_rep", "taxes", "time", "weather"],
+  "consequences": {"police_heat":true,"evidence":true,"business_reputation":true,"business_closure_risk":true,"insurance_and_fines":true}
+}
