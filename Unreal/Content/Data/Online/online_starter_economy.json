@@ -1,0 +1,11 @@
+{
+  "startingGrant":10000000,
+  "currency":"VCR",
+  "balanceType":"bank",
+  "purpose":"starter_capital_only",
+  "playerDoesNotReceiveFreeProperties":true,
+  "playerDoesNotReceiveFreeBusinesses":true,
+  "playerDoesNotReceiveFreeVehicleCollection":true,
+  "onboardingPurchasesRequired":["house","citizen_id","starter_vehicle"],
+  "allLaterAssets":"earned_or_purchased"
+}

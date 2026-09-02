@@ -1,0 +1,13 @@
+{
+  "starterHousePolicy":"player_buys_one",
+  "options":[
+    {"id":"starter_central_apartment","district":"Veyron Central","price":450000,"type":"apartment"},
+    {"id":"starter_market_rowhouse","district":"East Market","price":325000,"type":"rowhouse"},
+    {"id":"starter_iron_workshop_home","district":"Iron District","price":275000,"type":"house_with_garage"},
+    {"id":"starter_north_hills_home","district":"North Hills","price":650000,"type":"house"},
+    {"id":"starter_west_coast_flat","district":"West Coast","price":575000,"type":"apartment"},
+    {"id":"starter_port_home","district":"Port","price":300000,"type":"compact_home"},
+    {"id":"starter_blackwater_cottage","district":"Blackwater Island","price":500000,"type":"cottage"},
+    {"id":"starter_alpine_lodge","district":"Alpine Valley","price":700000,"type":"lodge"}
+  ]
+}

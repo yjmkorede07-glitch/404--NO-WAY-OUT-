@@ -1,0 +1,25 @@
+{
+  "id":"ONLINE_ONBOARDING",
+  "title":"First Day in Veyron",
+  "type":"online_first_mission",
+  "startingGrant":10000000,
+  "grantCurrency":"VCR",
+  "grantDestination":"bank",
+  "grantTiming":"after_character_creation",
+  "steps":[
+    {"id":"OON-01","name":"Create Your Character","required":true},
+    {"id":"OON-02","name":"Choose Your World","required":true},
+    {"id":"OON-03","name":"Choose Your Life","required":true},
+    {"id":"OON-04","name":"Receive District Recommendation","required":true},
+    {"id":"OON-05","name":"Buy Your First House","required":true},
+    {"id":"OON-06","name":"Get Your Citizen ID","required":true},
+    {"id":"OON-07","name":"Buy Your First Car","required":true},
+    {"id":"OON-08","name":"Enter Veyron Freemode","required":true}
+  ],
+  "lawEnforcement":{"requiresHumanAcceptance":true,"normalNpcPoliceRemainsActive":true},
+  "lifePaths":[
+    {"id":"legitimate","label":"Legitimate","examples":["business owner","employee","trader","construction","mechanic","transport"]},
+    {"id":"criminal","label":"Criminal","examples":["street crew","heist operator","smuggler","vehicle thief","fixer","cyber broker"]},
+    {"id":"law_enforcement","label":"Law Enforcement","requiresAcceptance":true,"examples":["police","future specialist roles"]}
+  ]
+}

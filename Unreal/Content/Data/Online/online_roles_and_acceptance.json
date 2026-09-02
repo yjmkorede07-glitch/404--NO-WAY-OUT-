@@ -1,0 +1,8 @@
+{
+  "roles":[
+    {"id":"law_enforcement","approval":"human_admin","normalNpcPolice":"always_enabled","playerPolicePrivileges":"locked_until_accepted"},
+    {"id":"criminal","approval":"automatic","specializations":["street_crew","heist_operator","smuggler","vehicle_thief","fixer","cyber_broker"]},
+    {"id":"legitimate","approval":"automatic","specializations":["employee","business_owner","trader","construction","mechanic","transport"]}
+  ],
+  "adminDecision":{"accept":"role_unlocked","reject":"returns_to_legitimate_choice","audit":"required"}
+}

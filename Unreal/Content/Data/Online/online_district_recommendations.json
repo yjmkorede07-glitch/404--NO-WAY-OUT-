@@ -1,1 +1,18 @@
-
+{
+  "recommendations":{
+    "legitimate":[
+      {"district":"North Hills","reason":"homes, professional services and lower-risk legitimate economy"},
+      {"district":"West Coast","reason":"hospitality, tourism, property and vehicle opportunities"},
+      {"district":"Veyron Central","reason":"finance, offices, commerce and dense services"}
+    ],
+    "criminal":[
+      {"district":"Iron District","reason":"industrial access, garages and criminal contacts"},
+      {"district":"East Market","reason":"dense commerce, street contacts and freemode activity"},
+      {"district":"Port","reason":"cargo, smuggling and maritime opportunities"}
+    ],
+    "law_enforcement":[
+      {"district":"Veyron Central","reason":"civic and police infrastructure"},
+      {"district":"North Hills","reason":"residential and municipal coverage"}
+    ]
+  }
+}

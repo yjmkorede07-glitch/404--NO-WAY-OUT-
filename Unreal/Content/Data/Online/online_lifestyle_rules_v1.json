@@ -1,0 +1,9 @@
+{
+  "lifestyle_change_cooldown_real_minutes": 120,
+  "starting_grant": 10000000,
+  "grant_destination": "bank",
+  "grant_once_per_account": true,
+  "law_enforcement_acceptance_required": true,
+  "npc_police_always_active": true,
+  "opening_cinematics": ["OC-01","OC-02"]
+}

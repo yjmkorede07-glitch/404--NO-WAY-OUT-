@@ -1,0 +1,7 @@
+{
+  "worlds":[
+    {"id":"veyron-01","name":"Veyron One","eventMix":"balanced","maxPlayers":16},
+    {"id":"veyron-02","name":"Veyron Two","eventMix":"social","maxPlayers":16},
+    {"id":"veyron-03","name":"Veyron Three","eventMix":"criminal","maxPlayers":16}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "starterVehiclePolicy":"player_buys_one",
+  "options":[
+    {"id":"vyr_sable","type":"compact","price":45000},
+    {"id":"vyr_arden","type":"sedan","price":65000},
+    {"id":"vyr_talon","type":"pickup","price":80000},
+    {"id":"vyr_crest","type":"coupe","price":95000}
+  ]
+}
