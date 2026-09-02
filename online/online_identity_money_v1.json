@@ -1,0 +1,9 @@
+{
+  "schema":"404.online.identity-money.v1",
+  "identity":{"physical_id":"Veyron Citizen ID","uses":["banking","property_contracts","business_registration","vehicle_registration","employment","online_identity"],"replacement":"Civic Center or registered kiosk"},
+  "wallets":["cash","bank"],
+  "transfer":{"enabled":true,"channels":["phone","bank_terminal","ATM"],"server_authoritative":true,"daily_limit":250000,"minimum":1,"recipient_must_exist":true,"audit_log":true,"cooldown_seconds":3},
+  "anti_abuse":["server-side balance validation","transaction idempotency key","rate limiting","recipient ownership validation","immutable ledger entry"],
+  "story_mode":{"enabled":true,"scope":"single_player_ledger","transfers_to_npcs":false},
+  "online":{"enabled":true,"player_to_player":true,"business_to_player":true,"player_to_business":true}
+}

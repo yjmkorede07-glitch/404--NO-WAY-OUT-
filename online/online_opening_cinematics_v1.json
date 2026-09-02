@@ -1,0 +1,13 @@
+{
+  "system_id": "ONLINE_OPENING_CINEMATICS_V1",
+  "sequence": [
+    {"id":"OC-01","state":"before_life_choice","title":"WELCOME TO VEYRON","duration_seconds":45,"purpose":"Introduce the player character, the three Veyron worlds, the city and the idea that the player's choices shape their life."},
+    {"id":"OC-02","state":"after_life_choice","title":"YOUR LIFE STARTS HERE","duration_seconds":50,"purpose":"Show the selected life path and transition the player into the recommended district and first-day onboarding."}
+  ],
+  "life_variants": {
+    "legitimate": "Show work, family, commerce, property and the pressure to stay clean.",
+    "criminal": "Show crews, opportunities, risk, police presence and the cost of getting caught.",
+    "law_enforcement": "Show patrols, dispatch, public service and the requirement that a human/admin accept the application."
+  },
+  "rule": "Cinematics use original characters, locations, audio and animation; no copied third-party game assets."
+}
