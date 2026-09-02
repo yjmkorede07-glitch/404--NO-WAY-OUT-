@@ -7,7 +7,7 @@ let gameState;
 function initializePlayer(){
  const saved=loadGame();gameState=saved||{active:"darius",characters:structuredClone(protagonists),npcs:defaultNPCs(),vehicles:defaultVehicles(),missions:defaultMissions(),wanted:0,story:{clue1:false}};
  if(!gameState.characters)gameState.characters=structuredClone(protagonists);
- if(!gameState.npcs)gameState.npcs=defaultNPCs(); if(!gameState.vehicles)gameState.vehicles=defaultVehicles();if(!gameState.missions)gameState.missions=defaultMissions();
+ if(!gameState.npcs)gameState.npcs=defaultNPCs(); if(!gameState.vehicles)gameState.vehicles=defaultVehicles();if(!gameState.missions)gameState.missions=defaultMissions(); if(!gameState.freemode)gameState.freemode={activities:{},bankCooldowns:{},events:[]};
  saveAll();
 }
 function currentPlayer(){return gameState.characters[gameState.active]}
