@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "clock": {"real_minutes_per_game_hour": 5, "game_hours_per_day": 24, "real_minutes_per_game_day": 120},
+  "npc_schedule_profiles": [
+    {"id":"resident_worker","phases":["sleep","commute","work","lunch","work","commute","leisure","home"]},
+    {"id":"service_worker","phases":["sleep","commute","work","work","leisure","work","commute","home"]},
+    {"id":"student","phases":["sleep","commute","study","lunch","study","leisure","home"]},
+    {"id":"criminal","phases":["sleep","scouting","meeting","off_book_job","leisure","home"]},
+    {"id":"unemployed","phases":["sleep","errands","leisure","job_search","social","home"]}
+  ],
+  "traffic": {"base_density":0.62,"rush_hours":[[7,9],[16,19]],"weather_multipliers":{"rain":0.82,"heavy_rain":0.68,"fog":0.72,"snow":0.58,"blizzard":0.32}},
+  "police": {"npc_always_active":true,"response_states":["patrol","dispatch","respond","pursuit","search","arrest","recover"],"lifestyle_independent":true},
+  "business_rules": {"legal_activity_required":true,"illegal_side_activity_optional":true,"heat_on_illegal_activity":true,"evidence_hooks":true},
+  "dynamic_events": [
+    {"id":"traffic_accident","weight":20,"districts":"all","effects":["traffic_slowdown","npc_dispatch"]},
+    {"id":"store_alarm","weight":12,"districts":"retail","effects":["police_dispatch","crowd_reaction"]},
+    {"id":"street_race","weight":8,"districts":["East Market","West Coast","Iron District"],"effects":["traffic_surge","police_attention"]},
+    {"id":"business_opportunity","weight":10,"districts":"all","effects":["job_offer"]},
+    {"id":"blacknet_drop","weight":5,"districts":["Port","Iron District","Blackwater Island"],"effects":["criminal_opportunity","heat_risk"]}
+  ],
+  "mission_hooks": ["world_state_changed","police_heat_changed","business_state_changed","weather_changed","time_window_entered","dynamic_event_started","dynamic_event_resolved"]
+}
