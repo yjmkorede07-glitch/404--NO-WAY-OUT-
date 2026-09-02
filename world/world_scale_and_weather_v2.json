@@ -1,0 +1,12 @@
+{
+  "schema":"404.world.v2",
+  "world_goal":"A large Veyron region designed to support hours of exploration rather than a dense mission-only city.",
+  "districts":["Veyron Central","East Market","North Hills","Iron District","West Coast","Airport","Port","Blackwater Island","North Range","Alpine Valley","Snowline Resort","Outer Highway","Rural Estates","Lakes Region"],
+  "major_biomes":["dense_city","industrial","coast","island","suburban","rural","forest","mountain","alpine_snow"],
+  "mountain_system":{"present":true,"features":["mountain_roads","viewpoints","tunnels","forest_trails","high_altitude_weather","ski_resort"]},
+  "ski_resort":{"id":"snowline_resort","story":true,"online":true,"activities":["skiing","snowboarding","lodging","mountain_racing","cable_car","winter_freeroam_events"]},
+  "weather":{"dynamic":true,"states":["clear","partly_cloudy","cloudy","rain","heavy_rain","fog","storm","cold_front","snow","heavy_snow","blizzard"],"snow_system":{"enabled":true,"accumulates":true,"affects_roads":true,"affects_visibility":true,"affects_vehicle_handling":true,"can_clear_over_time":true}},
+  "time":{"persistent_clock":true,"day_night":true,"seasonal_weather_bias":true},
+  "streaming":"World Partition with data layers and selective interior streaming.",
+  "design_rule":"The map is large enough to create meaningful travel, but every major region must have gameplay or exploration value rather than empty square mileage."
+}

@@ -1,0 +1,36 @@
+{
+  "schema":"404.world.integration.v1",
+  "regions":[
+    {"id":"veyron_central","purpose":["story","commerce","banking","freemode","online"]},
+    {"id":"east_market","purpose":["commerce","street_events","freemode","story","online"]},
+    {"id":"north_hills","purpose":["residential","private_banking","construction","story","online"]},
+    {"id":"iron_district","purpose":["industry","workshops","warehouses","story","online"]},
+    {"id":"west_coast","purpose":["coast","luxury","marina","story","online"]},
+    {"id":"airport","purpose":["travel","cargo","finance","story","online"]},
+    {"id":"port","purpose":["cargo","boats","warehouses","story","online"]},
+    {"id":"blackwater_island","purpose":["island","marina","hidden_sites","story","online"]},
+    {"id":"north_range","purpose":["mountains","trails","wildlife","freemode","online"]},
+    {"id":"alpine_valley","purpose":["mountain_homes","snow","construction","story","online"]},
+    {"id":"snowline_resort","purpose":["skiing","lodging","winter_events","story","online"]},
+    {"id":"outer_highway","purpose":["highway","freight","vehicle_events","story","online"]},
+    {"id":"rural_estates","purpose":["farms","large_properties","construction","freemode","online"]},
+    {"id":"lakes_region","purpose":["lakes","boating","cabins","freemode","online"]}
+  ],
+  "story_integration_missions":[
+    {"mission":"M06","region":"north_hills","hook":"private_bank_financial_lead"},
+    {"mission":"M19","region":"port","hook":"warehouse_cargo_route"},
+    {"mission":"M26","region":"veyron_central","hook":"stock_market_unlock"},
+    {"mission":"M35","region":"east_market","hook":"market_activity_changes"},
+    {"mission":"M37","region":"north_hills","hook":"construction_and_property_lead"},
+    {"mission":"M38","region":"port","hook":"freight_manifest"},
+    {"mission":"M39","region":"airport","hook":"cargo_and_travel"},
+    {"mission":"M40","region":"blackwater_island","hook":"island_route"},
+    {"mission":"M49","region":"iron_district","hook":"business_upgrade"},
+    {"mission":"M50","region":"lakes_region","hook":"boat_run"},
+    {"mission":"M69","region":"north_hills","hook":"property_deal"},
+    {"mission":"M77","region":"veyron_central","hook":"corporate_network"},
+    {"mission":"M83","region":"port","hook":"final_route"},
+    {"mission":"M88","region":"veyron_central","hook":"post_story_freeroam_unlock"}
+  ],
+  "online_integration":"Every listed region is available in Online from character creation; authored online missions and freemode activities may reference the same POIs."
+}

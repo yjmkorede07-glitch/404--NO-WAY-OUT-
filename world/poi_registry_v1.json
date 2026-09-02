@@ -1,0 +1,8 @@
+{
+  "schema":"404.poi.v1",
+  "physical_world_rule":"Banks, stores, businesses, civic services, properties and activity locations exist as world POIs first; menus and websites are secondary interfaces.",
+  "categories":{"bank":10,"store":28,"atm":52,"civic":4,"dealership":5,"construction_office":3,"business":18,"property":80,"ski_resort":1,"mountain_lodge":6,"gas_station":22,"repair_shop":14},
+  "bank_distribution":["Veyron Central","East Market","North Hills","Iron District","West Coast","Airport","Port","Blackwater Island"],
+  "interaction_priority":["physical_interaction","phone","website"],
+  "online_replication":"POI state is replicated only when gameplay-relevant; static scenery streams locally."
+}

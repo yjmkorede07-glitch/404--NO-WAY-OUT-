@@ -1,0 +1,23 @@
+{
+  "system_id": "VEYRON_TIME_V1",
+  "real_time_scale": {
+    "real_minutes_per_ingame_hour": 5,
+    "ingame_hours_per_real_day": 24,
+    "real_minutes_per_ingame_day": 120,
+    "description": "One full Veyron day lasts two real-world hours. This gives enough time for work, travel, social play and RP without making the city feel frozen."
+  },
+  "online_lifestyle_change": {
+    "enabled": true,
+    "cooldown_real_minutes": 120,
+    "cooldown_starts_after": "successful_lifestyle_change",
+    "requires_revalidation": true,
+    "law_enforcement_requires_human_acceptance": true,
+    "criminal_to_legitimate": true,
+    "legitimate_to_criminal": true,
+    "law_enforcement_to_other": true,
+    "law_enforcement_reentry_requires_acceptance": true,
+    "preserves": ["character", "citizen_id", "house", "vehicles", "cash", "bank", "owned_businesses", "completed_onboarding"],
+    "does_not_preserve_as_active_role": ["current_job_assignment", "faction_duty", "law_enforcement_authority"],
+    "anti_abuse": ["server_authoritative_timestamp", "audit_log", "rate_limit", "no_duplicate_starting_grant"]
+  }
+}
