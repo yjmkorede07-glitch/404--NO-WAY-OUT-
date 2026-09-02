@@ -1,1 +1,16 @@
-
+{
+  "settingsMenu":"SETTINGS",
+  "categories":[
+    {"id":"display","items":["resolution","display_mode","frame_rate_limit","brightness","motion_blur","field_of_view","safe_zone"]},
+    {"id":"graphics","items":["quality_preset","view_distance","textures","shadows","effects","foliage","post_processing","anti_aliasing","dynamic_resolution"],"mobileVariants":true},
+    {"id":"controls","items":["keyboard_mouse","controller","mobile_touch","aim_sensitivity","look_sensitivity","invert_y","vibration","vehicle_controls"]},
+    {"id":"audio","items":["master","music","dialogue","effects","radio","voice_chat","voice_chat_output"]},
+    {"id":"accessibility","items":["subtitles","subtitle_size","subtitle_background","colorblind_modes","text_size","screen_shake","camera_shake","hold_or_toggle","aim_assist","reduced_flash"]},
+    {"id":"gameplay","items":["difficulty","aim_mode","driving_mode","tutorial_hints","mission_retry","auto_save","camera_mode","radar","minimap_rotation","units"]},
+    {"id":"online","items":["privacy","who_can_invite","who_can_message","voice_chat","proximity_voice","crossplay","world_preference","player_reporting","block_list"]},
+    {"id":"notifications","items":["mission","money","property","business","police","online","construction","weather_events"]},
+    {"id":"language","items":["language","spoken_language","subtitle_language"]},
+    {"id":"account","items":["linked_account","citizen_id","online_world","data_privacy","logout"]}
+  ],
+  "defaults":{"subtitles":true,"autoSave":true,"voiceChat":true,"proximityVoice":false,"crossplay":true,"dynamicResolution":true}
+}
