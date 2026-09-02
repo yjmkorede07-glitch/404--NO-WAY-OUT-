@@ -1,11 +1,16 @@
 import { WebSocketServer } from "ws";
 import crypto from "crypto";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import { createAccount, authenticate, getProfile, saveProfile, saveMission, getMissions, getProperties, getBusinesses, getVehicles, buyProperty, upgradeProperty, saveBusiness, storeVehicle } from "./db.js";
 
 const PORT=process.env.PORT||8080;
 const TICK=20;
 const MAX_PLAYERS=16;
 const sessions=new Map();
+const onlineMissionCatalog=JSON.parse(fs.readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)),"../Unreal/Content/Data/OnlineMissions/online_missions_24.json"),"utf8"));
+const onlineMissionById=new Map(onlineMissionCatalog.missions.map(m=>[m.id,m]));
 
 const now=()=>Date.now();
 const id=()=>crypto.randomUUID();
@@ -14,7 +19,7 @@ function safeNumber(v,f=0){return Number.isFinite(Number(v))?Number(v):f}
 function distance(a,b){return Math.hypot(a.x-b.x,a.y-b.y)}
 
 function createSession(){
-  const session={id:id(),players:new Map(),world:{
+  const session={id:id(),players:new Map(),onlineMissions:new Map(),world:{
     time:480,weather:"clear",wanted:new Map(),missions:new Map(),vehicles:new Map(),npcEvents:[],
     incidents:[]
   }};
@@ -143,6 +148,43 @@ function handle(ws,msg){
   if(type==="vehicle_state"){
     const v={id:String(payload.id||"").slice(0,80),owner:p.id,x:safeNumber(payload.x),y:safeNumber(payload.y),health:Math.max(0,Math.min(100,safeNumber(payload.health,100))),engine:Math.max(0,Math.min(100,safeNumber(payload.engine,100))),tires:payload.tires||{}};
     session.world.vehicles.set(v.id,v);broadcast(session,"vehicle_state",v,ws);return;
+  }
+  if(type==="online_mission_list") {
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    return send(ws,"online_mission_offer",{catalogId:onlineMissionCatalog.catalog_id,missions:onlineMissionCatalog.missions});
+  }
+  if(type==="online_mission_start_request") {
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    const missionId=String(payload.missionId||"");
+    const mission=onlineMissionById.get(missionId);
+    if(!mission) return reject(ws,"Unknown online mission");
+    const partyId=String(payload.partyId||ws.playerId).slice(0,80);
+    const instanceId=id();
+    const instance={instanceId,missionId,partyId,ownerId:p.id,currentObjective:0,startedAt:now(),revision:1,status:"started",members:[p.id]};
+    session.onlineMissions.set(instanceId,instance);
+    return send(ws,"online_mission_started",{instance,mission});
+  }
+  if(type==="online_objective_action") {
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    const instance=session.onlineMissions.get(String(payload.instanceId||""));
+    if(!instance) return reject(ws,"Mission instance not found");
+    if(instance.status!=="started") return reject(ws,"Mission is not active");
+    if(instance.currentObjective!==Math.max(0,Math.floor(safeNumber(payload.objectiveIndex,-1)))) return reject(ws,"Objective sequence rejected");
+    const mission=onlineMissionById.get(instance.missionId);
+    instance.currentObjective++; instance.revision++;
+    const complete=instance.currentObjective>=mission.objectives.length;
+    if(complete) instance.status="ready_to_extract";
+    return send(ws,"online_objective_update",{instanceId:instance.instanceId,revision:instance.revision,currentObjective:instance.currentObjective,status:instance.status});
+  }
+  if(type==="online_extract_request") {
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    const instance=session.onlineMissions.get(String(payload.instanceId||""));
+    if(!instance) return reject(ws,"Mission instance not found");
+    if(instance.status!=="ready_to_extract") return reject(ws,"Objectives are incomplete");
+    const mission=onlineMissionById.get(instance.missionId);
+    instance.status="completed"; instance.revision++;
+    // Reward committing is deliberately represented as a server event; production DB transaction is the next persistence layer.
+    return send(ws,"online_mission_completed",{instanceId:instance.instanceId,missionId:mission.id,reward:{cash:mission.cash,xp:mission.xp},revision:instance.revision});
   }
   if(type==="ping"){send(ws,"pong",{t:now()});return;}
 }
