@@ -1,1 +1,21 @@
-
+{
+  "system_id": "MISSION_CINEMATICS_V1",
+  "rule": "Every authored story, online, and side mission has an opening cutscene and a post-mission cutscene. Selected missions also have one or more in-mission cutscenes triggered by objective beats.",
+  "sequence_types": {
+    "opening": "Plays before the first playable objective and establishes context, characters, location and immediate stakes.",
+    "in_mission": "Optional gameplay-to-Sequencer transitions triggered by authored objective beats; gameplay resumes at a deterministic marker.",
+    "post_mission": "Plays after mission success/failure resolution as appropriate and establishes consequences, rewards and the next story/world state."
+  },
+  "skip_rules": {
+    "first_play": "Player may skip only after the scene has been viewed for 3 seconds.",
+    "replay": "Player may skip immediately.",
+    "online": "All party members receive a synchronized scene start/end signal; late joiners receive a state snapshot rather than restarting the scene.",
+    "failure": "Failure scenes may be skippable and return to the mission retry state."
+  },
+  "production": {
+    "engine": "Unreal Engine 5.6.x",
+    "implementation": "Level Sequence + Sequencer + Gameplay Tags + server-authoritative mission state for online",
+    "voice": "Original recorded voice only",
+    "assets": "Original characters, vehicles, environments and animation"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "catalog_id": "SideMissionCinematics",
+  "version": 1,
+  "rule": "Every future side mission must register here before becoming playable.",
+  "required_fields": [
+    "mission_id",
+    "title",
+    "district",
+    "opening",
+    "in_mission",
+    "post_mission"
+  ],
+  "scene_policy": {
+    "opening": true,
+    "post_mission": true,
+    "in_mission": "optional_but_required_for_missions_marked_cinematic_heavy"
+  },
+  "status": "framework_ready_authored_side_story_catalog_to_be_populated"
+}

@@ -1,0 +1,1427 @@
+{
+  "catalog_id": "StoryMissionCinematics",
+  "version": 1,
+  "missions": [
+    {
+      "mission_id": "M01",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M01_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M01-MID-01",
+          "trigger_after_objective": "family-house",
+          "title": "First Night \u2014 Story Beat 1",
+          "resume_marker": "M01_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M01_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M02",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M02_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M02_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M03",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M03_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M03_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M04",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M04_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M04_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M05",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M05_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M05_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M06",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M06_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M06-MID-01",
+          "trigger_after_objective": "action",
+          "title": "North Hills, Quiet Money \u2014 Story Beat 1",
+          "resume_marker": "M06_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M06_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M07",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M07_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M07_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M08",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M08_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M08_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M09",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M09_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M09_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M10",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M10_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M10-MID-01",
+          "trigger_after_objective": "action",
+          "title": "Amara's Rule \u2014 Story Beat 1",
+          "resume_marker": "M10_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M10_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M11",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M11_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M11_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M12",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M12_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M12_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M13",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M13_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M13_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M14",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M14_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M14_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M15",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M15_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M15_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M16",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M16_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M16_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M17",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M17_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M17_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M18",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M18_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M18_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M19",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M19_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M19-MID-01",
+          "trigger_after_objective": "ledger-secure",
+          "title": "The Warehouse Job \u2014 Story Beat 1",
+          "resume_marker": "M19_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M19_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M20",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M20_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M20-MID-01",
+          "trigger_after_objective": "evidence-track",
+          "title": "The Cost of Being Seen \u2014 Story Beat 1",
+          "resume_marker": "M20_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M20_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M21",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M21_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M21_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M22",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M22_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M22_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M23",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M23_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M23_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M24",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M24_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M24_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M25",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M25_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M25_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M26",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M26_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M26-MID-01",
+          "trigger_after_objective": "investment-fund",
+          "title": "First Investment \u2014 Story Beat 1",
+          "resume_marker": "M26_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M26_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M27",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M27_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M27_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M28",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M28_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M28_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M29",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M29_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M29_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M30",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M30_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M30-MID-01",
+          "trigger_after_objective": "escape",
+          "title": "They Found Me \u2014 Story Beat 1",
+          "resume_marker": "M30_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M30_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M31",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M31_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M31_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M32",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M32_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M32_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M33",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M33_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M33_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M34",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M34_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M34_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M35",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M35_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M35-MID-01",
+          "trigger_after_objective": "track-exchange",
+          "title": "Market Signals \u2014 Story Beat 1",
+          "resume_marker": "M35_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M35_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M36",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M36_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M36_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M37",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M37_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M37-MID-01",
+          "trigger_after_objective": "earn-cooperation",
+          "title": "Hilltop Contact \u2014 Story Beat 1",
+          "resume_marker": "M37_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M37_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M38",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M38_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M38-MID-01",
+          "trigger_after_objective": "find-mismatch",
+          "title": "Port Manifest \u2014 Story Beat 1",
+          "resume_marker": "M38_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M38_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M39",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M39_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M39-MID-01",
+          "trigger_after_objective": "track-network",
+          "title": "Airport Window \u2014 Story Beat 1",
+          "resume_marker": "M39_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M39_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M40",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M40_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M40-MID-01",
+          "trigger_after_objective": "verify",
+          "title": "Island Rumor \u2014 Story Beat 1",
+          "resume_marker": "M40_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M40_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M41",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M41_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M41_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M42",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M42_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M42_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M43",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M43_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M43_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M44",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M44_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M44_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M45",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M45_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M45_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M46",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M46_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M46_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M47",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M47_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M47_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M48",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M48_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M48_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M49",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M49_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M49-MID-01",
+          "trigger_after_objective": "install-upgrade",
+          "title": "Workshop Upgrade \u2014 Story Beat 1",
+          "resume_marker": "M49_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M49_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M50",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M50_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M50-MID-01",
+          "trigger_after_objective": "coastal-run",
+          "title": "Boat Run \u2014 Story Beat 1",
+          "resume_marker": "M50_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M50_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M51",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M51_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M51_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M52",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M52_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M52_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M53",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M53_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M53_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M54",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M54_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M54_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M55",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M55_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M55_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M56",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M56_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M56_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M57",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M57_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M57_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M58",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M58_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M58_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M59",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M59_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M59_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M60",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M60_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M60-MID-01",
+          "trigger_after_objective": "action",
+          "title": "The Broker \u2014 Story Beat 1",
+          "resume_marker": "M60_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M60_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M61",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M61_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M61_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M62",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M62_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M62_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M63",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M63_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M63_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M64",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M64_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M64_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M65",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M65_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M65_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M66",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M66_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M66_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M67",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M67_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M67_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M68",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M68_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M68_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M69",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M69_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M69-MID-01",
+          "trigger_after_objective": "close-purchase",
+          "title": "The Property Deal \u2014 Story Beat 1",
+          "resume_marker": "M69_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M69_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M70",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M70_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M70-MID-01",
+          "trigger_after_objective": "store-vehicles",
+          "title": "Garage Full \u2014 Story Beat 1",
+          "resume_marker": "M70_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M70_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M71",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M71_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M71_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M72",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M72_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M72_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M73",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M73_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M73_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M74",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M74_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M74_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M75",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M75_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M75_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M76",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M76_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M76_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M77",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M77_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M77-MID-01",
+          "trigger_after_objective": "find-hidden-entry",
+          "title": "The Inside Room \u2014 Story Beat 1",
+          "resume_marker": "M77_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M77_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M78",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M78_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M78_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M79",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M79_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_M79_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M80",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M80_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M80-MID-01",
+          "trigger_after_objective": "confront-teammate",
+          "title": "Broken Trust \u2014 Story Beat 1",
+          "resume_marker": "M80_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M80_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M81",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M81_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M81-MID-01",
+          "trigger_after_objective": "amara",
+          "title": "Last Preparation \u2014 Story Beat 1",
+          "resume_marker": "M81_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M81_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M82",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M82_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M82-MID-01",
+          "trigger_after_objective": "secure",
+          "title": "No Loose Ends \u2014 Story Beat 1",
+          "resume_marker": "M82_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M82_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M83",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M83_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M83-MID-01",
+          "trigger_after_objective": "choose-route",
+          "title": "The Final Route \u2014 Story Beat 1",
+          "resume_marker": "M83_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M83_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M84",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M84_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M84-MID-01",
+          "trigger_after_objective": "secure-ledger",
+          "title": "The Final Ledger \u2014 Story Beat 1",
+          "resume_marker": "M84_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M84_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M85",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M85_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M85-MID-01",
+          "trigger_after_objective": "amara",
+          "title": "Three Against The City \u2014 Story Beat 1",
+          "resume_marker": "M85_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M85_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M86",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M86_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M86-MID-01",
+          "trigger_after_objective": "fallback",
+          "title": "The Last Choice \u2014 Story Beat 1",
+          "resume_marker": "M86_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M86_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M87",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M87_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M87-MID-01",
+          "trigger_after_objective": "consequences",
+          "title": "Dawn \u2014 Story Beat 1",
+          "resume_marker": "M87_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M87_POST",
+        "duration_target_seconds": 30
+      }
+    },
+    {
+      "mission_id": "M88",
+      "mode": "story",
+      "category": "main_story",
+      "opening": {
+        "sequence_id": "SEQ_M88_OPEN",
+        "duration_target_seconds": 35
+      },
+      "in_mission": [
+        {
+          "id": "M88-MID-01",
+          "trigger_after_objective": "world-state",
+          "title": "Veyron After 404 \u2014 Story Beat 1",
+          "resume_marker": "M88_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_M88_POST",
+        "duration_target_seconds": 30
+      }
+    }
+  ]
+}

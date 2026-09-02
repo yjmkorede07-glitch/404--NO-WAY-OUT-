@@ -1,0 +1,391 @@
+{
+  "catalog_id": "OnlineMissionCinematics",
+  "version": 1,
+  "missions": [
+    {
+      "mission_id": "O01",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O01_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O01-MID-01",
+          "trigger_after_objective": "Recover the encrypted phone",
+          "title": "Cold Start \u2014 Turn",
+          "resume_marker": "O01_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O01_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O02",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O02_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O02_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O03",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O03_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O03_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O04",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O04_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O04-MID-01",
+          "trigger_after_objective": "Disable the tracker",
+          "title": "First Signal \u2014 Turn",
+          "resume_marker": "O04_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O04_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O05",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O05_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O05_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O06",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O06_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O06_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O07",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O07_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O07_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O08",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O08_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O08-MID-01",
+          "trigger_after_objective": "Hold the position",
+          "title": "Pressure Point \u2014 Turn",
+          "resume_marker": "O08_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O08_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O09",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O09_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O09_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O10",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O10_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O10_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O11",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O11_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O11_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O12",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O12_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O12-MID-01",
+          "trigger_after_objective": "Survive pursuit",
+          "title": "Redline \u2014 Turn",
+          "resume_marker": "O12_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O12_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O13",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O13_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O13_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O14",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O14_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O14_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O15",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O15_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O15_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O16",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O16_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O16-MID-01",
+          "trigger_after_objective": "Defend the boat",
+          "title": "Island Exit \u2014 Turn",
+          "resume_marker": "O16_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O16_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O17",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O17_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O17_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O18",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O18_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O18_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O19",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O19_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O19_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O20",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O20_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O20-MID-01",
+          "trigger_after_objective": "Defeat security",
+          "title": "Port Authority \u2014 Turn",
+          "resume_marker": "O20_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O20_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O21",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O21_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O21_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O22",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O22_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O22_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O23",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O23_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [],
+      "post_mission": {
+        "sequence_id": "SEQ_O23_POST",
+        "duration_target_seconds": 20
+      }
+    },
+    {
+      "mission_id": "O24",
+      "mode": "online",
+      "category": "authored_online",
+      "opening": {
+        "sequence_id": "SEQ_O24_OPEN",
+        "duration_target_seconds": 25
+      },
+      "in_mission": [
+        {
+          "id": "O24-MID-01",
+          "trigger_after_objective": "Complete the transfer",
+          "title": "The Network \u2014 Turn",
+          "resume_marker": "O24_Resume_01"
+        }
+      ],
+      "post_mission": {
+        "sequence_id": "SEQ_O24_POST",
+        "duration_target_seconds": 20
+      }
+    }
+  ]
+}
