@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "authoritative": true,
+  "client_messages": [
+    "agent_interest_update",
+    "traffic_observation",
+    "police_incident_report",
+    "business_interaction_request",
+    "dynamic_event_interaction"
+  ],
+  "server_events": [
+    "agent_spawn",
+    "agent_despawn",
+    "traffic_state_change",
+    "police_state_change",
+    "business_state_change",
+    "dynamic_event_start",
+    "dynamic_event_resolve",
+    "world_state_patch"
+  ],
+  "security": {
+    "client_cannot_create_rewards": true,
+    "client_cannot_clear_heat": true,
+    "client_cannot_force_arrest": true,
+    "client_cannot_complete_business_objective": true,
+    "client_cannot_spawn_unbounded_agents": true,
+    "server_validates_distance_and_state": true,
+    "idempotency_required_for_rewarding_actions": true
+  },
+  "persistence": {
+    "story": "separate_campaign_save",
+    "online": "separate_account_world_save",
+    "dynamic_world_events": "ephemeral_unless_marked_persistent"
+  }
+}
