@@ -3,7 +3,7 @@ import crypto from "crypto";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { createAccount, authenticate, getProfile, saveProfile, saveMission, applyCrimeReward, getMissions, getProperties, getBusinesses, getVehicles, buyProperty, upgradeProperty, saveBusiness, storeVehicle } from "./db.js";
+import { createAccount, authenticate, getProfile, saveProfile, saveMission, applyCrimeReward, getMissions, getProperties, getBusinesses, getVehicles, buyProperty, upgradeProperty, saveBusiness, storeVehicle, setOnlineIdentity, getOnlineIdentity, transferMoney, claimOnlineStartingGrant, getOnlineCareer, saveOnlineCareer, submitLawEnforcementApplication, listLawEnforcementApplications, decideLawEnforcementApplication, setBusinessIllegalActivity, getBusinessIllegalActivities } from "./db.js";
 
 const PORT=process.env.PORT||8080;
 const TICK=20;
@@ -20,7 +20,7 @@ function distance(a,b){return Math.hypot(a.x-b.x,a.y-b.y)}
 
 function createSession(){
   const session={id:id(),players:new Map(),onlineMissions:new Map(),world:{
-    time:480,weather:"clear",wanted:new Map(),missions:new Map(),vehicles:new Map(),npcEvents:[],
+    id: "veyron-01", time:480,weather:"clear",wanted:new Map(),missions:new Map(),vehicles:new Map(),npcEvents:[],
     incidents:[]
   }};
   sessions.set(session.id,session); return session;
@@ -75,6 +75,47 @@ function handle(ws,msg){
   if(type==="upgrade_property"){if(!authRequired(ws))return reject(ws,"Login required");const r=upgradeProperty(ws.accountId,String(payload.propertyId||""),payload.price);if(!r.ok)return reject(ws,r.reason);return send(ws,"economy_update",{profile:r.profile,properties:r.properties});}
   if(type==="business_update"){if(!authRequired(ws))return reject(ws,"Login required");return send(ws,"business_update",{business:saveBusiness(ws.accountId,String(payload.businessId||""),payload)});}
   if(type==="store_vehicle"){if(!authRequired(ws))return reject(ws,"Login required");storeVehicle(ws.accountId,String(payload.vehicleId||""),payload.name,payload.health,payload.propertyId);return send(ws,"vehicle_persisted",{vehicles:getVehicles(ws.accountId)});}
+  if(type==="online_character_created") {
+    if(!authRequired(ws))return reject(ws,"Login required");
+    const name=String(payload.displayName||"Player").slice(0,30);
+    const grant=claimOnlineStartingGrant(ws.accountId);
+    if(!grant.ok && grant.reason!=="grant_already_claimed")return reject(ws,grant.reason);
+    saveOnlineCareer(ws.accountId,{life_path:"legitimate",world_id:String(payload.worldId||"veyron-01"),grant_claimed:true,last_lifestyle_change_at:0});
+    return send(ws,"online_character_created",{displayName:name,grant:grant.ok?grant:{ok:true,alreadyClaimed:true,profile:getProfile(ws.accountId)},career:getOnlineCareer(ws.accountId)});
+  }
+  if(type==="online_grant_claim") {
+    if(!authRequired(ws))return reject(ws,"Login required");
+    const r=claimOnlineStartingGrant(ws.accountId); if(!r.ok)return reject(ws,r.reason); return send(ws,"online_grant_claimed",r);
+  }
+  if(type==="online_career_save") {
+    if(!authRequired(ws))return reject(ws,"Login required");
+    return send(ws,"online_career_update",{career:saveOnlineCareer(ws.accountId,payload)});
+  }
+  if(type==="online_law_apply") {
+    if(!authRequired(ws))return reject(ws,"Login required");
+    return send(ws,"law_application_update",{application:submitLawEnforcementApplication(ws.accountId)});
+  }
+  if(type==="online_law_admin_list") {
+    if(String(payload.adminKey||"")!==String(process.env.ADMIN_API_KEY||""))return reject(ws,"Admin authorization required");
+    return send(ws,"law_application_list",{applications:listLawEnforcementApplications()});
+  }
+  if(type==="online_law_admin_decide") {
+    if(String(payload.adminKey||"")!==String(process.env.ADMIN_API_KEY||""))return reject(ws,"Admin authorization required");
+    const app=decideLawEnforcementApplication(String(payload.applicationId||""),payload.accepted===true,String(payload.adminId||"admin"),payload.notes||"");
+    if(!app)return reject(ws,"Application not found");
+    const career=getOnlineCareer(app.account_id);
+    for(const sess of sessions.values()) for(const player of sess.players.values()) if(player.ws.accountId===app.account_id) send(player.ws,"law_application_decided",{application:app,career});
+    return send(ws,"law_application_decided",{application:app,career});
+  }
+  if(type==="business_illegal_activity") {
+    if(!authRequired(ws))return reject(ws,"Login required");
+    const businessId=String(payload.businessId||""),activityId=String(payload.activityId||"");
+    if(!businessId||!activityId)return reject(ws,"Business and activity required");
+    return send(ws,"business_illegal_activity_update",{activity:setBusinessIllegalActivity(ws.accountId,businessId,activityId,payload.active===true)});
+  }
+  if(type==="set_online_identity"){if(!authRequired(ws))return reject(ws,"Login required"); const identity=setOnlineIdentity(ws.accountId,{citizen_id:payload.citizen_id,world_id:payload.world_id,home_district:payload.home_district,id_active:true}); return send(ws,"identity_update",{identity});}
+  if(type==="get_online_identity"){if(!authRequired(ws))return reject(ws,"Login required"); return send(ws,"identity_update",{identity:getOnlineIdentity(ws.accountId)});}
+  if(type==="transfer_money"){if(!authRequired(ws))return reject(ws,"Login required"); const recipient=String(payload.recipientAccountId||""); const amount=Math.floor(Number(payload.amount)||0); const key=String(payload.idempotencyKey||""); const r=transferMoney(ws.accountId,recipient,amount,key); if(!r.ok)return reject(ws,r.reason); send(ws,"money_transfer_complete",r.sender); return;}
   if(type==="economy_snapshot"){if(!authRequired(ws))return reject(ws,"Login required");return send(ws,"economy_snapshot",{profile:getProfile(ws.accountId),properties:getProperties(ws.accountId),businesses:getBusinesses(ws.accountId),vehicles:getVehicles(ws.accountId)});}
   if(type==="story_save"){
     if(!authRequired(ws))return reject(ws,"Login required");
@@ -111,12 +152,15 @@ function handle(ws,msg){
   if(type==="hello"){
     if(payload.token){ws.accountId=sessionsByToken.get(String(payload.token))||null;}
     let session=payload.sessionId?sessions.get(payload.sessionId):null;
+    const requestedWorld=["veyron-01","veyron-02","veyron-03"].includes(String(payload.worldId||""))?String(payload.worldId):"veyron-01";
+    if(session && session.world.id!==requestedWorld)return reject(ws,"World mismatch");
     if(!session)session=createSession();
+    session.world.id=requestedWorld;
     if(session.players.size>=MAX_PLAYERS)return reject(ws,"Session full");
     const player={id:id(),ws,name:String(payload.name||"Player").slice(0,24),character:["darius","malik","amara"].includes(payload.character)?payload.character:"darius",
       x:0,y:0,health:100,last:now()};
     ws.sessionId=session.id;ws.playerId=player.id;session.players.set(player.id,player);
-    send(ws,"welcome",{sessionId:session.id,playerId:player.id,maxPlayers:MAX_PLAYERS,players:[...session.players.values()].map(publicPlayer)});
+    send(ws,"welcome",{sessionId:session.id,worldId:session.world.id,playerId:player.id,maxPlayers:MAX_PLAYERS,players:[...session.players.values()].map(publicPlayer)});
     broadcast(session,"player_joined",publicPlayer(player),ws);return;
   }
   const session=getSession(ws); if(!session)return reject(ws,"Handshake required");
@@ -233,7 +277,7 @@ wss.on("connection",ws=>{
 });
 setInterval(()=>{
   for(const s of sessions.values()){
-    s.world.time=(s.world.time+1)%1440;
+    s.world.time=(s.world.time+(60/(5*60))/TICK)%1440;
     broadcast(s,"world_tick",{time:s.world.time,weather:s.world.weather,players:s.players.size});
   }
 },1000/TICK);
