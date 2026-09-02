@@ -1,1 +1,15 @@
-
+{
+  "schema":"404.online.character.v1",
+  "creation_flow":["choose_world","create_identity","appearance","home_district","starting_property","tutorial_spawn","enter_shared_world"],
+  "worlds":[
+    {"id":"veyron-01","name":"Veyron One","style":"balanced_shared_world","max_players":16},
+    {"id":"veyron-02","name":"Veyron Two","style":"social_shared_world","max_players":16},
+    {"id":"veyron-03","name":"Veyron Three","style":"criminal_shared_world","max_players":16}
+  ],
+  "rule":"World selection affects initial shard, population and event mix; it does not permanently lock the player out of districts, missions or businesses.",
+  "identity":{"display_name_max":24,"government_id_required":true,"id_service_locations":["Veyron Civic Center","East Market Municipal Office","North Hills Registry Office"],"id_statuses":["pending","active","suspended"]},
+  "appearance":{"final_art_pending":true,"supports":"skeletal_mesh_customization_contract"},
+  "home_districts":["Veyron Central","East Market","North Hills","Iron District","West Coast","Port","Blackwater Island","Alpine Valley"],
+  "starting_choices":{"cash":2500,"starter_vehicle":true,"starter_property":false},
+  "no_paywall_rule":"Character creation and ID issuance are gameplay systems, not paid gates."
+}
