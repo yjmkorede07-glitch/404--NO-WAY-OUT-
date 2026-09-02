@@ -1,1 +1,18 @@
-
+{
+  "schema":"404.economy.v2",
+  "principle":"Story and Online both support a persistent-feeling civilian economy alongside criminal gameplay.",
+  "cash":"Player wallet and bank balances are separate. Cash can be stolen/lost in defined events; bank balance is protected except for authored financial systems.",
+  "businesses":[
+    {"id":"car_dealership","type":"legitimate","buyable":true,"income":"sales"},
+    {"id":"auto_shop","type":"legitimate_front","buyable":true,"income":"repairs_customization"},
+    {"id":"nightclub","type":"entertainment","buyable":true,"income":"tickets_bar_events"},
+    {"id":"logistics_company","type":"legitimate","buyable":true,"income":"contracts_freight"},
+    {"id":"construction_company","type":"legitimate","buyable":true,"income":"projects_contracts"},
+    {"id":"security_company","type":"legitimate_front","buyable":true,"income":"security_contracts"},
+    {"id":"warehouse","type":"logistics","buyable":true,"income":"storage_trade"},
+    {"id":"arcade","type":"entertainment","buyable":true,"income":"games_events"}
+  ],
+  "stock_market":{"story":true,"online":true,"exchange":"Veyron Exchange","assets":["VYR","VBC","VTA","NVC","PCT","IRN","VAE","BLK"],"price_driver":"server_or_story_simulation","rules":["No real-world securities","Prices move from world events, business performance, player demand and authored story events","Story mode may use authored market shocks","Online market is server authoritative","Players can buy/sell holdings and see gains/losses"]},
+  "vehicle_ownership":{"story":true,"online":true,"systems":["dealership_purchase","private_sale","garage_storage","insurance","repair","customization","vehicle_finance"]},
+  "dark_web":{"name":"BlackNet","story":true,"online":true,"fictional_only":true,"access":"hidden_in_world_and_phone_browser","categories":["rare_parts","stolen_goods","counterfeit_documents","encrypted_services","contraband_contracts"],"rules":["No real-world vendors or services","Purchases resolve through fictional game inventory and activities","High-risk purchases can trigger scams, police heat or ambushes","Online server validates every order and delivery"]}
+}
