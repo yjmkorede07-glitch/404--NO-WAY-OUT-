@@ -47,26 +47,3 @@ The design uses generic functional classes so final vehicle names/models can be 
 
 ## Production boundary
 No claim is made that final 3D assets, voice recordings, final cinematics, animation, backend hosting or platform certification are complete. Those are the post-architecture production gate.
-
-## Phase 35 Revision — custody tiers, bail, fugitive window and underground networks
-
-The police/custody design now uses graduated custody rather than sending every arrest to prison.
-
-- 1-star: station holding can occur; bail available.
-- 2-star: station holding; bail available.
-- Early 3-star: station jail/holding; bail available; short custody sentence.
-- Late 3-star: prison transfer can occur; no bail.
-- 4-star: prison custody.
-- 5-star: maximum-security prison custody.
-
-Sentence duration is measured in **in-game hours**, using the established world clock of 1 in-game hour = 5 real minutes. Exact sentence length can vary with offense severity and repeat offenses.
-
-After a prison or holding escape, the player enters a **10 in-game day fugitive period**. The player remains fully playable during this period and may perform normal gameplay activities. The intended challenge is to avoid new serious police incidents and keep a low profile. At the end of the 10 in-game days, the special fugitive heat expires and the player returns to the ordinary wanted/police rules. Creating a new serious crime can still generate a new wanted state.
-
-### Underground world network
-
-Veyron now explicitly includes a broad physical underground network: storm drains, sewers, service tunnels, subway maintenance, abandoned rail tunnels, utility corridors, underground parking, basements, bunkers, smuggling tunnels, warehouse sublevels, hidden safehouses, maintenance shafts, coastal caves, island tunnels, mountain tunnels and construction voids. These can provide police evasion routes, mission paths, hidden entrances, stashes, meetings and shortcuts. They are not guaranteed safe zones: some routes can be searched or blocked by police and multiple entrances/exits are required.
-
-### Character reference intake
-
-The three locked playable protagonists are **Darius Cole, Malik Reed and Amara Vale**. Their character photos/reference images and voice references are the first production inputs to request. Supporting characters such as Marcus and Lena remain separately managed; final photo/voice requests for them should wait until their production designs and dialogue requirements are locked.
