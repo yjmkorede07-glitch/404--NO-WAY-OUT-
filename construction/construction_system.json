@@ -1,1 +1,13 @@
-
+{
+  "schema":"404.construction.v1",
+  "company":{"id":"veyron_build_design","name":"Veyron Build & Design","access":["website","phone","physical_office"]},
+  "modes":["upgrade_existing_house","build_new_house","renovate_business","build_garage","build_safehouse_extension"],
+  "flow":["contact_company","choose_property_or_plot","select_plan","select_materials","select_upgrades","approve_quote","pay_deposit","construction_schedule","world_construction_state","progressive_visual_updates","inspection","completion"],
+  "real_time_world_progress":true,
+  "construction_states":["survey","foundation","frame","exterior","interior","landscaping","finished"],
+  "time_model":{"uses_ingame_clock":true,"can_progress_while_player_is_elsewhere":true,"visible_changes_on_return":true},
+  "story":true,
+  "online":true,
+  "online_rule":"Server owns construction progress, payments and completion state.",
+  "placement":{"player_can_select_from_approved_buildable_plots":true,"terrain_and_zoning_rules_apply":true}
+}
