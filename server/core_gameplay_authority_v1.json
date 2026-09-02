@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "authority": "server",
+  "actions": {
+    "vehicle_enter_exit": {
+      "requires_distance": 3.0,
+      "validates_ownership_or_theft": true
+    },
+    "plate_check": {
+      "requires_law_enforcement_status": "accepted",
+      "audit": true
+    },
+    "citizen_id_check": {
+      "requires_law_enforcement_status": "accepted",
+      "audit": true
+    },
+    "detain": {
+      "requires_law_enforcement_status": "accepted",
+      "audit": true
+    },
+    "arrest": {
+      "requires_law_enforcement_status": "accepted",
+      "audit": true
+    },
+    "request_services": {
+      "requires_law_enforcement_status": "accepted",
+      "allowed": [
+        "backup",
+        "ambulance",
+        "fire",
+        "tow"
+      ],
+      "audit": true
+    },
+    "robbery": {
+      "validates_poi_state": true,
+      "creates_heat": true
+    },
+    "purchase": {
+      "validates_balance": true,
+      "idempotent": true
+    }
+  }
+}
