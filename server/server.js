@@ -3,7 +3,7 @@ import crypto from "crypto";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { createAccount, authenticate, getProfile, saveProfile, saveMission, getMissions, getProperties, getBusinesses, getVehicles, buyProperty, upgradeProperty, saveBusiness, storeVehicle } from "./db.js";
+import { createAccount, authenticate, getProfile, saveProfile, saveMission, applyCrimeReward, getMissions, getProperties, getBusinesses, getVehicles, buyProperty, upgradeProperty, saveBusiness, storeVehicle } from "./db.js";
 
 const PORT=process.env.PORT||8080;
 const TICK=20;
@@ -135,6 +135,38 @@ function handle(ws,msg){
     const inc={id:id(),type:String(payload.kind||"incident").slice(0,40),severity,x:p.x,y:p.y,time:now(),playerId:p.id};
     session.world.incidents.push(inc);session.world.wanted.set(p.id,Math.max(session.world.wanted.get(p.id)||0,severity));
     broadcast(session,"crime_incident",inc);send(ws,"wanted",{level:session.world.wanted.get(p.id)});return;
+  }
+  if(type==="freemode_activity_start"){
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    const kind=String(payload.kind||"");
+    const allowed=["bank_robbery","store_robbery","armored_transport","cash_pickup","vehicle_theft","territory_event","police_intercept"];
+    if(!allowed.includes(kind)) return reject(ws,"Unknown freemode activity");
+    const x=safeNumber(payload.x,p.x),y=safeNumber(payload.y,p.y);
+    if(distance({x,y},p)>30)return reject(ws,"Activity start position rejected");
+    const activity={id:id(),kind,playerId:p.id,x,y,state:"active",progress:0,reward:Math.max(0,Math.min(70000,Math.floor(safeNumber(payload.reward,0)))),heat:Math.max(1,Math.min(5,Math.floor(safeNumber(payload.heat,1)))),createdAt:now(),revision:1};
+    session.world.incidents.push(activity);session.world.missions.set(activity.id,activity);session.world.wanted.set(p.id,Math.max(session.world.wanted.get(p.id)||0,activity.heat));
+    send(ws,"freemode_activity_started",activity);broadcast(session,"freemode_activity_event",activity,ws);return;
+  }
+  if(type==="freemode_activity_progress"){
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    const activity=session.world.missions.get(String(payload.activityId||""));
+    if(!activity||activity.playerId!==p.id)return reject(ws,"Activity not found");
+    if(activity.state!=="active"&&activity.state!=="escape")return reject(ws,"Activity inactive");
+    const step=Math.max(1,Math.min(25,Math.floor(safeNumber(payload.step,25))));
+    activity.progress=Math.min(100,activity.progress+step);activity.revision++;
+    if(activity.progress>=100){activity.state="escape";session.world.wanted.set(p.id,Math.max(session.world.wanted.get(p.id)||0,activity.heat+1));}
+    send(ws,"freemode_activity_update",activity);return;
+  }
+  if(type==="freemode_activity_resolve"){
+    if(!authRequired(ws)) return reject(ws,"Login required");
+    const activity=session.world.missions.get(String(payload.activityId||""));
+    if(!activity||activity.playerId!==p.id)return reject(ws,"Activity not found");
+    if(activity.state!=="escape")return reject(ws,"Activity not ready to resolve");
+    const success=payload.success===true;activity.state=success?"resolved":"failed";activity.revision++;
+    const reward=success?activity.reward:0;const wanted=success?0:activity.heat;
+    const profile=applyCrimeReward(ws.accountId,reward,wanted);
+    send(ws,"freemode_activity_resolved",{activityId:activity.id,success,reward,wanted,profile,revision:activity.revision});
+    broadcast(session,"freemode_activity_event",{id:activity.id,state:activity.state,playerId:p.id},ws);return;
   }
   if(type==="damage"){
     // Server validates target and caps damage to prevent client-side instant kills.

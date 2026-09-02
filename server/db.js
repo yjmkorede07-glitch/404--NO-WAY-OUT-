@@ -34,6 +34,12 @@ export function saveProfile(accountId,data){
    .run(String(data.display_name||"Player").slice(0,30),["darius","malik","amara"].includes(data.active_character)?data.active_character:"darius",
         Math.max(0,Math.floor(Number(data.cash)||0)),Math.max(0,Math.min(5,Math.floor(Number(data.wanted)||0))),accountId);
 }
+export function applyCrimeReward(accountId,cashDelta,wanted){
+ const delta=Math.floor(Number(cashDelta)||0), w=Math.max(0,Math.min(5,Math.floor(Number(wanted)||0)));
+ db.prepare("UPDATE profiles SET cash=MAX(0,cash+?), wanted=? WHERE account_id=?").run(delta,w,accountId);
+ return getProfile(accountId);
+}
+
 export function saveMission(accountId,missionId,state){
  db.prepare("INSERT INTO mission_progress(account_id,mission_id,state,updated_at) VALUES(?,?,?,?) ON CONFLICT(account_id,mission_id) DO UPDATE SET state=excluded.state,updated_at=excluded.updated_at")
    .run(accountId,String(missionId),String(state),Date.now());
