@@ -416,7 +416,13 @@
       "required_previous_missions": [
         "M05"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "North Hills",
+        "system_hook": "private_bank_financial_lead",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M07",
@@ -1301,7 +1307,13 @@
       "required_previous_missions": [
         "M18"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Port",
+        "system_hook": "warehouse_cargo_route",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M20",
@@ -1809,7 +1821,13 @@
       "required_previous_missions": [
         "M25"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Veyron Central",
+        "system_hook": "stock_market_unlock",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M27",
@@ -1979,7 +1997,7 @@
           "id": "lead-track",
           "kind": "action",
           "target": "central",
-          "text": "Follow the strongest lead about Darius’s brother."
+          "text": "Follow the strongest lead about Darius\u2019s brother."
         },
         {
           "id": "location-search",
@@ -2465,7 +2483,13 @@
       "required_previous_missions": [
         "M34"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "East Market",
+        "system_hook": "market_activity_changes",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M36",
@@ -2567,7 +2591,7 @@
           "id": "earn-cooperation",
           "kind": "action",
           "target": "north",
-          "text": "Gain the contact’s cooperation."
+          "text": "Gain the contact\u2019s cooperation."
         },
         {
           "id": "obtain-address",
@@ -2609,7 +2633,13 @@
       "required_previous_missions": [
         "M36"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "North Hills",
+        "system_hook": "construction_and_property_lead",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M38",
@@ -2682,7 +2712,13 @@
       "required_previous_missions": [
         "M37"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Port",
+        "system_hook": "freight_manifest",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M39",
@@ -2718,7 +2754,7 @@
           "id": "destination",
           "kind": "action",
           "target": "airport",
-          "text": "Identify the passenger’s destination."
+          "text": "Identify the passenger\u2019s destination."
         }
       ],
       "prototypePlayable": true,
@@ -2754,7 +2790,13 @@
       "required_previous_missions": [
         "M38"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Airport",
+        "system_hook": "cargo_and_travel",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M40",
@@ -2826,13 +2868,19 @@
       "required_previous_missions": [
         "M39"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Blackwater Island",
+        "system_hook": "island_route",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M41",
       "title": "The Regulars",
       "phase": "Phase 4",
-      "brief": "Learn who spends every evening at the same café.",
+      "brief": "Learn who spends every evening at the same caf\u00e9.",
       "win_condition": "Identify three regulars and one useful connection.",
       "protagonist": "darius",
       "supporting_npcs": [
@@ -3475,7 +3523,13 @@
       "required_previous_missions": [
         "M48"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Iron District",
+        "system_hook": "business_upgrade",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M50",
@@ -3547,7 +3601,13 @@
       "required_previous_missions": [
         "M49"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Lakes Region",
+        "system_hook": "boat_run",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M51",
@@ -4798,7 +4858,13 @@
       "required_previous_missions": [
         "M68"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "North Hills",
+        "system_hook": "property_deal",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M70",
@@ -5255,7 +5321,7 @@
           "id": "reconnect-contact",
           "kind": "action",
           "target": "central",
-          "text": "Reconnect with someone who knew Darius’s brother."
+          "text": "Reconnect with someone who knew Darius\u2019s brother."
         },
         {
           "id": "ask-missing-detail",
@@ -5472,7 +5538,7 @@
           "id": "find-first-confirmation",
           "kind": "action",
           "target": "central",
-          "text": "Obtain the first independent confirmation of the operation’s director."
+          "text": "Obtain the first independent confirmation of the operation\u2019s director."
         },
         {
           "id": "find-second-confirmation",
@@ -5810,7 +5876,13 @@
       "required_previous_missions": [
         "M82"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Port",
+        "system_hook": "final_route",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     },
     {
       "id": "M84",
@@ -6172,7 +6244,13 @@
       "required_previous_missions": [
         "M87"
       ],
-      "unlocked_content": []
+      "unlocked_content": [],
+      "world_integration": {
+        "region": "Veyron Central",
+        "system_hook": "post_story_freeroam_unlock",
+        "freemode_continuity": true,
+        "online_parity": true
+      }
     }
   ]
 }
