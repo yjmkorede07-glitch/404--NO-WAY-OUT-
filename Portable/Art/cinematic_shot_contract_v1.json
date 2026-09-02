@@ -1,0 +1,8 @@
+{
+  "schema": "404.cinematic-shot.v1",
+  "stages": ["opening", "in_mission", "post_mission", "ending", "loading"],
+  "shot_fields": ["id", "duration_seconds", "camera_transform", "look_at", "dialogue_key", "animation_key", "fx_key", "music_key"],
+  "delivery": ["realtime_engine", "offline_render_optional"],
+  "missions": "M01-M88",
+  "ending_ids": ["E1", "E2", "E3", "E4"]
+}

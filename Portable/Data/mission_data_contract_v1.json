@@ -1,0 +1,10 @@
+{
+  "schema": "404.mission_data.v1",
+  "story_missions": 88,
+  "opening_cinematic": true,
+  "post_mission_cinematic": true,
+  "optional_in_mission_cinematics": true,
+  "endings": ["E1", "E2", "E3", "E4"],
+  "scoring": {"critical": 50, "optional": 20, "time": 10, "survival_damage": 10, "precision_stealth_accuracy": 10},
+  "engine_neutral_rule": "mission definitions reference IDs, tags, locations and state transitions; presentation is implemented by engine adapters"
+}

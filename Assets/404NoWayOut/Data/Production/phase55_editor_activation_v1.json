@@ -1,0 +1,32 @@
+{
+  "phase": 55,
+  "title": "Unity Editor Activation and Production Validation",
+  "engine": "Unity 6.3 LTS",
+  "editor_version": "6000.3.0f1",
+  "purpose": "Turn the pre-editor production lock into a deterministic first-open validation pass without claiming tests that require the real Unity Editor.",
+  "menus": [
+    "404/Validate Phase 55 Editor Activation",
+    "404/Build Phase 54 Pre-Editor Production Scene"
+  ],
+  "required_checks": [
+    "unity_version",
+    "project_root",
+    "source_of_truth",
+    "phase54_gate",
+    "addressables_registry",
+    "phase55_validator"
+  ],
+  "blocked_until_real_unity": [
+    "playmode_compile",
+    "final_3d_content",
+    "lighting_validation",
+    "cpu_gpu_profiling",
+    "device_builds",
+    "multiplayer_integration_test"
+  ],
+  "safety": {
+    "no_fake_progress": true,
+    "no_claim_of_runtime_success_without_editor": true,
+    "no_replacement_of_existing_repo_files": true
+  }
+}

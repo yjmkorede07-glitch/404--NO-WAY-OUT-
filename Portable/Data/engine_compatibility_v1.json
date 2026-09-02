@@ -1,0 +1,11 @@
+{
+  "project": "404: NO WAY OUT",
+  "strategy": "portable_source_first",
+  "engines": {
+    "unity": {"target": "Unity 6.3 LTS", "runtime_assets": ["glb", "fbx", "png", "jpg", "wav", "ogg"]},
+    "unreal": {"target": "Unreal Engine 5.x", "runtime_assets": ["fbx", "gltf", "png", "jpg", "wav", "ogg"]},
+    "godot": {"target": "Godot 4.7+", "runtime_assets": ["glb", "gltf", "fbx", "png", "jpg", "wav", "ogg"]}
+  },
+  "rule": "gameplay_rules_and_world_data remain engine-neutral; engine projects consume adapters",
+  "nonportable_warning": "engine-native scenes, materials, shaders, prefabs, Blueprints, Animator Controllers and plugins are adapters, not source-of-truth"
+}

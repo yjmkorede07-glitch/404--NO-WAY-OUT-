@@ -1,0 +1,28 @@
+{
+  "schema": "404.3d-production.v1",
+  "units": "meters",
+  "coordinate_system": "Y-up, right-handed canonical",
+  "primary_engine": "Unity 6.3 LTS",
+  "portable_formats": ["GLB", "GLTF", "FBX", "OBJ", "PNG", "WAV", "USD"],
+  "asset_rules": {
+    "source_master": "portable source asset plus engine adapter",
+    "naming": "NWO_<category>_<asset>_<variant>",
+    "lods": ["LOD0", "LOD1", "LOD2", "LOD3"],
+    "collision": "separate simplified collision mesh where practical",
+    "materials": "PBR metallic-roughness; engine-specific shaders are adapters"
+  },
+  "production_sets": [
+    "Veyron Central vertical slice",
+    "Darius Cole",
+    "Malik Reed",
+    "Amara Vale",
+    "civilian vehicles",
+    "police vehicles",
+    "boats",
+    "aircraft",
+    "interiors",
+    "cinematic cameras and staging",
+    "weather and lighting profiles"
+  ],
+  "completion_note": "This package contains the production pipeline, scene generator and legal-safe placeholder geometry. Final AAA meshes, textures, facial rigs, motion capture and recorded performances require licensed production assets and DCC/engine execution."
+}

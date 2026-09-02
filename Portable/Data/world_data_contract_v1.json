@@ -1,0 +1,11 @@
+{
+  "schema": "404.world_data.v1",
+  "world": "Veyron",
+  "regions": 13,
+  "major_islands": 5,
+  "minor_islands": 8,
+  "meaningful_coverage_target": 1.0,
+  "accessible_target": 0.84,
+  "coordinate_system": {"units": "meters", "origin": "world_defined", "up": "Y"},
+  "entities": ["district", "poi", "interior", "property", "vehicle_spawn", "npc_spawn", "mission", "activity", "underground", "island", "road", "bridge", "ferry", "airport", "port"]
+}

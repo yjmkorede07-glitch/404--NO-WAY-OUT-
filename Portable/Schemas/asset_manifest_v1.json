@@ -1,0 +1,14 @@
+{
+  "schema": "404.asset_manifest.v1",
+  "policy": "engine_neutral_source_of_truth",
+  "preferred_runtime_mesh": "glb",
+  "interchange_mesh": "fbx",
+  "source_scene": "blend",
+  "textures": ["png", "jpg", "tga", "exr"],
+  "audio": ["wav", "ogg"],
+  "animation": "gltf2_or_fbx",
+  "units": "meters",
+  "up_axis": "Y",
+  "forward_axis": "-Z",
+  "naming": "404_<category>_<asset>_<variant>"
+}
