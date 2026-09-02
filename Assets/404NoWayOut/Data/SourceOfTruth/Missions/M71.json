@@ -1,0 +1,73 @@
+{
+  "id": "M71",
+  "title": "Cash Flow",
+  "phase": "Phase 8",
+  "brief": "Stabilize the team's finances.",
+  "win_condition": "End the mission with positive cash flow.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "review-ledger",
+      "kind": "action",
+      "target": "central",
+      "text": "Review current income, expenses, and outstanding obligations."
+    },
+    {
+      "id": "stabilize-costs",
+      "kind": "action",
+      "target": "central",
+      "text": "Stabilize the largest cost pressure without breaking the operation."
+    },
+    {
+      "id": "lock-cashflow",
+      "kind": "action",
+      "target": "central",
+      "text": "End the mission with positive cash flow."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "End the mission with positive cash flow."
+  ],
+  "rewards": {
+    "cash": 9375,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M70"
+  ],
+  "unlocked_content": []
+}

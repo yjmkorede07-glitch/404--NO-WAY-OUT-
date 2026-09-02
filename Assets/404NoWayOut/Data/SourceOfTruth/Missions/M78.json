@@ -1,0 +1,72 @@
+{
+  "id": "M78",
+  "title": "Network Map",
+  "phase": "Phase 9",
+  "brief": "Assemble the organization from disconnected evidence.",
+  "win_condition": "Connect the required nodes in the case board.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "sort-evidence",
+      "kind": "action",
+      "target": "central",
+      "text": "Sort the disconnected evidence into usable groups."
+    },
+    {
+      "id": "connect-nodes",
+      "kind": "action",
+      "target": "central",
+      "text": "Connect the required nodes in the case board."
+    },
+    {
+      "id": "lock-network-map",
+      "kind": "action",
+      "target": "central",
+      "text": "Lock the network map with the required connections intact."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Connect the required nodes in the case board."
+  ],
+  "rewards": {
+    "cash": 10250,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M77"
+  ],
+  "unlocked_content": []
+}

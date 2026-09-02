@@ -1,0 +1,1 @@
+{"version":1,"authoritative":true,"events":["world_tick","npc_schedule_update","traffic_update","police_incident","business_state_update","dynamic_event_start","dynamic_event_resolve"],"rules":{"client_prediction_allowed":true,"persistent_rewards_server_only":true,"arrests_server_only":true,"heat_server_only":true}}

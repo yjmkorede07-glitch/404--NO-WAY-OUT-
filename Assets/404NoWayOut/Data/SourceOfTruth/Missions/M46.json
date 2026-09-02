@@ -1,0 +1,72 @@
+{
+  "id": "M46",
+  "title": "The Second Witness",
+  "phase": "Phase 4",
+  "brief": "Find someone who contradicts the first witness.",
+  "win_condition": "Interview both and determine the reliable lead.",
+  "protagonist": "npc",
+  "supporting_npcs": [
+    "Lena Brooks"
+  ],
+  "location": "Veyron Police Headquarters",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "police",
+      "text": "Reach Veyron Police Headquarters."
+    },
+    {
+      "id": "interview-first",
+      "kind": "action",
+      "target": "police",
+      "text": "INVESTIGATE: Interview the first witness."
+    },
+    {
+      "id": "interview-second",
+      "kind": "action",
+      "target": "police",
+      "text": "INVESTIGATE: Interview the contradicting witness."
+    },
+    {
+      "id": "weigh-leads",
+      "kind": "action",
+      "target": "police",
+      "text": "INVESTIGATE: Determine the reliable lead."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Interview both and determine the reliable lead."
+  ],
+  "rewards": {
+    "cash": 6250,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M45"
+  ],
+  "unlocked_content": []
+}

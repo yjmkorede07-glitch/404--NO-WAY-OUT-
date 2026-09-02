@@ -1,0 +1,73 @@
+{
+  "id": "M86",
+  "title": "The Last Choice",
+  "phase": "Phase 10",
+  "brief": "Make the irreversible final decision.",
+  "win_condition": "Commit to the selected ending condition.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "choice",
+      "kind": "choice",
+      "target": "central",
+      "text": "Open the irreversible final decision."
+    },
+    {
+      "id": "commit",
+      "kind": "action",
+      "target": "central",
+      "text": "Confirm the selected ending path is locked."
+    },
+    {
+      "id": "fallback",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "Prepare the selected path for the immediate aftermath."
+    },
+    {
+      "id": "ready",
+      "kind": "action",
+      "target": "central",
+      "text": "Commit the final state and move into the aftermath."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Commit to the selected ending condition."
+  ],
+  "rewards": {
+    "cash": 11250,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M85"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "health_rule": "No passive health regeneration in normal gameplay.",
+  "recovery_items": [
+    {"id":"snack","category":"food","health":10,"use_seconds":0.8,"max_stack":5},
+    {"id":"bandage","category":"medical","health":30,"use_seconds":2.2,"max_stack":5},
+    {"id":"medical_kit","category":"medical","health":60,"use_seconds":4.0,"max_stack":2}
+  ],
+  "backpack": {"enabled":true,"max_slots":24,"max_weight":30,"persistent":true},
+  "quick_wheel": {"enabled":true,"purpose":"quick access to weapons, food, medical and utility items","open_key":"Tab","categories":["weapon","medical","food","utility"]},
+  "downed_rule":"Recovery items cannot be used while downed or dead.",
+  "online_rule":"Inventory counts and item consumption are server-authoritative.",
+  "portable_contract":"Inventory item IDs, effects and wheel categories are engine-neutral data."
+}

@@ -1,0 +1,73 @@
+{
+  "id": "M83",
+  "title": "The Final Route",
+  "phase": "Phase 10",
+  "brief": "Choose the safest route into the final site.",
+  "win_condition": "Reach the site using the route your evidence supports.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Port",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "port",
+      "text": "Reach Veyron Port."
+    },
+    {
+      "id": "route-evidence",
+      "kind": "action",
+      "target": "port",
+      "text": "Use the evidence to compare the viable approaches into the final site."
+    },
+    {
+      "id": "choose-route",
+      "kind": "choice",
+      "target": "port",
+      "text": "Choose the safest supported final route."
+    },
+    {
+      "id": "reach-site",
+      "kind": "action",
+      "target": "port",
+      "text": "Reach the final site using the committed route."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach the site using the route your evidence supports."
+  ],
+  "rewards": {
+    "cash": 10875,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M82"
+  ],
+  "unlocked_content": []
+}

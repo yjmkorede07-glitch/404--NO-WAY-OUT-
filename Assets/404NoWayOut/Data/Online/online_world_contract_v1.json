@@ -1,0 +1,24 @@
+{
+  "phase": 42,
+  "server_authoritative": true,
+  "servers": [
+    {"id":"veyron-01","name":"Veyron One","focus":"balanced"},
+    {"id":"veyron-02","name":"Veyron Two","focus":"social"},
+    {"id":"veyron-03","name":"Veyron Three","focus":"criminal"}
+  ],
+  "onboarding": {
+    "character_creation": true,
+    "starter_house_required": true,
+    "starter_car_required": true,
+    "citizen_id_issued": true,
+    "one_time_bank_grant_vcr": 10000000,
+    "grant_repeatable": false,
+    "grant_scope":"account_once"
+  },
+  "lifestyles": ["Legitimate","Criminal","LawEnforcement"],
+  "law_enforcement": {"human_acceptance_required":true,"npc_force_remains_active":true},
+  "lifestyle_change": {"cooldown_real_hours":2},
+  "economy": {"player_to_player_transfers":true,"server_authoritative_balance":true,"client_balance_writes":false},
+  "persistence": {"character":true,"citizen_id":true,"money":true,"property":true,"vehicle_ownership":true,"force_status":true,"audit_required":true},
+  "anti_exploit": {"duplicate_grant_block":true,"negative_transfer_block":true,"insufficient_funds_block":true,"client_authority_block":true}
+}

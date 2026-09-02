@@ -1,0 +1,13 @@
+{
+  "role_id":"LAW_ENFORCEMENT",
+  "accepted_player_capabilities":[
+    "plate_check","id_check","vehicle_stop","detain","arrest","citation","dispatch_backup","request_ambulance","request_fire","request_tow","incident_report","scene_perimeter"
+  ],
+  "rank_examples":[
+    {"rank":"Cadet","capabilities":["id_check","dispatch_backup","request_ambulance","incident_report"]},
+    {"rank":"Officer","capabilities":["plate_check","vehicle_stop","detain","arrest","citation","request_fire","request_tow","scene_perimeter"]},
+    {"rank":"Senior Officer","capabilities":["all_officer_capabilities","coordinate_units"]}
+  ],
+  "npc_police_always_active":true,
+  "audit_every_action":true
+}

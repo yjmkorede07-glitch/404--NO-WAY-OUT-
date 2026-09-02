@@ -1,0 +1,72 @@
+{
+  "id": "M49",
+  "title": "Workshop Upgrade",
+  "phase": "Phase 5",
+  "brief": "Improve the team's vehicle capabilities.",
+  "win_condition": "Complete the workshop upgrade and test the vehicle.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "choose-upgrade",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Choose the workshop capability upgrade."
+    },
+    {
+      "id": "install-upgrade",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Install and complete the upgrade."
+    },
+    {
+      "id": "test-vehicle",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Test the vehicle and confirm the upgrade works."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the workshop upgrade and test the vehicle."
+  ],
+  "rewards": {
+    "cash": 6625,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M48"
+  ],
+  "unlocked_content": []
+}

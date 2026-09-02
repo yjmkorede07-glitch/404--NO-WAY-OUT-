@@ -1,0 +1,48 @@
+{
+  "system_id": "VEYRON_CUSTODY_V2",
+  "version": 2,
+  "wanted_levels": {
+    "1_star": {"arrest_route": "police_station_holding_possible", "bail": true, "prison": false},
+    "2_star": {"arrest_route": "police_station_holding", "bail": true, "prison": false},
+    "3_star_early": {"arrest_route": "police_station_holding", "bail": true, "prison": false},
+    "3_star_late": {"arrest_route": "prison_transfer_possible", "bail": false, "prison": true},
+    "4_star": {"arrest_route": "prison", "bail": false, "prison": true},
+    "5_star": {"arrest_route": "maximum_security_prison", "bail": false, "prison": true}
+  },
+  "holding_facilities": {
+    "police_station_jail": {
+      "purpose": "short_term_custody",
+      "features": ["booking", "cell", "bail_desk", "property_seizure", "release"]
+    }
+  },
+  "sentence_rules": {
+    "early_3_star": {"default_in_game_hours": 6, "range_in_game_hours": [2, 12]},
+    "late_3_star": {"default_in_game_hours": 24, "range_in_game_hours": [12, 48]},
+    "4_star": {"default_in_game_hours": 48, "range_in_game_hours": [24, 96]},
+    "5_star": {"default_in_game_hours": 96, "range_in_game_hours": [48, 192]}
+  },
+  "bail": {
+    "enabled_for": ["1_star", "2_star", "3_star_early"],
+    "server_authoritative": true,
+    "amount_scales_with": ["wanted_level", "offense_severity", "repeat_offense"],
+    "payment_methods": ["cash", "bank"],
+    "cannot_bail_from": ["3_star_late", "4_star", "5_star"]
+  },
+  "fugitive_period": {
+    "duration_in_game_days": 10,
+    "duration_real_minutes": 1200,
+    "world_continues": true,
+    "player_remains_fully_playable": true,
+    "special_fugitive_heat_expires_after_period": true,
+    "after_expiry": "return_to_normal_police_and_wanted_rules",
+    "normal_crime_can_restart_wanted_state": true,
+    "activities_allowed": "all_gameplay_subject_to_world_rules",
+    "recommended_behavior": "avoid_new_police_incidents_and_keep_profile_low"
+  },
+  "escape": {
+    "prison_escape": true,
+    "police_station_holding_escape": true,
+    "escape_creates": ["fugitive_status", "active_wanted_risk", "police_investigation"],
+    "escape_missions": ["prison_break", "prison_extraction", "transport_intercept", "escape_aftermath"]
+  }
+}

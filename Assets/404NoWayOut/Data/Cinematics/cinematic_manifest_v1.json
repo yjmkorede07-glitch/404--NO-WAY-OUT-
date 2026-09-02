@@ -1,0 +1,6 @@
+{
+  "opening": "GAME_OPENING",
+  "story_policy": {"every_story_mission_opening":true,"every_story_mission_post":true,"optional_in_mission":true,"ending_cinematics":4},
+  "mission_cinematic_ids": ["M01_OPEN","M01_POST","M02_OPEN","M02_POST","M03_OPEN","M03_POST","...","M88_OPEN","M88_POST"],
+  "ending_ids": ["E1_ESCAPE","E2_CROWN","E3_SACRIFICE","E4_NO_WAY_OUT"]
+}

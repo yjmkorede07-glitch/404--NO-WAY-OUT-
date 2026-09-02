@@ -1,0 +1,8 @@
+{
+  "phase":35,
+  "remaining_after_architecture":["final_3d_characters","final_3d_vehicles","environment_assets","interiors","animations","facial_rigs","materials","lighting","recorded_vo","final_cinematics","platform_qa","backend_hosting","store_certification"],
+  "mobile_target_gb":{"min":3,"max":5},
+  "pc_console_target_gb":{"min":40,"max":100,"working_target":65},
+  "engine_options":["Godot_4.7_Compatibility","Unreal_5.6.x"],
+  "engine_decision":"hardware_test_required"
+}

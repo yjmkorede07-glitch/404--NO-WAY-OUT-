@@ -1,0 +1,57 @@
+{
+  "system_id": "VEYRON_UNDERGROUND_NETWORKS_V1",
+  "purpose": "A large network of discoverable physical underground spaces used for traversal, hiding, missions, businesses, secrets and police evasion.",
+  "principle": "Underground locations are physical world spaces, not menu-only fast travel.",
+  "network_types": [
+    "storm_drains",
+    "old_sewers",
+    "service_tunnels",
+    "subway_maintenance",
+    "abandoned_rail_tunnels",
+    "utility_corridors",
+    "underground_parking",
+    "basement_complexes",
+    "old_bunkers",
+    "smuggling_tunnels",
+    "warehouse_sublevels",
+    "hidden_safehouses",
+    "maintenance_shafts",
+    "coastal_caves",
+    "island_tunnels",
+    "mountain_tunnels",
+    "construction_voids"
+  ],
+  "gameplay": {
+    "hide_from_police": true,
+    "break_line_of_sight": true,
+    "discoverable_shortcuts": true,
+    "mission_routes": true,
+    "secret_entrances": true,
+    "stash_locations": true,
+    "criminal_meetings": true,
+    "legitimate_maintenance_access": true,
+    "police_can_search_some_routes": true,
+    "not_every_route_is_safe": true
+  },
+  "district_coverage": [
+    "Veyron Central",
+    "East Market",
+    "Iron District",
+    "North Hills",
+    "West Coast",
+    "Airport",
+    "Port",
+    "Blackwater Island",
+    "North Range",
+    "Alpine Valley",
+    "Outer Highway",
+    "Lakes Region"
+  ],
+  "design_rules": {
+    "avoid_single_magic_escape_tunnel": true,
+    "multiple_entries_and_exits": true,
+    "risk_and_visibility_vary_by_route": true,
+    "stream_large_networks": true,
+    "mobile_budget_priority": "streaming_and_reuse"
+  }
+}

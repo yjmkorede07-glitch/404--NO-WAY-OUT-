@@ -1,0 +1,70 @@
+{
+  "phase": 6,
+  "name": "Combat, Crime, Witnesses & Police",
+  "systems": {
+    "combat": [
+      "melee",
+      "ranged foundation",
+      "cover",
+      "health",
+      "stamina",
+      "knockdown",
+      "weapon inventory foundation"
+    ],
+    "crime": [
+      "incident creation",
+      "severity",
+      "witness evaluation",
+      "evidence",
+      "wanted level",
+      "police dispatch"
+    ],
+    "police": [
+      "patrol",
+      "response states",
+      "search area",
+      "pursuit",
+      "arrest foundation",
+      "cooldown"
+    ],
+    "stealth": [
+      "visibility",
+      "noise",
+      "witness avoidance",
+      "escape routes"
+    ]
+  },
+  "wanted_levels": [
+    {
+      "level": 0,
+      "name": "Clear"
+    },
+    {
+      "level": 1,
+      "name": "Suspicious"
+    },
+    {
+      "level": 2,
+      "name": "Searching"
+    },
+    {
+      "level": 3,
+      "name": "Pursuit"
+    },
+    {
+      "level": 4,
+      "name": "Heavy Response"
+    },
+    {
+      "level": 5,
+      "name": "Manhunt"
+    }
+  ],
+  "online_rules": {
+    "combat_authority": "server",
+    "crime_authority": "server",
+    "wanted_authority": "server",
+    "witness_events": "server event log",
+    "anti_cheat": "validate damage, movement, fire rate, inventory and rewards server-side"
+  }
+}

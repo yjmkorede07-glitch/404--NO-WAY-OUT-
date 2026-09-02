@@ -1,0 +1,27 @@
+{
+  "phase": 50,
+  "title": "Final Gameplay Integration",
+  "state_machine": ["Freeroam", "MissionBriefing", "MissionActive", "Cinematic", "Vehicle", "Downed", "Custody", "OnlineSync"],
+  "player": {
+    "movement": ["Idle", "Walk", "Jog", "Run", "Sprint", "Jump", "Fall", "AimWalk"],
+    "actions": {"Talk":"T","EnterExitVehicle":"F","Robbery":"G","Detain":"H","Arrest":"J","Board":"B","Reload":"R","Aim":"Mouse2","Fire":"Mouse1","Jump":"Space","Sprint":"LeftShift"},
+    "camera_relative_movement": true,
+    "animation_hooks_required": true
+  },
+  "integration": {
+    "mission_controls_player_state": true,
+    "cinematic_disables_locomotion": true,
+    "combat_down_routes_to_downed": true,
+    "vehicle_entry_routes_to_vehicle_state": true,
+    "online_sync_state_blocks_conflicting_local_transitions": true,
+    "freeroam_restored_after_mission": true
+  },
+  "production_gate": {
+    "requires_real_3d_assets": true,
+    "requires_animation_clips": true,
+    "requires_voice_audio": true,
+    "requires_unity_editor_compile_and_playmode": true,
+    "requires_desktop_and_mobile_build_test": true,
+    "requires_multiplayer_load_test": true
+  }
+}

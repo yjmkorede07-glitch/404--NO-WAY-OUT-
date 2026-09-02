@@ -1,0 +1,14 @@
+{
+  "phase":42,
+  "review_actions":["Accept","Reject","Request Interview","Suspend","Remove From Force","Promote","Demote"],
+  "required_review_fields":["Player","Citizen ID","application date","application answers","disciplinary history","Force history","reputation","criminal record","voice/chat disciplinary history","current status"],
+  "audit": {"every_decision_logged":true,"server_authorized_permissions_only":true},
+  "rank_permissions": {
+    "Recruit":["plate_check","citizen_id_query","vehicle_stop","detain"],
+    "Officer":["plate_check","citizen_id_query","dispatch","ambulance_request","fire_request","detain","arrest","citation","incident_report","scene_perimeter","backup","vehicle_stop","tow_recover","authorized_case_records"],
+    "Sergeant":["all_officer_permissions","supervise_scene"],
+    "Lieutenant":["all_sergeant_permissions","manage_shift"],
+    "Captain":["all_lieutenant_permissions","manage_units"],
+    "Chief":["all_captain_permissions","force_admin"]
+  }
+}

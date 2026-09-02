@@ -1,0 +1,6706 @@
+{
+  "version": "2.0",
+  "sequenceCount": 268,
+  "sequences": [
+    {
+      "id": "M01_opening",
+      "missionId": "M01",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M01_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M01.dialogue.01"
+        },
+        {
+          "id": "M01_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M01.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M01_inmission",
+      "missionId": "M01",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M01_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M01.dialogue.01"
+        },
+        {
+          "id": "M01_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M01.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M01_postmission",
+      "missionId": "M01",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M01_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M01.dialogue.01"
+        },
+        {
+          "id": "M01_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M01.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M02_opening",
+      "missionId": "M02",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M02_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M02.dialogue.01"
+        },
+        {
+          "id": "M02_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M02.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M02_inmission",
+      "missionId": "M02",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M02_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M02.dialogue.01"
+        },
+        {
+          "id": "M02_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M02.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M02_postmission",
+      "missionId": "M02",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M02_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M02.dialogue.01"
+        },
+        {
+          "id": "M02_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M02.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M03_opening",
+      "missionId": "M03",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M03_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M03.dialogue.01"
+        },
+        {
+          "id": "M03_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M03.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M03_inmission",
+      "missionId": "M03",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M03_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M03.dialogue.01"
+        },
+        {
+          "id": "M03_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M03.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M03_postmission",
+      "missionId": "M03",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M03_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M03.dialogue.01"
+        },
+        {
+          "id": "M03_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M03.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M04_opening",
+      "missionId": "M04",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M04_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M04.dialogue.01"
+        },
+        {
+          "id": "M04_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M04.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M04_inmission",
+      "missionId": "M04",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M04_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M04.dialogue.01"
+        },
+        {
+          "id": "M04_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M04.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M04_postmission",
+      "missionId": "M04",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M04_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M04.dialogue.01"
+        },
+        {
+          "id": "M04_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M04.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M05_opening",
+      "missionId": "M05",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M05_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M05.dialogue.01"
+        },
+        {
+          "id": "M05_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M05.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M05_inmission",
+      "missionId": "M05",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M05_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M05.dialogue.01"
+        },
+        {
+          "id": "M05_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M05.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M05_postmission",
+      "missionId": "M05",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M05_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M05.dialogue.01"
+        },
+        {
+          "id": "M05_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M05.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M06_opening",
+      "missionId": "M06",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M06_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M06.dialogue.01"
+        },
+        {
+          "id": "M06_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M06.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M06_inmission",
+      "missionId": "M06",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M06_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M06.dialogue.01"
+        },
+        {
+          "id": "M06_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M06.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M06_postmission",
+      "missionId": "M06",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M06_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M06.dialogue.01"
+        },
+        {
+          "id": "M06_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M06.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M07_opening",
+      "missionId": "M07",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M07_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M07.dialogue.01"
+        },
+        {
+          "id": "M07_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M07.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M07_inmission",
+      "missionId": "M07",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M07_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M07.dialogue.01"
+        },
+        {
+          "id": "M07_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M07.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M07_postmission",
+      "missionId": "M07",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M07_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M07.dialogue.01"
+        },
+        {
+          "id": "M07_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M07.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M08_opening",
+      "missionId": "M08",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M08_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M08.dialogue.01"
+        },
+        {
+          "id": "M08_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M08.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M08_inmission",
+      "missionId": "M08",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M08_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M08.dialogue.01"
+        },
+        {
+          "id": "M08_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M08.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M08_postmission",
+      "missionId": "M08",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M08_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M08.dialogue.01"
+        },
+        {
+          "id": "M08_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M08.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M09_opening",
+      "missionId": "M09",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M09_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M09.dialogue.01"
+        },
+        {
+          "id": "M09_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M09.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M09_inmission",
+      "missionId": "M09",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M09_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M09.dialogue.01"
+        },
+        {
+          "id": "M09_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M09.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M09_postmission",
+      "missionId": "M09",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M09_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M09.dialogue.01"
+        },
+        {
+          "id": "M09_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M09.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M10_opening",
+      "missionId": "M10",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M10_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M10.dialogue.01"
+        },
+        {
+          "id": "M10_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M10.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M10_inmission",
+      "missionId": "M10",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M10_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M10.dialogue.01"
+        },
+        {
+          "id": "M10_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M10.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M10_postmission",
+      "missionId": "M10",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M10_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M10.dialogue.01"
+        },
+        {
+          "id": "M10_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M10.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M11_opening",
+      "missionId": "M11",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M11_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M11.dialogue.01"
+        },
+        {
+          "id": "M11_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M11.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M11_inmission",
+      "missionId": "M11",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M11_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M11.dialogue.01"
+        },
+        {
+          "id": "M11_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M11.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M11_postmission",
+      "missionId": "M11",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M11_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M11.dialogue.01"
+        },
+        {
+          "id": "M11_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M11.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M12_opening",
+      "missionId": "M12",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M12_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M12.dialogue.01"
+        },
+        {
+          "id": "M12_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M12.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M12_inmission",
+      "missionId": "M12",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M12_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M12.dialogue.01"
+        },
+        {
+          "id": "M12_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M12.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M12_postmission",
+      "missionId": "M12",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M12_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M12.dialogue.01"
+        },
+        {
+          "id": "M12_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M12.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M13_opening",
+      "missionId": "M13",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M13_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M13.dialogue.01"
+        },
+        {
+          "id": "M13_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M13.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M13_inmission",
+      "missionId": "M13",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M13_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M13.dialogue.01"
+        },
+        {
+          "id": "M13_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M13.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M13_postmission",
+      "missionId": "M13",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M13_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M13.dialogue.01"
+        },
+        {
+          "id": "M13_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M13.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M14_opening",
+      "missionId": "M14",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M14_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M14.dialogue.01"
+        },
+        {
+          "id": "M14_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M14.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M14_inmission",
+      "missionId": "M14",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M14_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M14.dialogue.01"
+        },
+        {
+          "id": "M14_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M14.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M14_postmission",
+      "missionId": "M14",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M14_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M14.dialogue.01"
+        },
+        {
+          "id": "M14_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M14.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M15_opening",
+      "missionId": "M15",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M15_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M15.dialogue.01"
+        },
+        {
+          "id": "M15_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M15.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M15_inmission",
+      "missionId": "M15",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M15_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M15.dialogue.01"
+        },
+        {
+          "id": "M15_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M15.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M15_postmission",
+      "missionId": "M15",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M15_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M15.dialogue.01"
+        },
+        {
+          "id": "M15_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M15.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M16_opening",
+      "missionId": "M16",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M16_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M16.dialogue.01"
+        },
+        {
+          "id": "M16_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M16.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M16_inmission",
+      "missionId": "M16",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M16_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M16.dialogue.01"
+        },
+        {
+          "id": "M16_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M16.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M16_postmission",
+      "missionId": "M16",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M16_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M16.dialogue.01"
+        },
+        {
+          "id": "M16_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M16.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M17_opening",
+      "missionId": "M17",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M17_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M17.dialogue.01"
+        },
+        {
+          "id": "M17_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M17.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M17_inmission",
+      "missionId": "M17",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M17_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M17.dialogue.01"
+        },
+        {
+          "id": "M17_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M17.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M17_postmission",
+      "missionId": "M17",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M17_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M17.dialogue.01"
+        },
+        {
+          "id": "M17_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M17.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M18_opening",
+      "missionId": "M18",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M18_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M18.dialogue.01"
+        },
+        {
+          "id": "M18_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M18.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M18_inmission",
+      "missionId": "M18",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M18_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M18.dialogue.01"
+        },
+        {
+          "id": "M18_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M18.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M18_postmission",
+      "missionId": "M18",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M18_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M18.dialogue.01"
+        },
+        {
+          "id": "M18_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M18.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M19_opening",
+      "missionId": "M19",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M19_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M19.dialogue.01"
+        },
+        {
+          "id": "M19_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M19.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M19_inmission",
+      "missionId": "M19",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M19_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M19.dialogue.01"
+        },
+        {
+          "id": "M19_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M19.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M19_postmission",
+      "missionId": "M19",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M19_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M19.dialogue.01"
+        },
+        {
+          "id": "M19_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M19.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M20_opening",
+      "missionId": "M20",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M20_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M20.dialogue.01"
+        },
+        {
+          "id": "M20_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M20.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M20_inmission",
+      "missionId": "M20",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M20_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M20.dialogue.01"
+        },
+        {
+          "id": "M20_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M20.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M20_postmission",
+      "missionId": "M20",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M20_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M20.dialogue.01"
+        },
+        {
+          "id": "M20_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M20.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M21_opening",
+      "missionId": "M21",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M21_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M21.dialogue.01"
+        },
+        {
+          "id": "M21_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M21.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M21_inmission",
+      "missionId": "M21",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M21_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M21.dialogue.01"
+        },
+        {
+          "id": "M21_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M21.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M21_postmission",
+      "missionId": "M21",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M21_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M21.dialogue.01"
+        },
+        {
+          "id": "M21_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M21.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M22_opening",
+      "missionId": "M22",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M22_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M22.dialogue.01"
+        },
+        {
+          "id": "M22_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M22.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M22_inmission",
+      "missionId": "M22",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M22_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M22.dialogue.01"
+        },
+        {
+          "id": "M22_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M22.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M22_postmission",
+      "missionId": "M22",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M22_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M22.dialogue.01"
+        },
+        {
+          "id": "M22_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M22.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M23_opening",
+      "missionId": "M23",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M23_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M23.dialogue.01"
+        },
+        {
+          "id": "M23_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M23.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M23_inmission",
+      "missionId": "M23",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M23_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M23.dialogue.01"
+        },
+        {
+          "id": "M23_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M23.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M23_postmission",
+      "missionId": "M23",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M23_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M23.dialogue.01"
+        },
+        {
+          "id": "M23_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M23.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M24_opening",
+      "missionId": "M24",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M24_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M24.dialogue.01"
+        },
+        {
+          "id": "M24_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M24.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M24_inmission",
+      "missionId": "M24",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M24_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M24.dialogue.01"
+        },
+        {
+          "id": "M24_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M24.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M24_postmission",
+      "missionId": "M24",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M24_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M24.dialogue.01"
+        },
+        {
+          "id": "M24_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M24.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M25_opening",
+      "missionId": "M25",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M25_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M25.dialogue.01"
+        },
+        {
+          "id": "M25_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M25.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M25_inmission",
+      "missionId": "M25",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M25_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M25.dialogue.01"
+        },
+        {
+          "id": "M25_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M25.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M25_postmission",
+      "missionId": "M25",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M25_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M25.dialogue.01"
+        },
+        {
+          "id": "M25_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M25.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M26_opening",
+      "missionId": "M26",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M26_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M26.dialogue.01"
+        },
+        {
+          "id": "M26_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M26.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M26_inmission",
+      "missionId": "M26",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M26_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M26.dialogue.01"
+        },
+        {
+          "id": "M26_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M26.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M26_postmission",
+      "missionId": "M26",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M26_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M26.dialogue.01"
+        },
+        {
+          "id": "M26_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M26.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M27_opening",
+      "missionId": "M27",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M27_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M27.dialogue.01"
+        },
+        {
+          "id": "M27_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M27.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M27_inmission",
+      "missionId": "M27",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M27_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M27.dialogue.01"
+        },
+        {
+          "id": "M27_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M27.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M27_postmission",
+      "missionId": "M27",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M27_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M27.dialogue.01"
+        },
+        {
+          "id": "M27_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M27.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M28_opening",
+      "missionId": "M28",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M28_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M28.dialogue.01"
+        },
+        {
+          "id": "M28_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M28.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M28_inmission",
+      "missionId": "M28",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M28_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M28.dialogue.01"
+        },
+        {
+          "id": "M28_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M28.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M28_postmission",
+      "missionId": "M28",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M28_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M28.dialogue.01"
+        },
+        {
+          "id": "M28_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M28.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M29_opening",
+      "missionId": "M29",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M29_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M29.dialogue.01"
+        },
+        {
+          "id": "M29_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M29.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M29_inmission",
+      "missionId": "M29",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M29_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M29.dialogue.01"
+        },
+        {
+          "id": "M29_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M29.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M29_postmission",
+      "missionId": "M29",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M29_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M29.dialogue.01"
+        },
+        {
+          "id": "M29_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M29.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M30_opening",
+      "missionId": "M30",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M30_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M30.dialogue.01"
+        },
+        {
+          "id": "M30_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M30.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M30_inmission",
+      "missionId": "M30",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M30_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M30.dialogue.01"
+        },
+        {
+          "id": "M30_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M30.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M30_postmission",
+      "missionId": "M30",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M30_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M30.dialogue.01"
+        },
+        {
+          "id": "M30_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M30.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M31_opening",
+      "missionId": "M31",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M31_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M31.dialogue.01"
+        },
+        {
+          "id": "M31_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M31.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M31_inmission",
+      "missionId": "M31",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M31_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M31.dialogue.01"
+        },
+        {
+          "id": "M31_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M31.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M31_postmission",
+      "missionId": "M31",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M31_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M31.dialogue.01"
+        },
+        {
+          "id": "M31_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M31.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M32_opening",
+      "missionId": "M32",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M32_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M32.dialogue.01"
+        },
+        {
+          "id": "M32_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M32.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M32_inmission",
+      "missionId": "M32",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M32_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M32.dialogue.01"
+        },
+        {
+          "id": "M32_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M32.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M32_postmission",
+      "missionId": "M32",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M32_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M32.dialogue.01"
+        },
+        {
+          "id": "M32_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M32.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M33_opening",
+      "missionId": "M33",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M33_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M33.dialogue.01"
+        },
+        {
+          "id": "M33_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M33.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M33_inmission",
+      "missionId": "M33",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M33_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M33.dialogue.01"
+        },
+        {
+          "id": "M33_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M33.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M33_postmission",
+      "missionId": "M33",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M33_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M33.dialogue.01"
+        },
+        {
+          "id": "M33_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M33.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M34_opening",
+      "missionId": "M34",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M34_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M34.dialogue.01"
+        },
+        {
+          "id": "M34_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M34.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M34_inmission",
+      "missionId": "M34",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M34_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M34.dialogue.01"
+        },
+        {
+          "id": "M34_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M34.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M34_postmission",
+      "missionId": "M34",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M34_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M34.dialogue.01"
+        },
+        {
+          "id": "M34_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M34.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M35_opening",
+      "missionId": "M35",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M35_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M35.dialogue.01"
+        },
+        {
+          "id": "M35_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M35.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M35_inmission",
+      "missionId": "M35",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M35_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M35.dialogue.01"
+        },
+        {
+          "id": "M35_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M35.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M35_postmission",
+      "missionId": "M35",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M35_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M35.dialogue.01"
+        },
+        {
+          "id": "M35_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M35.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M36_opening",
+      "missionId": "M36",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M36_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M36.dialogue.01"
+        },
+        {
+          "id": "M36_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M36.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M36_inmission",
+      "missionId": "M36",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M36_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M36.dialogue.01"
+        },
+        {
+          "id": "M36_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M36.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M36_postmission",
+      "missionId": "M36",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M36_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M36.dialogue.01"
+        },
+        {
+          "id": "M36_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M36.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M37_opening",
+      "missionId": "M37",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M37_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M37.dialogue.01"
+        },
+        {
+          "id": "M37_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M37.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M37_inmission",
+      "missionId": "M37",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M37_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M37.dialogue.01"
+        },
+        {
+          "id": "M37_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M37.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M37_postmission",
+      "missionId": "M37",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M37_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M37.dialogue.01"
+        },
+        {
+          "id": "M37_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M37.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M38_opening",
+      "missionId": "M38",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M38_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M38.dialogue.01"
+        },
+        {
+          "id": "M38_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M38.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M38_inmission",
+      "missionId": "M38",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M38_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M38.dialogue.01"
+        },
+        {
+          "id": "M38_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M38.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M38_postmission",
+      "missionId": "M38",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M38_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M38.dialogue.01"
+        },
+        {
+          "id": "M38_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M38.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M39_opening",
+      "missionId": "M39",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M39_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M39.dialogue.01"
+        },
+        {
+          "id": "M39_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M39.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M39_inmission",
+      "missionId": "M39",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M39_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M39.dialogue.01"
+        },
+        {
+          "id": "M39_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M39.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M39_postmission",
+      "missionId": "M39",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M39_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M39.dialogue.01"
+        },
+        {
+          "id": "M39_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M39.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M40_opening",
+      "missionId": "M40",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M40_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M40.dialogue.01"
+        },
+        {
+          "id": "M40_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M40.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M40_inmission",
+      "missionId": "M40",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M40_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M40.dialogue.01"
+        },
+        {
+          "id": "M40_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M40.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M40_postmission",
+      "missionId": "M40",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M40_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M40.dialogue.01"
+        },
+        {
+          "id": "M40_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M40.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M41_opening",
+      "missionId": "M41",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M41_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M41.dialogue.01"
+        },
+        {
+          "id": "M41_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M41.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M41_inmission",
+      "missionId": "M41",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M41_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M41.dialogue.01"
+        },
+        {
+          "id": "M41_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M41.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M41_postmission",
+      "missionId": "M41",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M41_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M41.dialogue.01"
+        },
+        {
+          "id": "M41_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M41.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M42_opening",
+      "missionId": "M42",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M42_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M42.dialogue.01"
+        },
+        {
+          "id": "M42_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M42.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M42_inmission",
+      "missionId": "M42",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M42_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M42.dialogue.01"
+        },
+        {
+          "id": "M42_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M42.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M42_postmission",
+      "missionId": "M42",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M42_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M42.dialogue.01"
+        },
+        {
+          "id": "M42_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M42.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M43_opening",
+      "missionId": "M43",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M43_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M43.dialogue.01"
+        },
+        {
+          "id": "M43_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M43.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M43_inmission",
+      "missionId": "M43",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M43_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M43.dialogue.01"
+        },
+        {
+          "id": "M43_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M43.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M43_postmission",
+      "missionId": "M43",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M43_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M43.dialogue.01"
+        },
+        {
+          "id": "M43_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M43.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M44_opening",
+      "missionId": "M44",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M44_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M44.dialogue.01"
+        },
+        {
+          "id": "M44_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M44.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M44_inmission",
+      "missionId": "M44",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M44_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M44.dialogue.01"
+        },
+        {
+          "id": "M44_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M44.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M44_postmission",
+      "missionId": "M44",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M44_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M44.dialogue.01"
+        },
+        {
+          "id": "M44_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M44.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M45_opening",
+      "missionId": "M45",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M45_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M45.dialogue.01"
+        },
+        {
+          "id": "M45_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M45.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M45_inmission",
+      "missionId": "M45",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M45_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M45.dialogue.01"
+        },
+        {
+          "id": "M45_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M45.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M45_postmission",
+      "missionId": "M45",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M45_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M45.dialogue.01"
+        },
+        {
+          "id": "M45_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M45.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M46_opening",
+      "missionId": "M46",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M46_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M46.dialogue.01"
+        },
+        {
+          "id": "M46_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M46.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M46_inmission",
+      "missionId": "M46",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M46_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M46.dialogue.01"
+        },
+        {
+          "id": "M46_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M46.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M46_postmission",
+      "missionId": "M46",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M46_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M46.dialogue.01"
+        },
+        {
+          "id": "M46_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M46.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M47_opening",
+      "missionId": "M47",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M47_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M47.dialogue.01"
+        },
+        {
+          "id": "M47_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M47.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M47_inmission",
+      "missionId": "M47",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M47_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M47.dialogue.01"
+        },
+        {
+          "id": "M47_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M47.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M47_postmission",
+      "missionId": "M47",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M47_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M47.dialogue.01"
+        },
+        {
+          "id": "M47_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M47.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M48_opening",
+      "missionId": "M48",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M48_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M48.dialogue.01"
+        },
+        {
+          "id": "M48_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M48.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M48_inmission",
+      "missionId": "M48",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M48_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M48.dialogue.01"
+        },
+        {
+          "id": "M48_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M48.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M48_postmission",
+      "missionId": "M48",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M48_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M48.dialogue.01"
+        },
+        {
+          "id": "M48_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M48.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M49_opening",
+      "missionId": "M49",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M49_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M49.dialogue.01"
+        },
+        {
+          "id": "M49_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M49.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M49_inmission",
+      "missionId": "M49",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M49_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M49.dialogue.01"
+        },
+        {
+          "id": "M49_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M49.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M49_postmission",
+      "missionId": "M49",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M49_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M49.dialogue.01"
+        },
+        {
+          "id": "M49_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M49.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M50_opening",
+      "missionId": "M50",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M50_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M50.dialogue.01"
+        },
+        {
+          "id": "M50_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M50.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M50_inmission",
+      "missionId": "M50",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M50_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M50.dialogue.01"
+        },
+        {
+          "id": "M50_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M50.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M50_postmission",
+      "missionId": "M50",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M50_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M50.dialogue.01"
+        },
+        {
+          "id": "M50_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M50.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M51_opening",
+      "missionId": "M51",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M51_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M51.dialogue.01"
+        },
+        {
+          "id": "M51_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M51.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M51_inmission",
+      "missionId": "M51",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M51_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M51.dialogue.01"
+        },
+        {
+          "id": "M51_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M51.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M51_postmission",
+      "missionId": "M51",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M51_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M51.dialogue.01"
+        },
+        {
+          "id": "M51_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M51.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M52_opening",
+      "missionId": "M52",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M52_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M52.dialogue.01"
+        },
+        {
+          "id": "M52_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M52.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M52_inmission",
+      "missionId": "M52",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M52_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M52.dialogue.01"
+        },
+        {
+          "id": "M52_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M52.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M52_postmission",
+      "missionId": "M52",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M52_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M52.dialogue.01"
+        },
+        {
+          "id": "M52_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M52.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M53_opening",
+      "missionId": "M53",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M53_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M53.dialogue.01"
+        },
+        {
+          "id": "M53_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M53.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M53_inmission",
+      "missionId": "M53",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M53_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M53.dialogue.01"
+        },
+        {
+          "id": "M53_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M53.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M53_postmission",
+      "missionId": "M53",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M53_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M53.dialogue.01"
+        },
+        {
+          "id": "M53_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M53.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M54_opening",
+      "missionId": "M54",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M54_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M54.dialogue.01"
+        },
+        {
+          "id": "M54_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M54.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M54_inmission",
+      "missionId": "M54",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M54_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M54.dialogue.01"
+        },
+        {
+          "id": "M54_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M54.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M54_postmission",
+      "missionId": "M54",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M54_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M54.dialogue.01"
+        },
+        {
+          "id": "M54_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M54.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M55_opening",
+      "missionId": "M55",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M55_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M55.dialogue.01"
+        },
+        {
+          "id": "M55_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M55.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M55_inmission",
+      "missionId": "M55",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M55_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M55.dialogue.01"
+        },
+        {
+          "id": "M55_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M55.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M55_postmission",
+      "missionId": "M55",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M55_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M55.dialogue.01"
+        },
+        {
+          "id": "M55_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M55.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M56_opening",
+      "missionId": "M56",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M56_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M56.dialogue.01"
+        },
+        {
+          "id": "M56_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M56.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M56_inmission",
+      "missionId": "M56",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M56_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M56.dialogue.01"
+        },
+        {
+          "id": "M56_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M56.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M56_postmission",
+      "missionId": "M56",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M56_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M56.dialogue.01"
+        },
+        {
+          "id": "M56_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M56.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M57_opening",
+      "missionId": "M57",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M57_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M57.dialogue.01"
+        },
+        {
+          "id": "M57_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M57.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M57_inmission",
+      "missionId": "M57",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M57_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M57.dialogue.01"
+        },
+        {
+          "id": "M57_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M57.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M57_postmission",
+      "missionId": "M57",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M57_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M57.dialogue.01"
+        },
+        {
+          "id": "M57_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M57.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M58_opening",
+      "missionId": "M58",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M58_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M58.dialogue.01"
+        },
+        {
+          "id": "M58_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M58.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M58_inmission",
+      "missionId": "M58",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M58_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M58.dialogue.01"
+        },
+        {
+          "id": "M58_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M58.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M58_postmission",
+      "missionId": "M58",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M58_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M58.dialogue.01"
+        },
+        {
+          "id": "M58_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M58.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M59_opening",
+      "missionId": "M59",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M59_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M59.dialogue.01"
+        },
+        {
+          "id": "M59_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M59.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M59_inmission",
+      "missionId": "M59",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M59_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M59.dialogue.01"
+        },
+        {
+          "id": "M59_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M59.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M59_postmission",
+      "missionId": "M59",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M59_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M59.dialogue.01"
+        },
+        {
+          "id": "M59_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M59.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M60_opening",
+      "missionId": "M60",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M60_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M60.dialogue.01"
+        },
+        {
+          "id": "M60_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M60.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M60_inmission",
+      "missionId": "M60",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M60_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M60.dialogue.01"
+        },
+        {
+          "id": "M60_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M60.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M60_postmission",
+      "missionId": "M60",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M60_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M60.dialogue.01"
+        },
+        {
+          "id": "M60_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M60.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M61_opening",
+      "missionId": "M61",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M61_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M61.dialogue.01"
+        },
+        {
+          "id": "M61_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M61.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M61_inmission",
+      "missionId": "M61",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M61_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M61.dialogue.01"
+        },
+        {
+          "id": "M61_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M61.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M61_postmission",
+      "missionId": "M61",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M61_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M61.dialogue.01"
+        },
+        {
+          "id": "M61_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M61.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M62_opening",
+      "missionId": "M62",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M62_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M62.dialogue.01"
+        },
+        {
+          "id": "M62_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M62.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M62_inmission",
+      "missionId": "M62",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M62_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M62.dialogue.01"
+        },
+        {
+          "id": "M62_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M62.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M62_postmission",
+      "missionId": "M62",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M62_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M62.dialogue.01"
+        },
+        {
+          "id": "M62_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M62.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M63_opening",
+      "missionId": "M63",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M63_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M63.dialogue.01"
+        },
+        {
+          "id": "M63_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M63.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M63_inmission",
+      "missionId": "M63",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M63_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M63.dialogue.01"
+        },
+        {
+          "id": "M63_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M63.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M63_postmission",
+      "missionId": "M63",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M63_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M63.dialogue.01"
+        },
+        {
+          "id": "M63_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M63.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M64_opening",
+      "missionId": "M64",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M64_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M64.dialogue.01"
+        },
+        {
+          "id": "M64_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M64.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M64_inmission",
+      "missionId": "M64",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M64_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M64.dialogue.01"
+        },
+        {
+          "id": "M64_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M64.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M64_postmission",
+      "missionId": "M64",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M64_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M64.dialogue.01"
+        },
+        {
+          "id": "M64_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M64.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M65_opening",
+      "missionId": "M65",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M65_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M65.dialogue.01"
+        },
+        {
+          "id": "M65_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M65.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M65_inmission",
+      "missionId": "M65",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M65_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M65.dialogue.01"
+        },
+        {
+          "id": "M65_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M65.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M65_postmission",
+      "missionId": "M65",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M65_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M65.dialogue.01"
+        },
+        {
+          "id": "M65_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M65.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M66_opening",
+      "missionId": "M66",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M66_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M66.dialogue.01"
+        },
+        {
+          "id": "M66_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M66.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M66_inmission",
+      "missionId": "M66",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M66_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M66.dialogue.01"
+        },
+        {
+          "id": "M66_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M66.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M66_postmission",
+      "missionId": "M66",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M66_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M66.dialogue.01"
+        },
+        {
+          "id": "M66_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M66.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M67_opening",
+      "missionId": "M67",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M67_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M67.dialogue.01"
+        },
+        {
+          "id": "M67_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M67.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M67_inmission",
+      "missionId": "M67",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M67_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M67.dialogue.01"
+        },
+        {
+          "id": "M67_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M67.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M67_postmission",
+      "missionId": "M67",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M67_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M67.dialogue.01"
+        },
+        {
+          "id": "M67_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M67.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M68_opening",
+      "missionId": "M68",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M68_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M68.dialogue.01"
+        },
+        {
+          "id": "M68_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M68.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M68_inmission",
+      "missionId": "M68",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M68_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M68.dialogue.01"
+        },
+        {
+          "id": "M68_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M68.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M68_postmission",
+      "missionId": "M68",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M68_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M68.dialogue.01"
+        },
+        {
+          "id": "M68_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M68.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M69_opening",
+      "missionId": "M69",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M69_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M69.dialogue.01"
+        },
+        {
+          "id": "M69_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M69.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M69_inmission",
+      "missionId": "M69",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M69_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M69.dialogue.01"
+        },
+        {
+          "id": "M69_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M69.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M69_postmission",
+      "missionId": "M69",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M69_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M69.dialogue.01"
+        },
+        {
+          "id": "M69_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M69.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M70_opening",
+      "missionId": "M70",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M70_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M70.dialogue.01"
+        },
+        {
+          "id": "M70_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M70.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M70_inmission",
+      "missionId": "M70",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M70_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M70.dialogue.01"
+        },
+        {
+          "id": "M70_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M70.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M70_postmission",
+      "missionId": "M70",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M70_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M70.dialogue.01"
+        },
+        {
+          "id": "M70_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M70.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M71_opening",
+      "missionId": "M71",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M71_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M71.dialogue.01"
+        },
+        {
+          "id": "M71_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M71.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M71_inmission",
+      "missionId": "M71",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M71_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M71.dialogue.01"
+        },
+        {
+          "id": "M71_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M71.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M71_postmission",
+      "missionId": "M71",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M71_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M71.dialogue.01"
+        },
+        {
+          "id": "M71_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M71.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M72_opening",
+      "missionId": "M72",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M72_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M72.dialogue.01"
+        },
+        {
+          "id": "M72_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M72.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M72_inmission",
+      "missionId": "M72",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M72_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M72.dialogue.01"
+        },
+        {
+          "id": "M72_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M72.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M72_postmission",
+      "missionId": "M72",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M72_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M72.dialogue.01"
+        },
+        {
+          "id": "M72_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M72.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M73_opening",
+      "missionId": "M73",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M73_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M73.dialogue.01"
+        },
+        {
+          "id": "M73_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M73.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M73_inmission",
+      "missionId": "M73",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M73_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M73.dialogue.01"
+        },
+        {
+          "id": "M73_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M73.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M73_postmission",
+      "missionId": "M73",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M73_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M73.dialogue.01"
+        },
+        {
+          "id": "M73_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M73.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M74_opening",
+      "missionId": "M74",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M74_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M74.dialogue.01"
+        },
+        {
+          "id": "M74_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M74.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M74_inmission",
+      "missionId": "M74",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M74_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M74.dialogue.01"
+        },
+        {
+          "id": "M74_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M74.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M74_postmission",
+      "missionId": "M74",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M74_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M74.dialogue.01"
+        },
+        {
+          "id": "M74_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M74.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M75_opening",
+      "missionId": "M75",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M75_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M75.dialogue.01"
+        },
+        {
+          "id": "M75_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M75.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M75_inmission",
+      "missionId": "M75",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M75_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M75.dialogue.01"
+        },
+        {
+          "id": "M75_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M75.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M75_postmission",
+      "missionId": "M75",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M75_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M75.dialogue.01"
+        },
+        {
+          "id": "M75_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M75.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M76_opening",
+      "missionId": "M76",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M76_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M76.dialogue.01"
+        },
+        {
+          "id": "M76_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M76.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M76_inmission",
+      "missionId": "M76",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M76_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M76.dialogue.01"
+        },
+        {
+          "id": "M76_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M76.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M76_postmission",
+      "missionId": "M76",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M76_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M76.dialogue.01"
+        },
+        {
+          "id": "M76_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M76.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M77_opening",
+      "missionId": "M77",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M77_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M77.dialogue.01"
+        },
+        {
+          "id": "M77_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M77.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M77_inmission",
+      "missionId": "M77",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M77_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M77.dialogue.01"
+        },
+        {
+          "id": "M77_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M77.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M77_postmission",
+      "missionId": "M77",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M77_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M77.dialogue.01"
+        },
+        {
+          "id": "M77_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M77.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M78_opening",
+      "missionId": "M78",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M78_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M78.dialogue.01"
+        },
+        {
+          "id": "M78_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M78.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M78_inmission",
+      "missionId": "M78",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M78_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M78.dialogue.01"
+        },
+        {
+          "id": "M78_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M78.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M78_postmission",
+      "missionId": "M78",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M78_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M78.dialogue.01"
+        },
+        {
+          "id": "M78_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M78.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M79_opening",
+      "missionId": "M79",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M79_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M79.dialogue.01"
+        },
+        {
+          "id": "M79_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M79.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M79_inmission",
+      "missionId": "M79",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M79_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M79.dialogue.01"
+        },
+        {
+          "id": "M79_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M79.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M79_postmission",
+      "missionId": "M79",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M79_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M79.dialogue.01"
+        },
+        {
+          "id": "M79_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M79.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M80_opening",
+      "missionId": "M80",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M80_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M80.dialogue.01"
+        },
+        {
+          "id": "M80_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M80.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M80_inmission",
+      "missionId": "M80",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M80_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M80.dialogue.01"
+        },
+        {
+          "id": "M80_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M80.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M80_postmission",
+      "missionId": "M80",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M80_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "npc",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M80.dialogue.01"
+        },
+        {
+          "id": "M80_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "npc",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M80.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M81_opening",
+      "missionId": "M81",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M81_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M81.dialogue.01"
+        },
+        {
+          "id": "M81_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M81.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M81_inmission",
+      "missionId": "M81",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M81_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M81.dialogue.01"
+        },
+        {
+          "id": "M81_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M81.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M81_postmission",
+      "missionId": "M81",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M81_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M81.dialogue.01"
+        },
+        {
+          "id": "M81_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M81.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M82_opening",
+      "missionId": "M82",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M82_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M82.dialogue.01"
+        },
+        {
+          "id": "M82_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M82.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M82_inmission",
+      "missionId": "M82",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M82_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M82.dialogue.01"
+        },
+        {
+          "id": "M82_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M82.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M82_postmission",
+      "missionId": "M82",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M82_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M82.dialogue.01"
+        },
+        {
+          "id": "M82_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M82.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M83_opening",
+      "missionId": "M83",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M83_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M83.dialogue.01"
+        },
+        {
+          "id": "M83_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M83.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M83_inmission",
+      "missionId": "M83",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M83_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M83.dialogue.01"
+        },
+        {
+          "id": "M83_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M83.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M83_postmission",
+      "missionId": "M83",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M83_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M83.dialogue.01"
+        },
+        {
+          "id": "M83_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M83.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M84_opening",
+      "missionId": "M84",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M84_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M84.dialogue.01"
+        },
+        {
+          "id": "M84_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M84.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M84_inmission",
+      "missionId": "M84",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M84_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M84.dialogue.01"
+        },
+        {
+          "id": "M84_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M84.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M84_postmission",
+      "missionId": "M84",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M84_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M84.dialogue.01"
+        },
+        {
+          "id": "M84_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M84.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M85_opening",
+      "missionId": "M85",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M85_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M85.dialogue.01"
+        },
+        {
+          "id": "M85_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M85.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M85_inmission",
+      "missionId": "M85",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M85_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M85.dialogue.01"
+        },
+        {
+          "id": "M85_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M85.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M85_postmission",
+      "missionId": "M85",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M85_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M85.dialogue.01"
+        },
+        {
+          "id": "M85_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M85.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M86_opening",
+      "missionId": "M86",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M86_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M86.dialogue.01"
+        },
+        {
+          "id": "M86_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M86.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M86_inmission",
+      "missionId": "M86",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M86_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M86.dialogue.01"
+        },
+        {
+          "id": "M86_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M86.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M86_postmission",
+      "missionId": "M86",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M86_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "darius",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M86.dialogue.01"
+        },
+        {
+          "id": "M86_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "darius",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M86.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M87_opening",
+      "missionId": "M87",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M87_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M87.dialogue.01"
+        },
+        {
+          "id": "M87_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M87.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M87_inmission",
+      "missionId": "M87",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M87_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M87.dialogue.01"
+        },
+        {
+          "id": "M87_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M87.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M87_postmission",
+      "missionId": "M87",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M87_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "malik",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M87.dialogue.01"
+        },
+        {
+          "id": "M87_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "malik",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M87.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M88_opening",
+      "missionId": "M88",
+      "stage": "Opening",
+      "shots": [
+        {
+          "id": "M88_opening_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M88.dialogue.01"
+        },
+        {
+          "id": "M88_opening_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M88.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M88_inmission",
+      "missionId": "M88",
+      "stage": "InMission",
+      "shots": [
+        {
+          "id": "M88_inmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M88.dialogue.01"
+        },
+        {
+          "id": "M88_inmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M88.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "M88_postmission",
+      "missionId": "M88",
+      "stage": "PostMission",
+      "shots": [
+        {
+          "id": "M88_postmission_01",
+          "duration": 3.0,
+          "cameraId": "Cinematic_A",
+          "actor": "amara",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Focused",
+          "dialogueKey": "M88.dialogue.01"
+        },
+        {
+          "id": "M88_postmission_02",
+          "duration": 3.0,
+          "cameraId": "Cinematic_B",
+          "actor": "amara",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Determined",
+          "dialogueKey": "M88.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "E1_ending",
+      "missionId": "M86",
+      "stage": "Ending",
+      "shots": [
+        {
+          "id": "E1_01",
+          "duration": 5.0,
+          "cameraId": "Ending_Wide",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Determined",
+          "dialogueKey": "E1.dialogue.01"
+        },
+        {
+          "id": "E1_02",
+          "duration": 5.0,
+          "cameraId": "Ending_Close",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Neutral",
+          "dialogueKey": "E1.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "E2_ending",
+      "missionId": "M86",
+      "stage": "Ending",
+      "shots": [
+        {
+          "id": "E2_01",
+          "duration": 5.0,
+          "cameraId": "Ending_Wide",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Determined",
+          "dialogueKey": "E2.dialogue.01"
+        },
+        {
+          "id": "E2_02",
+          "duration": 5.0,
+          "cameraId": "Ending_Close",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Neutral",
+          "dialogueKey": "E2.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "E3_ending",
+      "missionId": "M86",
+      "stage": "Ending",
+      "shots": [
+        {
+          "id": "E3_01",
+          "duration": 5.0,
+          "cameraId": "Ending_Wide",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Determined",
+          "dialogueKey": "E3.dialogue.01"
+        },
+        {
+          "id": "E3_02",
+          "duration": 5.0,
+          "cameraId": "Ending_Close",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Neutral",
+          "dialogueKey": "E3.dialogue.02"
+        }
+      ]
+    },
+    {
+      "id": "E4_ending",
+      "missionId": "M86",
+      "stage": "Ending",
+      "shots": [
+        {
+          "id": "E4_01",
+          "duration": 5.0,
+          "cameraId": "Ending_Wide",
+          "actor": "all",
+          "animation": "Cinematic_Idle",
+          "facialExpression": "Determined",
+          "dialogueKey": "E4.dialogue.01"
+        },
+        {
+          "id": "E4_02",
+          "duration": 5.0,
+          "cameraId": "Ending_Close",
+          "actor": "all",
+          "animation": "Cinematic_Talk",
+          "facialExpression": "Neutral",
+          "dialogueKey": "E4.dialogue.02"
+        }
+      ]
+    }
+  ]
+}

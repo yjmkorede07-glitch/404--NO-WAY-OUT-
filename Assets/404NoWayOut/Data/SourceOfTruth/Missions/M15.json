@@ -1,0 +1,66 @@
+{
+  "id": "M15",
+  "title": "Night Run",
+  "phase": "Phase 5",
+  "brief": "Move evidence across Veyron under pressure.",
+  "win_condition": "Deliver the package before the timer expires.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "package-secure",
+      "kind": "action",
+      "target": "central",
+      "text": "Secure the evidence package."
+    },
+    {
+      "id": "package-deliver",
+      "kind": "action",
+      "target": "central",
+      "text": "Deliver the package before the timer expires."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Deliver the package before the timer expires."
+  ],
+  "rewards": {
+    "cash": 2375,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M14"
+  ],
+  "unlocked_content": []
+}

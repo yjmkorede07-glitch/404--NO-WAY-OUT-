@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "interactions": [
+    {
+      "id": "talk",
+      "prompt": "Talk",
+      "range_m": 3
+    },
+    {
+      "id": "enter_vehicle",
+      "prompt": "Enter vehicle",
+      "range_m": 3
+    },
+    {
+      "id": "exit_vehicle",
+      "prompt": "Exit vehicle",
+      "range_m": 3
+    },
+    {
+      "id": "plate_check",
+      "prompt": "Run plate",
+      "range_m": 3,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "citizen_id_check",
+      "prompt": "Check Citizen ID",
+      "range_m": 3,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "detain",
+      "prompt": "Detain",
+      "range_m": 2,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "arrest",
+      "prompt": "Arrest",
+      "range_m": 2,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "request_backup",
+      "prompt": "Request backup",
+      "range_m": 3,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "request_ambulance",
+      "prompt": "Request ambulance",
+      "range_m": 3,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "request_fire",
+      "prompt": "Request fire service",
+      "range_m": 3,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "request_tow",
+      "prompt": "Request tow",
+      "range_m": 3,
+      "requires": "accepted_law_enforcement"
+    },
+    {
+      "id": "business",
+      "prompt": "Enter business",
+      "range_m": 3
+    },
+    {
+      "id": "property",
+      "prompt": "Enter property",
+      "range_m": 3
+    },
+    {
+      "id": "bank_atm",
+      "prompt": "Use bank/ATM",
+      "range_m": 2
+    },
+    {
+      "id": "robbery",
+      "prompt": "Rob",
+      "range_m": 3,
+      "creates_heat": true
+    },
+    {
+      "id": "vehicle_theft",
+      "prompt": "Steal vehicle",
+      "range_m": 3,
+      "creates_heat": true
+    },
+    {
+      "id": "purchase",
+      "prompt": "Purchase",
+      "range_m": 3,
+      "server_validated": true
+    },
+    {
+      "id": "mission_trigger",
+      "prompt": "Start mission",
+      "range_m": 5
+    }
+  ]
+}

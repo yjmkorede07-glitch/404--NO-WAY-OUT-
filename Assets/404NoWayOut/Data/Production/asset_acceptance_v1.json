@@ -1,0 +1,10 @@
+{
+  "final_asset_acceptance": {
+    "characters": ["rights-cleared likeness/reference", "production rig", "LOD", "materials", "facial", "animation"],
+    "vehicles": ["collision", "drivetrain", "damage", "LOD", "interior where required"],
+    "world": ["collision", "navigation", "streaming cell", "interior links", "lighting", "occlusion", "meaningful gameplay purpose"],
+    "audio": ["48kHz", "24-bit", "clean", "named", "rights cleared"],
+    "online": ["server authoritative state", "reconnect", "persistence", "anti-duplication", "audit logging"],
+    "release_blockers": ["placeholder final art", "uncleared likeness", "missing mission cinematic", "unverified multiplayer authority", "unverified mobile performance"]
+  }
+}

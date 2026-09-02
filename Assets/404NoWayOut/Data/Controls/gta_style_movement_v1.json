@@ -1,0 +1,17 @@
+{
+  "schema": "404.no-way-out.controls.gta_style_movement.v1",
+  "design_intent": "Third-person walk, jog, run, sprint, jump and shoot feel inspired by modern open-world action controls without copying proprietary implementation.",
+  "movement": {
+    "move": "WASD",
+    "walk": "WASD low input",
+    "jog": "WASD medium input",
+    "run": "WASD full input",
+    "sprint": "Left Shift + forward",
+    "jump": "Space",
+    "aim": "Right Mouse",
+    "fire": "Left Mouse"
+  },
+  "camera": { "third_person_orbit": true, "camera_relative_movement": true },
+  "animation_layers": ["idle", "walk", "jog", "run", "sprint", "jump", "fall", "aim_walk", "fire", "reload"],
+  "target": { "desktop": true, "gamepad_ready": true, "mobile_adapter_ready": true }
+}

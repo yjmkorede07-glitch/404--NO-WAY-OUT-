@@ -1,0 +1,72 @@
+{
+  "id": "M24",
+  "title": "A Door That Wasn't There",
+  "phase": "Phase 7",
+  "brief": "Find a hidden entrance.",
+  "win_condition": "Discover the concealed location and retrieve the clue.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "search-mark",
+      "kind": "action",
+      "target": "central",
+      "text": "Search for the hidden entrance marker."
+    },
+    {
+      "id": "hidden-entry",
+      "kind": "action",
+      "target": "central",
+      "text": "Discover the concealed entrance."
+    },
+    {
+      "id": "clue-retrieve",
+      "kind": "action",
+      "target": "central",
+      "text": "Retrieve the clue from the concealed location."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Discover the concealed location and retrieve the clue."
+  ],
+  "rewards": {
+    "cash": 3500,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M23"
+  ],
+  "unlocked_content": []
+}

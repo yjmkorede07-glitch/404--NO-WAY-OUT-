@@ -1,0 +1,72 @@
+{
+  "id": "M72",
+  "title": "Quiet Investor",
+  "phase": "Phase 8",
+  "brief": "Find a hidden investor.",
+  "win_condition": "Meet the investor and secure a conditional investment.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "trace-introduction",
+      "kind": "action",
+      "target": "central",
+      "text": "Trace the quiet introduction to the hidden investor."
+    },
+    {
+      "id": "meet-investor",
+      "kind": "action",
+      "target": "central",
+      "text": "Meet the investor without exposing the operation."
+    },
+    {
+      "id": "secure-condition",
+      "kind": "action",
+      "target": "central",
+      "text": "Secure a conditional investment and the terms attached to it."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Meet the investor and secure a conditional investment."
+  ],
+  "rewards": {
+    "cash": 9500,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M71"
+  ],
+  "unlocked_content": []
+}

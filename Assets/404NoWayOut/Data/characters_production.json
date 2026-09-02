@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Production character and dialogue design contract for 404: NO WAY OUT. These are original fictional character specifications, not final 3D or recorded performances.",
+  "characters": [
+    {
+      "id": "darius",
+      "name": "Darius Cole",
+      "role": "playable_protagonist",
+      "personality": ["calm", "intelligent", "observant", "ambitious"],
+      "visual": {
+        "face": "defined oval jaw and mature, controlled features",
+        "eyes": "focused, observant eyes with restrained expression",
+        "hair": "short textured black hair",
+        "build": "lean athletic build",
+        "wardrobe": "dark fitted streetwear, practical jackets, understated premium details",
+        "silhouette": "clean, controlled, understated"
+      },
+      "performance": {
+        "posture": "upright and economical",
+        "gestures": "small deliberate gestures; steady eye contact",
+        "emotion": "emotion is usually contained until trust or danger breaks the restraint"
+      },
+      "voice": {
+        "type": "male_low_calm_measured",
+        "delivery": "low, calm, measured, intelligent; never theatrical",
+        "speech_rules": ["short-to-medium sentences", "does not waste words", "asks precise questions", "anger becomes quieter rather than louder"],
+        "recording_status": "not_recorded_placeholder_design_only"
+      }
+    },
+    {
+      "id": "malik",
+      "name": "Malik",
+      "role": "playable_protagonist",
+      "personality": ["loud", "funny", "reckless", "loyal"],
+      "visual": {
+        "face": "broad expressive face",
+        "eyes": "animated, alert eyes",
+        "hair": "short curls",
+        "build": "stocky athletic build",
+        "wardrobe": "work jackets, tees, mechanic gear and practical streetwear",
+        "silhouette": "confident, energetic, slightly rough-edged"
+      },
+      "performance": {
+        "posture": "loose and forward-moving",
+        "gestures": "large gestures, quick smiles, expressive reactions",
+        "emotion": "humor often covers worry; loyalty becomes obvious under pressure"
+      },
+      "voice": {
+        "type": "male_energetic_humorous",
+        "delivery": "energetic, humorous, quick timing; serious moments drop the jokes immediately",
+        "speech_rules": ["uses humor under stress", "teases trusted characters", "speaks faster when excited", "does not become a caricature"],
+        "recording_status": "not_recorded_placeholder_design_only"
+      }
+    },
+    {
+      "id": "amara",
+      "name": "Amara Vale",
+      "role": "playable_protagonist",
+      "personality": ["intelligent", "controlled", "sarcastic", "mysterious"],
+      "visual": {
+        "face": "sharp oval face with precise features",
+        "eyes": "focused eyes; difficult to read",
+        "hair": "long controlled style",
+        "build": "slim athletic build",
+        "wardrobe": "minimal tailored streetwear with functional details",
+        "silhouette": "precise, sophisticated, guarded"
+      },
+      "performance": {
+        "posture": "precise and composed",
+        "gestures": "minimal; deliberate head turns and eye movements",
+        "emotion": "subtle expressions; sarcasm masks uncertainty or concern"
+      },
+      "voice": {
+        "type": "female_controlled_dry_sarcasm",
+        "delivery": "controlled, dry, intelligent, quietly intimidating",
+        "speech_rules": ["sarcasm is restrained", "rarely repeats herself", "lets silence carry weight", "warmth appears indirectly"],
+        "recording_status": "not_recorded_placeholder_design_only"
+      }
+    }
+  ],
+  "production_pipeline": [
+    "original_3d_model",
+    "face_and_hair",
+    "clothing_and_materials",
+    "skeleton",
+    "body_animation",
+    "facial_rig",
+    "facial_animation",
+    "LOD_and_mobile_optimization",
+    "recorded_voice",
+    "mission_dialogue",
+    "cinematic_performance"
+  ]
+}

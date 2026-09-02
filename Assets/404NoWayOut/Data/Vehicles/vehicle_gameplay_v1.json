@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "vehicle_gameplay": {
+    "classes": ["compact","sedan","coupe","suv","pickup","sports","super","van","truck","motorcycle","boat","speedboat","yacht","helicopter","utility_aircraft","private_aircraft"],
+    "seat_flow": ["approach","enter","occupy","drive_or_control","exit"],
+    "tire_states": ["intact","punctured","deflated","destroyed"],
+    "tire_effects": {"punctured":"reduced_grip","deflated":"severe_handling_penalty","destroyed":"wheel_rim_contact_and_vehicle_disabled_if_threshold_reached"},
+    "repair_locations": ["repair_shop","auto_shop","marina_service","airport_service"],
+    "ownership": ["owned","borrowed","mission","stolen","impounded"],
+    "storage": ["garage","driveway","private_dock","marina","boathouse","helipad","hangar"]
+  }
+}

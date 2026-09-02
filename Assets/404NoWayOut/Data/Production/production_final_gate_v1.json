@@ -1,0 +1,10 @@
+{
+  "project": "404: NO WAY OUT",
+  "production_engine": "Unity 6.3 LTS",
+  "engine_neutral_source_of_truth": true,
+  "target": {"story_missions":88,"endings":4,"meaningful_map_percent":100,"fully_accessible_percent":84},
+  "presentation": {"third_person_3d":true,"cinematics":true,"voiceover":true,"facial_animation":true,"weather":true,"day_night":true,"streaming":true},
+  "online": {"player_system":true,"dedicated_server_authority":true,"reconnect":true,"persistent_state":true},
+  "platforms": ["Windows","Android","iOS"],
+  "final_release_gate": ["content_complete","3d_assets_cleared","audio_complete","cinematics_complete","runtime_compile_pass","playtest_pass","performance_pass","network_load_pass","save_migration_pass","store_build_pass"]
+}

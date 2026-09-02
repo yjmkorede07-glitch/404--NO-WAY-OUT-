@@ -1,0 +1,60 @@
+{
+  "id": "M07",
+  "title": "Iron District",
+  "phase": "Phase 3",
+  "brief": "Meet the people who keep the city's machines moving.",
+  "win_condition": "Reach Reed Workshop and secure Malik's cooperation.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Reach Reed Workshop and secure Malik's cooperation."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach Reed Workshop and secure Malik's cooperation."
+  ],
+  "rewards": {
+    "cash": 1375,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M06"
+  ],
+  "unlocked_content": []
+}

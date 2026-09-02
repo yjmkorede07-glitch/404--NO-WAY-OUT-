@@ -1,0 +1,72 @@
+{
+  "id": "M33",
+  "title": "No Way Out",
+  "phase": "Phase 10",
+  "brief": "Execute the final operation.",
+  "win_condition": "Complete the chosen operation and survive.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "stage-operation",
+      "kind": "action",
+      "target": "central",
+      "text": "Stage the chosen operation."
+    },
+    {
+      "id": "execute",
+      "kind": "action",
+      "target": "central",
+      "text": "Execute the operation."
+    },
+    {
+      "id": "survive",
+      "kind": "action",
+      "target": "central",
+      "text": "Survive the operation and preserve the result."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the chosen operation and survive."
+  ],
+  "rewards": {
+    "cash": 4625,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M32"
+  ],
+  "unlocked_content": []
+}

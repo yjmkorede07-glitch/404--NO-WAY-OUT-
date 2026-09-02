@@ -1,0 +1,6 @@
+{
+  "target": "iOS_Android",
+  "principles": ["contextual touch buttons", "virtual movement stick", "look area", "aim/fire separation", "dedicated interaction buttons", "no universal interact button"],
+  "actions": ["Talk", "EnterExitVehicle", "Robbery", "Detain", "Arrest", "Board", "Reload", "Aim", "Fire", "Sprint", "Jump", "SwitchProtagonist"],
+  "performance": {"target_fps": 60, "scalable_quality": true, "dynamic_resolution_ready": true}
+}

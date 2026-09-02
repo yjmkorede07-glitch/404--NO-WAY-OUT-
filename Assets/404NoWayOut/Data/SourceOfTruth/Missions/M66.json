@@ -1,0 +1,72 @@
+{
+  "id": "M66",
+  "title": "Three Doors",
+  "phase": "Phase 7",
+  "brief": "Choose the correct approach to a secure site.",
+  "win_condition": "Enter using the route matching the evidence you collected.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "review-evidence",
+      "kind": "action",
+      "target": "central",
+      "text": "Review the evidence that distinguishes the three approaches."
+    },
+    {
+      "id": "choose-door",
+      "kind": "action",
+      "target": "central",
+      "text": "Choose the route matching the evidence you collected."
+    },
+    {
+      "id": "enter-site",
+      "kind": "action",
+      "target": "central",
+      "text": "Enter the secure site using the correct route."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Enter using the route matching the evidence you collected."
+  ],
+  "rewards": {
+    "cash": 8750,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M65"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M76",
+  "title": "Old Friends",
+  "phase": "Phase 9",
+  "brief": "Revisit someone who knew Darius's brother.",
+  "win_condition": "Get the missing detail without losing the contact.",
+  "protagonist": "npc",
+  "supporting_npcs": [
+    "Rhea Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "reconnect-contact",
+      "kind": "action",
+      "target": "central",
+      "text": "Reconnect with someone who knew Darius’s brother."
+    },
+    {
+      "id": "ask-missing-detail",
+      "kind": "action",
+      "target": "central",
+      "text": "Ask for the missing detail without escalating the encounter."
+    },
+    {
+      "id": "protect-contact",
+      "kind": "action",
+      "target": "central",
+      "text": "Get the missing detail without losing the contact."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Get the missing detail without losing the contact."
+  ],
+  "rewards": {
+    "cash": 10000,
+    "reputation": 9
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M75"
+  ],
+  "unlocked_content": []
+}

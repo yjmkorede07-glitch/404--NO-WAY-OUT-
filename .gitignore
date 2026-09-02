@@ -1,0 +1,52 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE / tooling
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash dumps
+sysinfo.txt
+
+# Addressables / generated build artifacts
+ServerData/
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/aa/
+
+# Visual Studio cache
+.vsconfig
+
+# Local secrets / environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.dll
+*.pdb
+*.unitypackage
+
+# Large local-only archives
+*.zip
+*.7z
+*.rar

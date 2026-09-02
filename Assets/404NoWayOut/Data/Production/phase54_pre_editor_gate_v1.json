@@ -1,0 +1,37 @@
+{
+  "build": "013",
+  "phase": 54,
+  "title": "Pre-Editor Production Lock",
+  "engine_primary": "Unity 6.3 LTS",
+  "engine_fallback": "Unreal Engine 5.6+",
+  "goal": "Finish all engine-neutral and Unity-side source preparation before opening the editor.",
+  "required_before_editor": [
+    "cumulative project assembly",
+    "story and ending integrity",
+    "gameplay runtime",
+    "online runtime",
+    "world streaming contracts",
+    "addressable content groups",
+    "backend API contracts",
+    "save/persistence contracts",
+    "editor validation tests",
+    "platform build profiles",
+    "asset import targets"
+  ],
+  "blocked_until_editor": [
+    "Unity compile",
+    "Unity play mode",
+    "real asset import validation",
+    "lighting bake",
+    "GPU/CPU profiling",
+    "device builds",
+    "multiplayer integration test"
+  ],
+  "content_status": {
+    "code_contracts": "READY",
+    "data_contracts": "READY",
+    "placeholder_art": "READY_FOR_REPLACEMENT",
+    "final_3d_art": "IMPORT_REQUIRED",
+    "final_audio_vo": "IMPORT_REQUIRED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "404-engine-neutral-v2",
+  "canonical_units": "meters",
+  "coordinate_data": "engine-neutral JSON",
+  "interchange_3d": ["glTF 2.0","GLB","FBX"],
+  "editable_master_preference": "BLEND",
+  "engines": {
+    "unity": {"primary":true,"adapter":"UnityRuntime"},
+    "unreal": {"primary":false,"adapter":"UnrealRuntime"},
+    "godot": {"primary":false,"adapter":"GodotRuntime"}
+  },
+  "never_port_directly": ["engine scenes","prefabs","blueprints","shaders","lighting caches","engine plugins"],
+  "always_port_from_canonical": ["world","missions","characters","economy","properties","controls","cinematics","asset manifests"]
+}

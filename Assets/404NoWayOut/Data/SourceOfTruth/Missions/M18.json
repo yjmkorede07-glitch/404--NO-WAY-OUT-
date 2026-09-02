@@ -1,0 +1,72 @@
+{
+  "id": "M18",
+  "title": "Heat",
+  "phase": "Phase 6",
+  "brief": "Survive an escalating police response.",
+  "win_condition": "Lose the pursuit and reach a safe location.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Police Headquarters",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "police",
+      "text": "Reach Veyron Police Headquarters."
+    },
+    {
+      "id": "pursuit",
+      "kind": "action",
+      "target": "police",
+      "text": "Survive the initial police pursuit."
+    },
+    {
+      "id": "break-line",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "Break line of sight."
+    },
+    {
+      "id": "safe-location",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "Reach a safe location."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Lose the pursuit and reach a safe location."
+  ],
+  "rewards": {
+    "cash": 2750,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M17"
+  ],
+  "unlocked_content": []
+}

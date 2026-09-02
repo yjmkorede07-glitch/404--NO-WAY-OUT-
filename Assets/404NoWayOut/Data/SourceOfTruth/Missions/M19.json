@@ -1,0 +1,72 @@
+{
+  "id": "M19",
+  "title": "The Warehouse Job",
+  "phase": "Phase 6",
+  "brief": "Retrieve a hidden ledger.",
+  "win_condition": "Secure the ledger and escape with it intact.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Port",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "port",
+      "text": "Reach Veyron Port."
+    },
+    {
+      "id": "warehouse-entry",
+      "kind": "action",
+      "target": "port",
+      "text": "Enter Warehouse 7 and locate the hidden ledger."
+    },
+    {
+      "id": "ledger-secure",
+      "kind": "action",
+      "target": "port",
+      "text": "Secure the ledger intact."
+    },
+    {
+      "id": "warehouse-exit",
+      "kind": "action",
+      "target": "port",
+      "text": "Escape the port with the ledger."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Secure the ledger and escape with it intact."
+  ],
+  "rewards": {
+    "cash": 2875,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M18"
+  ],
+  "unlocked_content": []
+}

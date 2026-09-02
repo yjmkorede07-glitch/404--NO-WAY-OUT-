@@ -1,0 +1,9 @@
+{
+  "universal_interaction_key": null,
+  "keyboard_mouse": {
+    "move": "WASD", "sprint": "LeftShift", "camera": "Mouse",
+    "talk": "T", "enter_exit_vehicle": "F", "robbery": "G", "detain": "H", "arrest": "J", "board_boat_aircraft": "B", "reload": "R",
+    "protagonist_1": "1", "protagonist_2": "2", "protagonist_3": "3"
+  },
+  "design_rule": "Dedicated actions; no universal E button."
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M37",
+  "title": "Hilltop Contact",
+  "phase": "Phase 3",
+  "brief": "Meet a reluctant contact in North Hills.",
+  "win_condition": "Gain the contact's cooperation and obtain the address.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "North Hills",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "north",
+      "text": "Reach North Hills."
+    },
+    {
+      "id": "meet-contact",
+      "kind": "action",
+      "target": "north",
+      "text": "Meet the reluctant contact."
+    },
+    {
+      "id": "earn-cooperation",
+      "kind": "action",
+      "target": "north",
+      "text": "Gain the contact’s cooperation."
+    },
+    {
+      "id": "obtain-address",
+      "kind": "action",
+      "target": "north",
+      "text": "Obtain and preserve the target address."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Gain the contact's cooperation and obtain the address."
+  ],
+  "rewards": {
+    "cash": 5125,
+    "reputation": 5
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M36"
+  ],
+  "unlocked_content": []
+}

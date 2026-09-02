@@ -1,0 +1,10 @@
+{
+  "schema": "online_player_system_v1",
+  "purpose": "Persistent online player identity and character-slot foundation.",
+  "player": {"presence_states":["offline","connecting","online","reconnecting","disconnected","banned"],"default_character_slots":3},
+  "character_slots": {"states":["empty","active","archived"],"law_enforcement_creation_blocked":true},
+  "identity": {"player_id":true,"display_name":true,"citizen_id":true,"active_character_id":true},
+  "persistence": {"last_seen":true,"last_played":true,"total_play_minutes":true,"reputation":true},
+  "authority": "server_authoritative",
+  "rules": ["player owns the account profile", "characters belong to the player account", "character selection is server validated", "archiving never grants a new bank bonus"]
+}

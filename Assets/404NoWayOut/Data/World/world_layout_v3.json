@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0",
+  "title": "404: NO WAY OUT — Veyron World Layout",
+  "world_target": {
+    "total_meaningful_percent": 100,
+    "fully_accessible_percent": 84,
+    "design_principle": "Every intended world area has authored gameplay, environmental, systemic, narrative, social, traversal, or discovery purpose; 84% is physically enterable, traversable, occupiable, or directly interactable."
+  },
+  "mainland": {
+    "id": "veyron_mainland",
+    "center": [0, 0],
+    "size_km": [16, 12],
+    "regions": [
+      {"id":"veyron_central","name":"Veyron Central","center":[0,1],"type":"dense_city","accessibility_target":92},
+      {"id":"east_market","name":"East Market","center":[4,1],"type":"urban_market","accessibility_target":88},
+      {"id":"north_hills","name":"North Hills","center":[1,5],"type":"suburban","accessibility_target":86},
+      {"id":"iron_district","name":"Iron District","center":[-4,1],"type":"industrial","accessibility_target":90},
+      {"id":"west_coast","name":"West Coast","center":[-6,0],"type":"coast","accessibility_target":84},
+      {"id":"airport","name":"Airport District","center":[1,-4],"type":"airport","accessibility_target":82},
+      {"id":"port","name":"Port Veyron","center":[3,-5],"type":"port","accessibility_target":90},
+      {"id":"outer_highway","name":"Outer Highway","center":[0,-2],"type":"highway","accessibility_target":78},
+      {"id":"rural_estates","name":"Rural Estates","center":[6,3],"type":"rural","accessibility_target":82},
+      {"id":"lakes_region","name":"Lakes Region","center":[-4,-4],"type":"lakes","accessibility_target":84},
+      {"id":"north_range","name":"North Range","center":[-2,7],"type":"mountain","accessibility_target":76},
+      {"id":"alpine_valley","name":"Alpine Valley","center":[3,7],"type":"mountain","accessibility_target":76},
+      {"id":"snowline_resort","name":"Snowline Resort","center":[6,7],"type":"alpine_snow","accessibility_target":80}
+    ]
+  },
+  "major_islands": [
+    {"id":"blackwater","name":"Blackwater Island","center":[7,8],"size_km":[3.2,2.4],"ownership":"mixed","accessibility_target":86,"activities":["property","maritime","crime","rescue","tunnels"]},
+    {"id":"crown","name":"Crown Isle","center":[9,2],"size_km":[2.8,1.9],"ownership":"private_and_purchasable","accessibility_target":84,"activities":["luxury_property","marina","social","security"]},
+    {"id":"redhaven","name":"Redhaven Island","center":[9,-2],"size_km":[2.6,2.1],"ownership":"mixed","accessibility_target":86,"activities":["industrial","warehouse","smuggling","marine_police"]},
+    {"id":"solara","name":"Solara Island","center":[8,-7],"size_km":[3.0,2.0],"ownership":"mixed","accessibility_target":85,"activities":["resort","beach","property","racing"]},
+    {"id":"gravesend","name":"Gravesend Island","center":[-4,-8],"size_km":[2.5,1.8],"ownership":"mixed","accessibility_target":84,"activities":["old_facilities","tunnels","hidden_locations","crime"]}
+  ],
+  "minor_islands": 8,
+  "transport": {
+    "road_spine": ["north_south_freeway","east_west_freeway","coastal_route","mountain_route"],
+    "bridges": 4,
+    "ferries": 6,
+    "marinas": 7,
+    "docks": 18,
+    "airport_connections": ["road","rail","helicopter","private_aircraft"],
+    "rail_connections": ["central","east_market","airport","port","north_hills"]
+  },
+  "meaningful_area_categories": [
+    "residential","commercial","industrial","civic","police","medical","fire","transport","recreation","tourism","agriculture","construction","natural","mountain","coast","water","underground","hidden","mission","social","property"
+  ],
+  "accessibility_accounting": {
+    "fully_accessible_examples":["enterable_building","usable_business","walkable_terrain","traversable_tunnel","occupiable_property","interactive_dock","usable_mountain_trail","mission_interior"],
+    "meaningful_but_not_fully_accessible_examples":["protected_cliff_face","hazardous_terrain","decorative_rooftop_without_access","deep_ocean","restricted_technical_area"],
+    "rule":"A visible asset only counts toward meaningful coverage when it has authored purpose. A fully accessible area must support physical entry, traversal, occupancy, or direct gameplay interaction."
+  }
+}

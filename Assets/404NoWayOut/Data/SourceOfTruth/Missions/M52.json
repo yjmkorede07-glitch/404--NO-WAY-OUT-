@@ -1,0 +1,60 @@
+{
+  "id": "M52",
+  "title": "The Stolen Car",
+  "phase": "Phase 5",
+  "brief": "Recover a stolen vehicle using its trail.",
+  "win_condition": "Find the vehicle and return it intact.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "workshop",
+      "text": "INVESTIGATE: Find the vehicle and return it intact."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Find the vehicle and return it intact."
+  ],
+  "rewards": {
+    "cash": 7000,
+    "reputation": 7
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M51"
+  ],
+  "unlocked_content": []
+}

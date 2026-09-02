@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "activities": [
+    {"id":"bank_robbery","requires":"physical_bank","heat":3},
+    {"id":"store_robbery","requires":"physical_store","heat":1},
+    {"id":"vehicle_theft","requires":"vehicle_target","heat":2},
+    {"id":"armored_transport","requires":"world_event","heat":3},
+    {"id":"cash_pickup","requires":"world_event","heat":1},
+    {"id":"territory_event","requires":"district","heat":2},
+    {"id":"police_intercept","requires":"police_presence","heat":2},
+    {"id":"property_purchase","requires":"eligible_property","heat":0},
+    {"id":"business_operation","requires":"owned_business","heat":0},
+    {"id":"construction_project","requires":"owned_property","heat":0},
+    {"id":"blacknet_order","requires":"online_or_story_eligibility","heat":1}
+  ],
+  "completion_rule": "server_authority_for_online; local_authority_for_story_single_player"
+}

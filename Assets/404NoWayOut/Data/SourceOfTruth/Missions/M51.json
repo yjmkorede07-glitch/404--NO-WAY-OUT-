@@ -1,0 +1,60 @@
+{
+  "id": "M51",
+  "title": "Emergency Lane",
+  "phase": "Phase 5",
+  "brief": "Get through traffic behind an emergency response.",
+  "win_condition": "Stay with the route and reach the destination.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "central",
+      "text": "INVESTIGATE: Stay with the route and reach the destination."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Stay with the route and reach the destination."
+  ],
+  "rewards": {
+    "cash": 6875,
+    "reputation": 7
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M50"
+  ],
+  "unlocked_content": []
+}

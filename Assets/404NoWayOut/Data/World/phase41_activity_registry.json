@@ -1,0 +1,17 @@
+{
+  "phase": 41,
+  "coverage_goal": {"meaningful_percent":100,"fully_accessible_percent":84},
+  "activities": [
+    {"id":"ACT-BANK-ROBBERY","kind":"bank_robbery","requires_physical_poi":true},
+    {"id":"ACT-STORE-ROBBERY","kind":"store_robbery","requires_physical_poi":true},
+    {"id":"ACT-JOBS","kind":"legitimate_jobs","requires_physical_poi":true},
+    {"id":"ACT-PROPERTY","kind":"property_purchase","requires_physical_poi":true},
+    {"id":"ACT-CONSTRUCTION","kind":"construction","requires_owned_property":true},
+    {"id":"ACT-BOAT","kind":"boat_purchase","requires_physical_poi":true},
+    {"id":"ACT-AIRCRAFT","kind":"aircraft_purchase","requires_physical_poi":true},
+    {"id":"ACT-UNDERGROUND","kind":"underground_hiding","requires_physical_entry":true},
+    {"id":"ACT-PRISON-BREAK","kind":"prison_break","requires_physical_facility":true},
+    {"id":"ACT-PRISON-EXTRACTION","kind":"prison_extraction","requires_physical_facility":true}
+  ],
+  "doors": {"ordinary_auto_open":true,"restricted_authorization_check":true,"no_manual_button_for_normal_entry":true}
+}

@@ -1,0 +1,9 @@
+{
+  "version":"1.0",
+  "production_focus":"Automated character animation, facial-expression, lip-sync and cinematic integration.",
+  "user_manual_steps":false,
+  "asset_requirements":{"character_mesh":"rights-cleared production mesh with humanoid rig and blendshapes or equivalent facial rig","voice":"rights-cleared WAV performances","environment":"production 3D meshes/materials/colliders"},
+  "engine_adapters":["Unity","Unreal","Godot"],
+  "master_formats":["glTF/GLB","FBX","WAV","PNG/TGA/EXR"],
+  "qa_gates":["rig_validation","animation_validation","facial_channel_validation","viseme_validation","cinematic_sequence_validation","rights_validation"]
+}

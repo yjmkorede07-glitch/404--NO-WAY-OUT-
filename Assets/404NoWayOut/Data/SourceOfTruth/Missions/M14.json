@@ -1,0 +1,72 @@
+{
+  "id": "M14",
+  "title": "Bad Tire, Worse Timing",
+  "phase": "Phase 5",
+  "brief": "Deal with a vehicle failure during a job.",
+  "win_condition": "Repair or replace the damaged tire and reach the destination.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Reed Workshop",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "workshop",
+      "text": "Reach Reed Workshop."
+    },
+    {
+      "id": "damage-check",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Assess the damaged tire."
+    },
+    {
+      "id": "repair-tire",
+      "kind": "action",
+      "target": "workshop",
+      "text": "Repair or replace the tire."
+    },
+    {
+      "id": "destination",
+      "kind": "action",
+      "target": "central",
+      "text": "Reach the destination before the situation worsens."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Repair or replace the damaged tire and reach the destination."
+  ],
+  "rewards": {
+    "cash": 2250,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M13"
+  ],
+  "unlocked_content": []
+}

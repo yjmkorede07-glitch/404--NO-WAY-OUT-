@@ -1,0 +1,9 @@
+{
+  "version":"2.0",
+  "principle":"User does not manually build facial rigs; final production assets plug into an automated runtime contract.",
+  "blendshape_channels":["Mouth_Smile","Mouth_Frown","Mouth_Smile_R","Jaw_Open","Jaw_Tight","Brow_Down","Brow_Inner_Up","Cheek_Raise","Eye_Wide","Nose_Wrinkle","Upper_Lip_Raise"],
+  "visemes":["Silence","PP","FF","TH","DD","KK","CH","SS","NN","RR","AA","E","I","O","U"],
+  "protagonists":["darius","malik","amara"],
+  "automation":{"facial_presets":true,"viseme_runtime":true,"cinematic_expression_keys":true,"manual_user_rigging_required":false},
+  "rights_gate":"Final likenesses and voice performances must be rights-cleared before shipping."
+}

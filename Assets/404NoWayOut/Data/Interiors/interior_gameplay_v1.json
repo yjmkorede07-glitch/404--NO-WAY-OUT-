@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "interior_gameplay": {
+    "access_rule": "walk_up_and_automatic_entry_when_authorized",
+    "types": ["home","apartment","business","bank","police_station","hospital","fire_station","prison","warehouse","workshop","restaurant","cafe","club","airport_terminal","marina","garage","safehouse","underground"],
+    "interactions": ["talk","work","shop","rob","rest","store_vehicle","repair_vehicle","start_mission","use_service","access_restricted_area"],
+    "door_policy": {"normal":"automatic","locked":"blocked_with_feedback","authorized":"automatic","mission_locked":"automatic_when_condition_met"}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "sample_rate_hz":48000,"bit_depth":24,"voice_channels":"mono",
+  "folders":["VO/Raw","VO/Edited","VO/Final","Music","SFX","Ambience","UI"],
+  "naming":"<Character>_<Mission>_<LineId>.wav",
+  "mix_targets":{"dialogue_dbfs":-3,"master_peak_dbfs":-1},
+  "voice_requires_rights_clearance":true
+}

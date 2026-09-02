@@ -1,0 +1,73 @@
+{
+  "id": "M68",
+  "title": "Payroll",
+  "phase": "Phase 8",
+  "brief": "Protect employees from a financial squeeze.",
+  "win_condition": "Resolve the payroll problem and keep the business open.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "audit-payroll",
+      "kind": "action",
+      "target": "central",
+      "text": "Audit the payroll problem and identify the shortfall."
+    },
+    {
+      "id": "secure-funds",
+      "kind": "action",
+      "target": "central",
+      "text": "Secure enough funds to cover the immediate payroll."
+    },
+    {
+      "id": "keep-open",
+      "kind": "action",
+      "target": "central",
+      "text": "Resolve the payroll problem and keep the business open."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Resolve the payroll problem and keep the business open."
+  ],
+  "rewards": {
+    "cash": 9000,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M67"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "M41",
+  "title": "The Regulars",
+  "phase": "Phase 4",
+  "brief": "Learn who spends every evening at the same café.",
+  "win_condition": "Identify three regulars and one useful connection.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Lena's Cafe",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "cafe",
+      "text": "Reach Lena's Cafe."
+    },
+    {
+      "id": "observe-regulars",
+      "kind": "action",
+      "target": "cafe",
+      "text": "INVESTIGATE: Identify the first two regulars."
+    },
+    {
+      "id": "trace-connection",
+      "kind": "action",
+      "target": "cafe",
+      "text": "INVESTIGATE: Trace one useful connection between them."
+    },
+    {
+      "id": "confirm-source",
+      "kind": "action",
+      "target": "cafe",
+      "text": "INVESTIGATE: Confirm three regulars and one useful connection."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify three regulars and one useful connection."
+  ],
+  "rewards": {
+    "cash": 5625,
+    "reputation": 6
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M40"
+  ],
+  "unlocked_content": []
+}

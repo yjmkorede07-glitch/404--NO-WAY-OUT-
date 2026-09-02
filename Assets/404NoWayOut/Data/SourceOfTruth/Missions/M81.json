@@ -1,0 +1,73 @@
+{
+  "id": "M81",
+  "title": "Last Preparation",
+  "phase": "Phase 10",
+  "brief": "Prepare all three protagonists for the final operation.",
+  "win_condition": "Complete each protagonist's preparation objective.",
+  "protagonist": "all",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "darius",
+      "kind": "character",
+      "target": "safehouse",
+      "text": "Prepare Darius and confirm the final evidence kit."
+    },
+    {
+      "id": "malik",
+      "kind": "character",
+      "target": "workshop",
+      "text": "Prepare Malik and confirm the final vehicle and tools."
+    },
+    {
+      "id": "amara",
+      "kind": "character",
+      "target": "central",
+      "text": "Prepare Amara and confirm the evidence channel."
+    },
+    {
+      "id": "ready",
+      "kind": "action",
+      "target": "central",
+      "text": "Lock the three preparations into one final-operation plan."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete each protagonist's preparation objective."
+  ],
+  "rewards": {
+    "cash": 10625,
+    "reputation": 10
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M80"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "M62",
+  "title": "False Friend",
+  "phase": "Phase 7",
+  "brief": "Determine which contact is feeding information away.",
+  "win_condition": "Identify the leak and preserve the relationship you need.",
+  "protagonist": "npc",
+  "supporting_npcs": [
+    "Lena Brooks"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "compare-contacts",
+      "kind": "action",
+      "target": "central",
+      "text": "Compare the contact accounts and identify the contradiction."
+    },
+    {
+      "id": "test-lead",
+      "kind": "action",
+      "target": "central",
+      "text": "Test the suspect lead without exposing the useful relationship."
+    },
+    {
+      "id": "identify-leak",
+      "kind": "action",
+      "target": "central",
+      "text": "Identify the leak and preserve the relationship you need."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Identify the leak and preserve the relationship you need."
+  ],
+  "rewards": {
+    "cash": 8250,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M61"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "npc_gameplay": {
+    "archetypes": ["civilian","worker","criminal","business_owner","police","detective","medic","firefighter","prison_officer","driver","dock_worker","pilot"],
+    "states": ["idle","traveling","working","socializing","fleeing","reporting","responding","arresting","injured","dead","off_duty"],
+    "day_cycle": "world_time_service",
+    "interaction_rule": "dedicated_action_input_not_universal_E",
+    "police_rule": "NPC police remain active regardless of player lifestyle"
+  }
+}

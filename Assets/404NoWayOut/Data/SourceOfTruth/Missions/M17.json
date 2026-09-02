@@ -1,0 +1,73 @@
+{
+  "id": "M17",
+  "title": "A Witness Called It In",
+  "phase": "Phase 6",
+  "brief": "See the witness system become a real threat.",
+  "win_condition": "Resolve the incident and escape the active search.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Police Headquarters",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "police",
+      "text": "Reach Veyron Police Headquarters."
+    },
+    {
+      "id": "incident",
+      "kind": "action",
+      "target": "police",
+      "text": "Resolve the witness incident."
+    },
+    {
+      "id": "search-break",
+      "kind": "action",
+      "target": "police",
+      "text": "Break the active search pattern."
+    },
+    {
+      "id": "escape",
+      "kind": "action",
+      "target": "safehouse",
+      "text": "Escape the search area."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Resolve the incident and escape the active search."
+  ],
+  "rewards": {
+    "cash": 2625,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M16"
+  ],
+  "unlocked_content": []
+}

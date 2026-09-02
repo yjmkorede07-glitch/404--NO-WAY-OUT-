@@ -1,0 +1,60 @@
+{
+  "id": "M06",
+  "title": "North Hills, Quiet Money",
+  "phase": "Phase 3",
+  "brief": "Follow a money trail into North Hills.",
+  "win_condition": "Photograph or record the target exchange and leave undetected.",
+  "protagonist": "malik",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "North Hills",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "north",
+      "text": "Reach North Hills."
+    },
+    {
+      "id": "action",
+      "kind": "action",
+      "target": "north",
+      "text": "INVESTIGATE: Photograph or record the target exchange and leave undetected."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Photograph or record the target exchange and leave undetected."
+  ],
+  "rewards": {
+    "cash": 1250,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M05"
+  ],
+  "unlocked_content": []
+}

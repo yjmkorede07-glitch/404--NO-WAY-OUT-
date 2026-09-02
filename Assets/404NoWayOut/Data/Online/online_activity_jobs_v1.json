@@ -1,0 +1,12 @@
+{
+  "phase":42,
+  "jobs": [
+    {"id":"JOB-DELIVERY","kind":"legitimate","requires_physical_poi":true},
+    {"id":"JOB-MECHANIC","kind":"legitimate","requires_physical_poi":true},
+    {"id":"JOB-SECURITY","kind":"legitimate","requires_physical_poi":true},
+    {"id":"JOB-COURIER","kind":"criminal_or_legitimate","requires_physical_poi":true},
+    {"id":"JOB-FREELANCE","kind":"player_defined","requires_physical_poi":false}
+  ],
+  "businesses": {"player_owned":true,"staffing_hooks":true,"income_persistence":true},
+  "properties": {"ownership_persistence":true,"construction_persistence":true,"vehicle_storage_persistence":true}
+}

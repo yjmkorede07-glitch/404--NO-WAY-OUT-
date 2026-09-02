@@ -1,0 +1,40 @@
+* text=auto
+*.cs text diff=csharp
+*.json text
+*.md text
+*.unity text
+*.asset text
+*.meta text
+*.prefab text
+*.shader text
+*.asmdef text
+*.asmref text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.fbx binary
+*.blend binary
+*.glb binary
+*.gltf binary
+*.obj binary
+*.exr binary
+*.hdr binary
+
+# Recommended Git LFS handling for future large production binaries.
+# Existing small reference assets remain ordinary Git files.
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text

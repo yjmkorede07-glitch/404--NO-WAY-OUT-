@@ -1,0 +1,72 @@
+{
+  "id": "M28",
+  "title": "Pressure on the Books",
+  "phase": "Phase 8",
+  "brief": "Trace suspicious accounting.",
+  "win_condition": "Find the three accounting anomalies and link them.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Central Bank",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "bank",
+      "text": "Reach Central Bank."
+    },
+    {
+      "id": "anomaly-1",
+      "kind": "action",
+      "target": "bank",
+      "text": "Find the first accounting anomaly."
+    },
+    {
+      "id": "anomaly-2",
+      "kind": "action",
+      "target": "bank",
+      "text": "Find the second accounting anomaly."
+    },
+    {
+      "id": "anomaly-3",
+      "kind": "action",
+      "target": "bank",
+      "text": "Find the third anomaly and link all three."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Find the three accounting anomalies and link them."
+  ],
+  "rewards": {
+    "cash": 4000,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M27"
+  ],
+  "unlocked_content": []
+}

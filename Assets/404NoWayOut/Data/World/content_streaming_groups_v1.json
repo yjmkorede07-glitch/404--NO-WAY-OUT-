@@ -1,0 +1,14 @@
+{
+  "groups": [
+    {"id":"world/mainland","load":"streamed","priority":100},
+    {"id":"world/islands","load":"streamed","priority":90},
+    {"id":"characters/protagonists","load":"addressable","priority":100},
+    {"id":"vehicles/all","load":"addressable","priority":80},
+    {"id":"interiors/all","load":"addressable","priority":70},
+    {"id":"missions/story","load":"addressable","priority":100},
+    {"id":"missions/online","load":"addressable","priority":90},
+    {"id":"cinematics/all","load":"addressable","priority":80},
+    {"id":"audio/all","load":"addressable","priority":70},
+    {"id":"ui/all","load":"local","priority":100}
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "M23",
+  "title": "The Long Chase",
+  "phase": "Phase 7",
+  "brief": "Keep a fleeing target in sight.",
+  "win_condition": "Finish the chase with the target identified.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "target-locate",
+      "kind": "action",
+      "target": "central",
+      "text": "Locate the fleeing target."
+    },
+    {
+      "id": "chase-maintain",
+      "kind": "action",
+      "target": "central",
+      "text": "Keep the target in sight."
+    },
+    {
+      "id": "identify",
+      "kind": "action",
+      "target": "central",
+      "text": "Finish the chase with the target identified."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Finish the chase with the target identified."
+  ],
+  "rewards": {
+    "cash": 3375,
+    "reputation": 4
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M22"
+  ],
+  "unlocked_content": []
+}

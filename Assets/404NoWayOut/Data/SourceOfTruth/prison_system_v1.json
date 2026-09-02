@@ -1,0 +1,13 @@
+{
+  "system":"prison_and_custody",
+  "facilities":[
+    {"id":"VCP","name":"Veyron Central Prison","type":"maximum_security","features":["intake","booking","cells","yard","medical","visitation","administration","transport","restricted_areas"]},
+    {"id":"VCH","name":"Veyron Central Holding","type":"holding","features":["booking","temporary_cells","transport"]},
+    {"id":"EMH","name":"East Market Holding","type":"holding","features":["booking","temporary_cells","transport"]},
+    {"id":"IDH","name":"Iron District Holding","type":"holding","features":["booking","temporary_cells","transport"]}
+  ],
+  "custody_triggers":{"four_star_arrest":true,"server_authoritative":true,"npc_police_active":true},
+  "states":["reported","wanted","arrested","transported","intake","booked","sentenced","incarcerated","released","escaped","fugitive"],
+  "escape":{"allowed":true,"requires_gameplay_route":true,"creates_fugitive_state":true,"generates_heat":true,"can_be_story_or_side_mission":true},
+  "missions":["prison_break","prison_extraction","transport_intercept","escape_aftermath"]
+}

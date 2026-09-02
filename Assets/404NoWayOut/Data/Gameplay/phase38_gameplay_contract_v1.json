@@ -1,0 +1,22 @@
+{
+  "phase": 38,
+  "title": "Core Player And World Gameplay",
+  "locked_controls": {
+    "universal_e": false,
+    "talk": "T",
+    "enter_exit_vehicle": "F",
+    "robbery": "G",
+    "detain": "H",
+    "arrest": "J",
+    "board_boat_aircraft": "B",
+    "move": "WASD",
+    "sprint": "LeftShift",
+    "camera": "Mouse"
+  },
+  "doors": {"ordinary_doors": "automatic_on_approach", "restricted_doors": "automatic_state_or_authorization", "no_button_required_for_normal_door": true},
+  "vehicles": {"enter_exit": true, "driving": true, "tire_damage": true, "handling_penalty_for_flat_tires": true},
+  "protagonists": ["Darius Cole", "Malik Reed", "Amara Vale"],
+  "world_agents": ["civilian", "worker", "criminal", "police", "medic", "firefighter", "business_owner"],
+  "mission_flow": ["approach_trigger", "opening_cinematic", "objectives", "optional_in_mission_cinematics", "post_mission_cinematic", "result"],
+  "production_note": "Runtime demo uses Unity primitives only; final art replaces primitives without changing gameplay contracts."
+}

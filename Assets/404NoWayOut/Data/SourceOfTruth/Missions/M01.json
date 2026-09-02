@@ -1,0 +1,70 @@
+{
+  "id": "M01",
+  "title": "First Night",
+  "phase": "Foundation",
+  "brief": "Meet Darius and establish the first lead.",
+  "win_condition": "Reach the safehouse and complete the introductory investigation.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Rhea Cole"
+  ],
+  "location": "Darius Safehouse",
+  "prototype_steps": [
+    {
+      "id": "airport-arrival",
+      "kind": "travel",
+      "target": "airport",
+      "text": "Arrive at Veyron International Airport."
+    },
+    {
+      "id": "take-cab",
+      "kind": "action",
+      "target": "airport",
+      "text": "Take the cab waiting outside."
+    },
+    {
+      "id": "family-house",
+      "kind": "travel",
+      "target": "family",
+      "text": "Return to the old Cole family house."
+    },
+    {
+      "id": "inspect-house",
+      "kind": "action",
+      "target": "family",
+      "text": "Inspect the house and establish the first lead."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Reach the safehouse and complete the introductory investigation."
+  ],
+  "rewards": {
+    "cash": 625,
+    "reputation": 2
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [],
+  "unlocked_content": []
+}

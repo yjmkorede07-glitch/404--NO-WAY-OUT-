@@ -1,0 +1,6 @@
+{
+  "buses": ["Master", "Music", "Effects", "Dialogue", "UI", "Ambience"],
+  "requirements": {"story_dialogue": "clean_48khz_24bit_mono", "important_cinematic_lines": "two_usable_takes"},
+  "subtitles": true,
+  "dynamic_ducking": {"dialogue_over_music": true, "cinematic_over_world": true}
+}

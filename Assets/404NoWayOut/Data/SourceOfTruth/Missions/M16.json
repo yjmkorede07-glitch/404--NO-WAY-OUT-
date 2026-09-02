@@ -1,0 +1,72 @@
+{
+  "id": "M16",
+  "title": "The Driver",
+  "phase": "Phase 5",
+  "brief": "Identify a driver linked to the network.",
+  "win_condition": "Follow the target without losing them.",
+  "protagonist": "amara",
+  "supporting_npcs": [
+    "Darius Cole"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "target-identify",
+      "kind": "action",
+      "target": "central",
+      "text": "Identify the target driver."
+    },
+    {
+      "id": "tail-start",
+      "kind": "action",
+      "target": "central",
+      "text": "Begin the tail without being noticed."
+    },
+    {
+      "id": "tail-finish",
+      "kind": "action",
+      "target": "central",
+      "text": "Follow the target without losing them."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Follow the target without losing them."
+  ],
+  "rewards": {
+    "cash": 2500,
+    "reputation": 3
+  },
+  "consequences": {
+    "evidence": 0,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M15"
+  ],
+  "unlocked_content": []
+}

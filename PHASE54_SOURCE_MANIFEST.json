@@ -1,0 +1,1492 @@
+{
+  "build": "013",
+  "phase": 54,
+  "file_count": 297,
+  "files": [
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Boat.obj",
+      "sha256": "fc898aa7b279b2d26e544af12cbf39853dd4e03354044b4c630966811987fe6d",
+      "bytes": 213
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Building_Block_A.obj",
+      "sha256": "9446ad56c8718366e8a59036adeb904a2db4ee60ee3069d4c1ca4b8cdc970e0b",
+      "bytes": 237
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Building_Block_B.obj",
+      "sha256": "4f844580d65c954482490f8ea9310806acb61f5af2bbbcbe081ec931f7645d58",
+      "bytes": 237
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Helicopter.obj",
+      "sha256": "2d18ce939599920f079803e75ed6119e5b6376d2b0e4a7605872174a1fd10af6",
+      "bytes": 219
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Humanoid_Placeholder.obj",
+      "sha256": "2300212cfa8440fa00d04911ae09749332427299da16b44d6ab6495bfdbec688",
+      "bytes": 221
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Interior_Room.obj",
+      "sha256": "bcf10b4e633bfc447c5d8b21123baf036e1dd00082f5880628865e91ab8f1479",
+      "bytes": 214
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Road_Segment.obj",
+      "sha256": "a1bd4f4ca062c02650a4e800abf00d46d39baa7783d3d6560821c46f3960a716",
+      "bytes": 229
+    },
+    {
+      "path": "Assets/404NoWayOut/Art/PortableOBJ/NWO_Sedan.obj",
+      "sha256": "e9cb6b855ae5dc834ba4d88fe9e54df4b943ecabdb557827118004ec2d755edd",
+      "bytes": 222
+    },
+    {
+      "path": "Assets/404NoWayOut/Assets3D/README.md",
+      "sha256": "6ba0ddd8bb1138371aed87ed060b222827fdaacc06abbc3f0662a3dfc94c4f20",
+      "bytes": 311
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Animation/character_animation_contract_v2.json",
+      "sha256": "1f37cdf00514b2d376b7cb46e516ae72ab44b03c5d68a4b34238affee22d6ba2",
+      "bytes": 335
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Audio/audio_production_manifest_v1.json",
+      "sha256": "584c918c7f0e1ecd249509ef0bd8bb5fd4eb1eee85162ecd19ddf7425189f214",
+      "bytes": 296
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Audio/audio_routing_v1.json",
+      "sha256": "c24eca8407bc4d4b1a66195355c95dfdced47c5508e324ffb0d20c16b78a3109",
+      "bytes": 292
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Backend/backend_service_contract_v1.json",
+      "sha256": "f1428618dc02f08f6c28d198c62e80b67b8548b29385ff8b307034df1618993a",
+      "bytes": 411
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Characters/protagonists_v1.json",
+      "sha256": "a686a999d087b94c0cac9b7b952a3dceb100f5f03612d32280d15a94a4bf58da",
+      "bytes": 423
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Cinematics/cinematic_manifest_v1.json",
+      "sha256": "4c2f5112dd08e198f70b9a1179bb59aa77b9d2a600d2477c74ea40c5d343e699",
+      "bytes": 366
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Cinematics/cinematic_sequence_manifest_v2.json",
+      "sha256": "66ac3f52c8946e4398e617aa1623849600e9667a1f8bef3c03bd7edeb1da7d64",
+      "bytes": 179771
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Combat/combat_framework_v1.json",
+      "sha256": "4bdb940007dcf1d1ae8e9b5b05f74a376e1b3fb913d5ca95762993b9386b7ca7",
+      "bytes": 561
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Commerce/physical_world_commerce_v1.json",
+      "sha256": "2e1a3f7799a23fddf39749bcda915f58516db629d625f44797367530beb6c6c7",
+      "bytes": 627
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Controls/control_bindings_v1.json",
+      "sha256": "df761e38f2731a25276c7b8b3155b2f5f3a84238df50661aba3a4ec14603155a",
+      "bytes": 782
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Controls/control_bindings_v2.json",
+      "sha256": "ac6a09e9477934c94d8f320d9530a66b48569873fd6b5ee3f6703805922821d4",
+      "bytes": 393
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Controls/gta_style_movement_v1.json",
+      "sha256": "02a5258ecd28f587c1bfdf1b0b75cbd98794704cae8adab5225273edb76b6519",
+      "bytes": 750
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Doors/door_behavior_v1.json",
+      "sha256": "ca1e4daed2bfe437af549f05bc20260af7965eb4528cba4ddc95577f5b2cae00",
+      "bytes": 701
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/EngineAdapters/engine_adapter_contract_v2.json",
+      "sha256": "ad29a149b50726ee28b842df02defe6fb82c8cc93f497f722631a63840fe1f23",
+      "bytes": 637
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Facial/facial_animation_contract_v2.json",
+      "sha256": "e1ee4715805349c28125968fb9db14fef2c67b7046dd1e54829e6cbd7d409a23",
+      "bytes": 693
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Freemode/freemode_gameplay_v1.json",
+      "sha256": "f3406af6600821c609707f30ce36855db812cd7c8bc74323a2754b28876f905e",
+      "bytes": 876
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Gameplay/health_inventory_wheel_v1.json",
+      "sha256": "a1924e6d548940caef9e7b74edf1178c87a00f1bef71ae75eef88ed373f1c896",
+      "bytes": 882
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Gameplay/phase38_gameplay_contract_v1.json",
+      "sha256": "8965bde97c1dfe29de9479f3c613f496514f1fd209365cb05e86ca17c35ad554",
+      "bytes": 1041
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Interiors/interior_gameplay_v1.json",
+      "sha256": "3d3826dc241b3c17d62e9b965b6b6e13f2003fc2cf927bbb3bad6263039168b1",
+      "bytes": 626
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Missions/mission_runtime_contract_v1.json",
+      "sha256": "adeed8f9d6afc78f9fb66bc53caaeb12d58df25d58983ef42e941706c36d67ab",
+      "bytes": 706
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Mobile/mobile_controls_v1.json",
+      "sha256": "e52ec2d0fd1c78d3683ad250e51914547f293ce73c4053cb9a3920c79ab73d9b",
+      "bytes": 447
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/NPC/npc_gameplay_v1.json",
+      "sha256": "45dba34c490d078c91f3735625b92df0d6fb13599223b6025d97a9645bf7efd3",
+      "bytes": 521
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Online/force_admin_v2.json",
+      "sha256": "7c89f175f9ce58d0501712d547563f5c5ffd3b96735eac007831f05e022ea5ad",
+      "bytes": 992
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Online/force_recruitment_v1.json",
+      "sha256": "ba88db73653f90668e583ba37eb863a8f275a9c618b3587e217b8dad646baa2f",
+      "bytes": 824
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Online/multiplayer_network_contract_v1.json",
+      "sha256": "077d887691d20da4cc8884c7e05b857eca3c356e5a69d321d44b46bd50eff29f",
+      "bytes": 923
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Online/online_activity_jobs_v1.json",
+      "sha256": "2cc8e17687acde1aca4d4565c7c6558e4f3e43dbfb6ae39a160d1a5b6a2eb935",
+      "bytes": 632
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Online/online_player_system_v1.json",
+      "sha256": "30b63d454efd8d224d3c8170a8f480253eee7f335ce3fa528d41a4bfb964d8f9",
+      "bytes": 775
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Online/online_world_contract_v1.json",
+      "sha256": "4a9838ab704440f74208e1efb76d7091ad54243f02435c16c961745e721bc546",
+      "bytes": 1127
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Police/police_pursuit_custody_v1.json",
+      "sha256": "d62d9f2990a5b1f25e35ac0d9c6a2ef7be3a0a26033c617ae03ea9c18ae16d3b",
+      "bytes": 1093
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/asset_acceptance_v1.json",
+      "sha256": "aecff9da5b7e077d889a7c7c28894ced9f9e87fbad55db44a0a324bddad6f7fe",
+      "bytes": 730
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/final_unity_production_contract_v1.json",
+      "sha256": "59f534d8ce727d9c399b6f9f0e5e32b5ea9a37c340b673129f402999d3ebaa21",
+      "bytes": 1455
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/mobile_performance_budget_v1.json",
+      "sha256": "f10f7b8a87e8d50c25dd46d7a9837a0ce658d99cb8ba13acafd1821d17c125c2",
+      "bytes": 388
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/phase48_art_pipeline_v1.json",
+      "sha256": "6820a819d7efa6c52f04c76d524a541938c835d2a049600e3c0adbc7bef6497d",
+      "bytes": 658
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/phase50_gameplay_integration_v1.json",
+      "sha256": "bd29e3cb1152ea02c32e86ac28b1aed4a952774a5bffb3790b813e0f42b44477",
+      "bytes": 1153
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/phase53_content_assembly_v1.json",
+      "sha256": "ba39e639324383a490087884a1a102b8d6d9066f9fd9b21dfe23b95fb7d8801f",
+      "bytes": 1012
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/phase54_pre_editor_gate_v1.json",
+      "sha256": "bdf97f3bde710c7390aa017c70264a167b77f8f6c86484dc9876e3bb45a65599",
+      "bytes": 1057
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/platform_profiles_v1.json",
+      "sha256": "edcd5dd6a98a4f485468a7e067b2a896b57ba3c98f58c40b14aa621bcc58cf50",
+      "bytes": 459
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Production/production_final_gate_v1.json",
+      "sha256": "cbe9e6849fd192709c58f80b3a07be0f570addb74e32b6c9d6734d627799b0b2",
+      "bytes": 754
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M01.json",
+      "sha256": "5ef17dd8504944456cf2231be672dd4a9c57e89bba791f2438164c1cf10b3861",
+      "bytes": 1626
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M02.json",
+      "sha256": "ceb0959e8145a620f019707f06ead730439cc408b954b1a4d8f6b80ec90d5d70",
+      "bytes": 1322
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M03.json",
+      "sha256": "1b135dd5f33afb75190779aab87c13730aa95b1990dfa8bd3e7e8b0cfd49f978",
+      "bytes": 1353
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M04.json",
+      "sha256": "206e558a66f72c79e7ef4a76d032467c6c7889e602b7513d0ecc0351f292a762",
+      "bytes": 1322
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M05.json",
+      "sha256": "8b0e30e72fb86353245fc6b8a8ba058ac20b6cb0836049deeeeb12dceab74b64",
+      "bytes": 2312
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M06.json",
+      "sha256": "153f14a62cbd0727639610d5a6cc4cd0ac0a7689956d36f0f640459b24e5f9ab",
+      "bytes": 1349
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M07.json",
+      "sha256": "d0d3f60a7959038d6c94734c9e6557806101832baeb0a12f6340f871dc4d1cb5",
+      "bytes": 1329
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M08.json",
+      "sha256": "4db54930ec43181f8fcc352f62b02def313825cc81b618f29c2de67402c8b504",
+      "bytes": 1451
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M09.json",
+      "sha256": "6e82faf4fc8a35576fecc4a7b8de8db4ffc51f66979fac45d71545bf9068a4db",
+      "bytes": 1382
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M10.json",
+      "sha256": "c8d1c7fddd63f7659d67f453f550b6cc7e20ed4c401e6ca65595d305756c6fe7",
+      "bytes": 1354
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M11.json",
+      "sha256": "c821f91d3f185d645660cb9b31fb6206c56ea91b31ff3140a7e9188e35447efb",
+      "bytes": 1597
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M12.json",
+      "sha256": "8ec894dde70474ef719bf857fdd2ccd184c4d96e6b848dc4dd884e9e72539326",
+      "bytes": 1601
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M13.json",
+      "sha256": "b7aa734df7927a27b40c450ea99cb74e643b2732c54ac64082f9e20346e67e7f",
+      "bytes": 1446
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M14.json",
+      "sha256": "13b39ed2bf72a28418655a0f83212911cdfc85d983a1d5879f53f9e60135a607",
+      "bytes": 1608
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M15.json",
+      "sha256": "88435e39eb8aae1dc181084a60bb16a809c7fa346424d6912888770cff13839e",
+      "bytes": 1433
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M16.json",
+      "sha256": "c7faaeb1845e7c4c1aff70d6d26fb16f13ef6c5a5a54c3d3e6bbba375d7258c9",
+      "bytes": 1550
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M17.json",
+      "sha256": "3598f446a6bf32982a688fd04cbebd34f6bf1babb10e35a50daf5129fe7b7712",
+      "bytes": 1603
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M18.json",
+      "sha256": "921dd5a423d8fbad8f9399a0a795995e2b9165505e18cbbb6fe5ee15abb80585",
+      "bytes": 1547
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M19.json",
+      "sha256": "3bbbe9c513198ea89d5c8a63808d4660dd280dc6f5f46abf42400f2674c90fbf",
+      "bytes": 1544
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M20.json",
+      "sha256": "2546b31aa9671944cd9259c60051c8e8fd0706cefd71303fdddd9a45366e1fbf",
+      "bytes": 1609
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M21.json",
+      "sha256": "e4748c8bda3119c36317ccce1ce9522aa6196dbb784521331108bee5491b471e",
+      "bytes": 1618
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M22.json",
+      "sha256": "8f1bc1317a41f311d2e04e2c1569bff694b4beec5cc99797046cb60d1e791a59",
+      "bytes": 1594
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M23.json",
+      "sha256": "30548f74856de703eb942cfa1ac1b88a5acf283dbb0bb9538234b26c259713c0",
+      "bytes": 1567
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M24.json",
+      "sha256": "2fbba5c525d8932ba73ac71b659d5fb15a32d96eed52a5eee72cc9b4d184e018",
+      "bytes": 1593
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M25.json",
+      "sha256": "6fba2da5e06972e463adfb5a96f5910862852f95f112591e2b23cc1b5973f816",
+      "bytes": 1613
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M26.json",
+      "sha256": "f63165b936c242408ef98df7bcb26c248cb63b2f51600545d25bd0f134ec3a6c",
+      "bytes": 1613
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M27.json",
+      "sha256": "eb3638d52e6cf98fcb8751b826131000ccc7ce4cd2dacd23baf6bcd573f2cda8",
+      "bytes": 1571
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M28.json",
+      "sha256": "191daa7ddc492d34d2ff01485e98d75bdc9b8aa2e00f65133fc4fdadfbd88015",
+      "bytes": 1557
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M29.json",
+      "sha256": "e14be07ce82037a93d1acf1fd51d69fb5f65313ed1850823990d1a5ef7e38786",
+      "bytes": 1607
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M30.json",
+      "sha256": "05da84f0deffc9eba84c1575733b5b0477501a1840bcd2d499c29197831498d1",
+      "bytes": 1583
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M31.json",
+      "sha256": "8fb18922de91b7a903028245330af0f291ef6645d3a1ba52e73fdfeda3ab0839",
+      "bytes": 1609
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M32.json",
+      "sha256": "d56782951b63615387905db18993de35cdb5db179862c7ac5866fdd8b5bb112c",
+      "bytes": 1601
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M33.json",
+      "sha256": "8683c6527d26fe9cb61ca8dc78037e3e85a02eb4cdb21a737697a406eea922d2",
+      "bytes": 1533
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M34.json",
+      "sha256": "93600ac28407fc9a68f78ae8903920757fac5e6eed28221cb59302b4200a945a",
+      "bytes": 1593
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M35.json",
+      "sha256": "a0873429fe25a83fe313e75c29f32f2aba7a0f9c648889b6ac7c98a02b8247ab",
+      "bytes": 1646
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M36.json",
+      "sha256": "d021b4b6b93c498e85460293e87858031ace81390be8433b424c3a3bdc5eb470",
+      "bytes": 1590
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M37.json",
+      "sha256": "7cfe422894bf303efe0caf87b33b0c2a9811a08706ecb49c35189f921c46e248",
+      "bytes": 1576
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M38.json",
+      "sha256": "53d024e7a3eac21c97bb249287b7872e82c8497f1e9db70926a07df2467c412c",
+      "bytes": 1616
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M39.json",
+      "sha256": "389ba8d8d4ece501d6e2d6d48d21ea581e600d71ead9aa99bb9d64cc18b0fec9",
+      "bytes": 1608
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M40.json",
+      "sha256": "bfc67d3f51b2ab062cc7252d5fc8ce83c5cfbd8cfa32083a9082afa970f3a038",
+      "bytes": 1587
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M41.json",
+      "sha256": "4471b36cf771e0861708b523b20803fa4c608b74d62a41d6d1b5d0c9aca1df58",
+      "bytes": 1654
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M42.json",
+      "sha256": "f14a2a2ddc7eb46185bed745672fbd78ee9529b18ca60c16d14aa989fc782d03",
+      "bytes": 1660
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M43.json",
+      "sha256": "7714e2d80c27e500665b0d08a9a503126da257f13c9382e7a5dc238ab158b25e",
+      "bytes": 1668
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M44.json",
+      "sha256": "9fa69a494c76f4dd76c0583da2cfcdd91c56ba9a930d0714855bac5ca2bbe1ed",
+      "bytes": 1646
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M45.json",
+      "sha256": "73d18ce2478c7d77152a1ef20c72633d5e9052c8c750b446b5774bf447c117c1",
+      "bytes": 1621
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M46.json",
+      "sha256": "0ca5ec76451d0f24c45955b68deb04814de04bdd16164434fb86f80c06bf43d0",
+      "bytes": 1636
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M47.json",
+      "sha256": "c935e3845c8468c3d58be8580a7c49a76105b6012a8d6698c8b5f5b34189fd04",
+      "bytes": 1644
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M48.json",
+      "sha256": "441e5ef627d74a089f32ec28ca4e2c9cb6281016adac109e127f6c28c8c77dd4",
+      "bytes": 1607
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M49.json",
+      "sha256": "133f4943cd574e3b204d53a1a2ae6e585c7de751db48ecf0f0a55190ca5d5cf0",
+      "bytes": 1645
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M50.json",
+      "sha256": "81a0ea6dcd9f70a6450830ee9c8c408212d05033f20a0e428599371c8201d1e2",
+      "bytes": 1615
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M51.json",
+      "sha256": "04034204de76a0329f578bdf57083720e34f2c29daa63da3524f44f4d4abfdf9",
+      "bytes": 1312
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M52.json",
+      "sha256": "4687e984253f853caed811bc5906af7861a09a7bb5dde7ebee41b1170b300353",
+      "bytes": 1280
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M53.json",
+      "sha256": "22afca4b92f65fbfe932fdb7ccee66634662b1c7afdd0dd28df973ef0c982c38",
+      "bytes": 1294
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M54.json",
+      "sha256": "6186025824aa36a6495e26a5722d18db4ab45452ea278546f62a7459d1186f68",
+      "bytes": 1290
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M55.json",
+      "sha256": "20a6fce38a87f5f88cc2c54b3aad4266ec94483dfddcc7c3bec385869759bbf0",
+      "bytes": 1323
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M56.json",
+      "sha256": "cb2ec8108746f48125fbbdc7c752accf5a7b949d1d7b8949248d6c648c292d1a",
+      "bytes": 1314
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M57.json",
+      "sha256": "5a3492011ff7fc5e1d966b6ef412b187c0dcffb0dfe8a49fb20461775f495260",
+      "bytes": 1321
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M58.json",
+      "sha256": "4a66d6290963db2236c2a21ce4dd8b0e57de128db6f6cdd16203f1de72a041d3",
+      "bytes": 1287
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M59.json",
+      "sha256": "efb77d4f8aa314b9de634dc1278c639e0f6fdcab8b339b9f3eaa3a8c547ea23b",
+      "bytes": 1346
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M60.json",
+      "sha256": "7b373f8ff12a811865295e7100324cc6e6bec1cf99136c14f77ac8a8909b85b3",
+      "bytes": 1321
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M61.json",
+      "sha256": "0d4a0026642acea9e3c026c84874ce9a3029c92970ce1ae233707abf7780c4b1",
+      "bytes": 1649
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M62.json",
+      "sha256": "176aa43c767bca6d6243a3b9d8478f136a791021a33cb61ceed751bfccbda7ae",
+      "bytes": 1680
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M63.json",
+      "sha256": "daafd955122248cbaf4e518964fb1ecdafaf878d39a8c73579145df14bb07ce4",
+      "bytes": 1628
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M64.json",
+      "sha256": "4f7c0ec51639b449e23776d07f991d048f4da5f5a0b729b90c5ebd5568b67133",
+      "bytes": 1619
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M65.json",
+      "sha256": "fc55f22c0724e1b499cb4164505ef9ca1c5aead04949add024fe15303aa2e1eb",
+      "bytes": 1653
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M66.json",
+      "sha256": "7b441c850e702b5c85f2a0eb79d330e929d0f48375785789cc1ae0695d3fe9cf",
+      "bytes": 1653
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M67.json",
+      "sha256": "cc336038e0d80ea28e01bdf50eb7883248e9b7fc1b7834135917e37ceb5694af",
+      "bytes": 1643
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M68.json",
+      "sha256": "ded862ece3e9e6de34906c8d39c4ad6a9c772f093760953f38d28b4126b26a85",
+      "bytes": 1657
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M69.json",
+      "sha256": "9cd7bd92d361a1475bd0ddb5cb75c5509c93a3e427741173cc8e40aebce5b0cc",
+      "bytes": 1597
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M70.json",
+      "sha256": "a2818056dfac4bd2e9260edaf3346e84d3abf95c8dca513cf8d4e130cc6881e6",
+      "bytes": 1643
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M71.json",
+      "sha256": "1f03f0dff5ed218c6834d6d4546321388d07e79e29e7348271a7b63ce4d23cdb",
+      "bytes": 1632
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M72.json",
+      "sha256": "de7e8017f256b66f52e7ddcee7c4550493388e17367eca4e97307b8649f18584",
+      "bytes": 1640
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M73.json",
+      "sha256": "2353451062e2d4f9afeb44cb5198c75b9ff05910188a3f69e0cb44b0ca19897c",
+      "bytes": 1620
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M74.json",
+      "sha256": "2c47209507ad2acb9aeb0fc2fa917f964e609b47b31acfbb20630c262a848455",
+      "bytes": 1645
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M75.json",
+      "sha256": "de2f2069333a647020dc49a3c0033f81eabba63cbfaf2a620bd162931372a90c",
+      "bytes": 1615
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M76.json",
+      "sha256": "c6e1c349e88a500c18deff92867f3b3ef3570d3902457ba1cec104707ad49bb0",
+      "bytes": 1647
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M77.json",
+      "sha256": "bb7cfa542c0116d64f6a052441726516d45538a036f17246ea2180253babe4f7",
+      "bytes": 1657
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M78.json",
+      "sha256": "b290a94e1a4964e8a0abc54f17150eb331ec299e4040ec1c1b69c530f0e30989",
+      "bytes": 1636
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M79.json",
+      "sha256": "aaaa53a57145630cb279f610b871e5fe4128cc9cde0b7dcbaad1e50b677f668e",
+      "bytes": 1704
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M80.json",
+      "sha256": "13b28a78c235813505d546efff137f5fd34744423b901413e41690ea42319e48",
+      "bytes": 1683
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M81.json",
+      "sha256": "16f7e52a5cb7e27315caff5af7e88982a7193fd40aacb7b471d4be93229062c8",
+      "bytes": 1690
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M82.json",
+      "sha256": "fa9583efb4546ccf56d305f5db944cae02f716a337c0b650454e9e9ff30e931d",
+      "bytes": 1636
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M83.json",
+      "sha256": "84b0c9cdabe0033497eca826547f08317b4f8123da3cb84441cd905d06ce0ee5",
+      "bytes": 1649
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M84.json",
+      "sha256": "50e88a4cbd5694b3491544e0575cba1ba1fe5ffb32817ab7badb558027d79ee2",
+      "bytes": 1575
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M85.json",
+      "sha256": "45aa370ca8b8ebcfaa21799acef7ddc0fd52b146e9547e22d28619f02d9714a1",
+      "bytes": 1642
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M86.json",
+      "sha256": "de809dae859989cc82079086f64c0168a7f909527cb99fc13e80b2d3ca169cc5",
+      "bytes": 1624
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M87.json",
+      "sha256": "c86d49f83ca619c80ead064f1d138173141cf9dda752e9b57ab8b5d1072a4357",
+      "bytes": 1578
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/Missions/M88.json",
+      "sha256": "9c2a2cbf5b2764bd62ed4f622c92c42d18d391ce8ead0a18bd223b489e691432",
+      "bytes": 1704
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/PRODUCTION_SOURCE_MANIFEST.json",
+      "sha256": "7ed36592fd1a4c0fe203c218095d6ff45820b0d50a9a98af796664f6546f6c6a",
+      "bytes": 786
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/campaign_88_missions.json",
+      "sha256": "045bb5b3237bfb5091d22352cb2bd8b8b71d9e16da39c339a28f0eb8281c8671",
+      "bytes": 162988
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/maritime_aircraft_properties_v1.json",
+      "sha256": "f02fcb074024ec42760d19863660e00a3af1929a778c50986819bf4b12b4e143",
+      "bytes": 760
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/phase18_registry.json",
+      "sha256": "0cf74e75c6acc26fcbbb6a9e54f62b32bdda817095a67e548273031f1e004036",
+      "bytes": 636
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/phase6_combat_police.json",
+      "sha256": "5aff66543bff42f933386278337b07a13346125b86043633c9ce297e6fc027a4",
+      "bytes": 1288
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/phase8_economy_properties.json",
+      "sha256": "fb959310f945d521a6fcac5e49b2c38b7f9c2782ef6b1c9592d4ed919eccaca7",
+      "bytes": 344
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/phase9_story_relationships.json",
+      "sha256": "62684e4d76b897e267004d85670d0e0dd2dccc5495b1638fa55bd39ef01e00b9",
+      "bytes": 875
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/prison_system_v1.json",
+      "sha256": "0d0a5a8b211dea419005d11620d437bb557cddd17b1314a4cf4d059977b136d7",
+      "bytes": 1083
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/production_completion_gate_v1.json",
+      "sha256": "3fed0379ffbda73f32ba1665b1e8f272db5e345f2e90f04812d8b9f9109e0084",
+      "bytes": 481
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/SourceOfTruth/world_phase3.json",
+      "sha256": "bc0ec4efe0178327483bc712d0bfa8d848eeaa7b8f799347efd7b9dc7ab2a48d",
+      "bytes": 3611
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/UI/final_ui_contract_v1.json",
+      "sha256": "ead0b31c69c337c700e932f7b221c91cf77ed92e582ea4b1dbf6354b453c74c2",
+      "bytes": 553
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/Vehicles/vehicle_gameplay_v1.json",
+      "sha256": "9c9c3641459ccdb053e16ca611f44411dc418854d072974bc3ce813142ed33e8",
+      "bytes": 780
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/World/content_streaming_groups_v1.json",
+      "sha256": "d011c59e277eaf6ad5cbb4b46846cf7628431544d67a3412fa2dafd1717e5e79",
+      "bytes": 646
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/World/islands_v2.json",
+      "sha256": "d9efe7f10c8bc1b8d9f3fdea12e83e225cec3955c6ca6f8a6a6c276bf2809d52",
+      "bytes": 1008
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/World/phase41_activity_registry.json",
+      "sha256": "d2c5ffa966e0385827ebc0be8d49f56faf30252dce177bc03a26a6744ec0b799",
+      "bytes": 1077
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/World/world_coverage_v2.json",
+      "sha256": "cf6864065913986750d5ba8732195fe36c726f8b994b286d5000d836e5c1db79",
+      "bytes": 1081
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/World/world_layout_v3.json",
+      "sha256": "c87b96774e931250f805041b0abd75b486b83f9a86a828c5f602f15bb408d2cf",
+      "bytes": 4219
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/campaign_88_missions.json",
+      "sha256": "045bb5b3237bfb5091d22352cb2bd8b8b71d9e16da39c339a28f0eb8281c8671",
+      "bytes": 162988
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/cast_story_mode.json",
+      "sha256": "86e5559ebd1f3a95426fb0e91b9baec7b596958d264145b56c7429a17d1eb9fe",
+      "bytes": 2338
+    },
+    {
+      "path": "Assets/404NoWayOut/Data/characters_production.json",
+      "sha256": "a5123b11f7142db8d014d74db5e83979c440cf1665deccfff30beb80189493ec",
+      "bytes": 3905
+    },
+    {
+      "path": "Assets/404NoWayOut/Docs/PHASE53_CONTENT_ASSEMBLY.md",
+      "sha256": "6224bf2c2282d2867206967ef826f64157c9da5f4f2a859569377320e4a98a12",
+      "bytes": 1068
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/DevelopmentSceneBuilder.cs",
+      "sha256": "1adc6805d3a41b8d5c031e70ef75769ab4393e40f8cbb83d134fe9feed9c4f75",
+      "bytes": 1665
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Phase38GameplaySceneBuilder.cs",
+      "sha256": "182f34e5f13ab088dedbc612750839abedc2a761de024a34b71d7398ae52891e",
+      "bytes": 5100
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Phase47Final3DProductionBuilder.cs",
+      "sha256": "d708f512651508ae297a57b21fd77fb93be7cf9e77adbd54fa4e12ae8bca348f",
+      "bytes": 3997
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Phase52FinalUnityProductionBuilder.cs",
+      "sha256": "268bc14c98b5c115465e6b19c7833b587d503a89a7bd94208cdf50bf930b7948",
+      "bytes": 2231
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Phase53ContentAssemblyBuilder.cs",
+      "sha256": "3bb90a135b72438c3f75357ce6a84104c0cd2273d2c3bd9617875901e235bfb3",
+      "bytes": 2346
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Phase53ProductionValidator.cs",
+      "sha256": "9f7f5c7b14fe57b4778b989c2e66285df829fb0510eef51a13c9b57a1ea96901",
+      "bytes": 2568
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Phase54PreEditorBuilder.cs",
+      "sha256": "e0d52f08304801b9733ec75f99286fc36a7c295d747e51a0289ab0d20d74811b",
+      "bytes": 1135
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/Tests/PreEditorContractTests.cs",
+      "sha256": "618b03046d0fbd1fc6a4b4f931e63e53bf00ae6b08846f2a471e36ece9198dea",
+      "bytes": 549
+    },
+    {
+      "path": "Assets/404NoWayOut/Editor/WorldGreyboxBuilder.cs",
+      "sha256": "92368b4e6756d15f6004ec59b1212202ee73c7a9c03b223c35bef58bcb76cb05",
+      "bytes": 6322
+    },
+    {
+      "path": "Assets/404NoWayOut/README_PHASE38.md",
+      "sha256": "898fb0b93ffbbc0013d7451d47395e4abf7ac15a4b5c094813341314ef687c5d",
+      "bytes": 870
+    },
+    {
+      "path": "Assets/404NoWayOut/References/Protagonists/Amara_Vale_reference_REVIEW_REQUIRED.jpeg",
+      "sha256": "322e34eccbd51ec3944333282dab9246dd0bc2bb0d5dcfb1f382910e185aafc9",
+      "bytes": 23294
+    },
+    {
+      "path": "Assets/404NoWayOut/References/Protagonists/Darius_Cole_reference.jpeg",
+      "sha256": "382e2dafaeb0522ce3eab0fc19cf06541c9a095d7fa1557f63c70faaf3875c38",
+      "bytes": 27793
+    },
+    {
+      "path": "Assets/404NoWayOut/References/Protagonists/Malik_Reed_reference.jpeg",
+      "sha256": "80d304fc0100f4fc87f8e0d86ce20d0e8b2cd57fd93527cfeb80dd8ead184e47",
+      "bytes": 39244
+    },
+    {
+      "path": "Assets/404NoWayOut/References/Protagonists/REFERENCE_NOTES.md",
+      "sha256": "25b2472c8c4f74454be760e41e20ebaf790ae64e0f751e9ba45304f27016cd12",
+      "bytes": 613
+    },
+    {
+      "path": "Assets/404NoWayOut/References/World/404_World_Layout_Concept.png",
+      "sha256": "5b9ba109fe82c76ba35f0558adc26adc57459ace8f305c80427793c4527b4622",
+      "bytes": 2971942
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Activities/WorldActivityRuntime.cs",
+      "sha256": "f90304f691ff187e1cdc1f97bc15fb3f646e316eaee3807e5af8107a4aecc64e",
+      "bytes": 1428
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Addressables/ContentAddressRegistry.cs",
+      "sha256": "70ea5eedced615cf144fcaada83659e9094732df3a5744b0bbc38fe04842d224",
+      "bytes": 886
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Animation/CharacterAnimationStateRuntime.cs",
+      "sha256": "bc12ee5a38bc622b096658ae0d95904927e27b4125b246d69549e213886aaab7",
+      "bytes": 972
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Audio/AudioDirectorRuntime.cs",
+      "sha256": "fe2170a6026a253984834db5645e0959aa21097dac5b2a06008bacc94ae47e80",
+      "bytes": 1152
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Backend/BackendServiceContract.cs",
+      "sha256": "73a3cd735fce4ea6819a2461bb80b2557826cb51f4bbde82259cb8b706d6b462",
+      "bytes": 1124
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Characters/ProtagonistReference.cs",
+      "sha256": "2f6b90b852e8ea012bba593fe95b5351a4bafea341d0e9fc62266052a573a778",
+      "bytes": 585
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Cinematics/CinematicDirectorRuntime.cs",
+      "sha256": "52ad1cbe14e4d9f29de5561c914d03f23a9b44c2464d8567fc401f7f8b7cccf8",
+      "bytes": 1337
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Cinematics/CinematicRuntime.cs",
+      "sha256": "a1f9e1bfb83512d6269cc3935b1ab2b8512e174a8d71d642c9d67d512e1df801",
+      "bytes": 1076
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Combat/CombatRuntime.cs",
+      "sha256": "95020e1324149a36522487f068fc3158974d0db2453062a2f2699a4fdd1b5ffc",
+      "bytes": 1786
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Combat/ThirdPersonWeaponInputRuntime.cs",
+      "sha256": "5aa1bd5f9b4645b9be9688a719e71f1534b2820f81b0a8d7a426a5048a193abe",
+      "bytes": 1588
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Combat/VehicleTireTarget.cs",
+      "sha256": "d2cf7badd2f44146ab0184a75fe95f7015e5256f38a12d47fb69f52166bd18b5",
+      "bytes": 435
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Commerce/PhysicalCommerceRuntime.cs",
+      "sha256": "7cdfc94248feb9e1ff46ca30a52d5a251933f24e292f33f37911f9f050d810fb",
+      "bytes": 1063
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Construction/ConstructionRuntime.cs",
+      "sha256": "7e2fcf9af0185cc137dd12bf00ce259f68925ae8bf6ea6bc6081ed30633dc38a",
+      "bytes": 1079
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Core/GameRules.cs",
+      "sha256": "45a3c2955ae0946830b543710e7c30db6686561ebd3e2d8ed5c9f1656e06335d",
+      "bytes": 588
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Core/NoWayOutBootstrap.cs",
+      "sha256": "d135f9df0103ed32be3374f8aa8c5048e9660556c4c8d1f542d0a43b92e120c7",
+      "bytes": 475
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Doors/AutomaticDoor.cs",
+      "sha256": "1ca25f4454346284ebb8cd457697617389608dbd40130405ee8713c3a9d906b5",
+      "bytes": 1867
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/EngineAdapters/EngineNeutralContract.cs",
+      "sha256": "df4c27a05b6f6e8c2ebcc2d64802308525e3b6702de9cb02cca4ff8c3445feee",
+      "bytes": 341
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Facial/FacialExpressionRuntime.cs",
+      "sha256": "85101e3d439133f07e0853cea67c207f8c7e4170cc47f8a519b109d0eed12ee1",
+      "bytes": 2512
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Facial/VisemeLipSyncRuntime.cs",
+      "sha256": "6f45047c71884d689a5b4bcdfd869de1814c31218bc8aabf614707ce3e87bf1d",
+      "bytes": 670
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Flow/GameFlowRuntime.cs",
+      "sha256": "c5fc8200e95e3eebd97634a3e683fe410175218d83b1e438f0c5f5f5d58282f4",
+      "bytes": 1520
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Flow/LoadingDirectorRuntime.cs",
+      "sha256": "725933a0c8b9ee03243c7e35ea770581e717485cf89fe3bd0f4c9f537231a999",
+      "bytes": 932
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Freemode/FreemodeActivityRuntime.cs",
+      "sha256": "d365c63a638d5d9fad46e064e5a6cea9dad67540fe7bdee3b1391f14e5ee67be",
+      "bytes": 1142
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Health/HealthRecoveryRuntime.cs",
+      "sha256": "dd71f30ad816d6e62a2fd8ce5862b8e173bab58c8f7056e459742bf2d97f150d",
+      "bytes": 1779
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Input/ControlProfile.cs",
+      "sha256": "af25025b7ef5423eb8ee07b0ad55ce584a2cc1f14adba961fa5a7ec87bc029c9",
+      "bytes": 645
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Input/SeparateActionInput.cs",
+      "sha256": "7f091dab29d6c887b5d78bd583e7700cd5c8fc02b3b0425b5fc034ae3050ae23",
+      "bytes": 838
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Integration/GameplayIntegrationRuntime.cs",
+      "sha256": "b6c0ad0724d5ffdb8786ad3742c7ebe7560ed561aab313bf285429c6781d3a7f",
+      "bytes": 3976
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Interaction/ContextActionController.cs",
+      "sha256": "6c1a24a94cf464054c64afc5a8877af3647eb06e6d6946721222171e27b15fbb",
+      "bytes": 2607
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Interaction/InteractionTarget.cs",
+      "sha256": "dd9274c1e66f46c58e177d20ea6efa7f13ec6fb462a5b17271376e245aa66302",
+      "bytes": 764
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Interiors/AutomaticDoorController.cs",
+      "sha256": "1eb405e894624798a789196caf2262483697d157117c752463684745d1671bde",
+      "bytes": 1152
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Interiors/AutomaticEntrance.cs",
+      "sha256": "554882bfd98ce0bfb1950571e1daf55a9f1a2f672646d880a482f87a97c0231f",
+      "bytes": 668
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Interiors/InteriorActivityRuntime.cs",
+      "sha256": "d4f057e01b2068ebfb58c7395b1b44eee6b7b46284289a5ae9ffbd62524ad6c4",
+      "bytes": 895
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Inventory/BackpackInventoryRuntime.cs",
+      "sha256": "17d15ba16aa2e011f36af0c5996b581f6e7a04975515e14ef0ec199d29fd99e4",
+      "bytes": 2043
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Loading/LoadingState.cs",
+      "sha256": "84290eb98b0dc1f4a85cac13184eb2a9839bc43dc40ba50c1577a4517ea534b7",
+      "bytes": 731
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Maritime/MaritimeAircraftRuntime.cs",
+      "sha256": "272a2aaf5e77124a6714481293872b82ecac2ac034f7fe493def1065f97cbca9",
+      "bytes": 852
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Missions/MissionRuntimeManager.cs",
+      "sha256": "0b24ed75316bdeabcdf1bb66a17f33fbce12f9b96141272c3ea433aaaa2f7246",
+      "bytes": 2315
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Missions/MissionTriggerRuntime.cs",
+      "sha256": "a7733689a30541a9c7de0dc734db069fcd22a8db66706419c73b86c2572afbbc",
+      "bytes": 839
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Mobile/MobileInputRuntime.cs",
+      "sha256": "293d7003d0487c563971a72d6d92c4262602aca2d5892e934ae2315253260c31",
+      "bytes": 1268
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Multiplayer/AuthoritativeStateRuntime.cs",
+      "sha256": "712f99ad3e55b9446f688052674ea7d8c64f6d8072df7ec1b3279a221e7699a5",
+      "bytes": 2380
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Multiplayer/MultiplayerSessionRuntime.cs",
+      "sha256": "bb3a7cbebc6a7487f38199cde0f4a10221964c5353eecfdc0d1ca8d217f64881",
+      "bytes": 3219
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Multiplayer/NetworkSpawnRuntime.cs",
+      "sha256": "8fbad9d47bebdff9a96a6147655d49f6dbd452b8bd34fd3a803b494b8c066219",
+      "bytes": 1545
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Multiplayer/ReconnectStateRuntime.cs",
+      "sha256": "c06ca0bc18f63602e35eb722c2fe039f84cc4d87225ff547e9dce384b0903eaa",
+      "bytes": 1235
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/NPC/NPCBehaviorRuntime.cs",
+      "sha256": "69bf56dd1e8dba3a9d33dbf3090d1c9cb4c0672eff3ef336d550ac435b37a981",
+      "bytes": 1577
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/NPC/NPCWorldAgent.cs",
+      "sha256": "5d18ac753b0b6da0a1192c7245ea369bf9e271bd4ff794517a8695d7fcdb8ca0",
+      "bytes": 1626
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Online/ForceAdminService.cs",
+      "sha256": "47a5a3b4acd5c2076806d2138b4d01e28971c8600baf5545a4a9e92fa96253cc",
+      "bytes": 1065
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Online/ForceApplication.cs",
+      "sha256": "1c14709a0a0aabd5bd3c43f10faebab5c7c625feba3cd5839b7e4ebebb3341d1",
+      "bytes": 1995
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Online/OnlinePersistenceContract.cs",
+      "sha256": "71a0088d0124f90b5692a1f3dd6c04b66af1a31b694fa0a97d142c8b1d50eee6",
+      "bytes": 977
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Online/OnlinePlayerSystem.cs",
+      "sha256": "1a9ee027b721ffb1d0999395f0d0e17373ae496b65b33267291ea5ef210b98da",
+      "bytes": 5111
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Online/OnlineWorldRuntime.cs",
+      "sha256": "d2b810bd3d3ff0053af73faa5cc892fc00a9c28c46b9c5d03cbadf0d6a60c5e8",
+      "bytes": 5369
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Player/GTAStyleLocomotionRuntime.cs",
+      "sha256": "057fee4878ca2d1c3b5a9047447f0f9061a6a5ce5b682f16855d338414473d67",
+      "bytes": 5751
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Player/ProtagonistRuntimeManager.cs",
+      "sha256": "778450c3baf290ca0df9195f622bdb3d339b45f5c5d4157db5a5bd5266437800",
+      "bytes": 1348
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Player/ThirdPersonCamera.cs",
+      "sha256": "4caad7cd570b142204862ee932aacfea3b349cb5656b05cef097e8a58f076a35",
+      "bytes": 1690
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Player/ThirdPersonPlayerController.cs",
+      "sha256": "c6c0c0a0165e595b03a0bbd8d3aa65ee92b54d3b0a5d4b0eb39f7a80a78df24a",
+      "bytes": 2134
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Police/PoliceDirectorRuntime.cs",
+      "sha256": "25885bea77f9f1617f2c92c6ebc677f53cb4c4a815c4916e38de7ead96104be5",
+      "bytes": 893
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Police/PolicePursuitRuntime.cs",
+      "sha256": "95bf7aadc7f30d205fb18f3f663025a9102092adbadcac3f7a4f19cdd86b0b5d",
+      "bytes": 1134
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Police/PoliceWorldRuntime.cs",
+      "sha256": "8134c602bf79cc5cad41c3eaa6a1e2765f59f2200956b98c97a48dc1ccc7f3c5",
+      "bytes": 766
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Prison/CustodyRuntime.cs",
+      "sha256": "cbb2eeaa91446924deb6765dc161dd795d7b54d5158901c590df48189dd28124",
+      "bytes": 1765
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Production/ContentIntegrityRuntime.cs",
+      "sha256": "7d2d87a955bdd7938de8b50b9ee5e73c96795fc6bb4d48b2495d82ef5c4678bc",
+      "bytes": 1323
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Production/FinalProductionCoordinator.cs",
+      "sha256": "0860f42283ccaab8410679a5f703684bf7e511951a66d80efb6b13bebfe60305",
+      "bytes": 1606
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Production/PreEditorProductionGate.cs",
+      "sha256": "b76137c51c0ce02196b2f1febe408dc848e189a9cb1025dcfd4bb6d6a76ab84c",
+      "bytes": 1783
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Production/ProductionBootstrap.cs",
+      "sha256": "fe57a6924f8edcbb6380671de0529e3054cd9da3d23a3379abeec473be4bbbcd",
+      "bytes": 480
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Production/ProductionBuildProfileRuntime.cs",
+      "sha256": "3f9d2a0c280e229f321a74c46cc6e3cce165721ca8ec329633495074f3e124a8",
+      "bytes": 1059
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Properties/PropertyRuntime.cs",
+      "sha256": "624f75af46415c1e2eef12d9b6c1edb2401f9641e0414ade3d83a6083040ffc2",
+      "bytes": 1024
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Save/SaveGameContract.cs",
+      "sha256": "4f48a023333ac2a5a03659c6e4d0e19c44dc26cc28252cd2c9070dd02d15cd9d",
+      "bytes": 645
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Settings/SettingsRuntime.cs",
+      "sha256": "0d4cf69cc92da44ad693c8db6d9b14b61c0862309c3a12cfa30c830aeaab3d53",
+      "bytes": 2063
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Streaming/WorldStreamingRuntime.cs",
+      "sha256": "74dac67d8edc9ed3144919b09dece2543c61eb43ee7eed881ce0e1020ee762c4",
+      "bytes": 1119
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/UI/FinalHudRuntime.cs",
+      "sha256": "f9a867a39c2ce12e34730422ac1ef4b51d3cfcd3544ee03698ea5c4675711a3a",
+      "bytes": 621
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/UI/GameplayHUD.cs",
+      "sha256": "cfcca45cfc9a4990eccf170dabc032cb183c6a7d57bf63d6c8f2d751f1dd0c5c",
+      "bytes": 2111
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/UI/QuickUseWheelRuntime.cs",
+      "sha256": "bf47a8575d5cd811fc28b624eb5da10d5c57233316615a8ed994f2139c5e0614",
+      "bytes": 1367
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Vehicles/VehicleGameplayRuntime.cs",
+      "sha256": "2a97ffccb863ffa1a320ff473fa13f0385601993be32cc1f68401b582b41b180",
+      "bytes": 2195
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Vehicles/VehicleRuntime.cs",
+      "sha256": "273c8aff4b2cdaf0e8c66d992214285eee11f0c4d76947a011a706559e40eeaa",
+      "bytes": 2051
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/Vehicles/VehicleSeatRuntime.cs",
+      "sha256": "a13eeb0974412d9b0e355ac9a593d8f6affb4b7cb31dce8ba682488673158fae",
+      "bytes": 2193
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/World/Phase38GameplayBootstrap.cs",
+      "sha256": "c4349817d1669747cb9a9552bfd73b36ff4599d78e6c9e41e726d331a502992d",
+      "bytes": 3771
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/World/WorldCoverageRegistry.cs",
+      "sha256": "2a9768928cfb3218bff249b0773edfd517ddda8203297f481ccd9a5099dd4467",
+      "bytes": 951
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/World/WorldLayoutTypes.cs",
+      "sha256": "0702b71354be1361d2befe49ce269026a6630b2f053f288b375585a7c1404181",
+      "bytes": 998
+    },
+    {
+      "path": "Assets/404NoWayOut/Runtime/World/WorldStreamController.cs",
+      "sha256": "0a843b4a3207104efbcf0d3ddab89d04d2a1addcb89112bbe9a2e9c2e75bb672",
+      "bytes": 1730
+    },
+    {
+      "path": "BUILD_013_PHASE38_CHANGELOG.md",
+      "sha256": "1a036a2ee8a4d09fe5f655ba244f53f4af4cbe9e21cdf99a64992c31fa65e09b",
+      "bytes": 755
+    },
+    {
+      "path": "BUILD_013_PHASE39_CHANGELOG.md",
+      "sha256": "b3faf16a5e80a83e4788b7cd898bfe5566ca5e841c79191232f65631e9610b6f",
+      "bytes": 430
+    },
+    {
+      "path": "BUILD_013_PHASE40_CHANGELOG.md",
+      "sha256": "cf0c20b87e6d1e71cbf33831d74fe3711bdfe206a77461a7faa40a5f2470f808",
+      "bytes": 425
+    },
+    {
+      "path": "BUILD_013_PHASE41_CHANGELOG.md",
+      "sha256": "fccbc540bceede547c20459657b472d5ebe81e23685a169c33b666cef6a95d1f",
+      "bytes": 347
+    },
+    {
+      "path": "BUILD_013_PHASE42_CHANGELOG.md",
+      "sha256": "73bee12b40beba7a697573843b4d8dd1c0c0de956b5b462b474328bef63a0871",
+      "bytes": 808
+    },
+    {
+      "path": "BUILD_013_PHASE43_CHANGELOG.md",
+      "sha256": "b55cbc34dd2b2ea6c6a83f894b71fea567fae9a0917b135d8b6643c4cd7ce7f4",
+      "bytes": 353
+    },
+    {
+      "path": "BUILD_013_PHASE44_CHANGELOG.md",
+      "sha256": "269eec17c90af23099d25971bdc33a02fb84e2405f35d701a9b8a2c600fa4fba",
+      "bytes": 329
+    },
+    {
+      "path": "BUILD_013_PHASE45_CHANGELOG.md",
+      "sha256": "a5bcc0c18575f2a181c98f025ddbef197b6a47fb5234052b1a03756e5171bedc",
+      "bytes": 351
+    },
+    {
+      "path": "BUILD_013_PHASE46_CHANGELOG.md",
+      "sha256": "38d8d55e810dca1e7f33c47ad89bff6756de61b770a37cae95fbdb3df262293f",
+      "bytes": 464
+    },
+    {
+      "path": "BUILD_013_PHASE47_CHANGELOG.md",
+      "sha256": "088fd564cf6dc113a1b07afe7553c7d73c639ae05b0b3adecff1eb797b1005aa",
+      "bytes": 390
+    },
+    {
+      "path": "BUILD_013_PHASE48_CHANGELOG.md",
+      "sha256": "d88b9adf7a4939471688ad1866d27fde2425b3eb4731f41251bc0343fee7bb75",
+      "bytes": 288
+    },
+    {
+      "path": "BUILD_013_PHASE49_CHANGELOG.md",
+      "sha256": "d0f96832da336c448284f62178ad2d357e7f64c1cbaae2b2528e5b5635398e60",
+      "bytes": 509
+    },
+    {
+      "path": "BUILD_013_PHASE50_CHANGELOG.md",
+      "sha256": "0ff816056845bda5c2fc830db86dc4273f5e57152390be1b90795751923a1283",
+      "bytes": 560
+    },
+    {
+      "path": "BUILD_013_PHASE51_CHANGELOG.md",
+      "sha256": "341727abaa85f313c1ff87c7b3af06d96e8ce5ecdd4e4ad3dc5c925af48e1396",
+      "bytes": 479
+    },
+    {
+      "path": "BUILD_013_PHASE52_CHANGELOG.md",
+      "sha256": "b0588b2ceabe829db1eb9493df60871158849507d4b5652ced56e4c8200595d4",
+      "bytes": 714
+    },
+    {
+      "path": "Docs/PHASE50_FINAL_GAMEPLAY_INTEGRATION.md",
+      "sha256": "77c8dd08ae3bbf5e118282ee1edada9d93a42ee3f18e04c2936113033ecff4a7",
+      "bytes": 1406
+    },
+    {
+      "path": "Docs/PHASE51_HEALTH_INVENTORY.md",
+      "sha256": "d468e4048ad87701f37ccbaf116bea504b5ac39a9d8a9999f0c7dced800a4cc1",
+      "bytes": 658
+    },
+    {
+      "path": "Docs/PHASE52_FINAL_UNITY_PRODUCTION.md",
+      "sha256": "8893106b80daafe655ba246258edbef4449f033231fa29a66093dd15ff51117b",
+      "bytes": 1358
+    },
+    {
+      "path": "Docs/PHASE54_PRE_EDITOR_PRODUCTION_LOCK.md",
+      "sha256": "61d92b4e0ab01f9ce7c5992796e0012327f1d2288927ac22c170b378440ff281",
+      "bytes": 1378
+    },
+    {
+      "path": "PHASE36_UNITY_FOUNDATION.md",
+      "sha256": "52943409c5d16548004f366f2c8f351a6705366ada97279aa02b326ee418c38b",
+      "bytes": 1573
+    },
+    {
+      "path": "PHASE37_WORLD_BUILD.md",
+      "sha256": "0f7eb09fe2a48dcfe72ce53118a82b4996d4abae1b7339c7e430ae3f71cc275c",
+      "bytes": 1598
+    },
+    {
+      "path": "PHASE38_CORE_GAMEPLAY.md",
+      "sha256": "6704e3479b612e7a5102baa342a7402f3672479689fb5d9e42d18b0f93b9ab17",
+      "bytes": 1248
+    },
+    {
+      "path": "PHASE39_VEHICLES_NPC_INTERIORS.md",
+      "sha256": "69c4fc61446bf2c1d410f807f958eecb547abd4c2f1cc670d27f621f275aabab",
+      "bytes": 1276
+    },
+    {
+      "path": "PHASE40_MISSION_COMBAT_POLICE_COMMERCE.md",
+      "sha256": "8c6959d2e0a6bbe4d065cd94b078e6573618962d99983e1095af2be7d8462106",
+      "bytes": 1389
+    },
+    {
+      "path": "PHASE41_WORLD_ACTIVITIES_PRISON_PROPERTIES.md",
+      "sha256": "2aed0f50bb6bd8008f97268bca2e174bdaca994a075884023335a742417e291b",
+      "bytes": 1084
+    },
+    {
+      "path": "PHASE42_ONLINE_WORLD_SYSTEMS.md",
+      "sha256": "2bfa3c96435d26dbee8896680dd615df3d9b3322ae518d93f564314f769ab116",
+      "bytes": 926
+    },
+    {
+      "path": "PHASE43_MULTIPLAYER_NETWORK.md",
+      "sha256": "6816b071403e7cbc24a264c08a42c142681d02979eb43e63927ce49a61cd46ee",
+      "bytes": 1133
+    },
+    {
+      "path": "PHASE44_ONLINE_PLAYER_SYSTEM.md",
+      "sha256": "fae036326a1101206d75679c03b58523bf087d157a2ccc5f96a1b0be8bc8345d",
+      "bytes": 678
+    },
+    {
+      "path": "PHASE45_PORTABLE_ENGINE_CONTRACT.md",
+      "sha256": "db2c9338be35270ba38c6f3a270049a260fc54cee55d4bf0be845a6673c27d84",
+      "bytes": 1058
+    },
+    {
+      "path": "PHASE46_FINAL_PRODUCTION_INTEGRATION.md",
+      "sha256": "f74055e97d9811be944e00ac5027ca0c3dce5cc0d8acf13b59c012d795aae6eb",
+      "bytes": 1022
+    },
+    {
+      "path": "PHASE47_FINAL_3D_PRODUCTION.md",
+      "sha256": "cdc1631a5ef41c5caabce63071eae2d2f42f369d94fdd7303f38d1590d2615fc",
+      "bytes": 1266
+    },
+    {
+      "path": "PHASE48_FINAL_CHARACTER_CINEMATIC_PRODUCTION.md",
+      "sha256": "25cf2b5e8ba48accae4431db1397851e45335c7df6dbd1798acedaf9099f8d54",
+      "bytes": 1242
+    },
+    {
+      "path": "PHASE49_PLAYER_MOVEMENT_AND_SHOOTING.md",
+      "sha256": "b57207ff80b417fb9adc8c9fb777aa1b1edea0e6f3880d25dab7736b970c4484",
+      "bytes": 720
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "ce4486e7177b5c7585bdf8774dbabfa8f2485eeea018177fd34145b98c3cfda2",
+      "bytes": 747
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "42168e235cc321cc033088255a5f4e60b37f90676616d812797a2add09921455",
+      "bytes": 312
+    },
+    {
+      "path": "Portable/Adapters/ADAPTER_CONTRACT.md",
+      "sha256": "24acf557b3236b0cf9b5471878f608591ad36d460060559ae0b40378f288841e",
+      "bytes": 512
+    },
+    {
+      "path": "Portable/Art/3d_production_manifest_v1.json",
+      "sha256": "bc84629db8482fba32701d19ac2325c800cc05676f8ee1715cca092b1e509d4c",
+      "bytes": 1117
+    },
+    {
+      "path": "Portable/Art/cinematic_shot_contract_v1.json",
+      "sha256": "b967cbd3abbcdb27f6ff54bde895c50fcadd07a2c9d4ba586978128cc6c7bae1",
+      "bytes": 377
+    },
+    {
+      "path": "Portable/Data/engine_compatibility_v1.json",
+      "sha256": "a5d518da2d0a0a63ba9888ebc054b4d141890abba12982d12c371f3a6a8e15ab",
+      "bytes": 673
+    },
+    {
+      "path": "Portable/Data/mission_data_contract_v1.json",
+      "sha256": "8f57d9d70eb730570a4164a51d73cb7b13ed97fdd167d7abf8ab07194b5ab3e0",
+      "bytes": 471
+    },
+    {
+      "path": "Portable/Data/world_data_contract_v1.json",
+      "sha256": "11038b485c825536a7b809356e69c1051affb166e79b53d81cbb5daefa7225d8",
+      "bytes": 449
+    },
+    {
+      "path": "Portable/Schemas/asset_manifest_v1.json",
+      "sha256": "87b7d3dadbc0428217eefc41cbd2beb7c2650667b9f0336855fd79fe09bbcd38",
+      "bytes": 390
+    },
+    {
+      "path": "Portable/Tools/README.md",
+      "sha256": "4c2f597f866cb222b2530de723afca5121064c4bf847577bb52f80afe2e1dab7",
+      "bytes": 964
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "c80ca7b73cc26a6c702b5ad3670fce4c3b3ca61166983729162e63b496fdcb99",
+      "bytes": 83
+    },
+    {
+      "path": "README.md",
+      "sha256": "97ef3af2926134f67f92d24eaa14203da8887be89f41dce62db2d50a434e1c5a",
+      "bytes": 396
+    },
+    {
+      "path": "Tools/build_phase47_report.py",
+      "sha256": "6acbe07a2bcf856e8ac82bd3d426aed2b4e60889f203c5b62bd561a9576609aa",
+      "bytes": 544
+    },
+    {
+      "path": "Tools/generate_portable_obj.py",
+      "sha256": "bed802f40e5eb4fe2746c308fdbd97e23eb1a2d9e1da74b23ee9ad6ed3ebb2a6",
+      "bytes": 775
+    },
+    {
+      "path": "Tools/validate_phase40.py",
+      "sha256": "38f7fa49af30d26869040756c49ce08f4d0cb61c514d465328d6382a4d077101",
+      "bytes": 1142
+    },
+    {
+      "path": "Tools/validate_phase42.py",
+      "sha256": "9872c32c7855784862c96347a40620377af3a9b3bfded72007debfed7a9508d5",
+      "bytes": 1245
+    },
+    {
+      "path": "Tools/validate_phase44.py",
+      "sha256": "9a85501c417b5b37ba9dbbf4f13863e686ddd96d87c8f4a4c852844120e228c0",
+      "bytes": 894
+    },
+    {
+      "path": "Tools/validate_phase45.py",
+      "sha256": "6fc4f91d00a6ef684b34504e7373887226888a39ff7401eef1edce82667effe3",
+      "bytes": 970
+    }
+  ]
+}

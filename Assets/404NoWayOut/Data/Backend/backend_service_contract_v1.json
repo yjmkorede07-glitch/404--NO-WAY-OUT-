@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "services": ["auth","profiles","characters","world-state","economy","properties","missions","force","moderation","telemetry","reconnect"],
+  "authoritative_rules": ["money","inventory","property","mission_completion","wanted_state","force_rank","character_identity","anti_duplication"],
+  "security": ["server_authority","audit_logs","request_validation","idempotency_keys","rate_limits"]
+}

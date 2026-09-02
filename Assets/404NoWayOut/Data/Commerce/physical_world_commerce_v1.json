@@ -1,0 +1,9 @@
+{
+  "schema":"404.commerce.physical.v1",
+  "rule":"physical_world_first",
+  "locations":["bank","atm","store","dealership","repair_shop","business","property_office","marina","construction_office"],
+  "actions":["browse","purchase","sell","deposit","withdraw","transfer","repair","start_business","upgrade_property","start_construction"],
+  "bank_robbery":{"enabled":true,"requires_physical_location":true,"heat_generated":true,"police_response":true},
+  "store_robbery":{"enabled":true,"requires_physical_location":true,"heat_generated":true},
+  "ownership":{"server_authoritative_online":true,"story_separate_ledger":true}
+}

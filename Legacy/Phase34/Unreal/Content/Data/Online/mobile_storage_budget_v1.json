@@ -1,0 +1,13 @@
+{
+  "target":"404_NO_WAY_OUT",
+  "mobile_shipping_budget_gb":{"minimum":3,"target":4,"maximum":5},
+  "pc_console_shipping_budget_gb":{"minimum":40,"target":65,"maximum":100},
+  "rules":[
+    "mobile uses aggressive LODs, compressed textures, streamed world chunks, selective audio packs and optional language packs",
+    "PC/console may use higher resolution assets and optional high-quality packs",
+    "development source size is not the shipping size",
+    "unused editor/source/intermediate files never ship"
+  ],
+  "quality_tiers":["mobile","pc","console"],
+  "distribution":"platform storefront download with patchable content packs"
+}

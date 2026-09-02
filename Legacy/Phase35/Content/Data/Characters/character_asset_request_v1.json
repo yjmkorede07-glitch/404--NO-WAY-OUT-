@@ -1,0 +1,14 @@
+{
+  "system_id": "404_CHARACTER_ASSET_REQUEST_V1",
+  "playable_protagonists": [
+    {"id": "darius_cole", "name": "Darius Cole", "photo_reference_needed": true, "voice_reference_needed": true},
+    {"id": "malik_reed", "name": "Malik Reed", "photo_reference_needed": true, "voice_reference_needed": true},
+    {"id": "amara_vale", "name": "Amara Vale", "photo_reference_needed": true, "voice_reference_needed": true}
+  ],
+  "supporting_characters": [
+    {"id": "marcus", "name": "Marcus", "status": "story_supporting_character", "photo_reference_needed": false, "voice_reference_needed": false},
+    {"id": "lena", "name": "Lena", "status": "supporting_character_reference_if_final_dialogue_requires_it", "photo_reference_needed": false, "voice_reference_needed": false}
+  ],
+  "upload_rule": "Send protagonist references first. Supporting-character reference requests will be made only when their final production design is locked.",
+  "voice_rights": "Only use voices the contributor has permission to use; voice cloning requires explicit authorization."
+}

@@ -1,0 +1,11 @@
+{
+  "schema":"404.combat.v1",
+  "principles":["server_authoritative_online","engine_neutral_rules","mobile_scalable","nonlethal_supported"],
+  "states":["unarmed","armed","aiming","firing","reloading","stunned","downed","dead"],
+  "damage_channels":["health","armor","vehicle_damage","tire_damage"],
+  "accuracy": {"base":0.75,"movement_penalty":0.25,"aim_bonus":0.15},
+  "friendly_fire_online": false,
+  "police_nonlethal_option": true,
+  "cover": {"enabled":true,"breakable":false},
+  "targeting": {"soft_lock":true,"hard_lock":false,"tire_targeting":true}
+}

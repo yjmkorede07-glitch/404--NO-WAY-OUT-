@@ -1,0 +1,5 @@
+{
+  "targets":{"desktop_fps":60,"mobile_fps":30,"mobile_resolution":"dynamic"},
+  "rules":["GPU/CPU profiling before optimization claims","stream world by district","LOD every major mesh","texture atlasing where appropriate","pool frequent NPC/vehicle objects","cap simultaneous audio voices","server authoritative online simulation"],
+  "quality_tiers":["Low","Medium","High","Ultra"]
+}

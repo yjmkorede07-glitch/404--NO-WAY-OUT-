@@ -1,0 +1,73 @@
+{
+  "id": "M65",
+  "title": "The Long Game",
+  "phase": "Phase 7",
+  "brief": "Build a lead over several smaller jobs.",
+  "win_condition": "Complete the linked objectives without failing two in a row.",
+  "protagonist": "darius",
+  "supporting_npcs": [
+    "Malik Reed",
+    "Amara Vale"
+  ],
+  "location": "Veyron Central",
+  "prototype_steps": [
+    {
+      "id": "travel",
+      "kind": "travel",
+      "target": "central",
+      "text": "Reach Veyron Central."
+    },
+    {
+      "id": "job-one",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the first linked job cleanly."
+    },
+    {
+      "id": "job-two",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the second linked job without failing two in a row."
+    },
+    {
+      "id": "lock-lead",
+      "kind": "action",
+      "target": "central",
+      "text": "Complete the final linked objective and secure the lead."
+    }
+  ],
+  "prototypePlayable": true,
+  "optional_objectives": [
+    {
+      "id": "clean",
+      "text": "Complete the mission without unnecessary wanted level increases.",
+      "points": 20
+    }
+  ],
+  "failure_conditions": [
+    "Critical objective failed",
+    "Player incapacitated"
+  ],
+  "success_conditions": [
+    "Complete the linked objectives without failing two in a row."
+  ],
+  "rewards": {
+    "cash": 8625,
+    "reputation": 8
+  },
+  "consequences": {
+    "evidence": 1,
+    "policePressure": 0
+  },
+  "score_weights": {
+    "critical": 50,
+    "optional": 20,
+    "time": 10,
+    "survival": 10,
+    "precision": 10
+  },
+  "required_previous_missions": [
+    "M64"
+  ],
+  "unlocked_content": []
+}

@@ -1,0 +1,18 @@
+{
+  "phase": 43,
+  "target": "Unity 6.3 LTS",
+  "architecture": "authoritative_server",
+  "tick_rate_hz": 30,
+  "session_roles": ["Client", "Host", "DedicatedServer"],
+  "states": ["Offline", "Connecting", "Connected", "Reconnecting", "Disconnecting"],
+  "authoritative_domains": ["player_transform", "health", "armor", "wanted_stars", "economy", "custody", "mission_state", "property_state", "vehicle_state", "network_spawns"],
+  "spawn_kinds": ["Player", "NPC", "Vehicle", "MissionEntity", "InteriorEntity", "PoliceUnit"],
+  "reconnect_restore": ["server", "district", "interior", "position", "mission", "balance", "server_tick"],
+  "rules": {
+    "client_cannot_authoritatively_set_economy": true,
+    "client_cannot_authoritatively_set_wanted": true,
+    "client_cannot_authoritatively_spawn_persistent_entities": true,
+    "server_validates_state_transitions": true,
+    "reconnect_uses_server_checkpoint": true
+  }
+}

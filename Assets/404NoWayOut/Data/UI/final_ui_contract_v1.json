@@ -1,0 +1,7 @@
+{
+  "title": ["CONTINUE", "NEW GAME", "ONLINE", "SETTINGS", "CREDITS"],
+  "loading": ["BOOTING", "PROFILE", "WORLD", "DISTRICT", "INTERIOR", "MISSION", "CINEMATIC", "ONLINE_CONNECT", "ONLINE_RECONNECT", "RETURN_TO_WORLD"],
+  "currency": {"name": "Veyron Credit", "code": "VCR", "display": "visual V-shaped currency sign"},
+  "hud": ["health", "armor", "wanted", "weapon", "ammo", "VCR", "district", "mission", "objective", "vehicle_state", "subtitles"],
+  "inventory": {"backpack_slots": 24, "max_weight": 30, "quick_use": true, "weapon_wheel": true}
+}

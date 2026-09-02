@@ -1,0 +1,7 @@
+{
+  "version":"2.0",
+  "states":["Idle","Walk","Run","Sprint","Aim","Fire","Reload","Melee","Injured","Downed","VehicleEnter","VehicleExit","Drive","Swim","Climb","Talk","Cinematic"],
+  "root_motion":"cinematics_only_by_default",
+  "locomotion":"gameplay_velocity_driven",
+  "retargeting":"required_for_engine_neutral_source_assets"
+}

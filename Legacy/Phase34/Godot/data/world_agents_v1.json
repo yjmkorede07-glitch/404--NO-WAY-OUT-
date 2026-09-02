@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "purpose": "Concrete runtime architecture for NPC, traffic, police, business and dynamic-event simulation.",
+  "district_budgets": {
+    "Veyron Central": {"pedestrians": 180, "vehicles": 90, "police_units": 18},
+    "East Market": {"pedestrians": 150, "vehicles": 72, "police_units": 12},
+    "North Hills": {"pedestrians": 100, "vehicles": 55, "police_units": 10},
+    "Iron District": {"pedestrians": 120, "vehicles": 65, "police_units": 14},
+    "West Coast": {"pedestrians": 130, "vehicles": 70, "police_units": 11},
+    "Airport": {"pedestrians": 140, "vehicles": 80, "police_units": 16},
+    "Port": {"pedestrians": 110, "vehicles": 60, "police_units": 15},
+    "Blackwater Island": {"pedestrians": 70, "vehicles": 35, "police_units": 8}
+  },
+  "spawn_rules": {
+    "stream_radius_m": 900,
+    "despawn_radius_m": 1200,
+    "protected_player_radius_m": 45,
+    "min_population_floor": 0.25,
+    "rush_hour_multiplier": 1.35,
+    "night_multiplier": 0.62,
+    "heavy_weather_multiplier": 0.72,
+    "never_despawn_active_pursuit": true,
+    "never_despawn_active_mission_actor": true
+  },
+  "npc_archetypes": ["commuter", "worker", "student", "shopper", "tourist", "resident", "driver", "criminal", "security", "emergency"],
+  "traffic": {
+    "states": ["free_flow", "busy", "congested", "incident", "road_closed"],
+    "incident_types": ["collision", "stalled_vehicle", "police_stop", "construction", "weather_hazard"],
+    "reroute_on_closure": true
+  },
+  "police": {
+    "states": ["idle", "dispatch", "responding", "arrived", "pursuit", "search", "arrest", "recovery", "clear"],
+    "evidence_window_game_minutes": 90,
+    "heat_decay_per_game_hour": 4,
+    "response_priority": ["active_pursuit", "violent_crime", "alarm", "vehicle_crime", "property_crime", "traffic"],
+    "npc_police_always_active": true
+  },
+  "businesses": {
+    "operating_states": ["closed", "opening", "open", "busy", "restricted", "closed_for_incident"],
+    "off_book_rules": {
+      "requires_business_access": true,
+      "creates_heat": true,
+      "creates_evidence": true,
+      "can_trigger_police": true,
+      "can_fail_without_business_shutdown": true
+    }
+  },
+  "dynamic_events": {
+    "max_concurrent_per_district": 3,
+    "cooldown_game_minutes": 35,
+    "families": ["traffic_accident", "store_alarm", "street_race", "police_search", "business_opportunity", "off_book_opportunity", "vehicle_recovery", "weather_disruption"],
+    "mission_safe_spawn": true
+  },
+  "mission_hooks": {
+    "opening_cutscene_can_lock_world": true,
+    "in_mission_cutscene_can_pause_agents": true,
+    "post_mission_cutscene_can_apply_world_state": true,
+    "side_missions_use_same_world": true,
+    "online_and_story_use_separate_persistence": true
+  }
+}

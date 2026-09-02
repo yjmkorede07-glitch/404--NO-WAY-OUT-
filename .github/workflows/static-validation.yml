@@ -1,0 +1,41 @@
+name: 404 No Way Out - Static Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate JSON and C# structure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('.')
+          errors = []
+          for p in root.rglob('*.json'):
+              if any(part in {'.git','Library','Temp','Obj','Build','Builds','Logs','UserSettings'} for part in p.parts):
+                  continue
+              try:
+                  json.loads(p.read_text(encoding='utf-8'))
+              except Exception as e:
+                  errors.append(f'{p}: {e}')
+          for p in root.rglob('*.cs'):
+              if any(part in {'.git','Library','Temp','Obj','Build','Builds','Logs','UserSettings'} for part in p.parts):
+                  continue
+              text = p.read_text(encoding='utf-8', errors='replace')
+              if text.count('{') != text.count('}'):
+                  errors.append(f'{p}: unmatched braces')
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(1)
+          print('Static validation passed.')
+          PY

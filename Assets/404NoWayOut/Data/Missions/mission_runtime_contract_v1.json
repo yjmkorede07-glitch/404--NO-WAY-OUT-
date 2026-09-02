@@ -1,0 +1,10 @@
+{
+  "schema":"404.mission.runtime.v1",
+  "supports":["story","online","side","freemode"],
+  "lifecycle":["available","briefing","opening_cinematic","active","checkpoint","failed","completed","post_cinematic","free_roam_return"],
+  "objective_types":["go_to","talk","follow","drive","steal","rob","protect","escape","arrest","detain","search","deliver","survive","photograph","interact","enter","exit","choose","extract"],
+  "scoring":{"critical":50,"optional":20,"time":10,"survival_damage":10,"precision_stealth_accuracy":10},
+  "cinematics":{"opening":true,"post":true,"in_mission_optional":true},
+  "checkpoint_policy":"persist_completed_objectives",
+  "failure_policy":"restart_from_last_checkpoint"
+}

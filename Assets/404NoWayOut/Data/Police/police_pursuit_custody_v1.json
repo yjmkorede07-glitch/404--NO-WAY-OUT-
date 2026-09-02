@@ -1,0 +1,16 @@
+{
+  "schema":"404.police.pursuit_custody.v1",
+  "wanted_levels":5,
+  "pursuit_states":["investigating","searching","pursuing","containment","arrest_attempt","lost_contact"],
+  "escalation":[
+    {"stars":1,"response":"local_patrol","custody":"station_holding","bail":true},
+    {"stars":2,"response":"multiple_patrols","custody":"station_holding","bail":true},
+    {"stars":3,"response":"interceptors_and_detectives","custody":"station_or_prison_by_severity","bail":true},
+    {"stars":4,"response":"armed_response_and_special_units","custody":"prison","bail":false},
+    {"stars":5,"response":"maximum_response","custody":"maximum_security_prison","bail":false}
+  ],
+  "evidence":{"enabled":true,"types":["witness","vehicle","camera","weapon","scene","digital"]},
+  "search_rules":{"safehouses_can_be_searched":true,"underground_routes_can_be_searched":true,"not_every_route_is_safe":true},
+  "arrest":{"server_authoritative_online":true,"human_force_can_arrest":true,"npc_force_can_arrest":true},
+  "fugitive":{"duration_in_game_days":10,"fully_playable":true,"special_heat_expires":true}
+}
