@@ -1,0 +1,10 @@
+{
+  "currency_name": "Veyron Credit",
+  "code": "VCR",
+  "symbol_name": "Veyron Credit Sign",
+  "symbol": "custom_glyph",
+  "design": "A distinct angular V-shaped glyph with a vertical central stem and two short horizontal crossbars, designed to read as a currency mark without resembling $, €, £, ¥, or ₦.",
+  "text_fallback": "VCR",
+  "usage": "The glyph is the visual money sign; VCR remains the ISO-like code and accessibility/text fallback.",
+  "examples": ["10,000,000 [Veyron Credit Sign]", "250,000 [Veyron Credit Sign]"]
+}
