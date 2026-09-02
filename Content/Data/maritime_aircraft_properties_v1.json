@@ -1,0 +1,9 @@
+{
+  "world":{"major_island":"Blackwater Island","secondary_islands":4,"docks":18,"marinas":7},
+  "ownership":{"boats":true,"helicopters":true,"aircraft":true},
+  "storage":["marina","boathouse","private_dock","helipad","hangar"],
+  "property_packages":["private_dock","boathouse","helipad","aircraft_hangar"],
+  "activity_families":["marine_transport","smuggling","island_robbery","rescue","marine_police","aircraft_transport","aircraft_crime","air_race"],
+  "vehicle_classes":["civilian_boat","speedboat","utility_boat","patrol_boat","helicopter","utility_aircraft","private_aircraft","high_performance_aircraft"],
+  "platform_note":"Final vehicle meshes, names, handling and platform budgets are production assets, not included in this architecture gate."
+}
