@@ -1,0 +1,33 @@
+{
+  "contract_id":"LAW_ENFORCEMENT_CAREER_V1",
+  "principle":"accepted human/admin law-enforcement players receive a controlled police role; NPC police remain active for everyone",
+  "permissions":[
+    "run_plate_check",
+    "query_citizen_id",
+    "dispatch_officers",
+    "request_ambulance",
+    "request_fire_service",
+    "detain_subject",
+    "arrest_subject",
+    "issue_citation",
+    "create_incident_report",
+    "set_scene_perimeter",
+    "request_backup",
+    "start_vehicle_stop",
+    "tow_or_recover_vehicle",
+    "access_authorized_case_records"
+  ],
+  "restrictions":[
+    "server_authoritative",
+    "requires_accepted_law_enforcement_status",
+    "all enforcement actions audited",
+    "no arbitrary wallet/property modification",
+    "no immunity from NPC police",
+    "no hidden admin privileges",
+    "rank/role permissions may restrict actions"
+  ],
+  "emergency_services":["police","ambulance","fire"],
+  "plate_lookup":{"returns":["registration_status","vehicle_make_model","registered_owner_id","stolen_flag","insurance_status"],"sensitive_fields_server_only":true},
+  "arrest_flow":["observe_or_receive_call","identify_subject","detain","server_validation","arrest_or_release","transport_or_process","incident_report"],
+  "acceptance":"human_or_admin_review_required"
+}
