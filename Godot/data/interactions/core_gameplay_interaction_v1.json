@@ -1,1 +1,44 @@
-
+{
+  "phase": 34,
+  "title": "Core Gameplay Interaction",
+  "principles": [
+    "physical_world_first",
+    "server_authoritative_online",
+    "engine_neutral_contracts",
+    "reusable_interactions"
+  ],
+  "interaction_types": [
+    "talk",
+    "enter_exit_vehicle",
+    "drive",
+    "plate_check",
+    "citizen_id_check",
+    "detain",
+    "arrest",
+    "request_backup",
+    "request_ambulance",
+    "request_fire",
+    "request_tow",
+    "business_interact",
+    "property_interact",
+    "bank_atm",
+    "robbery",
+    "vehicle_theft",
+    "purchase",
+    "mission_trigger"
+  ],
+  "mission_cinematic_flow": [
+    "opening",
+    "gameplay",
+    "optional_in_mission_cinematic",
+    "gameplay",
+    "resolution",
+    "post_mission"
+  ],
+  "engine_targets": {
+    "godot": "4.x compatibility test/production candidate",
+    "unreal": "5.6.x production candidate"
+  },
+  "mobile_target_gb": "3-5",
+  "pc_console_target_gb": "40-100"
+}
